@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sermon 50: &quot;The Use of Money&quot;</title>
+            <author>Wesley, John</author>
+            <editor>Taylor, Michelle M.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2020-06-16</date>
+            <idno type="URI">http://syriaca.org/sermons/50</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>The Works of John Wesley Volume 2: Sermons II (34-70)</title>
+               <editor role="volume">Outler, Albert C.</editor>
+               <editor role="general"/>
+               <publisher>Abingdon Press</publisher>
+               <pubPlace>Nashville, TN</pubPlace>
+               <date>1985-11-01</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>Sermon 50: &quot;The Use of Money&quot;</head>
+         <div type="sermon">
+            <div type="epigraph">
+               <p><index indexName="biblical">
+                     <term cRef="Luke16:9">Luke 16:9 <hi rend="italic">I say unto you, Make unto
+                           yourselves friends of the mammon of unrighteousness, that when ye fail,
+                           they may receive you into the everlasting habitations.</hi></term>
+                  </index></p>
+            </div>
+            <div type="section">
+               <p n="1">1. Our Lord, having finished the beautiful parable of the Prodigal Son,
+                  which he had particularly addressed to those who murmured at his receiving <seg
+                     ana="taxCollectors">publicans</seg> and sinners, adds another relation of a
+                  different kind, addressed rather to the children of God. <index
+                     indexName="biblical">
+                     <term cRef="Luke16:1-2">&apos;He said unto his disciples&apos;</term>
+                  </index>—not so much to the scribes and Pharisees to whom he had been speaking
+                     before—<index indexName="biblical">
+                     <term cRef="Luke16:1-2">&apos;There was a certain rich man, who had a steward,
+                        and he was accused to him of wasting his goods. And calling him he said,
+                        Give an account of thy stewardship, for thou canst be no longer
+                        steward.&apos;</term>
+                  </index> After reciting the method which the bad steward used to provide against
+                  the day of necessity, our Saviour adds, <index indexName="biblical">
+                     <term cRef="Luke16:8">&apos;His lord commended the unjust steward&apos;</term>
+                  </index>—namely in this respect, that he used timely precaution—and subjoins this
+                  weighty reflection, <index indexName="biblical">
+                     <term cRef="Luke16:8">&apos;The children of this world are wiser in their
+                        generation than the children of light.&apos;</term>
+                  </index> Those who seek no other portion than <index indexName="biblical">
+                     <term cRef="Luke16:8">&apos;this world are wiser&apos;</term>
+                  </index> (not absolutely; for they are one and all the veriest fools, the most
+                  egregious madmen under heaven, but) <index indexName="biblical">
+                     <term cRef="Luke16:8">&apos;in their generation&apos;</term>
+                  </index>, in their own way; they are more consistent with themselves, they are
+                  truer to their acknowledged principles, they more steadily pursue their end,
+                     <index indexName="biblical">
+                     <term cRef="Luke16:8">&apos;than the children of light&apos;</term>
+                  </index>, than they who see <index indexName="biblical">
+                     <term cRef="Luke16:8 2Corin4:6">&apos;the light of the glory of God in the face
+                        of Jesus Christ&apos;</term>
+                  </index>. Then follow the words above recited: &apos;And I&apos;—the only-begotten
+                  Son of God, the Creator, Lord and Possessor of heaven and earth, and all that is
+                  therein; the Judge of all, to whom ye are to <index indexName="biblical">
+                     <term cRef="Luke16:2">&apos;give an account of your stewardship&apos;</term>
+                  </index> when ye <index indexName="biblical">
+                     <term cRef="Luke16:2">&apos;can be no longer stewards&apos;</term>
+                  </index> —&apos;I say unto you&apos; (learn in this respect even of the unjust
+                  steward), &apos;make yourselves friends&apos;, by wise, timely precaution, <index
+                     indexName="biblical">
+                     <term cRef="Luke16:8">&apos;of the mammon of unrighteousness.&apos;</term>
+                  </index> &apos;Mammon&apos; means riches or money.<note place="foot">Cf. Sermon
+                     29, "Sermon on the Mount, IX", §4 and n.</note> It is termed <index
+                     indexName="biblical">
+                     <term cRef="Luke16:8">&apos;the mammon of unrighteousness&apos;</term>
+                  </index> because of the unrighteous manner wherein it is frequently procured, and
+                  wherein even that which was honestly procured is generally employed. <index
+                     indexName="biblical">
+                     <term cRef="Luke16:8">&apos;Make yourselves friends&apos;</term>
+                  </index> of this by doing all possible good, particularly to the children of God;
+                     <index indexName="biblical">
+                     <term cRef="Luke16:8">&apos;that when ye fail&apos;</term>
+                  </index>, when ye return to dust, when ye have no more place under the sun, those
+                  of them who are gone before <index indexName="biblical">
+                     <term cRef="Luke16:8">&apos;may receive you&apos;</term>
+                  </index>, may welcome you <index indexName="biblical">
+                     <term cRef="Luke16:8">&apos;into the everlasting habitations&apos;</term>
+                  </index>.</p>
+               <p n="2">2. An excellent branch of Christian wisdom is here inculcated by our Lord on
+                  all his followers, namely, the right use of money—a subject largely spoken of,
+                  after their manner, <index indexName="biblical">
+                     <term cRef="John15:19">by men of the world, but not sufficiently considered by
+                        those whom God hath chosen out of the world</term>
+                  </index>. These generally do not consider as the importance of the subject
+                  requires the use of this excellent talent. Neither do they understand how to
+                  employ it to the greatest advantage; the introduction of which into the world is
+                  one admirable instance of the wise and gracious providence of God. It has indeed
+                  been the manner of poets, orators, and philosophers, in almost all ages and
+                  nations, to rail at this as the grand corrupter of the world, the bane of virtue,
+                  the pest of human society. Hence nothing so commonly heard as:</p>
+               <p><foreign xml:lang="lat"><hi rend="italic">Ferrum, ferroque nocentius
+                     aurum</hi></foreign>—<note place="foot"><index indexName="persons">
+                        <term key="Ovid" ref="http://viaf.org/viaf/88342447">Ovid</term>
+                     </index>, <hi rend="italic"><bibl>Metamorphoses</bibl></hi>, I.i. 141; note
+                     that <index indexName="persons">
+                        <term key="Ovid" ref="http://viaf.org/viaf/88342447">Ovid</term>
+                     </index> does not use the the superlative form and that ferrum typically means
+                     &apos;iron&apos;</note> &apos;And gold, more mischievous than keenest
+                  steel&apos;.</p>
+               <p>Hence the lamentable complaint, <foreign xml:lang="lat"><hi rend="italic"
+                        >Effodiuntur opes, irritamenta malorum</hi></foreign>.<note><index
+                        indexName="persons">
+                        <term key="Ovid" ref="http://viaf.org/viaf/88342447">Ovid</term>
+                     </index>, <hi rend="italic"><bibl>Metamorphoses</bibl></hi>, I.i. 140. In the
+                     appendix to Vol. XXXII of his <hi rend="italic"><bibl>Works</bibl></hi> Wesley
+                     supplies a translation: &quot;Wealth is dug up, incentive to
+                  all.&quot;</note></p>
+               <p>Nay, <index indexName="persons">
+                     <term key="Horace" ref="http://viaf.org/viaf/100227522">one celebrated
+                        writer</term>
+                  </index> gravely exhorts his countrymen, in order to banish all vice at once, to
+                  &apos;throw all their money into the sea&apos;:</p>
+               <p><foreign xml:lang="lat"><hi rend="italic">in mare proximum Summi materiem
+                        mali!</hi></foreign><note place="foot">Horace, <hi rend="italic">Odes</hi>,
+                     III. xxiv. 47, 49 (&apos;into the nearest sea...&apos;); cf. Loeb, 33:253-57,
+                     for the passage as a whole. See also No. 87, &apos;The Danger of Riches&apos;
+                     I.4.</note></p>
+               <p>But is not all this mere empty rant? Is there any solid reason therein? By no
+                  means. For let the world be as corrupt as it will, is gold or silver to blame?
+                     <index indexName="biblical">
+                     <term cRef="1Tim6:10">&apos;The love of money&apos;</term>
+                  </index>, we know, <index indexName="biblical">
+                     <term cRef="1Tim6:10">&apos;is the root of all evil&apos;</term>
+                  </index>; but not the thing itself. The fault does not lie in the money, but in
+                  them that use it. It may be used ill; and what may not? But it may likewise be
+                  used well; it is full as applicable to the best as to the worst uses. It is of
+                  unspeakable service to all civilized nations in all the common affairs of life. It
+                  is a most compendious instrument of transacting all manner of business, and (if we
+                  use it according to Christian wisdom) of doing all manner of good. It is true,
+                  were man in a state of innocence, or were all men &apos;filled with the Holy
+                  Ghost&apos;, so that, like the infant church at Jerusalem, <index
+                     indexName="biblical">
+                     <term cRef="Acts4:32">&apos;no man counted anything he had his own&apos;</term>
+                  </index>, but <index indexName="biblical">
+                     <term cRef="Acts4:35">&apos;distribution was made to everyone as he had
+                        need,&apos;</term>
+                  </index> the use of it would be superseded; as we cannot conceive there is
+                  anything of the kind among the inhabitants of heaven. But in the present state of
+                  mankind it is an excellent gift of God, answering the noblest ends. In the hands
+                  of his children it is food for the hungry, drink for the thirsty, raiment for the
+                  naked. It gives to the traveller and the stranger where to lay his head. By it we
+                  may supply the place of an husband to the widow, and of a father to the
+                  fatherless; we may be a defence for the oppressed, a means of health to the sick,
+                  of ease to them that are in pain. It may be <index indexName="biblical">
+                     <term cRef="Job29:15">as eyes to the blind, as feet to the lame;</term>
+                  </index> yea, <index indexName="biblical">
+                     <term cRef="Psalm9:13">a lifter up fromthe gates of death</term>
+                  </index>.</p>
+               <p n="3">3. It is therefore of the highest concern that all who fear God know how to
+                  employ this valuable talent; that they be instructed how it may answer these
+                  glorious ends, and in the highest degree. And perhaps all the instructions which
+                  are necessary for this may be reduced to three plain rules, by the exact
+                  observance whereof we may approve ourselves faithful stewards of <index
+                     indexName="biblical">
+                     <term cRef="Luke16:9">&apos;the mammon of unrighteousness&apos;</term>
+                  </index>.</p>
+            </div>
+            <div type="section" n="1">
+               <!--Need to think about presentation of sections v. paragraphs in digital
+                  rendering. Will it be easier to code another way?-->
+               <p n="1">I.1. The first of these is <index indexName="biblical">
+                     <term cRef="Matt13:43
+                  Matt 15:10">(he that heareth let him
+                        understand!)</term>
+                  </index>
+                  <hi rend="italic">Gain all you can</hi>.<note place="foot">But cf. <index
+                        indexName="persons">
+                        <term cRef="Aristotle" ref="http://viaf.org/viaf/7524651">Aristotle</term>
+                     </index>&apos;s strictures against &apos;sordid gain&apos;, as in <hi
+                        rend="italic"><bibl>Nicomachean Ethics</bibl></hi>, IV.i.1121<hi
+                        rend="italic">b</hi>-1122<hi rend="italic">a</hi>.</note> Here we may speak
+                  like <index indexName="biblical">
+                     <term cRef="Luke16:8">the children of the world.</term>
+                  </index> We meet them on their own ground. And it is our bounden duty to do this.
+                  We ought to gain all we can gain without buying gold too dear, without paying more
+                  for it than it is worth. But this it is certain we ought not to do: we ought not
+                  to gain money at the expense of life; nor (which is in effect the same thing) at
+                  the expense of our health. Therefore no gain whatsoever should induce us to enter
+                  into, or to continue in, any employ which is of such a kind, or is attended with
+                  so hard or so long labour, as to impair our constitution. Neither should we begin
+                  or continue in any business which necessarily deprives us of proper seasons for
+                  food and sleep in such a proportion as our nature requires. Indeed there is a
+                  great difference here. Some employments are absolutely and totally unhealthy—as
+                  those which imply the dealing much with arsenic or other equally hurtful minerals,
+                  or the breathing an air tainted with steams of melting lead, which must at length
+                  destroy the firmest constitution. Others may not be absolutely unhealthy, but only
+                  to persons of a weak constitution. Such are those which require many hours to be
+                  spent in writing, especially if a person write sitting, and lean upon his stomach,
+                  or remain long in an uneasy posture. But whatever it is which reason or experience
+                  shows to be destructive of health or strength, that we may not submit to; seeing
+                     <index indexName="biblical">
+                     <term cRef="Luke12:23">&apos;the life is more&apos; valuable &apos;than meat,
+                        and the body than raiment.&apos;</term>
+                  </index> And if we are already engaged in such an employ, we should exchange it as
+                  soon as possible for some which, if it lessen our gain, will however not lessen
+                  our health.</p>
+               <p n="2">2. We are, secondly, to gain all we can without hurting our mind any more
+                  than our body. For neither may we hurt this. We must preserve, at all events, the
+                  spirit of an healthful mind. Therefore we may not engage or continue in any sinful
+                  trade, any that is contrary to the law of God, or of our country. Such are all
+                  that necessarily imply our robbing or defrauding the king of his lawful customs.
+                     <note place="foot"/> For it is at least as sinful to defraud the King of his
+                  right as to rob our fellow subjects. And the king has full as much right to his
+                  customs as we have to our houses and apparel. Other businesses there are, which
+                  however innocent <hi rend="italic">in themselves</hi>, cannot be followed with
+                  innocence <hi rend="italic">now</hi> (at least, not in England): such, for
+                  instance, as will not afford a competent maintenance without cheating or lying, or
+                  conformity to some custom which is not consistent with a good conscience. These
+                  likewise are sacredly to be avoided, whatever gain they may be attended with
+                  provided we follow the custom of the trade; for to gain money we must not lose our
+                  souls. There are yet others which many pursue with perfect innocence without
+                  hurting either their body or mind. And yet perhaps <hi rend="italic">you</hi>
+                  cannot: either they may entangle you in that company which would destroy your
+                  soul—and by repeated experiments it may appear that you cannot separate the one
+                  from the other—or there may be an idiosyncrasy, a peculiarity in your constitution
+                  of soul (as there is in the bodily constitution of many) by reason whereof that
+                  employment is deadly to <hi rend="italic">you</hi> which another may safely
+                  follow. So I am convinced, from many experiments, I could not study to any degree
+                  of perfection either mathematics, arithmetic, or algebra, without being a deist,
+                  if not an atheist.<note place="foot"/> And yet others may study them all their
+                  lives without sustaining any inconvenience. None therefore can here determine for
+                  another, but every man must judge for himself, and abstain from whatever he in
+                  particular finds to be hurtful to his soul.</p>
+               <p n="3">3. We are, thirdly, to gain all we can without hurting our neighbour. But
+                  this we may not, cannot do, if we love our neighbour as ourselves. We cannot, if
+                  we love everyone as ourselves, hurt anyone <hi rend="italic">in his
+                  substance</hi>. We cannot devour the increase of his lands, and perhaps the lands
+                  and houses themselves, by gaming, by overgrown bills (whether on account of
+                  physic, or law, or anything else), or by requiring or taking such interest as even
+                  the laws of our country forbid. Hereby all <hi rend="italic">pawnbroking</hi> is
+                  excluded, seeing whatever good we might do thereby all unprejudiced men see with
+                  grief to be abundantly overbalanced by the evil. And if it were otherwise, yet we
+                  are not allowed to &apos;do evil that good may come&apos;.<note place="foot"/> We
+                  cannot, consistent with brotherly love, sell our goods below the market
+                     price.<note place="foot"/> We cannot study to ruin our neighbour&apos;s trade
+                  in order to advance our own. Much less can we entice away or receive any of his
+                  servants or workmen whom he has need of. None can gain by swallowing up his
+                  neighbour&apos;s substance, without gaining the damnation of hell.</p>
+               <p n="4">4. Neither may we gain by hurting our neighbour <hi rend="italic">in his
+                     body</hi>. Therefore we may not sell anything which tends to impair health.
+                  Such is, eminently, all that liquid fire commonly called &apos;drams&apos; or
+                  &apos;spirituous liquor&apos;. It is true, these may have a place in medicine;
+                  they may be of use in some bodily disorders (although there would rarely be
+                  occasion for them were it not for the unskillfulness of the practitioner).
+                  Therefore such as prepare and sell them <hi rend="italic">only for this end</hi>
+                  may keep their conscience clear. But who are they? Who prepare and sell them <hi
+                     rend="italic">only for this end</hi>? Do you know ten such distillers in
+                  England? Then excuse these. But all who sell them in the common way, to any that
+                  will buy, are poisoners-general. They murder his Majesty&apos;s subjects by
+                  wholesale, neither does their eye pity or spare.<note place="foot"/>> They drive
+                  them to hell like sheep. And what is their gain? Is it not the blood of these men?
+                  Who then would envy their large estates and sumptuous palaces? A curse is in the
+                  midst of them: the curse of God cleaves to the stones, the timber, the furniture
+                  of them. The curse of God is in their gardens, their walks, their groves; a fire
+                  that burns to the nethermost hell. Blood, blood is there—the foundation, the
+                  floor, the walls, the roof are stained with blood!<note place="foot"/> And canst
+                  thou hope, O thou man of blood, <note place="foot"/> though thou art &apos;clothed
+                  in scarlet and fine linen, and farest sumptuously every day&apos;, <note
+                     place="foot"/> canst thou hope to deliver down thy &apos;fields of blood&apos;
+                     <note place="foot"/> to the third generation? Not so; for there is a God in
+                  heaven. <note place="foot"/> Therefore thy name shall soon be rooted out. Like as
+                  those whom thou hast destroyed, body and soul, &apos;thy memorial shall perish
+                  with thee.&apos;<note place="foot"/>
+               </p>
+               <p n="5">5. And are not they partakers of the same guilt, though in a lower degree,
+                  whether surgeons, apothecaries, or physicians, who play with the lives or health
+                  of men to enlarge their own gain? <note place="foot"/> Who purposely lengthen the
+                  pain or disease which they are able to remove speedily? Who protract the cure of
+                  their patient&apos;s body in order to plunder his substance? Can any man be clear
+                  before God who does not shorten every disorder <hi rend="italic">as much as he
+                     can</hi>, and remove all sickness and pain <hi rend="italic">as soon as he
+                     can</hi>. He cannot. For nothing can be more clear than that he does not
+                  &apos;love his neighbour as himself&apos;; <note place="foot"/> than that he does
+                  not &apos;do unto others as he would they should do unto himself&apos;.<note
+                     place="foot"/>
+               </p>
+               <p n="6">6. This is dear-bought gain. And so is whatever is procured by hurting our
+                  neighbour <hi rend="italic">in his soul</hi>: by ministering, suppose either
+                  directly or indirectly, to his unchastity or intemperance, which certainly none
+                  can do who has any fear of God, or any real desire of pleasing him. It nearly
+                  concerns all those to consider this who have anything to do with taverns,
+                  victualling-houses, operahouses, playhouses, or any other places of public,
+                  fashionable diversion. If these profit the souls of men, you are clear; your
+                  employment is good, and your gain innocent. But if they are either sinful in
+                  themselves, or natural inlets to sin <note place="foot"/> of various kinds, then
+                  it is to be feared you have a sad account to make. O beware lest God say in that
+                  day, &apos;These have perished in their iniquity, but their blood do I require at
+                  thy hands!&apos;<note place="foot"/>
+               </p>
+               <p n="7">7. These cautions and restrictions being observed, it is the bounden duty of
+                  all who are engaged in worldly business to observe that first and great rule of
+                  Christian wisdom with respect to money, &apos;Gain all you can.&apos;<note place="foot"/> Gain all you can by honest industry: use all possible
+                  diligence in your calling. Lose no time. <note place="foot"/> If you understand
+                  yourself and your relation to God and man, you know you have none to spare. If you
+                  understand your particular calling as you ought, you will have no time that hangs
+                  upon your hands. Every business will afford some employment sufficient for every
+                  day and every hour. That wherein <hi rend="italic">you</hi> are placed, if you
+                  follow it in earnest, will leave you no leisure for silly, unprofitable
+                  diversions. You have always something better to do, something that will profit
+                  you, more or less. And &apos;whatsoever thy hand findeth to do, do it with thy
+                     might.&apos;<note place="foot"/> Do it <hi rend="italic">as soon</hi> as
+                  possible. No delay! No putting off from day to day, or from hour to hour. Never
+                  leave anything till tomorrow which you can do today. And do it <hi rend="italic"
+                     >as well</hi> as possible. Do not sleep or yawn over it. Put your whole
+                  strength to the work. Spare no pains. Let nothing be done by halves, or in a
+                  slight and careless manner. Let nothing in your business be left undone if it can
+                  be done by labour or patience.</p>
+               <p n="8">8. Gain <hi rend="italic">all</hi> you can, by common sense, by using in
+                  your business all the understanding which God has given you. It is amazing to
+                  observe how few do this; how men run on in the same dull track with their
+                  forefathers. But whatever they do who know not God, this is no rule for <hi
+                     rend="italic">you</hi>. It is a shame for a Christian not to improve upon <hi
+                     rend="italic">them</hi> in whatever he takes in hand. <hi rend="italic"
+                     >You</hi> should be continually learning from the experience of others or from
+                  your own experience, reading, and reflection, to do everything you have to do
+                  better today than you did yesterday. And see that you practise whatever you learn,
+                  that you may make the best of all that is in your hands.<note place="foot"/>
+               </p>
+            </div>
+            <div type="section" n="2">
+               <p n="1">II.1. Having gained all you can, by honest wisdom and unwearied diligence,
+                  the second rule of Christian prudence is, <hi rend="italic">Save all you can</hi>.
+                  Do not throw the precious talent into the sea: leave that folly to heathen
+                  philosophers. Do not throw it away in idle expenses, which is just the same as
+                  throwing it into the sea. Expend no part of it merely to gratify the desire of the
+                  flesh, the desire of the eye, or the pride of life.<note place="foot"/>
+               </p>
+               <p n="2">2. Do not waste any part of so precious a talent merely in gratifying the
+                  desires of the flesh; in procuring the pleasures of sense of whatever kind;
+                  particularly, in enlarging the pleasure of tasting. <note place="foot"/> I do not
+                  mean, avoid gluttony and drunkenness only: an honest heathen would condemn these.
+                  But there is a regular, reputable kind of sensuality, an elegant epicurism,<note
+                     place="foot"/> which does not immediately disorder the stomach, nor (sensibly,
+                  at least) impair the understanding. And yet (to mention no other effects of it
+                  now) it cannot be maintained without considerable expense. Cut off all this
+                  expense. Despise delicacy and variety, and be content with what plain nature
+                  requires.</p>
+               <p n="3">3. Do not waste any part of so precious a talent merely in gratifying the
+                  desire of the eye by superfluous or expensive apparel, or by needless ornaments.
+                     <note place="foot"/> Waste no part of it in curiously adorning your houses in
+                  superfluous or expensive furniture; in costly pictures, painting, gilding, books;
+                  in elegant (rather than useful) gardens. Let your neighbours, who know nothing
+                  better, do this: &apos;Let the dead bury their dead.&apos; But &apos;What is that
+                  to thee?&apos; says our Lord: &apos;Follow thou me.&apos;<note place="foot"/> Are
+                  you willing? Then you are able so to do.</p>
+               <p n="4">4. Lay out nothing to gratify the pride of life, to gain the admiration or
+                  praise of men. This motive of expense is frequently interwoven with one or both of
+                  the former. Men are expensive in diet, or apparel, or furniture, not barely to
+                  please their appetite, or to gratify their eye, their imagination, but their
+                  vanity too. &apos;So long as thou dost well unto thyself, men will speak good of
+                     thee.&apos;<note place="foot"/> So long as thou art &apos;clothed in purple and
+                  fine linen, and farest sumptuously every day&apos;,<note place="foot"/> no doubt
+                  many will applaud thy elegance of taste, thy generosity and hospitality. But do
+                  not buy their applause so dear. Rather be content with the honour that cometh from
+                  God.</p>
+               <p n="5">5. Who would expend anything in gratifying these desires if he considered
+                  that to gratify them is to increase them? Nothing can be more certain than this:
+                  daily experience shows, the more they are indulged, they increase the more.
+                  Whenever therefore you expend anything to please your taste or other senses, you
+                  pay so much for sensuality. When you lay out money to please your eye, you give so
+                  much for an increase of curiosity, for a stronger attachment to these pleasures,
+                  which perish in the using. While you are purchasing anything which men use to
+                  applaud, you are purchasing more vanity. Had you not then enough of vanity,
+                  sensuality, curiosity before? Was there need of any addition? And would you pay
+                  for it, too? What manner of wisdom is this? Would not the literally throwing your
+                  money into the sea be a less mischievous folly?</p>
+               <p n="6">6. And why should you throw away money upon your children, any more than
+                  upon yourself, in delicate food, in gay or costly apparel, in superfluities of any
+                  kind? Why should you purchase for them more pride or lust, more vanity, or foolish
+                  and hurtful desires? <note place="foot"/> They do not want any more; they have
+                  enough already; nature has made ample provision for them. Why should you be at
+                  farther expense to increase their temptations and snares, and to &apos;pierce them
+                  through with more sorrows&apos;? <note place="foot"/></p>
+               <p n="7">7. Do not <hi rend="italic">leave</hi> it to them, to throw away. If you
+                  have good reason to believe that they would waste what is now in your possession
+                  in gratifying and thereby increasing the desire of the flesh, the desire of the
+                  eye, or the pride of life (at the peril of theirs and your own soul), do not set
+                  these traps in their way. Do not offer your sons or your daughters unto Belial
+                     <note place="foot"/> any more than unto Moloch. <note place="foot"/> Have pity
+                  upon them, and remove out of their way what you may easily foresee would increase
+                  their sins, and consequently plunge them deeper into everlasting perdition. How
+                  amazing then is the infatuation of those parents who think they can never leave
+                  their children enough? What! cannot you leave them enough of arrows, firebrands,
+                  and death? Not enough of foolish and hurtful desires? Not enough of pride, lust,
+                  ambition, vanity? Not enough of everlasting burnings!<note place="foot"/> Poor
+                  wretch! Thou fearest where no fear is. Surely both thou and they, when ye are
+                  lifting up your eyes in hell, will have enough both of the &apos;worm that never
+                  dieth&apos;, and of &apos;the fire that never shall be quenched&apos;.<note
+                     place="foot"/>
+               </p>
+               <p n="8">8. &apos;What then would you do if you was in my case? If you had a
+                  considerable fortune to leave?&apos; Whether I <hi rend="italic">would</hi> do it
+                  or no, I know what I <hi rend="italic">ought</hi> to do: this will admit of no
+                  reasonable question. If I had one child, elder or younger, who knew the value of
+                  money, one who I believed would put it to the true use, I should think it my
+                  absolute, indispensable duty to leave that child the bulk of my fortune; and to
+                  the rest just so much as would enable them to live in the manner they had been
+                  accustomed to do. &apos;But what if all your children were equally ignorant of the
+                  true use of money?&apos; I ought then (hard saying! Who can hear it?) <note
+                     place="foot"/> to give each what would keep him above want, and to bestow all
+                  the rest in such a manner as I judged would be most for the glory of God.</p>
+            </div>
+            <div type="section" n="3">
+               <p n="1">III.1. But let not any man imagine that he has done anything barely by going
+                  thus far, by <hi rend="italic">gaining and saving all he can</hi>, if he were to
+                  stop here. All this is nothing if a man go not forward, if he does not point all
+                  this at a farther end. Nor indeed can a man properly be said to <hi rend="italic"
+                     >save</hi> anything if he only <hi rend="italic">lays it up</hi>. <note
+                     place="foot"/> You may as well throw your money into the sea as bury it in the
+                  earth. And you may as well bury it in the earth as in your chest, or in the Bank
+                  of England. <note place="foot"/> Not to use, is effectually to throw it away. If
+                  therefore you would indeed &apos;make yourselves friends of the mammon of
+                  unrighteousness&apos;, add the third rule to the two preceding. Having first
+                  gained all you can, and secondly saved all you can, then give all you can.</p>
+               <p n="2">2. In order to see the ground and reason of this, consider: when the
+                  possessor of heaven and earth brought you into being and placed you in this world,
+                  he placed you here not as a proprietor, but a steward. <note place="foot"/> As
+                  such he entrusted you for a season with goods of various kinds. But the sole
+                  property of these still rests in him, nor can ever be alienated from him. As you
+                  yourself are not your own, but his, such is likewise all that you enjoy. Such is
+                  your soul, and your body—not your own, but God&apos;s. And so is your substance in
+                  particular. And he has told you in the most clear and express terms how you are to
+                  employ it for him, in such a manner that it may be all an holy sacrifice,
+                  acceptable through Christ Jesus. <note place="foot"/> And this light, easy service
+                  he has promised to reward with an eternal weight of glory. <note place="foot"/>
+               </p>
+               <p n="3">3. The directions which God has given us touching the use of our worldly
+                  substance may be comprised in the following particulars. If you desire to be a
+                  faithful and a wise steward, out of that portion of your Lord&apos;s goods which
+                  he has for the present lodged in your hands, but with the right of resuming
+                  whenever it pleases him, first, provide things needful for yourself—food to eat,
+                  raiment to put on, whatever nature moderately requires for preserving the body in
+                  health and strength. Secondly, provide these for your wife, your children, your
+                  servants, or any others who pertain to your household. <note place="foot"/> If
+                  when this is done there be an overplus left, then &apos;do good to them that are
+                  of the household of faith.&apos; <note place="foot"/> If there be an overplus
+                  still, &apos;as you have opportunity, do good unto all men.&apos; <note
+                     place="foot"/> In so doing, you <hi rend="italic">give all you can</hi>; nay,
+                  in a sound sense, all you have. For all that is laid out in this manner is really
+                  given to God. You &apos;render unto God the things that are God&apos;s&apos;,<note
+                     place="foot"/> not only by what you give to the poor, but also by that which
+                  you expend in providing things needful for yourself and your household.<note
+                     place="foot"/>
+               </p>
+               <p n="4">4. If then a doubt should at any time arise in your mind concerning what you
+                  are going to expend, either on yourself or any part of your family, you have an
+                  easy way to remove it. Calmly and seriously inquire: (1). In expending this, am I
+                  acting according to my character? Am I acting herein, not as a proprietor, but as
+                  a steward of my Lord&apos;s goods? (2). Am I doing this in obedience to his Word?
+                  In what Scripture does he require me so to do? (3). Can I offer up this action,
+                  this expense, as a sacrifice to God through Jesus Christ? (4). Have I reason to
+                  believe that for this very work I shall have a reward at the resurrection of the
+                  just? You will seldom need anything more to remove any doubt which arises on this
+                  head; but by this fourfold consideration you will receive clear light as to the
+                  way wherein you should go.</p>
+               <p n="5">5. If any doubt still remain, you may farther examine yourself by prayer
+                  according to those heads of inquiry. Try whether you can say to the Searcher of
+                  hearts, your conscience not condemning you: &apos;Lord, thou seest I am going to
+                  expend this sum on that food, apparel, furniture. And thou knowest I act herein
+                  with a single eye as a steward of thy goods, expending this portion of them thus
+                  in pursuance of the design thou hadst in entrusting me with them. Thou knowest I
+                  do this in obedience to thy Word, as thou commandest, and because thou commandest
+                  it. Let this, I beseech thee, be an holy sacrifice, acceptable through Jesus
+                  Christ! And give me a witness in myself that for this labour of love I shall have
+                  a recompense when thou rewardest every man according to his works.&apos;v Now if
+                  your conscience bear you witness in the Holy Ghost that this prayer is
+                  well-pleasing to God, then have you no reason to doubt but that expense is right
+                  and good, and such as will never make you ashamed.</p>
+               <p n="6">6. You see then what it is to &apos;make [to] yourselves friends of the
+                  mammon of unrighteousness&apos;, and by what means you may procure &apos;that when
+                  ye fail they may receive you into the everlasting habitations&apos;. You see the
+                  nature and extent of truly Christian prudence so far as it relates to the use of
+                  that great talent-money. <hi rend="italic">Gain all you can</hi>, without hurting
+                  either yourself or your neighbour, in soul or body, by applying hereto with
+                  unintermitted diligence, and with all the understanding which God has given you.
+                     <hi rend="italic">Save all you can</hi>, by cutting off every expense which
+                  serves only to indulge foolish desire, to gratify either the desire of the flesh,
+                  the desire of the eye, or the pride of life. Waste nothing, living or dying, on
+                  sin or folly, whether for yourself or your children. And then, <hi rend="italic"
+                     >Give all you can</hi>, or in other words give all you have to God. Do not
+                  stint yourself, like a Jew rather than a Christian, to this or that proportion.
+                  &apos;Render unto God&apos;, not a tenth, not a third, not half, but &apos;all
+                  that is God&apos;s&apos;,<note place="foot"/> be it more or less, by employing all
+                  on yourself, your household, the household of faith, and all mankind, in such a
+                  manner that you may give a good account of your stewardship when ye can be no
+                  longer stewards;<note place="foot"/> in such a manner as the oracles of God
+                  direct, both by general and particular precepts; in such a manner that whatever ye
+                  do may be &apos;a sacrifice of a sweet-smelling savour to God&apos;,<note
+                     place="foot"/> and that every act may be rewarded in that day when the Lord
+                  cometh with all his saints.<note place="foot"/>
+               </p>
+               <p n="7">7. Brethren, can we be either wise or faithful stewards <note place="foot"/>
+                  unless we thus manage our Lord&apos;s goods? We cannot, as not only the oracles of
+                  God, but our own conscience beareth witness. Then why should we delay? Why should
+                  we confer any longer with flesh and blood, or men of the world? Our kingdom, our
+                  wisdom &apos;is not of this world&apos;. <note place="foot"/> Heathen custom is
+                  nothing to us. We follow no men any farther than they are followers of Christ.
+                  Hear ye him. Yea, today, while it is called today, hear and obey his voice. <note
+                     place="foot"/> At this hour and from this hour, do his will; fulfil his word in
+                  this and in all things. I entreat you, in the name of the Lord Jesus, act up to
+                  the dignity of your calling. No more sloth! Whatsoever your hand findeth to do, do
+                  it with your might. v No more waste! Cut off every expense which fashion, caprice,
+                  or flesh and blood demand. No more covetousness! But employ whatever God has
+                  entrusted you with in doing good, all possible good, in every possible kind and
+                  degree, to the household of faith, to all men. This is no small part of &apos;the
+                  wisdom of the just&apos;.<note place="foot"/> Give all ye have, as well as all ye
+                  are, a spiritual sacrifice to him who withheld not from you his Son, his only Son;
+                  so &apos;laying up in store for yourselves a good foundation against the time to
+                  come, that ye may attain eternal life&apos;.<note place="foot"/></p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
