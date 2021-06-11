@@ -14,7 +14,7 @@
                 <publisher>The Wesley Works</publisher>
                 <pubPlace>Tampa, FL</pubPlace>
                 <date>2021-02-19</date>
-                <idno type="URL"/>
+		    <idno type="URL">http://syriaca.org/letters/ToDoddWilliam5Feb1756/tei</idno>
             </publicationStmt>
             <sourceDesc>
                 <listBibl>
