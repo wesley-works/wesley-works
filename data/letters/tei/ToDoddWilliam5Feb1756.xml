@@ -41,7 +41,8 @@
             <head>
                 <date when="1756-02-05">
                     <hi rend="italic">February 5, 1756</hi>
-                </date> To the <persName xml:id="pers-0000598">Rev. William Dodd</persName>
+                </date> To the <persName xml:id="pers-0000598"><ptr target="/persons/pers-0000598.xml"/>
+Rev. William Dodd</persName>
                 <note place="foot" n="1">
                     <persName>William Dodd</persName> ( <date when="1729-01-01">1729</date> - <date
                         when="1777-01-01">77</date> ), ordained deacon in <date when="1751-01-01"
