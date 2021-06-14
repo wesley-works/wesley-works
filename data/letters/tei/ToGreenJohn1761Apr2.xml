@@ -25,15 +25,10 @@
                   <publisher>Abingdon Press</publisher>
                   <pubPlace>Nashville, TN</pubPlace>
                   <date>2015-11-03</date>
+		  <citedRange unit="page" from="248" to="249"/>
                </bibl>
-               <!--Encode page numbers from original printed volume; possibly as additional
-                  <bibl>-->
                <bibl n="2">Published transcription; <hi rend="italic">Arminian Magazine</hi> 3
                   (1780), 670-71.</bibl>
-               <!--This is rendered as the last line of the text in the print editions; we need to
-                  generate a field that populates this second bibl every time.-->
-               <!--This isn't the best way to render dual sources, but they aren't really both
-                  witnesses in the sense TEI intends; revisit encoding practices for sourceDescs.-->
             </listBibl>
          </sourceDesc>
       </fileDesc>
