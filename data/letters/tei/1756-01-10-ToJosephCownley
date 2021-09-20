@@ -4,32 +4,40 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>To Joseph Cownley</title>
+            <title>To Joseph Cownley (January 10, 1756)</title>
             <author>Wesley, John</author>
             <editor>Van Buskirk, Gregory P.</editor>
          </titleStmt>
          <publicationStmt>
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
-            <date>2021-04-07</date>
+            <date>2020-07-28</date>
+            <idno type="URI">http://syriaca.org/letters/1756-01-10-ToJosephCownley</idno>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
-               <bibl n="1">
-                  <biblStruct>
-                     <title>The Works of John Wesley, Volume 27: Letters III, 1756-1765</title>
-                     <series>
-                        <biblScope unit="volume" n="27"/>
-                        <date from="1756" to="1765"/>
-                        <biblScope unit="page" n="2"/>
-                     </series>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Joseph Cownley (January 10, 1756)</title>
+                     <date when="1756-01-10"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
                      <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="2"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
                      <editor role="general">Maddox, Randy L.</editor>
-                     <publisher>Abingdon Press</publisher>
-                     <pubPlace>Nashville, TN</pubPlace>
-                     <date>2015-11-03</date>
-                  </biblStruct>
-               </bibl>
+                  </series>
+               </biblStruct>
                <bibl n="2"><hi rend="italic">Source</hi>: published transcription; <bibl><hi
                         rend="italic">Arminian Magazine</hi> 17 (<date when="1794">1794</date>):
                      527–28</bibl>.</bibl>
@@ -73,8 +81,8 @@
                      >medicine</seg> could ever remove. After consulting the most able physicians in
                         <country><placeName>Ireland</placeName></country>, he stated his case to
                         <persName><ptr target="../persons/pers0001">Mr. Wesley</ptr></persName>, and
-                  received the following answer&apos; (<bibl><hi rend="italic">AM</hi> 17 [1794]: 527;
-                        <hi rend="italic">EMP</hi>, 2:18</bibl>).</note></p>
+                  received the following answer&apos; (<bibl><hi rend="italic">AM</hi> 17 [1794]:
+                     527; <hi rend="italic">EMP</hi>, 2:18</bibl>).</note></p>
          </head>
          <opener>
             <placeName>
@@ -102,13 +110,13 @@
                   <term cRef="19:279">(19:279 in this edn.)</term></index>.</note> If it does good,
             well. But if I had been at <placeName><region>Cork</region></placeName>,<note
                place="foot" n="3">Spelled here, as often by <persName><ptr
-                     target="../persons/pers0001">Wesley</ptr></persName>, &apos;<placeName Corke="Cork"
-                  >Corke</placeName>&apos;.</note> all the physicians in
+                     target="../persons/pers0001">Wesley</ptr></persName>, &apos;<placeName
+                  Corke="Cork">Corke</placeName>&apos;.</note> all the physicians in
                   <placeName><country>Ireland</country></placeName> should not have put it upon your
             head. Remember poor <persName><occupation>Bishop</occupation> Pearson</persName>. An
             apothecary, to cure a pain in his head, covered it with a large blister. In an hour he
-            cried out, &apos;Oh! my head, my head!&apos; and was a fool ever after, to the day of his
-               death.<note place="foot" n="4"><persName>John Pearson,
+            cried out, &apos;Oh! my head, my head!&apos; and was a fool ever after, to the day of
+            his death.<note place="foot" n="4"><persName>John Pearson,
                         <occupation><roleName>Bishop</roleName> of
                            <placeName><district>Chester</district></placeName></occupation></persName><!--Would/should this use the <roleName> tag instead of <occupation>?-->
                   (<date from="1613" to="1686-07-16">1613–86</date>). The anecdote seems to be
@@ -132,3 +140,4 @@
                Magazine</hi> 17 (1794): 527–28</bibl>.</p>
    </text>
 </TEI>
+
