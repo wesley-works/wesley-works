@@ -14,7 +14,7 @@
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
             <date>2020-07-28</date>
-            <idno type="URI">http://syriaca.org/letters/ToGreenJohn1761Apr2</idno>
+            <idno type="URI">http://syriaca.org/letters/1761-04-02-ToRevJohnGreen</idno>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
@@ -22,10 +22,14 @@
                   <title>The Works of John Wesley Volume 27: Letters III, 1756-1765</title>
                   <editor role="volume">Campbell, Ted A.</editor>
                   <editor role="general">Maddox, Randy L.</editor>
+		        <series>
+                        <biblScope unit="volume" n="27"/>
+                        <date from="1756" to="1765"/>
+                        <biblScope unit="page" n="248" from="248" to "249"/>
+                     </series>
                   <publisher>Abingdon Press</publisher>
                   <pubPlace>Nashville, TN</pubPlace>
                   <date>2015-11-03</date>
-		  <citedRange unit="page" from="248" to="249"/>
                </bibl>
                <bibl n="2">Published transcription; <hi rend="italic">Arminian Magazine</hi> 3
                   (1780), 670-71.</bibl>
