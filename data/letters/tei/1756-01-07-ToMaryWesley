@@ -11,25 +11,33 @@
          <publicationStmt>
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
-            <date>2021-04-07</date>
+            <date>2020-07-28</date>
+            <idno type="URI">http://syriaca.org/letters/1756-01-07-ToMaryWesley</idno>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
-               <bibl n="1">
-                  <biblStruct>
-                     <title>The Works of John Wesley, Volume 27: Letters III, 1756-1765</title>
-                     <series>
-                        <biblScope unit="volume" n="27"/>
-                        <date from="1756" to="1765"/>
-                        <biblScope unit="page" n="1"/>
-                     </series>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Mary (Goldhawk/Vazeille) Wesley (January 7, 1756)</title>
+                     <date when="1756-01-07"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
                      <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="1"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
                      <editor role="general">Maddox, Randy L.</editor>
-                     <publisher>Abingdon Press</publisher>
-                     <pubPlace>Nashville, TN</pubPlace>
-                     <date>2015-11-03</date>
-                  </biblStruct>
-               </bibl>
+                  </series>
+               </biblStruct>
                <bibl n="2"><hi rend="italic">Address</hi>: &apos;To / <persName>Mrs
                      Wesley</persName>&apos;.</bibl>
                <bibl n="3">No <hi rend="italic">postmark</hi> or indications of postal <hi
