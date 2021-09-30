@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To the Rev. William Dodd (February 5, 1756)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <idno type="URI">http://wesleyworks.smu.edu:8080/letters/1756-02-05a-ToRevWilliamDodd</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To the Rev. William Dodd (February 5, 1756)</title>
+                     <date when="1756-02-05"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="5" to="6"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+             <bibl n="2"><hi rend="italic">Source</hi>: published transcription; <bibl><hi rend="italic">Arminian Magazine</hi> 2 (1779): 434–35</bibl>. The letter is entitled <index>&apos;On <seg ana="ChristianPerfection">Christian Perfection</seg>&apos;</index><!--Double-check the Arminian Magazine for the title of this *published* letter.-->; at the end <persName><ptr target="../persons/pers0001">Wesley</ptr></persName> adds the note: &apos;N. B. I had at this time no acquaintance with <persName><ptr target="../persons/pers0598">Dr. Dodd</ptr></persName>; nor did I ever see him till I saw him in <seg ana="prison">prison</seg>.&apos;</bibl><!--This N.B. is a sort of postscript to the (published) letter. Perhaps it should be tagged as such?-->
+          </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <listPerson type="correspondents">
+            <person xml:id="pers0001">John Wesley</person>
+            <person xml:id="pers0598">Dr. William Dodd</person>
+         </listPerson>
+         <listPerson type="mentions">
+            <person xml:id="pers1261">Mr. William Law</person>
+            <person xml:id="pers0795">Bishop Edmund Gibson</person>
+         </listPerson>
+         <listPerson type="notes">
+         </listPerson>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2021-09-29">Jason Edsall updated header to add listperson names, correct
+               persName attribute syntax and added ptr targets on 2021-09-29.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <pb n="5"/>
+      <body>
+         <head>To <persName><ptr target="../persons/pers0598">the Rev. William Dodd</ptr></persName><note place="foot" n="1"><persName><ptr target="../persons/pers0598">William Dodd</ptr></persName> (<date from="1729-05-29" to="1777-06-27">1729–77</date>), ordained deacon in <date when="1751">1751</date>, became a popular preacher in <placeName><region>London</region></placeName>, especially from the pulpit of <placeName>Magdalen House</placeName><!--"Magdalen House" was a kind of boarding house, hospital, and asylum for "penitent prostitutes." I'm not sure whether to tag it as a <place>, <orgName>, <residence>, or what.-->, and in <date when="1763">1763</date> was appointed chaplain to the <seg ana="monarchy">king</seg>. He graduated <education>D.D.</education><!--Is this wrapped correctly?--> in <date when="1766">1766</date>. He was known as the <persName><ptr target="../persons/pers0598"><addName type="epithet">&apos;macaroni parson&apos;</addName></ptr></persName><!--Is this how you would encode/tag Dodd's disparaging nickname "macaroni parson"?--> because of his worldly style of living, became deeply involved in <seg ana="money">debt</seg>, was arrested for forging a bond, was convicted and <death who="WilliamDodd" when="1777-06-27">sentenced to death. The execution was carried out on <date when="1777-06-27">June 27, 1777</date><!--Do I need to *DOUBLE* wrap the date of death, i.e., first with <death when=""> and then with <date when="">?--></death>.<!--What else needs to be indicated in the <death> tag for Dodd?--> <persName><ptr target="../persons/pers0598">He</ptr></persName> attacked <persName><ptr target="../persons/pers0001">JW</ptr></persName>&apos;s views in the <bibl><hi rend="italic">Christian Magazine</hi> (<date from="1760" to="1767">1760–67</date>)</bibl> and <persName><ptr target="../persons/pers0001">Wesley</ptr></persName> defended himself. At <persName><ptr target="../persons/pers0598">Dodd</ptr></persName>&apos;s request <persName><ptr target="../persons/pers0001">JW</ptr></persName> visited him in <seg ana="prison">prison</seg>. See <bibl><hi rend="italic">ODNB</hi></bibl>.</note></head>
+         <opener>
+            [<placeName><region>London</region></placeName>]
+            <lb/>
+            <date when="1756-02-05">February 5, 1756</date>
+            <lb/>
+            <lb/>
+            <salute>Rev. Sir,</salute>
+         </opener>
+         <p>I am favoured with yours of <date when="1756-01-26">January 26</date>,<note place="foot" n="2">This letter does not appear to have survived.</note> for which I return you my sincere thanks. Your frank and open manner of writing is far from needing any apology, and I hope will never occasion your receiving such treatment from me as I did from <persName><ptr target="../persons/pers1261">Mr. [William] Law</ptr></persName>, who, after some very keen expressions in answer to the second private letter I sent him<!--It doesn't look like there's any reference here...-->, plainly told me he desired to &apos;hear no more on that head&apos;.<note place="foot" n="3">This phrase does not occur in <persName><ptr target="../persons/pers1261">Law</ptr></persName>&apos;s letter of <date when="1738-05-19">May 19</date> or that of <date when="1738-05-22">[May 22?], 1738</date>, but seems to be <persName><ptr target="../persons/pers0001">Wesley</ptr></persName>&apos;s summary of the correspondence, as expressed in the closing sentence of the second letter: &apos;Pray, sir, be at peace with me.&apos; <index indexName="works"><term cRef="25:543–546 25:548–550">See 25:543–46, 548–50 in this edn.</term></index></note> I do desire to hear, and am very willing to consider, whatever you have to advance on the head of &apos;<seg ana="ChristianPerfection">Christian perfection</seg>&apos;.</p>
+         <p>When I began to make the <seg ana="scripture">Scriptures</seg> my chief study (<date when="1729">about seven and twenty years ago</date>),<note place="foot" n="4"><persName><ptr target="../persons/pers0001">Wesley</ptr></persName> consistently dated <seg ana="MethodistOrigins">the origins of the <personGrp MethodistMovement="Methodists">Methodist movement</personGrp></seg> to the year <date when="1729">1729</date>. In response to the question &apos;What was <seg ana="MethodistOrigins">the rise of Methodism</seg>, so called?&apos; in the <bibl>Large Minutes</bibl>, <persName><ptr target="../persons/pers0001">Wesley</ptr></persName> wrote, &apos;In <date when="1729">1729</date>, two young men, reading the <seg ana="scripture">Bible</seg>, saw they could not <seg ana="salvation">be saved</seg> without <seg ana="holiness">holiness</seg>, followed after it and incited others so to do&apos; <index indexName="works"><term cRef="10:875">(10:875 in this edn.)</term></index>.</note> I began to see that Christians are called to <seg ana="ChristianPerfection"><index indexName="biblical"><term cRef="Deut6:5 Luke10:27">&apos;love God with all&apos; their &apos;heart&apos;, and to &apos;serve him with all&apos; their &apos;strength&apos;</term></index></seg>,<note place="foot" n="5">Cf. <index indexName="biblical"><term cRef="Deut6:5">Deut. 6:5</term></index>, <index indexName="biblical"><term cRef="Luke10:27">Luke 10:27</term></index>, and parallels.<!--Does the biblical tag apply to the citation, quotation, or both?--></note> which is precisely what I apprehend to be meant by the <seg ana="scripture">scriptural term</seg> &apos;<seg ana="ChristianPerfection">perfection</seg>&apos;. After weighing this for some years, <date when="1733-01-01">I openly declared my sentiments before the <institution university="OxfordUniversity">university</institution></date><!--Since we know exactly when he preached this sermon, I have added the precise date.-->, in the sermon on <index indexName="works">&apos;The Circumcision of the Heart&apos;</index>, now printed in the <bibl secondVolume="SermonsOnSeveralOccasions">second volume</bibl>.<note place="foot" n="6">I.e., of <persName><ptr target="../persons/pers0001">JW</ptr></persName>&apos;s <index indexName="works"><hi rend="italic">Sermons on Several Occasions</hi>, published in <date when="1748">1748</date> <term cRef="1:398-414">(1:398–414 in this edn.)</term>.</index></note> <date notBefore="1740-09" notAfter="1741-03">About six years after</date>, in consequence of an advice I received from <persName><ptr target="../persons/pers0795">Bishop Gibson</ptr></persName>,<note place="foot" n="7"><persName><ptr target="../persons/pers0795">Edmund Gibson</ptr></persName> (<date from="1669" to="1748-09-06">1669–1748</date>), <occupation>Bishop of <placeName><region>London</region></placeName></occupation>.</note> &apos;Tell all the world what you mean by <seg ana="ChristianPerfection">perfection</seg>&apos;, I published my coolest and latest thoughts in the sermon on that subject.<note place="foot" n="8"><persName><ptr target="../persons/pers0001">JW</ptr></persName>, <index indexName="works"><hi rend="italic"><seg ana="ChristianPerfection">Christian Perfection</seg></hi>, published in <date when="1741">1741</date> <term cRef="2:97-124">(2:97–124 in this edn.)</term></index>.</note> <seg ana="doctrinalAuthority">You easily observe, I therein build on no authority, ancient or modern, but the <seg ana="scripture">Scripture</seg></seg>. If this supports any <seg ana="doctrine">doctrine</seg>, it will stand; if not, the sooner it falls the better. Neither <seg ana="ChristianPerfection">the <pb n="6"/><seg ana="doctrine">doctrine</seg> in question</seg>, nor any other, is anything to me, unless it be <seg ana="ChristianPerfection">the <seg ana="doctrine">doctrine</seg> of Christ and his apostles</seg>. If, therefore, you will please to point out to me any passages in <index indexName="works"><!--i.e., Sermon 40, "Christian Perfection"--><term cRef="2:97-124">that sermon</term></index> which are either contrary to <seg ana="scripture">Scripture</seg>, or not supported by it, and to show that they are not, I shall be full as willing to oppose as ever I was to defend them. I search for <seg ana="truth scripture">truth: plain, Bible truth</seg>, without any regard to the praise or dispraise of men.</p>
+         <closer>If you will assist me in this search, more especially by showing me where I have mistaken my way, it will be gratefully acknowledged by, rev. sir,
+            <signed>Your affectionate brother and servant,<lb/>
+               <persName><ptr target="../persons/pers0001">John Wesley</ptr></persName>
+            </signed>
+         </closer>
+      </body>
+      <p><hi rend="italic">Source</hi>: published transcription; <bibl><hi rend="italic">Arminian Magazine</hi> 2 (1779): 434–35</bibl>. The letter is entitled <index>&apos;On <seg ana="ChristianPerfection">Christian Perfection</seg>&apos;</index><!--Double-check the Arminian Magazine for the title of this *published* letter.-->; at the end <persName><ptr target="../persons/pers0001">Wesley</ptr></persName> adds the note: &apos;N. B. I had at this time no acquaintance with <persName><ptr target="../persons/pers0598">Dr. Dodd</ptr></persName>; nor did I ever see him till I saw him in <seg ana="prison">prison</seg>.&apos;</p><!--This N.B. is a sort of postscript to the (published) letter. Perhaps it should be tagged as such?-->
+   </text>
+</TEI>
