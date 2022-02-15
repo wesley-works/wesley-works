@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Sarah Ryan (February 20, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-06</date>
+            <idno type="URI">http://syriaca.org/letters/1758-02-20-ToSarahRyan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Sarah Ryan (February 20, 1758)</title>
+                     <date when="1758-02-20"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="115" to="116"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Arminian Magazine 5 (<date when="1782"
+                     >1782</date>): 438.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers1793.xml"/>Sarah Ryan</persName><note
+               place="foot" n="1"><persName><ptr target="/persons/pers2180.xml"/>JW</persName> is
+               apparently responding to <persName><ptr target="/persons/pers1793.xml"
+                  />Ryan</persName>&apos;s comment in her letter of <date when="1758-02-08">Feb.
+                  8</date>: &apos;What shall I do that I may work the works of God? O my dear sir,
+               help me by your prayers.&apos;</note></head>
+         <opener><placeName>Maldon</placeName><lb/><date when="1758-02-20">February 20, 1758</date><lb/><lb/>
+            <salute>My Dear Sister,</salute>
+         </opener>
+         <p>Is your eye altogether single? Is your heart entirely pure? I know you gave up the whole
+            to God once, but do you stand to the gift? Once your will was swallowed up in
+            God&apos;s, but is it now, and will it be so always? The whole Spirit and power of God
+            be upon you,establish, strengthen, settle you, and preserve your spirit, soul, and body,
+            spotless and unblameable unto the coming of Jesus Christ!</p>
+         <p/>
+         <p/>
+         <closer>I am,<lb/>
+            <signed>Yours, etc.,<lb/><persName>J.W.</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
