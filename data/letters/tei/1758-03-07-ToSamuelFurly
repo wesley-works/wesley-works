@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Samuel Furly (March 7, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-17</date>
+            <idno type="URI">http://syriaca.org/letters/1758-03-07-ToSamuelFurly</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Samuel Furly (March 7, 1758)</title>
+                     <date when="1758-03-07"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="116" to="118"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Endorsement: &apos;(1) It is the <hi rend="italic">love</hi> of God. It
+                  hath in it heights, depths, <hi rend="italic">strength</hi> stronger than death. /
+                  (2) — of God in Christ. Sweetness of it. Better than all. Subject to no
+                  change.&apos; Source: manuscript copy (in the hand of John
+                     Jones<!-- Is this John Jones with persid 1178? or 1179? --><note place="foot" n="9">This
+                     identification is owed to Richard Heitzenrater.</note>); Huntington Library,
+                  Manuscripts, HM 57036.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0763">
+                  <persName>Samuel Furly</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="persx2">
+                  <persName>[x]</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="persx3">
+                  <persName>[x]</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0763.xml"/>Samuel Furly</persName><note
+               place="foot" n="1"><persName><ptr target="/persons/pers0763.xml"/>Furly</persName>
+               had completed his B.A. at Cambridge in <date when="1758-01">January</date> and was in
+                  <placeName>London</placeName>, where he would be ordained Deacon in <date
+                  when="1758-05">May</date>.</note></head>
+         <opener><placeName>Sundon</placeName><lb/><date when="1758-03-07">March 7,1758</date><lb/><lb/>
+            <salute>Dear Sammy,</salute>
+         </opener>
+         <p>You have done well in writing to me the first week of this month. I should be glad if
+            you would continue that regularly. And you have done exceeding well in giving me the
+            full, particular account of that (shall I say unlucky?) accident. For really <foreign
+               rend="italic">non satis mihi constiterat, cum aliquane animi mei molestia an potirer
+               libenter […] accepi</foreign>.<note place="foot" n="2">Cf. Cicero, Epistolae,
+               xiii.1.1–2 (Letters, 63.1–2): &apos;I was not quite sure whether to accept it with
+               distress or pleasure&apos; (Loeb).</note> I am grieved. I am troubled for the
+            consequences that may ensue. But I am pleased. I rejoice that the Lord has carried on
+            such a work of conviction in that poor Pharisee. Yea, I cannot but be exceeding glad
+               <foreign rend="italic">me non laborem inanem cepisse</foreign>.<note place="foot"
+               n="3">Cf. Terence, Hecyra (&apos;The Mother-in-Law&apos;), Act 3, Scene 2 (l. 344),
+               &apos;[That I not] labour in a useless task&apos; (Loeb).</note></p>
+         <p>Neither am I sorry but rather well satisfied that you lent her that little
+            &apos;awakening tract&apos;. Upon the first hearing of this, indeed, my spirit was
+            troubled. Confusion of mind seized me, struck partly with fear, partly with sorrow, and
+            partly with astonishment. But what need we fear? Or wherefore are we cast down? <index
+               indexName="biblical">
+               <term cRef="Rev19:6">The Lord God Omnipotent reigneth</term>
+            </index>.<note place="foot" n="4">See <index indexName="biblical">
+                  <term cRef="Rev19:6">Rev. 19:6</term>
+               </index>.</note> And cannot he make all things turn to his glory? How long shall the
+            boasting enemy triumph? Not longer (at least) than the breath is in his nostrils; and
+            then shall all his vain thoughts perish. But they have not yet won the day. Who knoweth
+            but the Lord may give peace and love and power and the spirit of a sound mind to her who
+            for a season is sorely vexed with the cruel overwhelming power of Satan? At a moment
+            when the ungodly think not of it, the Lord may arise and maintain his own cause and put
+            to silence the vauntings of the proud. So that all that are around may see it and fear,
+            and acknowledge, &apos;<index indexName="biblical">
+               <term cRef="Mark12:11">This is the Lord’s doing</term>
+            </index>&apos;.<note place="foot" n="5"><index indexName="biblical">
+                  <term cRef="Mark12:11">Mark 12:11</term>
+               </index>.</note></p>
+         <p>What he does now we know not yet. It is our part to wait patiently to see what he will
+            do. <foreign rend="italic">Quietus esto</foreign>.<note place="foot" n="6">&apos;Be at
+               rest.&apos;</note> Be calm in the midst of this storm. I pity you, indeed, who are in
+            the very midst of it. For my own part I leave the matter without concern in his hands
+            who will not, cannot do wrong. But not without taking much shame unto myself. I did not
+            order my conversation aright all the time I was in the place. I was afraid of giving
+            offence, therefore I assumed too much the appearance of one of them. I did not dare to
+            be altogether singular, to be constantly, steadily serious before them. Now by this
+            circumstance the Lord has rebuked me and taught me wisdom. Here he has permitted no
+            small offence to arise from a quarter I could neither foresee nor prevent. Where now is
+            all my worldly prudence? What is become of my fearful caution? The Lord hath blasted it.
+            Not indeed with the breath of his mouth, but with the rushing torrent of his sudden
+            providence. Mark this, and settle it in thine heart that the Lord will be feared,
+            honoured, and obeyed even in the midst of lions; or will make us feel the weight of his
+            uplifted hand. I feel this moment my just punishment for my base cowardice. This sin
+            sets heavier upon my conscience at this time than almost all my crimes and all the
+            transgressions of my youth. And one sin lying upon the conscience is a load of
+               misery.<note place="foot" n="7">The preceding three paragraphs are a single paragraph
+               in the original.</note></p>
+         <p>There is not now time to give you any particular relation of myself, that affair having
+            spun out my letter too long. In study at present I make but a slow progress. I am not at
+            all content with myself in this point. I have just entered upon Lord Clarendon’s <hi
+               rend="italic">History</hi>,<note place="foot" n="8">Edward Hyde, Earl of Clarendon,
+                  <hi rend="italic">The History of the Rebellion and Civil Wars in England</hi>, 6
+               vols. (2nd edn.; Oxford, <date from="1705" to="1706">1705–6</date>).</note> which is
+            such an account of the ways, vices, and passions of men as one who did not know the
+            corruption of human nature could scarce be induced to believe of his fellow
+            creatures.</p>
+         <p>I shall conclude this letter with affirming that I would to God such a deep work of
+            conviction was wrought in your heart and mine as God has begun in that poor distressed
+            woman. I wish we also felt the arrows of the Lord fastened in our conscience even as she
+            has done. O when shall we with that piercing sense repent of all our sins and all our
+            backslidings? Is not the time now come? We are spared today. God knoweth whether we
+            shall be tomorrow. But this we know, that whatever knowledge, whatever gifts we have,
+            purity of heart alone will be of true worth in the end. To the earnest pursuit of which
+            I commend your being,</p>
+         <closer><signed>Yours, etc.,<lb/><persName>John Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
