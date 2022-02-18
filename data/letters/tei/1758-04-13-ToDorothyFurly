@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Dorothy Furly (April 13, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-18</date>
+            <idno type="URI">http://syriaca.org/letters/1758-04-13-ToDorothyFurly</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Dorothy Furly (April 13, 1758)</title>
+                     <date when="1758-04-13"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="124" to="125"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Benson, Works, 16:322–23.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0762">
+                  <persName>Dorothy Furly</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers0964">
+                  <persName>Selina Hastings</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0762.xml"/>Dorothy Furly</persName></head>
+         <opener><placeName>Dublin</placeName><lb/><date when="1758-04-13">April 13, 1758</date><lb/><lb/>
+            <salute/>
+         </opener>
+         <p>But if you find such a surprising alteration at Bonner&apos;s Hall,<note place="foot"
+               n="1">Bonner&apos;s Hall, in the parish of <placeName>Hackney</placeName> in
+                  <placeName>Middlesex</placeName>, was a manor house that had been a palace of the
+               Bishops of <placeName>London</placeName>.</note> what need have you of removing to
+               <placeName>Bristol</placeName>? Perhaps a lodging there might answer the purpose of
+            health full as well as one at <placeName>Clifton</placeName>, and the purpose of
+            religion considerably better.<note place="foot" n="2"><placeName>Clifton</placeName> was
+               adjacent to Hot Wells, a mineral springs many visited to seek its health benefits. It
+               was also the location of one of <persName><ptr target="/persons/pers0964.xml"/>Lady
+                  Huntingdon</persName>&apos;s homes; <persName><ptr target="/persons/pers2180.xml"
+                  />JW</persName> may be trying to protect <persName><ptr
+                     target="/persons/pers0762.xml"/>Furly</persName> from Calvinist influences that
+                     <persName><ptr target="/persons/pers0762.xml"/>she</persName> would meet with
+               there.</note> There are few in that neighbourhood from whom I should hope you would
+            receive much profit, except <persName><ptr target="/persons/pers1793.xml"/>Sarah
+               Ryan</persName>. If <persName><ptr target="/persons/pers1793.xml"/>she</persName>
+            abides in her integrity, <persName><ptr target="/persons/pers1793.xml"/>she</persName>
+            is a jewel indeed; one whose equal I have not yet found in England.</p>
+         <p>You ought not to drink much tea, and none without pretty much cream (not milk) and
+            sugar. But I believe, were you to drink nettletea for a few mornings, it would do you
+            more good than any other. It seems best for you to have frequent returns of weakness. It
+            may be needful to fix seriousness upon your spirit by a lasting impression that there is
+            but a step between you and eternity. But sickness alone will not do this—no, nor even
+            the near approach of death. Unless the Spirit of God sanctify both, a man may laugh and
+            trifle with his last breath.</p>
+         <p>You will overcome trifling conversation and the fear of man not by yielding, but by
+            fighting. This is a cross which you cannot be excused from taking up. Bear it, and it
+            will bear you. By prayer you will receive power so to do, to be a good soldier of Jesus
+            Christ. But it is more difficult to resist hurtful desire; I am most afraid you should
+            give way to this. Herein you have need of all the power of God. O stand fast! Look up
+            and receive strength! I shall be glad to hear that you are <index indexName="biblical">
+               <term cRef="Rom8:37">more than conqueror</term>
+            </index>,<note place="foot" n="3">See <index indexName="biblical">
+                  <term cRef="Rom8:37">Rom. 8:37</term>
+               </index>.</note> and that you daily grow in the vital knowledge of Christ. Peace be
+            with your spirit.</p>
+         <closer>I am,<lb/>
+            <signed>Your affectionate servant,<lb/><persName>J. Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
