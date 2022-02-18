@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Samuel Furly (April 8, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-18</date>
+            <idno type="URI">http://syriaca.org/letters/1758-04-08-ToSamuelFurly</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Samuel Furly (April 8, 1758)</title>
+                     <date when="1758-04-08"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="123" to="124"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mr <persName><ptr target="/persons/pers0763.xml"
+                     />Furly</persName>&apos;. No postmark or indications of postal charge;
+                  apparently delivered by hand. Endorsement: &apos;<date when="1758"
+                  >1758</date>&apos;. Source: holograph; MARC, MAM JW 3/17.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0763">
+                  <persName>Samuel Furly</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0763.xml"/>Samuel Furly</persName></head>
+         <opener><placeName>Dublin</placeName><lb/><date when="1758-04-08">April 8, 1758</date><lb/><lb/>
+            <salute>Dear Sammy,</salute>
+         </opener>
+         <p>Very probably I may procure your admission into orders with a title or without.<note
+               place="foot" n="1">Anglican polity, spelled out in Edmund Gibson&apos;s <hi
+                  rend="italic">Codex Juris Ecclesiastici Anglicani</hi> (<date when="1713"
+                  >1713</date>, 1:168–78), mandated that a candidate for ordination either as a
+               deacon or a priest had to hold a &apos;title&apos; to a specific position. For
+               example, a person ordained as a deacon might be given the title of curate in a parish
+               where there was a priest willing to work with him. <persName><ptr
+                     target="/persons/pers2180.xml"/>JW</persName> may have been hoping to find
+               ordination for <persName><ptr target="/persons/pers0763.xml"/>Furly</persName> that
+               permitted <persName><ptr target="/persons/pers0763.xml"/>him</persName> to itinerate.
+               If so, he was not successful (see <persName><ptr target="/persons/pers2180.xml"
+                  />JW</persName>&apos;s letter to <persName><ptr target="/persons/pers0763.xml"
+                  />Furly</persName>, <date when="1758-05-03">May 3, 1758</date>). <persName><ptr
+                     target="/persons/pers0763.xml"/>Furly</persName> was ordained deacon on <date
+                  when="1758-05-21">May 21, 1758</date> by the Bishop of
+                  <placeName>London</placeName> and served briefly at Bow Church,
+                  <placeName>Cheapside</placeName>, moving in <date when="1758-11">Nov. 1758</date>
+               to be curate in <placeName>Lakenheath, Suffolk</placeName>.</note></p>
+         <p>It is not strange that any one should stifle the first convictions; neither ought that
+            to discourage you at all. Speak again. Be instant <foreign>
+               <index indexName="biblical">
+                  <term cRef="2Tim4:2">εὐκαίρως, ἀκαίρως</term>
+               </index></foreign>,<note place="foot" n="2"><index indexName="biblical">
+                  <term cRef="2Tim4:2">2 Tim. 4:2</term>
+               </index>: &apos;<index indexName="biblical">
+                  <term cRef="2Tim4:2">in season, out of season</term>
+               </index>&apos;.</note> and by-and-by you will see the effect.</p>
+         <p>Ten, perhaps twenty people, being dissatisfied they know not why, cry out,
+            &apos;Everybody is dissatisfied.&apos; Far from it. There wanted a little evil report to
+            balance the good report.</p>
+         <p>O <persName><ptr target="/persons/pers0763.xml"/>Sammy</persName>, be all in earnest!
+            Press through things temporal! Expect not happiness from any creature! Here we are,
+            whether for life or for death we know not. But God knows, and that is enough! I am,</p>
+         <closer><signed>Your affectionate brother,<lb/><persName>J.
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
