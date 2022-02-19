@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Samuel Furly (May 1, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-19</date>
+            <idno type="URI">http://syriaca.org/letters/1758-05-01-ToSamuelFurly</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Samuel Furly (May 1, 1758)</title>
+                     <date when="1758-05-01"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="126" to="127"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mr <persName><ptr target="/persons/pers0763.xml"
+                     />Furly</persName> / At Mr
+                  <persName>Greenwood</persName>s&apos;.<!-- Which greenwood is this, should i leave untagged? -->
+                  No postmark or indications of postal charge; apparently delivered by hand.
+                  Endorsement: &apos;<date when="1758">1758</date>&apos;. Source: holograph;
+                  Bridwell Library (SMU).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0763">
+                  <persName>Samuel Furly</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0105">
+                  <persName>William Barnard</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="persx3">
+                  <persName>[x]</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0763.xml"/>Samuel Furly</persName></head>
+         <opener><placeName>Tullamore</placeName><lb/><date when="1758-05-01">May 1, 1758</date><lb/><lb/>
+            <salute>Dear Sammy,</salute>
+         </opener>
+         <p>Two conversations I have had with the <persName><ptr target="/persons/pers0105.xml"
+               />Bishop of Londonderry</persName>,<note place="foot" n="1">The Bishop of Derry since
+                  <date when="1747">1747</date> had been <persName><ptr
+                     target="/persons/pers0105.xml"/>William Barnard</persName> (<date from="1679"
+                  to="1768">1697–1768</date>). <persName><ptr target="/persons/pers2180.xml"
+                  />JW</persName> was consulting <persName><ptr target="/persons/pers0105.xml"
+                  />Barnard</persName> about the possibility of <persName><ptr
+                     target="/persons/pers0763.xml"/>Furly</persName> being ordained without
+               requirement of a title (see the letter of <date when="1758-04-08">Apr. 8</date>
+               above).</note> and <foreign rend="italic">processimus pulchre</foreign>.<note
+               place="foot" n="2">&apos;We are proceeding well.&apos;</note> I intend to write to
+                  <persName><ptr target="/persons/pers0105.xml"/>him</persName> in a few days, and
+            then I shall be able to form a better judgement. <persName><ptr
+                  target="/persons/pers0105.xml"/>He</persName> loves the Methodists from his heart.
+            But <persName><ptr target="/persons/pers0105.xml"/>he</persName> is not free from the
+            fear of man. Yet I have much hope that love will conquer fear. Will it not conquer all
+            sin?</p>
+         <p>Why do you not go every afternoon to visit the sick? Can you find a more profitable
+            employment? I am,</p>
+         <p/>
+         <closer><signed>Your affectionate brother,<lb/><persName>J.
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
