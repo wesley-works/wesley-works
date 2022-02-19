@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Elizabeth Hardy (May 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-19</date>
+            <idno type="URI">http://syriaca.org/letters/1758-05-ToElizabethHardy</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Elizabeth Hardy (May 1758)</title>
+                     <date when="1758-05"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="125" to="126"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: The manuscript is pasted on a board that has been cut to expose:
+                  &apos;For <persName><ptr target="/persons/pers0934.xml"/>M.
+                  Hardy</persName>&apos;. Source: holograph; Wesley’s Chapel
+                     (<placeName>London</placeName>), LDWMM 1997/6731.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0934">
+                  <persName>Elizabeth Hardy</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0934.xml"/>Elizabeth Hardy</persName><note
+               place="foot" n="1">This may be <persName><ptr target="/persons/pers2180.xml"
+                  />JW</persName>&apos;s response to the &apos;second letter&apos; mentioned in his
+               earlier reply (<date when="1758-04-05">Apr. 5</date>) to <persName><ptr
+                     target="/persons/pers0934.xml"/>Hardy</persName>. The manuscript is undated,
+               but placed here because of the close connection in theme to the earlier
+               letter.</note></head>
+         <opener><placeName/><lb/><date when="1758-05">May 1758</date><lb/><lb/>
+            <salute/>
+         </opener>
+         <p>Without doubt it seems to you that yours is a peculiar case. You think there is none
+            like you in the world. Indeed there are. It may be ten thousand persons are now in the
+            same state of mind as you. I myself was so a few years ago. I felt the wrath of God
+            abiding on me. I was afraid every hour of dropping into hell. I knew myself to be the
+               <index indexName="biblical">
+               <term cRef="1Tim1:15">chief of sinners</term>
+            </index>.<note place="foot" n="2">See <index indexName="biblical">
+                  <term cRef="1Tim1:15">1 Tim. 1:15</term>
+               </index></note> Though I had been very innocent in the account of others, I saw my
+            heart to be all sin and corruption. I was without the knowledge and the love of God, and
+            therefore an abomination in his sight.</p>
+         <p>But I <index indexName="biblical">
+               <term cRef="1John2:1">had an advocate with the Father, Jesus Christ the
+                  righteous</term>
+            </index>.<note place="foot" n="3">See <index indexName="biblical">
+                  <term cRef="1John2:1">1 John 2:1</term>
+               </index>.</note> And so have you. He died for your sins, and he is now pleading for
+            you at the right hand of God. O look unto him and be saved! He loves you freely, without
+            any merit of yours. He has atoned for all your sins.</p>
+         <p>
+            <lg>
+               <l>See all your sins on Jesus laid!<note place="foot" n="4">CW, &apos;For the
+                     Anniversary Day of One’s Conversion&apos;, st. 14, HSP (<date when="1740"
+                        >1740</date>), 122</note></l>
+            </lg>
+         </p>
+         <p>His blood has paid for all. Fear nothing; only believe. His mercy embraces you; it holds
+            you in on every side. Surely you shall not depart hence till your eyes have seen his
+            salvation.</p>
+         <closer>I am, madam,<note place="foot" n="5">The manuscript page ends at this point.</note><lb/>
+            <signed/></closer>
+      </body>
+   </text>
+</TEI>
