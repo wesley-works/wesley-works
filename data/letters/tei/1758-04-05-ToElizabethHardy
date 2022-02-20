@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Elizabeth Hardy (April 5, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-20</date>
+            <idno type="URI">http://syriaca.org/letters/1758-04-05-ToElizabethHardy</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Elizabeth Hardy (April 5, 1758)</title>
+                     <date when="1758-04-05"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="119" to="123"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Arminian Magazine 3 (<date when="1780"
+                     >1780</date>): 223–27.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0934">
+                  <persName>Elizabeth Hardy</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1778">
+                  <persName>James Rouquet</persName>
+               </person>
+               <person xml:id="pers2127">
+                  <persName>Thomas Walsh</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0934.xml"/>Elizabeth Hardy</persName><note
+               place="foot" n="1"><hi rend="italic">AM</hi> labels this simply &apos;To Miss
+               H—&apos;. But related letters of <date when="1758-05">May 1758</date> and <date
+                  when="1761-12-26">Dec. 26, 1761</date> are specified as being to <persName><ptr
+                     target="/persons/pers0934.xml"/>Elizabeth Hardy</persName>. Little is known of
+                     <persName><ptr target="/persons/pers0934.xml"/>Hardy</persName> beyond these
+               letters. Telford says she lived in <placeName>Bristol</placeName>.</note></head>
+         <opener><placeName>Dublin</placeName><lb/><date when="1758-04-05">April 5, 1758</date><lb/><lb/>
+            <salute/>
+         </opener>
+         <p>It is with great reluctance that I at length begin to write: first, because I abhor
+            disputing, and never enter upon it but when I am, as it were, dragged into it by the
+            hair of the head; and next, because I have so little hope that any good will arise from
+            the present dispute. I fear your passions are too deeply interested in the question to
+            admit the force of the strongest reason. So that, were it not for the tender regard I
+            have for you, which makes your desire a motive I cannot resist, I should not spend half
+            an hour in so thankless a labour, and one wherein I have so little prospect of
+            success.</p>
+         <!-- There is a noticeable line gap after this para in pdf, do I include? -->
+         <p>&apos;The doctrine of perfection&apos;, you say, &apos;has perplexed you much since some
+            of our preachers have placed it in so dreadful a light, one of them affirming a
+            believer, till perfect, is under the curse of God and in a state of damnation; another,
+            if you die before you have attained it, you will surely perish.&apos;</p>
+         <p>By &apos;perfection&apos; I mean &apos;perfect love&apos;, or the loving God with all
+            our heart, so as to <index indexName="biblical">
+               <term cRef="1Thess5:16">rejoice evermore</term>
+            </index>, to <index indexName="biblical">
+               <term cRef="1Thess5:17">pray without ceasing</term>
+            </index>, and <index indexName="biblical">
+               <term cRef="1Thess5:18">in everything to give thanks</term>
+            </index>.<note place="foot" n="2">See <index indexName="biblical">
+                  <term cRef="1Thess5:16-18">1 Thess. 5:16–18</term>
+               </index>.</note> I am convinced every believer may attain this, yet I do not say he
+            is in a state of damnation or under the curse of God till he does attain. No, he is in a
+            state of grace and in favour with God as long as he believes. Neither would I say,
+            &apos;If you die without it, you will perish&apos;; but rather, &apos;Till you are saved
+            from unholy tempers, you are not ripe for glory. There will, therefore, more promises be
+            fulfilled in your soul before God takes you to himself.&apos;</p>
+         <p>&apos;But none can attain perfection unless they first believe it attainable.&apos;
+            Neither do I affirm this. I know a Calvinist in <placeName>London</placeName> who never
+            believed it attainable till the moment she did attain it, and then lay declaring it
+            aloud for many days till her spirit returned to God.</p>
+         <p>&apos;But you yourself believed twenty years ago that we should not put off the
+            infection of nature but with our bodies.&apos; I did so. But I believe otherwise now,
+            for many reasons, some of which you afterwards mention. How far Mr. <persName><ptr
+                  target="/persons/pers1778.xml"/>[James] Rouquet</persName> or Mr. <persName><ptr
+                  target="/persons/pers2127.xml"/>[Thomas] Walsh</persName> may have mistaken these
+            I know not. I can only answer for myself.</p>
+         <p>&apos;The nature and fitness of things&apos; is so ambiguous an expression that I never
+            make use of it. Yet if you ask me, &apos;Is it fit or necessary in the nature of things
+            that a soul should be saved from all sin before it enters into glory?&apos; I answer, it
+            is. And so it is written, &apos;<index indexName="biblical">
+               <term cRef="Rev21:27">No unclean thing shall enter into it</term>
+            </index>.&apos;<note place="foot" n="3"><index indexName="biblical">
+                  <term cRef="Rev21:27">Rev. 21:27</term>
+               </index>.</note> Therefore, whatever degrees of holiness they did or did not attain
+            in the preceding parts of life, neither Jews nor heathens any more than Christians ever
+            did or ever will enter into the New Jerusalem
+            <!-- Would this (New Jerusalem) get a placename tag? -->
+            unless they are cleansed from all sin before they enter into eternity.</p>
+         <p>I do by no means exclude the Old Testament from bearing witness to any truths of God.
+            Nothing less! But I say the experience of the <hi rend="italic">Jews</hi> is not the
+            standard of <hi rend="italic">Christian</hi> experience and that therefore, were it true
+            &apos;The Jews did not love God with all their heart and soul&apos;, it would not follow
+            &apos;Therefore no Christian can&apos;, because we may attain what they did not.</p>
+         <p>&apos;But&apos;, you say, &apos;either their words do not contain a promise of <hi
+               rend="italic">such perfection</hi>, or God did not fulfil this promise to them to
+            whom he made it.&apos; I answer, he surely will fulfil it to <hi rend="italic">them to
+               whom he made it</hi>—namely, to the Jews <hi rend="italic">after their dispersion
+               into all lands</hi>. And to these is the promise made, as will be clear to any who
+            impartially considers the 30th chapter of Deuteronomy, wherein it stands.</p>
+         <p>I doubt whether this perfection can be proved by <index indexName="biblical">
+               <term cRef="Luke6:40">Luke 6:40</term>
+            </index>. From <index indexName="biblical">
+               <term cRef="1John3:9">1 John 3:9</term>
+            </index> (which belongs to all the children of God) I never attempted to prove it. But I
+            still think it is clearly described in those words, &apos;<index indexName="biblical">
+               <term cRef="1John4:17">As he is, so are we in this world</term>
+            </index>.&apos;<note place="foot" n="4"><index indexName="biblical">
+                  <term cRef="1John4:17">1 John 4:17</term>
+               </index>.</note> And yet it doth not now appear &apos;what we shall be&apos; when
+               <index indexName="biblical">
+               <term cRef="Phil3:21">this vile body is &apos;fashioned like unto his glorious
+                  body</term>
+            </index>&apos;,<note place="foot" n="5">Phil. 3:21.</note> when we shall see him, not in
+            a glass, but face to face, and be transformed into his likeness.</p>
+         <p>Those expressions (<index indexName="biblical">
+               <term cRef="John13:10">John 13:10</term>
+            </index>), &apos;<index indexName="biblical">
+               <term cRef="John13:10">Ye are clean, clean every whit</term>
+            </index>,&apos; are allowed to refer to justification only. But that expression,
+               &apos;<index indexName="biblical">
+               <term cRef="1John1:7">If we walk in the light as he is in the light</term>
+            </index>&apos;,<note place="foot" n="6"><index indexName="biblical">
+                  <term cRef="1John1:7">1 John 1:7</term>
+               </index>.</note> cannot refer to justification only. It does not relate to
+            justification at all, whatever the other clause may do. Therefore those texts are by no
+            means parallel, neither can the latter be limited by the former, although it is sure the
+            privileges described in both belong to every adult believer.</p>
+         <p>Not<note place="foot" n="7">Orig., &apos;But not&apos;.</note> only abundance of
+            particular texts, but the whole tenor of Scripture declares, Christ came to &apos;<index
+               indexName="biblical">
+               <term cRef="1John3:8">destroy the works of the devil</term>
+            </index>&apos;,<note place="foot" n="8"><index indexName="biblical">
+                  <term cRef="1John3:8">1 John 3:8</term>
+               </index>.</note> to &apos;<index indexName="biblical">
+               <term cRef="Matt1:21">save us from our sins</term>
+            </index>&apos;;<note place="foot" n="9">Cf. <index indexName="biblical">
+                  <term cRef="Matt1:21">Matt. 1:21</term>
+               </index>.</note> all the works of the devil, all our sins, without any exception or
+            limitation. Indeed, should &apos;<index indexName="biblical">
+               <term cRef="1John1:8">we say we have no sin</term>
+            </index>&apos;<note place="foot" n="10"><index indexName="biblical">
+                  <term cRef="1John1:8">1 John 1:8</term>
+               </index>.</note>
+            <index indexName="biblical">
+               <term cRef="1John1:8">to be saved or cleansed from,</term>
+            </index> we should make him come in vain. But it is at least as much for his glory to
+            cleanse us from them all before our death as after it.</p>
+         <p>&apos;But St James says, &quot;<index indexName="biblical">
+               <term cRef="James3:2">In many things we offend all</term>
+            </index>&quot;;<note place="foot" n="11"><index indexName="biblical">
+                  <term cRef="James3:2">James 3:2</term>
+               </index>.</note> and whatever &quot;<index indexName="biblical">
+               <term cRef="James3:2">we</term>
+            </index>&quot; might mean if alone, the expression &quot;<index indexName="biblical">
+               <term cRef="James3:2">we all</term>
+            </index>&quot; was never before understood to exclude the person speaking.&apos;<note
+               place="foot" n="12"><persName><ptr target="/persons/pers0934.xml"/>Hardy</persName>
+               is specifically rejecting <persName><ptr target="/persons/pers2180.xml"
+                  />Wesley</persName>&apos;s treatment of this verse in Sermon 40, <hi rend="italic"
+                  >Christian Perfection</hi>, II.17 (2:114–15 in this edn.).</note> Indeed it was.
+            It is unquestionably to be understood so as to exclude Isaiah, the person speaking,
+               &apos;<index indexName="biblical">
+               <term cRef="Isaiah64:6">We are all as an unclean thing. We all do fade as a leaf; and
+                  our iniquities, like the wind, have taken us away</term>
+            </index>&apos; (<index indexName="biblical">
+               <term cRef="Isaiah64:6">44:6</term>
+            </index>)<!-- I only found this under Isaiah 64:6, not 44:6 for King James Version -->.
+            For this was not the case with Isaiah himself. Of himself he says, &apos;<index
+               indexName="biblical">
+               <term cRef="Isaiah61:10">My soul shall be joyful in my God; for he hath clothed me
+                  with the garments of salvation. He hath covered me with the robe of
+                  righteousness</term>
+            </index>&apos; (<index indexName="Isaiah61:10">
+               <term>41:10</term>
+            </index>)<!-- Same with this, I only found under Isaiah 61:10, not 41:10 King James Version-->.
+            Here the prophet, like the apostle, uses the word &apos;we&apos; instead of
+            &apos;you&apos; to soften the harshness of an unpleasing truth.</p>
+         <p>In this chapter the apostle is not cautioning them against censuring others, but
+            entering upon a new argument wherein the second verse has an immediate reference to the
+            first, but none at all to the thirteenth of the preceding chapter.<note place="foot"
+               n="13"><index indexName="biblical">
+                  <term cRef="James2:13">James 2:13</term>
+               </index>, &apos;<index indexName="biblical">
+                  <term cRef="James2:13">For he shall have judgment without mercy that hath showed
+                     no mercy, and mercy rejoiceth against judgment</term>
+               </index>.&apos;</note></p>
+         <p>I added, &quot; &apos;We offend all&quot; cannot be spoken of all […] Christians, for
+            immediately there follows the mention of one who &quot;offends not,&quot; as the
+            &quot;we&quot; before-mentioned did.&apos;<note place="foot" n="14">Sermon 40, <hi
+                  rend="italic">Christian Perfection</hi>, II.17 (2:115 in this edn.).</note> You
+            answer, &apos;His not offending <hi rend="italic">in word</hi> will not prove that he
+            does not offend <hi rend="italic">in many things</hi>.&apos; I think St James himself
+            proves it in saying, &apos;<index indexName="biblical">
+               <term cRef="James3:2">He is able to bridle also the whole body</term>
+            </index>&apos;,<note place="foot" n="15"><index indexName="biblical">
+                  <term cRef="James3:2">James 3:2</term>
+               </index>.</note> to direct all his actions as well as words according to the holy,
+            perfect will of God, which those, and those only, are able to do who love God with all
+            their hearts. And yet these very persons can sincerely say, &apos;Forgive us our
+            trespasses.&apos; For as long as they are in the body, they are liable to mistake and to
+            speak or act according to that mistaken judgement.<note place="foot" n="16">Another
+               instance of <persName><ptr target="/persons/pers2180.xml"/>JW</persName>&apos;s
+               distinction between such trespasses and &apos;sin properly so called&apos;, or
+               &apos;a voluntary transgression of a known law of God&apos;; cf. <persName><ptr
+                     target="/persons/pers2180.xml"/>JW</persName>, &apos;Thoughts on Christian
+               Perfection&apos; (<date when="1760">1760</date>), Q. 6, 13:61–62 in this edn.</note>
+            Therefore they cannot abide the rigour of justice, but still need mercy and
+            forgiveness.</p>
+         <p>Were <hi rend="italic">you</hi> to ask, &apos;What if I should die this moment?&apos; I
+            should answer, I believe you would be saved, because I am persuaded none that has faith
+            can die before he is made ripe for glory. This is the doctrine which I continually teach
+            which has nothing to do with justification by works. Nor can it discourage any who have
+            faith, neither weaken their peace, nor damp their joy in the Lord. True believers are
+            not distressed hereby, either in life or in death; unless in some rare instance wherein
+            the temptation of the devil is joined with a melancholy temper.</p>
+         <p>Upon the whole, I observe your great argument turns all along on a mistake of the
+            doctrine. Whatever warm expressions may drop from young men, we do not teach that any
+            believer is under condemnation. So that all the inferences drawn from this supposition
+            fall to the ground at once.</p>
+         <p>Your other letter I hope to consider hereafter. Though I have great reason to apprehend
+            your prejudice will still be too strong for my arguments. However, whether you expect it
+            or not, I must wish for your perfection. You of all people have most need of perfect
+            love, because this alone casts out fear.</p>
+         <closer>I am, with great sincerity,<lb/>
+            <signed>Your affectionate brother and servant,<lb/><persName>John
+               Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
