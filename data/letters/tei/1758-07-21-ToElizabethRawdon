@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Elizabeth (Hastings) Rawdon, Countess of Moira (July 21, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-24</date>
+            <idno type="URI">http://syriaca.org/letters/1758-07-21-ToElizabethRawdon</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Elizabeth (Hastings) Rawdon, Countess of Moira (July 21,
+                        1758)</title>
+                     <date when="1758-07-21"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="130" to="131"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Endorsement: &apos;Mr. <persName><ptr target="/persons/pers2180.xml"
+                     />John Wesley</persName>
+                  <date when="1758-07">July 1758</date>&apos;. Source: holograph; MARC, MAM JW 4/50
+                  (address portion missing).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1684">
+                  <persName>Elizabeth Rawdon</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="persx2">
+                  <persName>[x]</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers1685">
+                  <persName>John Rawdon</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers1684.xml"/>Elizabeth (Hastings) Rawdon,
+               Countess of Moira</persName><note place="foot" n="1">While the address portion of the
+               letter is missing, it is directed to the wife of a peer. When a transcription was
+               published in WHS 19 (1934): 144–45, it was identified as to <persName><ptr
+                     target="/persons/pers1684.xml"/>Elizabeth (Hastings) Rawdon</persName>. This
+               would fit the fact that <persName><ptr target="/persons/pers1684.xml"
+                  />Elizabeth</persName> and her husband <persName><ptr
+                     target="/persons/pers1685.xml"/>John Rawdon</persName>, 1st Earl of Moira, were
+               supporters of <persName><ptr target="/persons/pers2180.xml"/>JW</persName> in
+                  <placeName>Ireland</placeName>. Likewise, the owner of the letter in <date
+                  when="1934">1934</date> was in <placeName>Ireland</placeName>. See also
+                     <persName><ptr target="/persons/pers2180.xml"/>JW</persName>&apos;s letter to
+                     <persName><ptr target="/persons/pers1684.xml"/>Elizabeth Rawdon</persName> of
+                  <date when="1760-03-18">Mar. 18, 1760</date>.</note></head>
+         <opener><placeName>Cork</placeName><lb/><date when="1758-07-21">July 21, 1758</date><lb/><lb/>
+            <salute>Madam,</salute>
+         </opener>
+         <p>If faith implied no more than a system of right opinions, one could not reasonably doubt
+            of the faith, of so eminent a defender of several Christian doctrines as Mr.
+            H.<!-- Who is Mr.H? --> was. But if it implies a divine <index indexName="biblical">
+               <term cRef="Heb11:1">evidence of things not seen</term>
+            </index>;<note place="foot" n="2">See <index indexName="biblical">
+                  <term cRef="Heb11:1">Heb. 11:1</term>
+               </index>; Wesley&apos;s consistent definition of &apos;faith&apos;; cf. Sermon 43,
+                  <hi rend="italic">The Scripture Way of Salvation</hi>, II:1–2, 2:160–61 in this
+               edn.</note> in particular, of God&apos;s love to <hi rend="italic">me</hi>; then I
+            cannot but doubt of the faith of every man on earth who does not possess (in some good
+            degree) all the Christian tempers, in the front of which lowliness and meekness stand.
+            But from many eye- and ear- witnesses I have learned that Mr. H. <!-- Who is Mr.H? -->
+            did not possess these tempers. And if he did not, he had not Christian faith, how well
+            so ever he defended the Christian doctrine. Of his death indeed I never received any
+            account, but if the hope he therein expressed was the fruit of deep repentance for his
+            uncommon pride, ungovernable passion, and high contempt of all his opponents, it was
+            true Christian hope; and I should not then doubt but he is lodged in <index
+               indexName="biblical">
+               <term cRef="Luke16:23">Abraham&apos;s bosom</term>
+            </index>.<note place="foot" n="3">See <index indexName="biblical">
+                  <term cRef="Luke16:23">Luke 16:23</term>
+               </index>. <persName><ptr target="/persons/pers2180.xml"/>JW</persName> understood the
+               expressions &apos;paradise&apos; and &apos;the bosom of Abraham&apos; to denote the
+               intermediate state of a believer between death and the final judgment; see Sermon 73,
+               &apos;Of Hell&apos;, I:4, 3:35 in this edn.</note></p>
+         <p>It is an easy thing to make allowances to any who (so far as we can judge) <index
+               indexName="biblical">
+               <term cRef="Phil2:5">have the mind that was in Christ</term>
+            </index>.<note place="foot" n="4">See <index indexName="biblical">
+                  <term cRef="Phil2:5">Phil. 2:5</term>
+               </index>.</note> I love and reverence all the externals of religion, but what are all
+            these to the Kingdom of God within us? Let us spend the most, and the choicest of our
+            time on confirming and enlarging this! I want holy tempers and can scarce waste a
+            thought on any thing which does not conduce to these. O that his Lordship and you may
+            abound in them more and more! I am, madam,</p>
+         <closer><signed>Your affectionate servant for Christ&apos;s sake,<lb/><persName>John
+                  Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
