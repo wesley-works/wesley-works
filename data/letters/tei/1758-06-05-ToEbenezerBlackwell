@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Ebenezer Blackwell (June 5, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-20</date>
+            <idno type="URI">http://syriaca.org/letters/1758-06-05-ToEbenezerBlackwell</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Ebenezer Blackwell (June 5, 1758)</title>
+                     <date when="1758-06-05"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="127" to="128"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: This letter is reconstructed from three sources: 1) a ms.
+                  fragment at Emory, MARBL, <persName><ptr target="/persons/pers2180.xml"/>John
+                     Wesley</persName> Collection, 1/28; 2) a nineteenthcentury ms. transcription at
+                  MARC, MA 1977/609; and 3) a published transcription in Tyerman, <hi rend="italic"
+                           ><persName><ptr target="/persons/pers2180.xml"/>John
+                     Wesley</persName></hi>, 2:304–5.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0179">
+                  <persName>Ebenezer Blackwell</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+               <person xml:id="pers0128">
+                  <persName>Mr. Beauchamp</persName>
+               </person>
+               <person xml:id="persx4">
+                  <persName>[x]</persName>
+                  <!-- Left unfilled until I know which brother JW references in this letter -->
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0179.xml"/>Ebenezer Blackwell</persName><note
+               place="foot" n="1"><persName><ptr target="/persons/pers2180.xml"
+               />JW</persName>&apos;s letter to <persName><ptr target="/persons/pers1793.xml"/>Sarah
+                  Ryan</persName> of <date when="1758-01-27">Jan. 27, 1758</date> indicates that his
+               wife <persName><ptr target="/persons/pers2091.xml"/>Mary</persName> had vowed to
+               leave him after reading a letter from <persName><ptr target="/persons/pers2180.xml"
+                  />JW</persName> to <persName><ptr target="/persons/pers1793.xml"/>Ryan</persName>.
+               This letter shows <persName><ptr target="/persons/pers2180.xml"
+               />Wesley</persName>&apos;s growing concern over his <persName><ptr
+                     target="/persons/pers2091.xml"/>wife</persName>&apos;s reading letters
+               addressed to him.</note></head>
+         <opener><placeName>Castlebar</placeName><lb/><date when="1758-06-05">June 5, 1758</date><lb/><lb/>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>I suppose my <persName><ptr target="/persons/pers2091.xml"/>wife</persName> is now in
+               <placeName>London</placeName>, as the letters I received thence in the last
+               frank<note place="foot" n="2">The word &apos;frank&apos; denoted a parcel of letters
+               marked for free delivery.</note> were open; for <persName><ptr
+                  target="/persons/pers2091.xml"/>she</persName> still insists on <persName><ptr
+                  target="/persons/pers2091.xml"/>her</persName> right of reading all the letters
+            which are sent to me. And I have no friend or servant where <persName><ptr
+                  target="/persons/pers2091.xml"/>she</persName> is who has honesty and courage to
+            prevent it. I find since I left England all my domestics have changed their sentiments,
+            and are convinced <persName><ptr target="/persons/pers2091.xml"/>she</persName> is a
+            poor, quiet creature that is barbarously used. I should not at all wonder if my
+               <persName>brother</persName><!-- Which brother does this refer to? --> and you were
+            brought over to the same opinion.</p>
+         <p>Since I came into this kingdom I have wrote several times. But I have not received one
+            line in answer. So I sit still.<note place="foot" n="3">The version of the letter given
+               in Tyerman begins at this point, omitting all the previous material. It also omits
+               the following sentences: &apos;I have in this respect done what <hi rend="italic">I
+                  ought</hi> and what <hi rend="italic">I could</hi>. Now let God do what seemeth
+               him good.&apos;</note> I have learned by the grace of God in every state to be
+            content. I have in this respect done what <hi rend="italic">I ought</hi> and what <hi
+               rend="italic">I could</hi>. Now let God do what seemeth him good. What a peace do we
+            find in all circumstances when we can say, &apos;Not as I will, but as thou
+               wilt!&apos;<note place="foot" n="4">The fragmentary copy at Emory University ends at
+               this point. In addition, everything in this paragraph after &apos;So I sit
+               still&apos; is struck through, as if for omission. This material is not shown as
+               struck through in the copy at MARC, but it too lacks the remaining material in the
+               letter up to &apos;My best wishes attend you&apos;.</note></p>
+         <p>I have now gone through the greatest part of this kingdom—
+               <placeName>Leinster</placeName>, <placeName>Ulster</placeName>, and the greater half
+            of <placeName>Connaught</placeName>. Time only is wanting. If my
+               <persName>brother</persName>
+            <!-- Which brother, who to tag here? -->could take care of
+               <placeName>England</placeName> and give me but one year for
+               <placeName>Ireland</placeName>, I think every corner of this nation would receive the
+            truth as it is in Jesus. They want only to hear it; and they will hear me, high and low,
+            rich and poor. What a mystery of providence is this! In <placeName>England</placeName>
+            they may hear, but will not. In <placeName>Ireland</placeName> they fain would hear, but
+            cannot. So in both, thousands perish for lack of knowledge. So much the more blessed are
+            your ears, for they hear; if you not only hear the word of God, but keep it.</p>
+         <p>I hope you find public affairs changing for the better. In this corner of the world we
+            know little about them; only we are told that the great little king in Moravia is not
+            swallowed up yet.<note place="foot" n="5">During the Seven Years War, Prussian King
+               Frederick the Great invaded Moravia, then part of the Hapsburg monarchy, in <date
+                  when="1758-05">May 1758</date>. At the end of <date when="1758-06">June</date>,
+               the Austrian army aligned with the Hapsburg empire won an unexpected victory over the
+               Prussian army in the battle of
+               Domstadtl.<!-- I am note sure how to tag any of these details with accuracy, i.e. Austrian army,Hapsburg empire etc. --></note></p>
+         <p>Till near the middle of next month I expect to be at Mr. <persName><ptr
+                  target="/persons/pers0128.xml"/>Beauchamp</persName>&apos;s in
+               <placeName>Limerick</placeName>. I hope you have a fruitful season in every respect.
+            My best wishes attend you all.<note place="foot" n="6">The copy at MARC lacks the word
+               &apos;all&apos; and summarises the concluding &apos;your affectionate servant&apos;
+               to &apos;yr affect.&apos;</note> I am, dear sir,</p>
+         <closer><signed>Your affectionate servant,<lb/><persName>J.
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
