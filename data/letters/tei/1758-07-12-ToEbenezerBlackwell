@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Ebenezer Blackwell (July 12, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-24</date>
+            <idno type="URI">http://syriaca.org/letters/1758-07-12-ToEbenezerBlackwell</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Ebenezer Blackwell (July 12, 1758)</title>
+                     <date when="1758-07-12"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="128" to="130"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mr <persName><ptr target="/persons/pers0179.xml"
+                     />Blackwell</persName> / In Change Alley / <placeName>London</placeName>&apos;.
+                  Postmarks: &apos;<placeName>DUBLIN</placeName>&apos; and &apos;28 / IY&apos;.
+                  Charge: &apos;4&apos;. Endorsement: &apos;Rev&apos;d Mr. <persName><ptr
+                        target="/persons/pers2180.xml"/>John Westly</persName> /
+                     <placeName>Bandon</placeName>
+                  <date when="1758-07-12">12 July 1758</date>&apos;. Source: holograph; Emory,
+                  MARBL, Wesley Family Papers, OBV1, p. 4.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0179">
+                  <persName>Ebenezer Blackwell</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0611">
+                  <persName>George Downing</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+               <person xml:id="pers0506">
+                  <persName>Sarah Crosby</persName>
+               </person>
+               <person xml:id="pers0180">
+                  <persName>Elizabeth Blackwell</persName>
+               </person>
+               <person xml:id="pers0527">
+                  <persName>Captain Dansey</persName>
+               </person>
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+               <person xml:id="pers2127">
+                  <persName>Thomas Walsh</persName>
+               </person>
+               <person xml:id="pers2093">
+                  <persName>Henry Venn</persName>
+               </person>
+               <person xml:id="pers1341">
+                  <persName>Martin Madan</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="persx3">
+                  <persName>William Legge</persName>
+                  <!-- Do not have his correct ID yet -->
+               </person>
+               <person xml:id="pers0964">
+                  <persName>Selina Hastings</persName>
+               </person>
+               <person xml:id="pers1771">
+                  <persName>William Romaine</persName>
+               </person>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0179.xml"/>Ebenezer
+            Blackwell</persName></head>
+         <opener><placeName>Bandon</placeName><lb/><date when="1758-07-12">July 12, 1758</date><lb/><lb/>
+            <salute/>
+         </opener>
+         <p>Really, sir, you had made me almost angry at an innocent person— I mean, innocent of the
+            fault supposed. I wrote to Mr. <persName><ptr target="/persons/pers0611.xml"
+               />Downing</persName><note place="foot" n="1"><persName><ptr
+                     target="/persons/pers0611.xml"/>George Downing</persName> (c. <date from="1729"
+                  to="1809">1729–1809</date>) was a priest in the Church of
+                  <placeName>England</placeName> sympathetic with the Evangelical revival, at least
+               with its &apos;regular&apos; wing who stressed conformity to church law. He was
+               rector of <placeName>Ovington, Essex</placeName>, and also served as chaplain to
+                  <persName>William Legge</persName><!-- No specific persID yet -->, the second Earl
+               of Dartmouth.</note> nearly at the time I wrote to you; and seeing no name, I read
+            part of your letter as from <persName><ptr target="/persons/pers0611.xml"
+               />him</persName>, and thought &apos;My <persName><ptr target="/persons/pers2091.xml"
+               />wife</persName> did very wrong to trouble <persName><ptr
+                  target="/persons/pers0611.xml"/>him</persName> with matters of this kind, which
+            might do <persName><ptr target="/persons/pers0611.xml"/>him</persName> more harm than
+            good&apos;. Time and patience will remove many other troubles, and show them to have no
+            more foundation than this.</p>
+         <p>While you have so eloquent a person<note place="foot" n="2">Apparently referring to
+                     <persName><ptr target="/persons/pers2091.xml"/>Mary Wesley</persName>.</note>
+            at your elbow, and I am two or three hundred miles off, I have little to say. It may be
+            time enough when I return to <placeName>London</placeName>. At present I would only make
+            two or three cursory remarks.</p>
+         <p>1) That letter was not <hi rend="italic">left on a chair</hi>, but <hi rend="italic"
+               >taken out of my</hi> pocket.<note place="foot" n="3">See <persName><ptr
+                     target="/persons/pers2180.xml"/>JW</persName>&apos;s letter to <persName><ptr
+                     target="/persons/pers1793.xml"/>Sarah Ryan</persName>, <date when="1756-01-27"
+                  >Jan. 27,
+               1756</date>.<!-- I personally believe this should be the letter of Jan. 27, 1758 not 56 --></note></p>
+         <p>2) It was not <hi rend="italic">letters</hi>, but a <hi rend="italic">letter</hi> of
+            mine (and one which did not signify a straw) which <persName><ptr
+                  target="/persons/pers0506.xml"/>Sarah Crosby</persName> some time since showed to
+            three or four persons, and of which she will hear these ten years.<note place="foot"
+               n="4">&apos;years&apos; is clear in the manuscript, but <persName><ptr
+                     target="/persons/pers2180.xml"/>JW</persName> perhaps meant to write
+               &apos;weeks&apos;.</note> I write to <persName><ptr target="/persons/pers0506.xml"
+               />her</persName> when I judge it my duty so to do; but I have not wrote these ten or
+            twelve weeks.</p>
+         <p>3) If you softened or salved over anything I wrote in the letter from Bedford,<note
+               place="foot" n="5"><persName><ptr target="/persons/pers2180.xml"/>JW</persName> was
+               in <placeName>Bedford</placeName>
+               <date from="1758-03-09" to="1758-03-10">Mar. 9–10</date>; no letter to his
+                     <persName><ptr target="/persons/pers2091.xml"/>wife</persName> of this date has
+               survived.</note> you did <persName><ptr target="/persons/pers2091.xml"
+               />her</persName> an irreparable damage. What <hi rend="italic">I</hi> am is not the
+            question there, but what <hi rend="italic"><persName><ptr target="/persons/pers2091.xml"
+                  />she</persName></hi> is, of which I must needs be a better judge than you, for I
+            wear the shoe—as you must needs be a better judge of Mrs. <persName><ptr
+                  target="/persons/pers0180.xml"/>[Elizabeth] Blackwell</persName>&apos;s temper
+            than I.</p>
+         <p>4) &apos;<persName><ptr target="/persons/pers2091.xml"/>She</persName> is now full of
+            anger.&apos; High day! Anger! For what? Why because when <persName><ptr
+                  target="/persons/pers0527.xml"/>Captain Dansey</persName> called upon me in
+               <placeName>Dublin</placeName> (on the <date when="1758-04-07">7th of April</date>)
+            and asked, &apos;Sir, have you any commands? I am just sailing for
+               <placeName>Bristol</placeName>&apos;, I said, &apos;Yes. Here is a letter. Will you
+            deliver it with your own hands?&apos;<note place="foot" n="6">No letter from
+                     <persName><ptr target="/persons/pers2180.xml"/>JW</persName> to his
+                     <persName><ptr target="/persons/pers2091.xml"/>wife</persName> has survived
+               from this period either.</note>
+            <persName><ptr target="/persons/pers0527.xml"/>He</persName> promised <persName><ptr
+                  target="/persons/pers0527.xml"/>he</persName> would, and that was our whole
+            conversation.</p>
+         <p>5) But suppose <persName><ptr target="/persons/pers0527.xml"/>he</persName> delivered
+            this about the <date when="1758-04-12">12th of April</date>, why did <persName><ptr
+                  target="/persons/pers2091.xml"/>she</persName> not write for a month before? What
+            excuse or pretence for this?</p>
+         <p>6) I certainly will, as long as I can hold a pen, assert my right of conversing with
+            whom I please. Reconciliation or none, let <hi rend="italic"><persName><ptr
+                     target="/persons/pers2091.xml"/>her</persName></hi> look to that. If the
+            unbeliever will depart, let <persName><ptr target="/persons/pers2091.xml"
+               />her</persName> depart. That right I will exert just when I judge proper, giving an
+            account only to God and my own conscience. Though (as it happens) the last letter I
+            wrote to <persName><ptr target="/persons/pers1793.xml"/>Sarah Ryan</persName> was in the
+            beginning of <date when="1758-05">May</date>.<note place="foot" n="7">This letter has
+               not survived.</note></p>
+         <p>7) My conscience bears me witness before God that I have been as &apos;cautious as I
+            ought to have been&apos;; for I have rigorously kept my rule, &apos;To <hi rend="italic"
+               >do</hi> everything and <hi rend="italic">omit</hi> everything which I could with a
+            safe conscience for peace sake&apos;.</p>
+         <p>But there is no fence against a flail, against one that could tell <persName><ptr
+                  target="/persons/pers2127.xml"/>Thomas Walsh</persName> calmly and deliberately
+                  (<persName><ptr target="/persons/pers2127.xml"/>he</persName> begs this may not be
+            mentioned again, nor <persName><ptr target="/persons/pers2127.xml"/>his</persName> name
+            brought into the question), &apos;His parting words to me were, &quot;I hope I shall see
+            your wicked face no more.&apos; &quot; Can you ever be safe against being deceived by
+            such an one but by not believing a word you hear?</p>
+         <p>In a week or two I shall be looking out for a ship. You people in
+               <placeName>England</placeName> are bad correspondents. Both <persName><ptr
+                  target="/persons/pers0611.xml"/>Mr. Downing</persName>, <persName><ptr
+                  target="/persons/pers2093.xml"/>Mr. Venn</persName>,<note place="foot" n="8">On
+                     <persName><ptr target="/persons/pers2093.xml"/>Henry Venn</persName> (<date
+                  from="1725" to="1797">1725–97</date>), see 26:535 in this edn.</note> and
+                  <persName><ptr target="/persons/pers1341.xml"/>Mr. Madan</persName><note
+               place="foot" n="9"><persName><ptr target="/persons/pers1341.xml"/>Martin
+                  Madan</persName> (<date from="1725" to="1790">1725–90</date>) was a
+               &apos;spiritual son&apos; of <persName><ptr target="/persons/pers2180.xml"
+                  />JW</persName>, awakened under <persName><ptr target="/persons/pers2180.xml"
+                  />his</persName> preaching. But <persName><ptr target="/persons/pers1341.xml"
+                  />Madan</persName> soon aligned with more Calvinist-leaning evangelicals like
+                     <persName><ptr target="/persons/pers0964.xml"/>Lady Huntingdon</persName>,
+                  <persName>David Jones</persName>, <persName><ptr target="/persons/pers1771.xml"
+                  />William Romaine</persName>, and <persName><ptr target="/persons/pers2221.xml"
+                  />George Whitefield</persName>.</note> are a letter in my debt; and yet I think
+            they have not more business than I have. How unequally are things distributed here! Some
+            want time, and some want work! But all will be set right hereafter. There is no disorder
+            on that shore.</p>
+         <closer>Wishing all happiness to you and all that are with you, I remain,
+            dear sir,<lb/>
+            <signed>Yours most affectionately,<lb/><persName>J.W.</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
