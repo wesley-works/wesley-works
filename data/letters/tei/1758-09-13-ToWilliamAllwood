@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To William Allwood (Septemer 13, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-24</date>
+            <idno type="URI">http://syriaca.org/letters/1758-09-13-ToWilliamAllwood</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To William Allwood (Septemer 13, 1758)</title>
+                     <date when="1758-09-13"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="133" to="134"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Postmark: &apos;19/SE&apos;.<note place="foot" n="7">Nothing more of the
+                     address can be seen, but <persName><ptr target="/persons/pers0909.xml"/>Ruth
+                        Hall</persName> lived in <placeName>York</placeName>.</note> Source:
+                  holograph; privately held (current owner unknown, Wesley Works Editorial Project
+                  Archive includes a copy).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0025">
+                  <persName>William Allwood</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0793">
+                  <persName>John Gibbs</persName>
+               </person>
+               <person xml:id="pers2038">
+                  <persName>Thomas Tobias</persName>
+               </person>
+               <person xml:id="pers1439">
+                  <persName>Thomas Mitchell</persName>
+               </person>
+               <person xml:id="pers0909">
+                  <persName>Ruth Hall</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0025.xml"/>William Allwood</persName><note
+               place="foot" n="1">While the address is not visible, <persName><ptr
+                     target="/persons/pers0025.xml"/>William Allwood</persName> had been assigned to
+               serve the <placeName>York</placeName> circuit the previous month with <persName><ptr
+                     target="/persons/pers1439.xml"/>Thomas Mitchell</persName> and <persName><ptr
+                     target="/persons/pers2038.xml"/>Thomas Tobias</persName> (see 10:287 in this
+               edn.), one of Wesley&apos;s <seg ana="itinerancy">itinerant preachers</seg> on the
+                  <placeName>York</placeName> &apos;Round&apos; or circuit (see 21:206, n. 9 in this
+               edn.) <persName><ptr target="/persons/pers2180.xml"/>JW</persName> often spelled
+                     <persName><ptr target="/persons/pers0025.xml"/>his</persName> last name
+                     &apos;<persName><ptr target="/persons/pers0025.xml"/>Alwood</persName>&apos;,
+               but <persName><ptr target="/persons/pers0025.xml"/>his</persName> own signature
+               included the second &apos;l&apos;.</note></head>
+         <opener><placeName>Bristol</placeName><lb/><date when="1758-09-13">September 13,
+               1758</date><lb/><lb/>
+            <salute>My Dear Brother,</salute>
+         </opener>
+         <p>Enquire <hi rend="italic">why</hi> brother <persName><ptr target="/persons/pers0793.xml"
+               />Gibbs</persName><note place="foot" n="2">This is apparently <persName><ptr
+                     target="/persons/pers0793.xml"/>John Gibbs</persName>, who was accepted as an
+                  <seg ana="itinerancy">itinerant</seg> at the <date when="1758-08">August
+                  1758</date> Conference (see 10:282 in this edn.); perhaps <persName><ptr
+                     target="/persons/pers0793.xml"/>he</persName> had been preaching in
+                  <placeName>York</placeName> previously, or maybe <persName><ptr
+                     target="/persons/pers0793.xml"/>he</persName> stayed in
+                  <placeName>York</placeName> even though <persName><ptr
+                     target="/persons/pers0793.xml"/>he</persName> was assigned by Conference to
+                  <placeName>Cornwall</placeName> (see 10:286 in this edn. and <persName><ptr
+                     target="/persons/pers2180.xml"/>JW</persName>&apos;s letter to <persName><ptr
+                     target="/persons/pers0025.xml"/>Allwood</persName> on <date when="1758-10-15"
+                  >Oct. 15, 1758</date>)</note> was not liked at those places and tell
+                  <persName><ptr target="/persons/pers0793.xml"/>him</persName> frankly what has
+            been amiss. Write again and hasten brother <persName><ptr target="/persons/pers2038.xml"
+               />Tobias</persName>.<note place="foot" n="3"><persName><ptr
+                     target="/persons/pers2038.xml"/>Thomas Tobias</persName> (d. <date when="1767"
+                  >1767</date>) was a native of <placeName>Wales</placeName> who appears in the
+               Minutes as a <seg ana="itinerancy">traveling preacher</seg> in <date when="1755"
+                  >1755</date> (10:272 in this edn.) and served until <persName><ptr
+                     target="/persons/pers2038.xml"/>his</persName> death in early <date when="1767"
+                  >1767</date>. See Atmore, <hi rend="italic">Memorial</hi>, 428–30.</note>
+            <placeName>Lincolnshire</placeName> is now fully supplied without <persName><ptr
+                  target="/persons/pers2038.xml"/>him</persName>.</p>
+         <p><persName><ptr target="/persons/pers1439.xml"/>Thomas Mitchell</persName><note
+               place="foot" n="4">On <persName><ptr target="/persons/pers1439.xml"/>Thomas
+                  Mitchell</persName>, see 26:474 in this edn.</note> is fast in
+               <placeName>Sussex</placeName> as yet; I have letter upon letter to desire
+                  <persName><ptr target="/persons/pers1439.xml"/>he</persName> may not leave it, and
+            I suppose <persName><ptr target="/persons/pers1439.xml"/>he</persName> will not stir
+            from thence till I &lt;go<note place="foot" n="5">A small portion of the manuscript is
+               torn away, but can be reconstructed in the two lines affected.</note>&gt; myself and
+            fetch <persName><ptr target="/persons/pers1439.xml"/>him</persName>.</p>
+         <p>I &lt;know&gt; no reason at all why you should not feel always what you felt then. The
+            gifts of God are all without repentance on <hi rend="italic">his</hi> part. He is
+            willing to give always what he gives once, and what more than you feel, <persName><ptr
+                  target="/persons/pers0909.xml"/>Ruth Hall</persName><note place="foot" n="6">This
+               is <persName><ptr target="/persons/pers2180.xml"/>JW</persName>&apos;s first mention
+               of Mrs. <persName><ptr target="/persons/pers0909.xml"/>Ruth Hall</persName> (maiden
+               name unknown). <persName><ptr target="/persons/pers0909.xml"/>She</persName> was born
+               in <placeName>Woolley, Yorkshire</placeName> in <date when="1732">1732</date>,
+               converted in <placeName>York</placeName> in <date when="1752">1752</date>, married in
+                  <date when="1753">1753</date>, and claimed entire sanctification in <date
+                  when="1757">1757</date>. <persName><ptr target="/persons/pers2180.xml"
+                  />JW</persName> carried on extensive correspondence with <persName><ptr
+                     target="/persons/pers0909.xml"/>her</persName> between <date from="1759"
+                  to="1762">1759 and 1762</date>, though only his published transcriptions of her
+               letters survive. See &apos;A Short Account of <persName><ptr
+                     target="/persons/pers0909.xml"/>Ruth Hall</persName>&apos;, <hi rend="italic"
+                  >AM</hi> 4 (<date when="1781">1781</date>): 477–80.</note> experiences—it is all
+            for <hi rend="italic">you</hi>. Only be not afraid of knowing yourself, of seeing the
+            inbred monster&apos;s face. I am, with love to her and all our friends,</p>
+         <closer><signed>Your affectionate brother,<lb/><persName>J. Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
