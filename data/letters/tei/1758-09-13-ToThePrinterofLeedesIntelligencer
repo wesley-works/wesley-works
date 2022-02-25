@@ -74,7 +74,7 @@
    </teiHeader>
    <text>
       <body>
-         <head>To <persName><ptr target="/persons/pers0000.xml"/>the Printer of the Leedes
+         <head>To <persName>the Printer of the Leedes
                Intelligencer</persName><note place="foot" n="1">The <hi rend="italic">Leedes
                   Intelligencer</hi> printed in its <date when="1758-08-29">Aug. 29, 1758</date>
                issue a letter (included in the online &apos;in-letters&apos; file), falsely
