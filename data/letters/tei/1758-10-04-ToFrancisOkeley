@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Francis Okeley (October 4, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-24</date>
+            <idno type="URI">http://syriaca.org/letters/1758-10-04-ToFrancisOkeley</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Francis Okeley (October 4, 1758)</title>
+                     <date when="1758-10-04"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="135" to="137"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Endorsement: in <persName><ptr target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s hand, &apos;<date when="1758-10-08">Oct. 8 [sic],
+                     1758</date> / to <persName><ptr target="/persons/pers1528.xml"/>Mr
+                  O</persName>&apos;. Source: manuscript copy by secondary hand for <persName><ptr
+                        target="/persons/pers2180.xml"/>JW</persName>; MARC, MA <date when="1977"
+                     >1977</date>/609.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1528">
+                  <persName>Francis Okeley</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers2102">
+                  <persName>Richard Viney</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="persx3">
+                  <persName>[x]</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers1528.xml"/>Francis Okeley</persName><note
+               place="foot" n="1"><persName><ptr target="/persons/pers1528.xml"/>Francis
+                  Okeley</persName> (<date from="1719" to="1794">1719–94</date>), a fellow member
+               with <persName><ptr target="/persons/pers2180.xml"/>JW</persName> of the <seg
+                  ana="FetterLaneSociety">Fetter Lane society</seg> in <date when="1738"
+               >1738</date>, had cast his lot with the <seg ana="Moravians">Moravians</seg> as this
+               group split. He ministered most of his life among the <seg ana="Moravians"
+                  >Moravians</seg>, though frequently became dissatisfied and moved around. For a
+               short time in <date when="1758">1758</date> he had joined <persName><ptr
+                     target="/persons/pers2180.xml"/>JW</persName> in his tour of
+                  <placeName>Ireland</placeName>, but as this letter shows he quickly made clear
+               that he would not align with <persName><ptr target="/persons/pers2180.xml"
+                  />Wesley</persName> if it meant disavowing his <seg ana="Moravians">Moravian
+                  &apos;Brethren</seg>&apos;. For more on <persName><ptr
+                     target="/persons/pers1528.xml"/>Okeley</persName>, see 21:136, n. 45 in this
+               edn.</note></head>
+         <opener><placeName>Salisbury</placeName><lb/><date when="1758-10-04">October 4, 1758</date><lb/><lb/>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>The plain reason why I did not answer you before is I had no heart to write, for I had
+            no expectation of doing any good. And why should I trouble myself or you to no purpose?
+            However, I will once more <index indexName="biblical">
+               <term cRef="Eccl11:1">cast my bread upon the waters</term>
+            </index>,<note place="foot" n="2">Cf. <index indexName="biblical">
+                  <term cRef="Eccl11:1">Eccl. 11:1</term>
+               </index>.</note> and leave the event to God.</p>
+         <p>1. You say, &apos;I cannot preach because I have not faith.&apos;<note place="foot"
+               n="3">As <persName><ptr target="/persons/pers2180.xml"/>JW</persName> states later,
+               he is quoting from and replying to a letter that <persName><ptr
+                     target="/persons/pers1528.xml"/>Okeley</persName> wrote to <persName><ptr
+                     target="/persons/pers2176.xml"/>CW</persName>, which does not appear to have
+               survived.</note> That is not the thing; you do not speak simply. The direct reason
+            why you did not preach at <placeName>Bristol</placeName> was because you would not
+            displease the <seg ana="Moravians">Brethren</seg>. They have still hold of your heart.
+            The chain enters into your soul, therefore you could not even seem to <hi rend="italic"
+               >act against them</hi>.</p>
+         <p>2. &apos;I am not convinced, and cannot be so, that what <hi rend="italic">now
+               passes</hi> for faith …&apos; Hold! Do you mean that what <hi rend="italic">now
+               passes</hi> for faith among the Methodists is not true Christian faith, that we have
+            not a right conception of faith? I know the teachers among <hi rend="italic">the
+               Brethren</hi> have not. But the conception which we now have of faith is the same
+            which the apostles had, for we conceive <index indexName="biblical">
+               <term cRef="Heb11:1">faith to be &apos;a divine <foreign rend="italic"
+                     >ἔλεγχος</foreign> of things not seen</term>
+            </index>&apos;,<note place="foot" n="4"><index indexName="biblical">
+                  <term cRef="Heb11:1">Heb. 11:1</term>
+               </index>; <foreign rend="italic">ἔλεγχος</foreign> is the term translated
+               &apos;conviction&apos; in this verse.</note> particularly of this, that Christ loved
+               <hi rend="italic">me</hi> and gave himself for <hi rend="italic">me</hi>. Did St.
+            Paul conceive it to be either less or more? <hi rend="italic">You</hi> know he did
+            not.</p>
+         <p>&apos;But I am not convinced, and cannot be so, that this is experienced by most that
+            profess it&apos;—suppose in the united society at <placeName>Bristol</placeName>. I know
+            you are not convinced of this and that you cannot be so. But the hindrance lies in your
+            heart, not your understanding. You <hi rend="italic">cannot</hi> because you <hi
+               rend="italic">will not</hi>; so much of the old prejudice still remains, and says,
+               <foreign rend="italic">non persuadebis etiamsi persuaseris</foreign>.<note
+               place="foot" n="5">Aristophanes, <hi rend="italic">Plutus</hi>, l. 60; which
+                     <persName><ptr target="/persons/pers2180.xml"/>JW</persName> translated,
+               &apos;Thou shalt not persuade me, though thou dost persuade me&apos; in Sermon 83,
+               &apos;On Patience&apos;,  11, 3:177 in this edn.</note> But you <hi rend="italic"
+               >ought</hi> to be convinced that <hi rend="italic">most of them</hi> who there
+            profess it truly experience what they profess. For (unless they are an whole heap of
+            wilful liars, which you <hi rend="italic">ought</hi> not to think without proof) they
+            have those fruits which cannot possibly subsist without true Christian faith. They have
+               <index indexName="biblical">
+               <term cRef="Phil4:7">a peace that passes all understanding</term>
+            </index><note place="foot" n="6">See <index indexName="biblical">
+                  <term cRef="Phil4:7">Phil. 4:7</term>
+               </index>.</note> and banishes the fear of death. They have <index
+               indexName="biblical">
+               <term cRef="Rom5:5">the love of God shed abroad in their heart</term>
+            </index>,<note place="foot" n="7">See <index indexName="biblical">
+                  <term cRef="Rom5:5">Rom. 5:5</term>
+               </index>.</note> overcoming the love of the world. And they have abiding power over
+            all <index indexName="biblical">
+               <term cRef="Heb12:1">sin, even that which did easily beset them.</term>
+            </index><note place="foot" n="8">See <index indexName="biblical">
+                  <term cRef="Heb12:1">Heb. 12:1</term>
+               </index>.</note> Now, what excuse have you for not being convinced that <hi
+               rend="italic">they</hi> have faith, who have fruits which nothing but faith can
+            produce?</p>
+         <p>3. &apos;But they seem at best to have the <hi rend="italic">letter of the new
+               covenant</hi> and the <hi rend="italic">spirit of the old</hi>.&apos; How so? What is
+            the spirit of the new covenant? Is it not love, the love of God and man? <hi
+               rend="italic">This spirit</hi> they have; it is the great moving spring both of their
+            desires, designs, words, and actions. This also cannot be denied, unless they are the
+            vilest liars upon earth. I speak now more confidently, having last week (together with
+            my <persName><ptr target="/persons/pers2176.xml"/>brother</persName>) examined all one
+            by one.</p>
+         <p>4. &apos;But still you have not found what you expected among the Methodists, nor can
+            you see your way clear to join them.&apos; I think this was the sum of what you wrote to
+            my <persName><ptr target="/persons/pers2176.xml"/>brother</persName>. But what did you
+            expect to have found among them? Faith and love and holiness (whether in your own soul
+            or not) you did find among them—at least, you <hi rend="italic">ought</hi> to have found
+            them, for there they are, which neither men nor devils can deny. What else did you
+            expect to find? Or why cannot you see your way clear to join them? I will tell you why.
+            You have at least five strong reasons to the contrary: 1) a wife, 2) a mother, 3)
+            children, 4) cowardice, 5) love of ease. But are these reasons good in the sight of God?
+            I will not affirm that.</p>
+         <p>5. &apos;However, <hi rend="italic"><seg ana="Moravians">the Brethren</seg></hi> are
+            good men, and I dare not oppose them.&apos; If they are not <hi rend="italic">the only
+               people</hi> of God<note place="foot" n="9"><persName><ptr
+                     target="/persons/pers2180.xml"/>JW</persName> assumes that the <seg
+                  ana="Moravians">Brethren</seg> are making this claim.</note> (which they cannot be
+            if the Scriptures are true), they are not good men; they are very <index
+               indexName="biblical">
+               <term cRef="Num16:26">wicked men</term>
+            </index>. They are as a body deceiving and being deceived. They are liars, proud,
+            boasters, despisers of those that are good, slaves to an ungodly man, and continually
+            labouring to enslave others to him. O take warning at last! <index indexName="biblical">
+               <term cRef="Num16:26">Have no commerce with them! Come not near the tents of these
+                  wicked men</term>
+            </index>,<note place="foot" n="10"><index indexName="biblical">
+                  <term cRef="Num16:26">Num. 16:26</term>
+               </index>.</note>
+            <index indexName="biblical">
+               <term cRef="Ps55:21">whose words are smoother than oil, and yet they are very
+                  swords!</term>
+            </index><note place="foot" n="11"><index indexName="biblical">
+                  <term cRef="Ps55:21">Ps. 55:21</term>
+               </index>.</note> I dare not but oppose them, for in many places they have wellnigh
+            destroyed the work of God. Many souls, once full of faith and love, they have caused to
+            draw back to perdition. Many they have driven into the deep and then triumphed over
+            them. Beware it be not so with <hi rend="italic">you</hi>. You have greatly resisted the
+            Spirit in this matter! Remember <persName><ptr target="/persons/pers2102.xml"/>Richard
+               Viney</persName><note place="foot" n="12"><persName><ptr
+                     target="/persons/pers2102.xml"/>Richard Viney</persName> was one of the
+               earliest English adherents of the <seg ana="Moravians">Moravians</seg> in
+                  <placeName>London</placeName>. He was later ejected from the <seg ana="Moravians"
+                  >Moravian</seg> community and sought fellowship with <persName><ptr
+                     target="/persons/pers2180.xml"/>Wesley</persName>, but ended up creating a
+               disturbance in the Wesleyan society in <placeName>Birstall</placeName>; see 19:159,
+               n. 26 &amp; 25:583, n. 7 in this edn.</note>—<index indexName="biblical">
+               <term cRef="Gen19:26">a pillar of salt, not because he came out of Sodom, but because
+                  he <hi rend="italic">looked back</hi></term>
+            </index>!<note place="foot" n="13">See <index indexName="biblical">
+                  <term cRef="Gen19:26">Gen. 19:26</term>
+               </index>.</note></p>
+         <closer>I am, dear sir,<lb/>
+            <signed>Your affectionate brother and servant,<lb/><persName>J.
+               Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
