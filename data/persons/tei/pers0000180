@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Molland) Blackwell, Elizabeth (d. 1772)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-26</date>
+            <idno type="URI">http://syriaca.org/persons/pers0000180</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0000180">
+               <p><persName>Elizabeth (née Molland)</persName> was <persName>Ebenezer
+                     Blackwell</persName>&apos;s first wife, and a close friend of <persName>Hannah
+                     Dewell</persName>. From <date when="1749">1749</date> the
+                     <persName>Blackwells</persName> shared ownership and lived with
+                     <persName>Dewell</persName> in the <placeName>Limes, Lewisham</placeName>. The
+                  three of them were close friends and supporters of both <persName>CW</persName>
+                  and <persName>JW</persName>. When <persName>Elizabeth</persName> died on <date
+                     when="1772-03-27">Mar. 27, 1772</date>, <persName>CW</persName> composed an
+                  extended funeral hymn (MS Death of <persName>Elizabeth Blackwell</persName>). See
+                  Martin, <hi rend="italic">Grasshopper</hi>, 49–69.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
