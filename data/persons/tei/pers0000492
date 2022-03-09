@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cownley, Joseph (1723–1792)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-26</date>
+            <idno type="URI">http://syriaca.org/persons/pers0000492</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0000492">
+               <p><persName>Cownley</persName> was spiritually awakened under
+                     <persName>JW</persName>&apos;s preaching in <placeName>Bath</placeName> in
+                     <date when="1743">1743</date>, and on returning to his native
+                     <placeName>Leominster</placeName> joined the Methodist society there and began
+                  to preach. By the <date when="1746">1746</date> Conference he was an Assistant,
+                  and <persName>JW</persName> described him as &apos;one of the best preachers in
+                     <placeName>England</placeName>&apos;. He traveled widely as an <seg
+                     ana="itinerancy">itinerant preacher</seg>, notably in
+                     <placeName>Ireland</placeName> and the north of <placeName>England</placeName>.
+                  In <date when="1755-10">Oct. 1755</date> he married <persName>Martha Susannah
+                     (&apos;Suky&apos;) Massiot</persName> of <placeName>Cork</placeName>. See
+                  Atmore, <hi rend="italic">Memorial</hi>, 90–94; <hi rend="italic">DEB</hi>,
+                  261–62; <hi rend="italic">EMP</hi>, 2:1–47; <hi rend="italic">Minutes</hi>
+                  (post-Wesley, <date when="1793">1793</date>), 2:275; and Vickers, <hi
+                     rend="italic">Dictionary</hi>, 82.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
