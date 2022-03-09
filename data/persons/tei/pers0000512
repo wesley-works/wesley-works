@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cudworth, William (1717–1763)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-26</date>
+            <idno type="URI">http://syriaca.org/persons/pers0000512</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0000512">
+               <p><persName>Cudworth</persName>, an English Presbyterian, was converted at the age
+                  of twenty and drawn into the circle of Calvinist Methodists for a time, before
+                  turning Independent. <persName>JW</persName> considered him a prime example of
+                  &apos;antinomian&apos; Calvinism. See <hi rend="italic">DEB</hi>, 278–79; and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 84.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
