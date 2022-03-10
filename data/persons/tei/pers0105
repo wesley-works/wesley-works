@@ -20,6 +20,21 @@
             <p>Born digital.</p>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0972">
+                  <persName>John Haughton</persName>
+               </person>
+               <person xml:id="pers1404">
+                  <persName>Thomas Maxfield</persName>
+               </person>
+            <person>
+               <persName>Anne (Stone) Barnard</persName>
+            </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
       <revisionDesc>
          <listChange>
             <change when="2022-01-01">note about revisions made</change>
@@ -29,14 +44,14 @@
    <text>
       <body>
          <listPerson>
-            <person xml:id="pers0000105">
-               <p><persName>William Barnard</persName>, a graduate of Westminster School and Trinity
-                  College, Cambridge, was consecrated Bishop of <placeName>Derry</placeName> in
-                     <date when="1747">1747</date>, a role he held until his death. He was one of
+            <person xml:id="pers0105">
+               <p><persName>William Barnard</persName>, a graduate of <placeName>Westminster School</placeName> and <placeName>Trinity
+                  College, Cambridge</placeName>, was consecrated Bishop of <placeName>Derry</placeName> in
+                  <date when="1747">1747</date>, a role he held until his death. He was one of
                   the few Anglican bishops supportive of the Methodist work, as evidenced by his
                   ordination of both <persName>John Haughton</persName> and <persName>Thomas
-                     Maxfield</persName>. He was married to <persName>Anne (n e Stone</persName>, d.
-                     <date when="1782">1782</date>). See <hi rend="italic">Alumni
+                     Maxfield</persName>. He was married to <persName>Anne (née Stone</persName>, d.
+                  <date when="1782">1782</date>). See <hi rend="italic">Alumni
                      Catabrigienses</hi>; and <hi rend="italic">ODNB</hi>.</p>
             </person>
          </listPerson>
