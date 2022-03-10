@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mitchell, Thomas (1726–1785)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://syriaca.org/persons/pers1439</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1439">
+               <p><persName>Mitchell</persName>, a native of <placeName>Bingley,
+                     Yorkshire</placeName>, joined the Methodists after a stint in the army, and
+                  served as an exhorter for a couple of years. He joined the ranks of <seg
+                     ana="itinerancy">traveling preachers</seg> in <date when="1751">1751</date>,
+                  serving faithfully until his death. <persName>Mitchell</persName> was a particular
+                  recipient of harassment from anti-Methodist crowds in the early
+                  <date>1750</date>s. See Atmore, <hi rend="italic">Memorial</hi>, 274–76; <hi
+                     rend="italic">DEB</hi>, 778; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  242.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
