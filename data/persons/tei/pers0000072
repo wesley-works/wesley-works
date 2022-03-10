@@ -14,7 +14,7 @@
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
             <date>2022-02-26</date>
-            <idno type="URI">http://syriaca.org/persons/pers0000072</idno>
+            <idno type="URI">http://syriaca.org/persons/pers0072</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -29,7 +29,7 @@
    <text>
       <body>
          <listPerson>
-            <person xml:id="pers0000072">
+            <person xml:id="pers0072">
                <p><persName>Atkinson</persName> was a native of <placeName>Plymouth Dock,
                      Devon</placeName>, who had worked as one of <persName>JW</persName>&apos;s
 		       assistants in <placeName>the Foundery</placeName> book room in <placeName>London</placeName> in the
