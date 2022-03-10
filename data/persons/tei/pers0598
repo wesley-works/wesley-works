@@ -24,7 +24,7 @@
         <particDesc>
 	  <listPerson>
 		  <person xml:id="pers0598">
-			  <persName>Rev. Dr. William Dodd</persName>
+	            <persName>Rev. Dr. William Dodd</persName>
 		  </person>
    </teiHeader>
    <text>
