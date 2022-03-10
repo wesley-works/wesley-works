@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Granville) Pendarves / Delany, Mary (1700–1788)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://syriaca.org/persons/pers0844</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0843">
+                  <persName>Mary (Westcomb) Granville</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2177">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>Bernard Granville</persName>
+               </person>
+               <person>
+                  <persName>George Granville</persName>
+               </person>
+               <person>
+                  <persName>Alexander Pendarves</persName>
+               </person>
+               <person>
+                  <persName>Patrick Delany</persName>
+               </person>
+               <person>
+                  <persName>Jonathan Swift</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0844">
+               <p><persName>Mary</persName>, the oldest daughter of <persName>Bernard
+                     Granville</persName> and <persName><ptr target="/persons/pers0843.xml"/>Mary
+                     (Westcomb) Granville</persName>, was the niece of <persName>George
+                     Granville</persName>, Lord Lansdowne, and was a familiar figure in court and
+                  literary circles. Her uncle used some pressure to secure her marriage in <date
+                     when="1718">1718</date> to the wealthy and elderly <persName>Alexander
+                     Pendarves</persName>, who died in <date when="1725">1725</date>. As a widow she
+                  often visited her mother and sister in <placeName>Buckland</placeName>, becoming
+                  part of the network of Cotswolds friends of <persName><ptr
+                        target="/persons/pers2180.xml"/>JW</persName> and <persName><ptr
+                        target="/persons/pers2177.xml"/>CW</persName> during their Oxford years.
+                     <persName>Mary</persName>&apos;s literary nickname was
+                     &apos;<persName>Aspasia</persName>&apos;, which appears in several of
+                        <persName><ptr target="/persons/pers2180.xml"/>JW</persName>&apos;s letters
+                  of the time. In <date when="1743">1743</date>, after the Cotswolds group had
+                  scattered, <persName>Mary</persName> became the second wife of <persName>Patrick
+                     Delany</persName>, the intimate friend of <persName>Jonathan Swift</persName>.
+                  She corresponded with many of the leading cultural figures of the day. Her
+                  greatest artistic achievement were her pages of cut paper illustrations of flowers
+                  and plants, which are now in the British Museum. See <hi rend="italic"
+                  >ODNB</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
