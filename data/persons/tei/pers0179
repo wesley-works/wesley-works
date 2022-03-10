@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Blackwell, Ebenezer (1711–1782)</title>
+            <title>Ebenezer Blackwell (1711–1782)</title>
             <author>Maddox, Randy L.</author>
             <editor>Gatley, Jenna</editor>
          </titleStmt>
@@ -23,6 +23,9 @@
       <profileDesc>
          <particDesc>
             <listPerson>
+	       <person xml:id="pers0179">
+		       <persName>Ebenezer Blackwell</persName>
+		    </person>
                <person xml:id="pers2221">
                   <persName>George Whitefield</persName>
                </person>
@@ -52,8 +55,7 @@
    </teiHeader>
    <text>
       <body>
-         <listPerson>
-            <person xml:id="pers0179">
+	      <head>Ebenezer Blackwell</head>
                <p><persName>Blackwell</persName> was related to <persName>George
                      Whitefield</persName>&apos;s mother <persName>Elizabeth</persName>. He
                   apprenticed in banking under <persName>Thomas Martin</persName> of Martin&apos;s
@@ -77,8 +79,6 @@
                      rend="italic">AM</hi> 6 [<date when="1784">1784</date>] ). See Martin, <hi
                      rend="italic">Grasshopper</hi>, 49–69; and Vickers, <hi rend="italic"
                      >Dictionary</hi>, 33–34.</p>
-            </person>
-         </listPerson>
       </body>
    </text>
 </TEI>
