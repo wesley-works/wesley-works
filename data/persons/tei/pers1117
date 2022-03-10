@@ -20,6 +20,21 @@
             <p>Born digital.</p>
          </sourceDesc>
       </fileDesc>
+<profileDesc>
+<particDesc>
+<listPerson>
+<person>
+<persName>Sir Thomas I’Anson</persName>
+</person>
+<person>
+	<persName>Thomas I’Anson</persName>
+</person>
+<person xml:id="pers2180">
+	<persName>John Wesley</persName>
+	</person>
+</listPerson>
+</particDesc>
+</profileDesc>	   
       <revisionDesc>
          <listChange>
             <change when="2022-01-01">note about revisions made</change>
