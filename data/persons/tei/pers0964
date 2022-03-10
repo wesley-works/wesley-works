@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Shirley) Hastings, Selina, Countess of Huntingdon (1707–1791)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-02</date>
+            <idno type="URI">http://syriaca.org/persons/pers0964</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1121">
+                  <persName>Benjamin Ingham</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Washington Shirley</persName>
+               </person>
+               <person>
+                  <persName>Theophilus Hastings</persName>
+               </person>
+               <person>
+                  <persName>Margaret Hastings</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0964">
+               <p>Second daughter of <persName>Washington Shirley</persName> (2nd Earl Ferrers), in
+                     <date when="1728">1728</date>
+                  <persName>Selina</persName> married <persName>Theophilus Hastings</persName>, 9th
+                  Earl of Huntingdon, who died in <date when="1746">1746</date>. Their home was
+                     <placeName>Donington Park, Castle Donington, Leicestershire</placeName>, though
+                  much of their time was spent in <placeName>London</placeName> and
+                     <placeName>Bath</placeName>. In part through the influence of her
+                  sister-in-law, Lady <persName>Margaret Hastings</persName> (who married
+                        <persName><ptr target="/persons/pers1121.xml"/>Benjamin Ingham</persName> in
+                     <date when="1741-11">Nov. 1741</date>) both <persName>Selina</persName> and her
+                     <persName>husband</persName> came under the influence of the Methodists,
+                  probably in <date when="1740">1740</date>. Lady
+                  <persName>Huntingdon</persName>&apos;s extant correspondence with the Wesley
+                  brothers began the <date when="1741">following year</date> and was initially
+                  prolific. Growing awareness of theological divergences (she was more Calvinist)
+                  and class status (particularly for <persName><ptr target="/persons/pers2180.xml"
+                     />JW</persName>) reduced this volume significantly by <date when="1746"
+                     >1746</date>, but letters continued to be exchanged until the controversy over
+                  the &apos;anti-Calvinist&apos; Minutes of Conference in the early
+                     <date>1770s</date>. See <hi rend="italic">DEB</hi>, 585–86; <hi rend="italic"
+                     >ODNB</hi>; and Vickers, <hi rend="italic">Dictionary</hi>, 171–72.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
