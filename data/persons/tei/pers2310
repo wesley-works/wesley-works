@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zinzendorf, Count Nikolaus Ludwig von (1700–1760)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://syriaca.org/persons/pers2310</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Erdmuth Dorothea Reuss</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers2310">
+               <p>A German count, born in <placeName>Dresden</placeName>,
+                     <persName>Zinzendorf</persName> studied at the Pietist school in
+                     <placeName>Halle</placeName> and the Lutheran university of
+                     <placeName>Wittenberg</placeName>. While deeply religious, his family dissuaded
+                  him from ordination, so <persName>Zinzendorf</persName> became a councillor to the
+                  Elector of Saxony, and married <persName>Erdmuth Dorothea Reuss</persName>. In
+                     <date when="1722">1722</date> he welcomed exiles from
+                     <placeName>Moravia</placeName> to establish the community of Herrnhut on his
+                     <placeName>Berthelsdorf</placeName> estate. While still committed to the
+                  Lutheran Church, <persName>Zinzendorf</persName> effectively became pastor to the
+                  community by <date when="1727">1727</date> (resigning his work as a councillor).
+                  He lead them in organizing as the &apos;<seg ana="moravians">Renewed Church of the
+                     United Brethren</seg>&apos;, or more popularly, the <seg ana="moravians"
+                     >Moravians</seg>. By <date when="1737">1737</date> Zinzendorf had been
+                  consecrated as the bishop of the <seg ana="moravians">Moravians</seg>, and it was
+                  in this role that he would carry on correspondence with the Wesley brothers. See
+                     <hi rend="italic">DEB</hi>, 1226–27; and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 408.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
