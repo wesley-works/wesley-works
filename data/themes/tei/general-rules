@@ -1,1 +1,45 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>General Rules</title>
+                <author>Van Buskirk, Gregory P.</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2022-03-10</date>
+                <idno type="URI">http://syriaca.org/themes/general-rules</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-03-10">File created</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>General Rules</head>
+            <p>As set down by <persName><ptr target="../persons/2180"/>John Wesley</persName> in <hi
+                    rend="italic">The Nature, Design, and General Rules of the United Societies
+                        (<date when="1743">1743</date>)</hi>, the General Rules are three simple
+                categories that link together Christian doctrine and Christian living. Wesley
+                expected the Methodists to embody holiness &quot;First: By doing no harm, by
+                avoiding evil of every kind…. Secondly: By…doing good of every possible sort, and,
+                as far as possible, to all…. Thirdly: By attending upon all the ordinances of
+                God.&quot; While the first rule and second rule roughly encapsulate the first two
+                principles of natural law, the third rule points to Wesley&amp;s teachings on using
+                the means of grace, including prayer, searching the Scriptures, fasting, and
+                Eucharist. The General Rules are still embraced by Wesleyans and Methodists
+                today.</p>
+        </body>
+    </text>
+</TEI>
