@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Bennet, John (c. 1715–59)</title>
+                <title>John Bennet (c. 1715–1759)</title>
                 <author>Maddox, Randy L.</author>
                 <editor>Gatley, Jenna</editor>
             </titleStmt>
@@ -23,6 +23,9 @@
         <profileDesc>
             <particDesc>
                 <listPerson>
+		<person xml:id="pers0143">
+			<persName>John Bennet</persName>
+			</person>
                     <person xml:id="pers1998">
                         <persName>David Taylor</persName>
                     </person>
@@ -52,8 +55,7 @@
     </teiHeader>
     <text>
         <body>
-            <listPerson>
-                <person xml:id="pers0143">
+		<head>John Bennet (c. 1715–1759)</head>
                     <p><persName>Bennet</persName>, of <placeName>Chinley, Derbyshire</placeName>,
                         was a legal clerk and then a pack-man. Following a dramatic conversion in
                             <date when="1742">1742</date> he became associated with <persName>David
@@ -77,8 +79,6 @@
                             >DEB</hi>, 83–84; <hi rend="italic">ODNB</hi>; Pawson, <hi rend="italic"
                             >Letters</hi>, 3:143; and Vickers, <hi rend="italic">Dictionary</hi>,
                         27.</p>
-                </person>
-            </listPerson>
         </body>
     </text>
 </TEI>
