@@ -14,7 +14,7 @@
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
             <date>2022-02-26</date>
-            <idno type="URI">http://syriaca.org/persons/pers0000179</idno>
+            <idno type="URI">http://syriaca.org/persons/pers0179</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -29,7 +29,7 @@
    <text>
       <body>
          <listPerson>
-            <person xml:id="pers0000179">
+            <person xml:id="pers0179">
                <p><persName>Blackwell</persName> was related to <persName>George
                      Whitefield</persName>&apos;s mother <persName>Elizabeth</persName>. He
                   apprenticed in banking under <persName>Thomas Martin</persName> of Martin&apos;s
