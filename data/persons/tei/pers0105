@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Barnard, Rev. Dr. William (1697–1768)</title>
+            <title>Rev. Dr. William Barnard (1697–1768)</title>
             <author>Maddox, Randy L.</author>
             <editor>Gatley, Jenna</editor>
          </titleStmt>
@@ -54,7 +54,6 @@
                      Maxfield</persName>. He was married to <persName>Anne (née Stone</persName>, d.
                   <date when="1782">1782</date>). See <hi rend="italic">Alumni
                      Catabrigienses</hi>; and <hi rend="italic">ODNB</hi>.</p>
-            </person>
       </body>
    </text>
 </TEI>
