@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dodd, Rev. Dr. William (1729–77)</title>
+            <title>Rev. Dr. William Dodd (1729–1777)</title>
 	    <author>Maddox, Randy L.</author>
             <editor>Taylor, Michelle M.</editor>
          </titleStmt>
@@ -20,11 +20,16 @@
             <p>Born digital.</p>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+        <particDesc>
+	  <listPerson>
+		  <person xml:id="pers0598">
+			  <persName>Rev. Dr. William Dodd</persName>
+		  </person>
    </teiHeader>
    <text>
       <body>
-         <listPerson>
-            <person xml:id="pers0598">
+	      <head>Rev. Dr. William Dodd (1729–1777)</head>
                <p>A graduate of <placeName type="education">Clare College, Cambridge</placeName>,
                   Dodd first sought a literary career. When it became clear he could not support
                   himself solely in this way, he was ordained in <date when="1752-01-01"
@@ -40,8 +45,6 @@
                      >1760</date>–<date when="1767-01-01">67</date>), drawing JW&apos;s defense. At Dodd&apos;s
                   request, JW visited him in prison prior to his execution. See <hi rend="italic">Alumni
                   Catabrigienses</hi>; and <hi rend="italic">ODNB</hi>.</p>
-            </person>
-         </listPerson>
       </body>
    </text>
 </TEI>
