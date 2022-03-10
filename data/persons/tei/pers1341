@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Madan, Rev. Martin (1726–1790)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-09</date>
+            <idno type="URI">http://syriaca.org/persons/pers1341</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0964">
+                  <persName>Selina Hastings</persName>
+               </person>
+               <person xml:id="pers1771">
+                  <persName>William Romaine</persName>
+               </person>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person>
+                  <persName>Col. Martin Madan</persName>
+               </person>
+               <person>
+                  <persName>David Jones</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1341">
+               <p>Son of Col. <persName>Martin Madan</persName>, MP of
+                     <placeName>Hertingfordbury</placeName>, the younger <persName>Martin</persName>
+                  prepared for a career in law. He was goaded into listening to <persName><ptr
+                        target="/persons/pers2180.xml"/>JW</persName> preach, as a means of
+                  improving his oratory style. But <persName>Madan</persName> was so moved by the
+                  sermon that he joined the Methodist cause. With the aid of the <persName><ptr
+                        target="/persons/pers0964.xml"/>Countess of Huntingdon</persName> he secured
+                  ordination in <date when="1757">1757</date>, was appointed chaplain to Lock
+                  Hospital in <placeName>London</placeName>, and became very friendly with many
+                  Calvinistic evangelical clergy, especially <persName>David Jones</persName>,
+                        <persName><ptr target="/persons/pers1771.xml"/>William Romaine</persName>,
+                  and <persName><ptr target="/persons/pers2221.xml"/>George Whitefield</persName>.
+                  In later years he gained notoriety for defending polygamy in <hi rend="italic"
+                     >Thelyphthora</hi> (<date when="1780">1780</date>). See <hi rend="italic"
+                     >DEB</hi>, 733; and <hi rend="italic">ODNB</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
