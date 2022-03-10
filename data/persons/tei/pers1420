@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Merryweather, George (1736–1817)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://syriaca.org/persons/pers1420</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Susannah Suggett</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1420">
+               <p><persName>George Merryweather</persName> was a merchant in
+                     <placeName>Yarm</placeName> on Tees, who in the late <date>1740</date>s became
+                  an active promoter and generous patron of Methodism, especially within the
+                  extensive <placeName>Yarm</placeName> circuit. On <date when="1764-04-30">Apr. 30,
+                     1764</date>, he married <persName>Susannah Suggett</persName>, of
+                     <placeName>Hutton Rudby, Yorkshire</placeName>. See <hi rend="italic">WHS</hi>
+                  44 (<date when="1983">1983</date>): 47, 80–81; and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 229–30.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
