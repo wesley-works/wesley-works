@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Morgan, James (1736–1774)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://syriaca.org/persons/pers1462</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1462">
+               <p><persName>James Morgan</persName> became one of <persName><ptr
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s <seg ana="itinerancy"
+                     >traveling lay preachers</seg> in <date when="1755">1755</date>. By <date
+                     when="1766">1766</date> ill health led him to settle in
+                     <placeName>Dublin</placeName>. Some of his former <seg ana="itinerancy"
+                     >itinerant</seg> brothers accused him of self-indulgence in this move, and he
+                  apparently adopted mystical views in his last years. See Atmore, <hi rend="italic"
+                     >Memorial</hi>, 281–86.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
