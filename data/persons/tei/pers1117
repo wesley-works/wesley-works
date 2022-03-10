@@ -23,9 +23,9 @@
         <profileDesc>
             <particDesc>
                 <listPerson>
-		 <person xml:id="pers1117">
-			<perName>Bryan I&apos;Anson</persName>
-			</person>
+                    <person xml:id="pers1117">
+                        <persName>Bryan I&apos;Anson</persName>
+                    </person>
                     <person>
                         <persName>Sir Thomas I&apos;Anson</persName>
                     </person>
@@ -46,15 +46,14 @@
     </teiHeader>
     <text>
         <body>
-		<head>Bryan I&apos;Anson (1708–1775)</head>
-                    <p>Son of <persName>Sir Thomas I&apos;Anson</persName> (d. <date when="1707"
-                            >1707</date>), and younger brother of <persName>Thomas
-                            I&apos;Anson</persName> (<date from="1701" to="1764">1701–64</date>),
-                        4th <seg ana="aristocraticTitle">baronet</seg>; Bryan I&apos;Anson was a
-                            <seg ana="occupation">solicitor</seg> at <placeName>New Palace Yard,
-                            Westminster</placeName>, whom <persName>JW</persName> consulted for
-                        legal advice from at least <date when="1750">1750</date>. See <hi
-                            rend="italic">WHS</hi> 5 (<date when="1906">1906</date>): 230–37.</p>
+            <head>Bryan I&apos;Anson (1708–1775)</head>
+            <p>Son of <persName>Sir Thomas I&apos;Anson</persName> (d. <date when="1707"
+                >1707</date>), and younger brother of <persName>Thomas I&apos;Anson</persName>
+                    (<date from="1701" to="1764">1701–64</date>), 4th <seg ana="aristocraticTitle"
+                    >baronet</seg>; Bryan I&apos;Anson was a <seg ana="occupation">solicitor</seg>
+                at <placeName>New Palace Yard, Westminster</placeName>, whom <persName>JW</persName>
+                consulted for legal advice from at least <date when="1750">1750</date>. See <hi
+                    rend="italic">WHS</hi> 5 (<date when="1906">1906</date>): 230–37.</p>
         </body>
     </text>
 </TEI>
