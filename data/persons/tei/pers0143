@@ -23,14 +23,14 @@
         <profileDesc>
             <particDesc>
                 <listPerson>
-                    <person>
-                        <persName xml:id="pers1998">David Taylor</persName>
+                    <person xml:id="pers1998">
+                        <persName>David Taylor</persName>
                     </person>
-                    <person>
-                        <persName xml:id="pers1121">Benjamin Ingham</persName>
+                    <person xml:id="pers1121">
+                        <persName>Benjamin Ingham</persName>
                     </person>
-                    <person>
-                        <persName xml:id="pers0964">Lady Huntingdon</persName>
+                    <person xml:id="pers0964">
+                        <persName>Lady Huntingdon</persName>
                     </person>
                     <person xml:id="pers2180">
                         <persName>John Wesley</persName>
@@ -82,3 +82,4 @@
         </body>
     </text>
 </TEI>
+
