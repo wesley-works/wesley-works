@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Atkinson, William (fl. 1750–1765)</title>
+            <title>William Atkinson (fl. 1750–1765)</title>
             <author>Maddox, Randy L.</author>
             <editor>Gatley, Jenna</editor>
          </titleStmt>
@@ -23,6 +23,8 @@
       <profileDesc>
          <particDesc>
             <listPerson>
+	       <person xml:id="pers0072">
+		       <persName>William Atkinson</persName></person>
                <person xml:id="pers2180">
                   <persName>John Wesley</persName>
                </person>
@@ -40,8 +42,7 @@
    </teiHeader>
    <text>
       <body>
-         <listPerson>
-            <person xml:id="pers0072">
+	      <head>William Atkinson</head>
                <p><persName>Atkinson</persName> was a native of <placeName>Plymouth Dock,
                   Devon</placeName>, who had worked as one of <persName>JW</persName>&apos;s
                   assistants in <placeName>the Foundery</placeName> book room in <placeName>London</placeName> in the
