@@ -23,6 +23,8 @@
       <profileDesc>
          <particDesc>
             <listPerson>
+		<person xml:id="pers0105">
+			<persName>Rev. Dr. William Barnard</persName>
                <person xml:id="pers0972">
                   <persName>John Haughton</persName>
                </person>
@@ -43,8 +45,7 @@
    </teiHeader>
    <text>
       <body>
-         <listPerson>
-            <person xml:id="pers0105">
+	      <head>Rev. Dr. William Barnard (1697–1768)</head>
                <p><persName>William Barnard</persName>, a graduate of <placeName>Westminster School</placeName> and <placeName>Trinity
                   College, Cambridge</placeName>, was consecrated Bishop of <placeName>Derry</placeName> in
                   <date when="1747">1747</date>, a role he held until his death. He was one of
@@ -54,7 +55,6 @@
                   <date when="1782">1782</date>). See <hi rend="italic">Alumni
                      Catabrigienses</hi>; and <hi rend="italic">ODNB</hi>.</p>
             </person>
-         </listPerson>
       </body>
    </text>
 </TEI>
