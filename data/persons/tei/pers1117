@@ -14,7 +14,7 @@
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
             <date>2022-02-26</date>
-            <idno type="URI">http://syriaca.org/persons/pers0001117</idno>
+            <idno type="URI">http://syriaca.org/persons/pers1117</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -29,7 +29,7 @@
    <text>
       <body>
          <listPerson>
-            <person xml:id="pers0001117">
+            <person xml:id="pers1117">
 		    <p>Son of <persName>Sir Thomas I’Anson</persName> (d. <date when="1707">1707</date>), and younger brother
 			    of <persName>Thomas I’Anson</persName> (<date from="1701" to="1764">1701–64</date>), 4th <seg ana="aristocraticTitle">baronet</seg>; Bryan
 		       I’Anson was a <seg ana="occupation">solicitor</seg> at <placeName>New Palace Yard, Westminster</placeName>,
