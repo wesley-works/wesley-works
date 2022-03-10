@@ -21,31 +21,28 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <particDesc>
-                <listPerson>
-                    <person xml:id="pers2221">
-                        <persName>George Whitefield</persName>
-                    </person>
-                    <person xml:id="pers2220">
-                        <persName>Elizabeth Whitefield</persName>
-                    </person>
-                    <person>
-			    <persName>Thomas Martin</persName>
-			</person>
-                    <person xml:id="pers2180">
-                        <persName>John Wesley</persName>
-                    </person>
-                    <person xml:id="pers2176">
-                        <persName>Charles Wesley</persName>
-                    </person>
-		<person xml:id="pers0180">
-                        <persName>Elizabeth (Molland) Blackwell</persName>
-                    </person>
-			                    <person xml:id="pers2180">
-                        <persName>John Wesley</persName>
-                    </person>
-                </listPerson>
-            </particDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2220">
+                  <persName>Elizabeth Whitefield</persName>
+               </person>
+               <person>
+                  <persName>Thomas Martin</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers0180">
+                  <persName>Elizabeth (Molland) Blackwell</persName>
+               </person>
+            </listPerson>
+         </particDesc>
       </profileDesc>
       <revisionDesc>
          <listChange>
@@ -85,3 +82,4 @@
       </body>
    </text>
 </TEI>
+
