@@ -14,7 +14,7 @@
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
             <date>2022-02-26</date>
-            <idno type="URI">http://syriaca.org/persons/pers0000143</idno>
+            <idno type="URI">http://syriaca.org/persons/pers0143</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -29,7 +29,7 @@
    <text>
       <body>
          <listPerson>
-            <person xml:id="pers0000143">
+            <person xml:id="pers0143">
                <p><persName>Bennet</persName>, of <placeName>Chinley, Derbyshire</placeName>, was a
                   legal clerk and then a pack-man. Following a dramatic conversion in <date
                      when="1742">1742</date> he became associated with <persName>David
