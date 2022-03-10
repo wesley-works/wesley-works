@@ -14,7 +14,7 @@
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
             <date>2021-06-12</date>
-            <idno type="URI">http://syriaca.org/persons/pers-0000598</idno>
+            <idno type="URI">http://syriaca.org/persons/pers0598</idno>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -24,7 +24,7 @@
    <text>
       <body>
          <listPerson>
-            <person xml:id="pers-0000598">
+            <person xml:id="pers0598">
                <p>A graduate of <placeName type="education">Clare College, Cambridge</placeName>,
                   Dodd first sought a literary career. When it became clear he could not support
                   himself solely in this way, he was ordained in <date when="1752-01-01"
