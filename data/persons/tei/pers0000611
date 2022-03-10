@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Downing, Rev. George (c. 1729–1809)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-02</date>
+            <idno type="URI">http://syriaca.org/persons/pers0000611</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0000611">
+               <p><persName>Downing</persName> received his <seg ana="degree">BA</seg> from Wadham
+                  College, <placeName>Oxford</placeName> in <date when="1749">1749</date>, and <seg
+                     ana="degree">MA</seg> in <date when="1751">1751</date>. After serving as curate
+                  in <placeName>Lewisham</placeName> he was appointed rector of <placeName>Ovington,
+                     Essex</placeName> in <date when="1761">1761</date>. He also served as chaplain
+                  to <persName>William Legge</persName>, 2nd Earl of Dartmouth.
+                     <persName>Downing</persName> was sympathetic with the Evangelical revival, at
+                  least with its &apos;regular&apos; wing who stressed conformity to church law. In
+                     <date when="1758-07">July 1758</date> he married <persName>Catherine
+                     Chambers</persName>. See <hi rend="italic">Alumni Oxonienses</hi>; and
+                  CCEd.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
