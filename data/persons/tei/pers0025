@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Allwood, William 1728-1811</title>
+            <title>William Allwood (1728-1811)</title>
             <author>Maddox, Randy L.</author>
             <editor>Gatley, Jenna</editor>
          </titleStmt>
@@ -20,6 +20,15 @@
             <p>Born digital.</p>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0025">
+                  <persName>William Allwood</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
       <revisionDesc>
          <listChange>
             <change when="2022-01-01">note about revisions made</change>
@@ -28,14 +37,12 @@
    </teiHeader>
    <text>
       <body>
-         <listPerson>
-            <person xml:id="pers0025">
-               <p><persName>Allwood</persName> was a <seg ana="itinerancy">traveling Methodist
-                     preacher</seg>, whose name first appears in the Minutes in <date when="1753"
-                     >1753</date> and continues through <date when="1759">1759</date> (see Works,
-                  10:260, 287). He eventually settled in <placeName>Cheshire</placeName>.</p>
-            </person>
-         </listPerson>
+         <head>Allwood, William (1728-1811)</head>
+         <p><persName>Allwood</persName> was a <seg ana="itinerancy">traveling Methodist
+               preacher</seg>, whose name first appears in the Minutes in <date when="1753"
+               >1753</date> and continues through <date when="1759">1759</date> (see Works, 10:260,
+            287). He eventually settled in <placeName>Cheshire</placeName>.</p>
       </body>
    </text>
 </TEI>
+
