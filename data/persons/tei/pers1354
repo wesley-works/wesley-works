@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Manners, Nicholas (1738–1810)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1354</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1353">
+                  <persName>John Manners</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1354">
+               <p><persName>Nicholas Manners</persName> was born in <placeName>Sledmere,
+                     Yorkshire</placeName>, and drawn into the Methodist revival in his later teens.
+                  By fall <date when="1758">1758</date> he was exploring joining his older brother
+                        <persName><ptr target="/persons/pers1353.xml"/>John</persName> in <seg
+                     ana="itinerancy">itinerant</seg> ministry, and by <date when="1762">1762</date>
+                  was in regular appointment (see <hi rend="italic">Works</hi>, 10:294). By <date
+                     when="1768">1768</date> he had risen to the stature of an &quot;assistant&quot;
+                  (10:353). He was assigned to <placeName>York</placeName> in <date when="1769"
+                     >1769</date>, but notes in his memoirs that he only travelled a few weeks and
+                  then took a five year leave from riding a circuit. <persName>Manners</persName>
+                  was next found under appointment in <date when="1774">1774</date>, but the next
+                  year he published a collection of <hi rend="italic">Discourses</hi>, apparently
+                  without prior approval from <persName><ptr target="/persons/pers2180.xml"
+                     />JW</persName> as required in the <hi rend="italic">Minutes</hi>. Being called
+                  to question at the <date when="1775">1775</date> Conference,
+                     <persName>Manners</persName> desisted from travelling that year (10:440). He
+                  returned to travelling in <date when="1776">1776</date>, apparently in conjunction
+                  with issuing a revised version of his <hi rend="italic">Discourses</hi> about the
+                  same time (which <persName><ptr target="/persons/pers2180.xml"/>JW</persName>
+                  stocked in the book room in <placeName>London</placeName>).
+                     <persName>Nicholas</persName> received appointment the next several years, but
+                  he also quietly continued to publish small tracts, helping spur the restatement of
+                  the prohibition against printing at the <date when="1781">1781</date> Conference
+                  (see Q. 25, 10:516). Matters came to a head at the <date when="1784">1784</date>
+                  Conference, when <persName>Manners&apos;s</persName> most recent work was judged
+                  by many to deny the doctrine of original sin (see Q. 20, 10:562). At this juncture
+                     <persName>Manners</persName> severed his relationship with the Methodists and
+                  began to publish works critical of them.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
