@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To John Johnson (October 15, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-09</date>
+            <idno type="URI">http://syriaca.org/letters/1758-10-15-ToJohnJohnson</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To John Johnson (October 15, 1758)</title>
+                     <date when="1756-03-01"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="139"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: holograph; MARC, MAM JW 3/73 (part of double letter with
+                  previous).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers0001">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1162">
+                  <persName>John Johnson</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1354">
+                  <persName>Nicholas Manners</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers1353">
+                  <persName>John Manners</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers1162.xml"/>John Johnson</persName><note
+               place="foot" n="1"><persName><ptr target="/persons/pers1162.xml"/>John
+                  Johnson</persName> (<date from="1725" to="1803">1725–1803</date>) was a native of
+                  <placeName>Somerset</placeName> who became a Methodist <seg ana="itinerancy"
+                  >itinerant</seg> in <date when="1753">1753</date> (see 10:260 in this edn.) and
+               spent most of his career preaching in <placeName>Ireland</placeName>. He was for a
+               while General Assistant for the Irish work, but became about this time the center of
+               some dissent. See Vickers, <hi rend="italic">Dictionary</hi>, 182.</note></head>
+         <opener><placeName>Rye, in Sussex</placeName><lb/><date when="1758-10-15">October 15,
+               1758</date><lb/><lb/>
+            <salute>My Dear Brother,</salute>
+         </opener>
+         <p>Would it not be best for <persName><ptr target="/persons/pers1354.xml"/>Nicholas
+               Manners</persName><note place="foot" n="2"><persName><ptr
+                     target="/persons/pers1354.xml"/>Nicholas Manners</persName> was a prospective
+                  <seg ana="itinerancy">itinerant</seg>, whose brother <persName><ptr
+                     target="/persons/pers1353.xml"/>John</persName> was appointed to
+                  <placeName>Ireland</placeName> along with <persName><ptr
+                     target="/persons/pers1162.xml"/>John Johnson</persName> in <date when="1758"
+                  >1758</date> (10:287 in this edn.).</note> to come up to me in
+               <placeName>London</placeName> immediately? Would it not be the most likely means to
+            settle his sentiments?</p>
+         <p>I am exceedingly glad you go abroad when you can. O let us work while the day is! In
+            great haste, I am,</p>
+         <closer><signed>Your ever affectionate brother,<lb/><persName>J.
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
