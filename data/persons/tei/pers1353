@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Manners, John (1731–1764)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1353</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1353">
+               <p><persName>John Manners</persName> was converted by Methodist preaching about <date
+                     when="1755">1755</date>, and is listed as a <seg ana="itinerancy">traveling
+                     preacher</seg> by <date when="1758">1758</date> (see <hi rend="italic"
+                     >Works</hi>, 10:282). He helped spark a revival in
+                     <placeName>Dublin</placeName> in <date when="1762">1762</date>. See Atmore, <hi
+                     rend="italic">Memorial</hi>, 247–50.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
