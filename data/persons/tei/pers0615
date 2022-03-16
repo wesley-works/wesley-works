@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Duchesne, Elizabeth (1724–1776)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-16</date>
+            <idno type="URI">http://syriaca.org/persons/pers0615</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers2192">
+                  <persName>Sarah Jr. Wesley</persName>
+               </person>
+               <person>
+                  <persName>Claudius Duchesne</persName>
+               </person>
+               <person>
+                  <persName>Elizabeth (Bosse) Duchesne</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0615">
+               <p><persName>Elizabeth (&apos;Betty</persName>&apos;), daughter of <persName>Claudius
+                     Duchesne</persName> and <persName>Elizabeth (Bosse) Duchesne</persName>, lived
+                  in <placeName>St. Giles, Middlesex</placeName> and was a long-time friend and
+                  coadjutor for both <persName><ptr target="/persons/pers2180.xml"/>JW</persName>
+                  and <persName><ptr target="/persons/pers2176.xml"/>CW</persName>. <persName><ptr
+                        target="/persons/pers2180.xml"/>JW</persName> presided at her burial on
+                     <date when="1776-12-22">Dec. 22, 1776</date> (see <persName><ptr
+                        target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic"
+                     >Journal</hi>, <hi rend="italic">Works</hi>, 23:39). <persName><ptr
+                        target="/persons/pers2176.xml"/>CW</persName> and his daughter
+                        <persName><ptr target="/persons/pers2192.xml"/>Sarah</persName> were
+                  included in her will.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
