@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To William Allwood (October 15, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-09</date>
+            <idno type="URI">http://syriaca.org/letters/1758-10-15-ToWilliamAllwood</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To William Allwood (October 15, 1758)</title>
+                     <date when="1756-03-01"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="138"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mr <persName><ptr target="/persons/pers0025.xml"
+                     />Allwood</persName> / At Mr <persName><ptr target="/persons/pers0907.xml"
+                     />John Hall</persName>&apos;s / In <placeName>Newgate Street</placeName> /
+                     <placeName>York</placeName>&apos;. Postmark: &apos;17/OC&apos;. Source:
+                  holograph; MARC, MAM JW 6/42; part of a double letter (now separate) to
+                        <persName><ptr target="/persons/pers1163.xml"/>John Johnson</persName>, with
+                  address information on back of that sheet, MAM JW 3/73.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0025">
+                  <persName>William Allwood</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0907">
+                  <persName>John Hall</persName>
+               </person>
+               <person xml:id="pers1163">
+                  <persName>John Johnson</persName>
+               </person>
+               <person xml:id="pers0971">
+                  <persName>Sister Hatton</persName>
+               </person>
+               <person xml:id="pers0909">
+                  <persName>Ruth Hall</persName>
+               </person>
+               <person xml:id="pers2038">
+                  <persName>Thomas Tobias</persName>
+               </person>
+               <person xml:id="pers0793">
+                  <persName>John Gibbs</persName>
+               </person>
+               <person xml:id="pers0896">
+                  <persName>John Hacking</persName>
+               </person>
+               <person xml:id="pers1439">
+                  <persName>Thomas Mitchell</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="persx3">
+                  <persName>[x]</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0025.xml"/>William Allwood</persName></head>
+         <opener><placeName>Rye, in Sussex</placeName><lb/><date when="1758-10-15">October 15,
+               1758</date><lb/><lb/>
+            <salute>My Dear Brother,</salute>
+         </opener>
+         <p>It is very difficult to determine suddenly whether a person is or is not renewed. If
+                  <persName><ptr target="/persons/pers0971.xml"/>sister Hatton</persName> is, it
+            will appear more and more clearly. If she is not, let her earnestly and patiently wait
+            for it. I wrote to sister <persName><ptr target="/persons/pers0909.xml"/>Ruth
+               Hall</persName> and hope she will find time to send me an answer.</p>
+         <p>The books you will, I suppose, receive shortly, if you have not already. <persName><ptr
+                  target="/persons/pers2038.xml"/>Thomas Tobias</persName> is a serious man and will
+            not do the work of the Lord deceitfully. If you see good, let brother <persName><ptr
+                  target="/persons/pers0793.xml"/>Gibbs</persName> go at any time into
+               <placeName>Lincolnshire</placeName>, and <persName><ptr
+                  target="/persons/pers0896.xml"/>John Hacking</persName><note place="foot" n="1"
+                     ><persName><ptr target="/persons/pers0896.xml"/>John Hacking</persName>, an
+                  <seg ana="itinerancy">itinerant</seg> since at least <date when="1755"
+               >1755</date>, had been appointed to <placeName>Lincolnshire</placeName> at the <date
+                  when="1758">1758</date> Conference; see 10:287 in this edn.</note> come to you in
+            his place.</p>
+         <p>I believe another preacher will come from <placeName>London</placeName>, but
+                  <persName><ptr target="/persons/pers1439.xml"/>Thomas Mitchell</persName> cannot
+            yet be spared from these parts. There has never been any preaching in this county
+            before, and now the kingdom of God is come upon them unawares.</p>
+         <closer>O Billy, be much in prayer! I am,<lb/>
+            <signed>Your affectionate friend and brother,<lb/><persName>J.
+               Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
