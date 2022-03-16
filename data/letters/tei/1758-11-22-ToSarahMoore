@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Sarah Moore (November 22, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-16</date>
+            <idno type="URI">http://syriaca.org/letters/1758-11-22-ToSarahMoore</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Sarah Moore (November 22, 1758)</title>
+                     <date when="1756-03-01"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="141" to="142"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Everett, <hi rend="italic"
+                     >Sheffield</hi>, 1:126.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1455">
+                  <persName>Sarah (Moore) Knutton</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers1455.xml"/>Sarah Moore</persName><note
+               place="foot" n="1"><persName><ptr target="/persons/pers1455.xml"/>Sarah
+                  Moore</persName> was born at <placeName>King&apos;s Lynn, Norfolk</placeName> in
+                  <date when="1738">1738</date>, and moved with her parents to
+                  <placeName>Sheffield</placeName> four years later. She began to teach at a school
+               in <placeName>Sheffield</placeName> in her seventeenth year; and at eighteen was
+               appointed the first class-leader at <placeName>Hallam</placeName>, walking there from
+                  <placeName>Sheffield</placeName> every week for two years. The first Quarterly
+               Meeting was held in her house at <placeName>Fargate</placeName> between <date
+                  when="1756">1756</date> and <date when="1760">1760</date>, and the society held
+               its meetings there. She married <persName>Samuel Knutton</persName>, a popular local
+               preacher at <placeName>Sheffield</placeName>, in <date when="1772">1772</date>. See
+               Everett, <hi rend="italic">Sheffield</hi>, 80.</note></head>
+         <opener><placeName>London</placeName><lb/><date when="1758-11-22">November 22, 1758</date><lb/><lb/>
+            <salute>My Dear Sister,</salute>
+         </opener>
+         <p>Praise God for what he hath already done. Let those give thanks whom the Lord hath
+            redeemed and delivered from the hand of the enemy,<note place="foot" n="2"
+                     ><persName><ptr target="/persons/pers1455.xml"/>Moore</persName> had apparently
+               written <persName><ptr target="/persons/pers2180.xml"/>Wesley</persName> about the
+               sudden death of a young man who had been disrupting Methodist services; cf. Everett,
+                  <hi rend="italic">Sheffield</hi>, 126.</note> but you know a greater deliverance
+            is at hand. What have you to do but to fight your way through the world, the flesh, and
+            the devil? It is a good though a painful fight. Unless you yield, you cannot but
+            conquer. It is true you will first conquer by little and little. For</p>
+         <p>
+            <lg>
+               <l>More of this life and more we have</l>
+               <l>As the old Adam dies.<note place="foot" n="3">Cf. <persName><ptr
+                           target="/persons/pers2176.xml"/>CW</persName>, &apos;Christ Our
+                     Sanctification&apos;, st. 3, <hi rend="italic">HSP</hi> (<date when="1740"
+                        >1740</date>), 97.</note></l>
+            </lg>
+         </p>
+         <p>But there is also an instantaneous conquest: in a moment sin shall be no more. You are
+            gradually dying for a long time. But you will die in a moment. O hasten to that happy
+            time! Pray, strive, hope for it!</p>
+         <closer>I am,<lb/>
+            <signed>Your affectionate brother,<lb/><persName>J. Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
