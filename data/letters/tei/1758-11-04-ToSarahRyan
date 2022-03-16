@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Sarah Ryan (November 4, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-16</date>
+            <idno type="URI">http://syriaca.org/letters/1758-11-04-ToSarahRyan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Sarah Ryan (November 4, 1758)</title>
+                     <date when="1758-11-04"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="141"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: manuscript copy by <persName><ptr target="/persons/pers2180.xml"
+                     />JW</persName> for records; MARC, MAM <persName><ptr
+                        target="/persons/pers2180.xml"/>JW</persName> 4/63, p. 9.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers1599">
+                  <persName>Charles Perronet</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers1793.xml"/>Sarah Ryan</persName></head>
+         <opener><placeName>Norwich,</placeName><lb/><date when="1758-11-04">November 4,
+            1758</date><lb/><lb/>
+         </opener>
+         <p>…<note place="foot" n="1"><persName><ptr target="/persons/pers2180.xml"
+                  />Wesley</persName>&apos;s transcription begins with a dash, indicating an elision
+               (i.e., this is an extract).</note> Yesterday I transcribed <persName><ptr
+                  target="/persons/pers1599.xml"/>C. P</persName>.&apos;s<note place="foot" n="2"
+               >Possibly <persName><ptr target="/persons/pers1599.xml"/>Charles
+               Perronet</persName>.</note> questions, with a little alteration. A few of them I will
+            put to <hi rend="italic">you</hi>, which I know you will answer with all plainness. (The
+            four first questions.<note place="foot" n="3">The questions are given in his
+               transcription of <persName><ptr target="/persons/pers1793.xml"
+               />Ryan</persName>&apos;s response on <date when="1758-11-12">Nov. 12</date>
+               (online).</note>)</p>
+         <p>As to myself, I am still cold and faint, though (as I told you) a little revived since I
+            wrote freely. Pray that God may at length <index indexName="biblical">
+               <term cRef="Heb12:12">lift up the hands that hang down and the feeble knees</term>
+            </index>!<note place="foot" n="4">See <index indexName="biblical">
+                  <term cRef="Heb12:12">Heb. 12:12</term>
+               </index>.</note></p>
+      </body>
+   </text>
+</TEI>
