@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brisco, Thomas (1737–1797)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-16</date>
+            <idno type="URI">http://syriaca.org/persons/pers0257</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0257">
+               <p><persName>Brisco</persName> entered the <seg ana="itinerancy">itinerant</seg>
+                  ministry around <date when="1751">1751</date>, and travelled until <date
+                     when="1788">1788</date> (see <hi rend="italic">Works</hi>, 10:648), though he
+                  struggled with a weak constitution. <persName><ptr target="/persons/pers2180.xml"
+                     />JW</persName> named him to the Legal Hundred and listed him as a beneficiary
+                  in his will. See Atmore, <hi rend="italic">Memorials</hi>, 67; <hi rend="italic"
+                     >Minutes</hi> (post-Wesley, 1798), 1:414; and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 43.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
