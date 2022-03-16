@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Wesley) Hall, Martha (1706–1791)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-16</date>
+            <idno type="URI">http://syriaca.org/persons/pers2182</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2188">
+                  <persName>Samuel Sr. Wesley</persName>
+               </person>
+               <person xml:id="pers2193">
+                  <persName>Susanna (Annesley) Wesley</persName>
+               </person>
+               <person xml:id="pers2185">
+                  <persName>Matthew Wesley</persName>
+               </person>
+               <person xml:id="pers0911">
+                  <persName>Westley Hall</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2181">
+                  <persName>Kezia Wesley</persName>
+               </person>
+               <person xml:id="pers0912">
+                  <persName>Westley Jr. Hall</persName>
+               </person>
+               <person xml:id="pers2179">
+                  <persName>Emilia Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers2182">
+               <p><persName>Martha (&apos;Patty</persName>&apos;) was born to <persName><ptr
+                        target="/persons/pers2188.xml"/>Samuel Wesley</persName> and <persName><ptr
+                        target="/persons/pers2193.xml"/>Susanna (Annesley) Wesley</persName> in
+                     <placeName>Epworth</placeName> on <date when="1706-05-08">May 8, 1706</date>.
+                  In the early <date>1730s</date> she lived at times in
+                     <placeName>London</placeName> with her uncle <persName><ptr
+                        target="/persons/pers2185.xml"/>Matthew Wesley</persName>. It was there that
+                  she first met <persName><ptr target="/persons/pers0911.xml"/>Westley
+                     Hall</persName>, one of <persName><ptr target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s Oxford students. <persName><ptr
+                        target="/persons/pers0911.xml"/>Hall</persName> proved an ambivalent suitor,
+                  courting both <persName>Martha</persName> and her sister <persName><ptr
+                        target="/persons/pers2181.xml"/>Kezia</persName>. After their marriage on
+                     <date when="1735-09-13">Sept. 13, 1735</date>, <persName><ptr
+                        target="/persons/pers0911.xml"/>Hall</persName> proved equally unfaithful as
+                  a husband and a pastor, deserting <persName>Martha</persName> for another woman in
+                  the parish. <persName>Martha</persName> and their one surviving child, a son named
+                        <persName><ptr target="/persons/pers0912.xml"/>Westley</persName>, were left
+                  dependent upon support from extended family. <persName>Martha</persName>
+                  eventually moved to <placeName>London</placeName>, where she lived with her sister
+                        <persName><ptr target="/persons/pers2179.xml"/>Emilia</persName> and joined
+                  in Methodist worship and ministry until her death on <date when="1791-07-12">July
+                     12, 1791</date>. See Clarke, <hi rend="italic">Memoirs</hi> (1823, 511–37;
+                  1836, 2:319–70, 1848, 558–97); and Maser, <hi rend="italic">Sisters</hi>,
+                  79–101.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
