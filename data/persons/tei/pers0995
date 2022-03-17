@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hervey, Rev. James (1714–1758)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-16</date>
+            <idno type="URI">http://syriaca.org/persons/pers0995</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1208">
+                  <persName>Charles Kinchin</persName>
+               </person>
+               <person xml:id="pers1540">
+                  <persName>Paul Orchard</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0995">
+               <p><persName>Hervey</persName> matriculated at Lincoln College,
+                     <placeName>Oxford</placeName>, in <date when="1731">1731</date>, where he came
+                  under <persName><ptr target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  influence and became part of the &apos;Oxford Methodists&apos;. He was ordained
+                  deacon in <date when="1736">1736</date>, and served briefly as curate to
+                        <persName><ptr target="/persons/pers1208.xml"/>Charles Kinchin</persName> at
+                     <placeName>Dummer</placeName>. Poor health led him to retire to
+                     <placeName>Stoke Abbey in Devon</placeName>, where he was private chaplain to
+                        <persName><ptr target="/persons/pers1540.xml"/>Paul Orchard</persName> for
+                  over two years. In <date when="1739">1739</date> he took ordination as priest and
+                  a curacy at <placeName>Bideford</placeName>. In <date when="1743">1743</date> he
+                  returned to his native area, to become his father&apos;s curate for a time at
+                     <placeName>Weston Favell</placeName>, succeeding him in <date when="1752"
+                     >1752</date>. <persName><ptr target="/persons/pers0995.xml"
+                  />Hervey</persName>&apos;s poor health proved the occasion for developing his
+                  strong literary gifts. He published several books of meditations; the last of
+                  which, <hi rend="italic">Theron and Aspasio</hi> (<date when="1755">1755</date>)
+                  was meant to commend Calvinism, emphasizing the doctrine of the imputed
+                  righteousness of Christ. <persName><ptr target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s critical engagement of the latter doctrine in <hi
+                     rend="italic">Preservative against Unsettled Notions in Religion</hi> (<date
+                     when="1756">1756</date>) made public a growing theological rift between the two
+                  old friends, which was fanned after <persName><ptr target="/persons/pers0995.xml"
+                     />Hervey</persName>&apos;s death by the unauthorized publication of <hi
+                     rend="italic">Eleven Letters</hi> he had crafted to <persName><ptr
+                        target="/persons/pers2180.xml"/>JW</persName> defending his views. See <hi
+                     rend="italic">Alumni Oxonienses</hi>; Atmore, <hi rend="italic">Memorial</hi>,
+                  185–90; <hi rend="italic">DEB</hi>, 546–57; <hi rend="italic">ODNB</hi>; Tyerman,
+                     <hi rend="italic">Oxford Methodists</hi>, 201–333; Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 156; and <hi rend="italic">Works</hi>, 13:321–44, 374–90.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
