@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Mary (Goldhawk/Vazeille) Wesley (October 27, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-16</date>
+            <idno type="URI">http://syriaca.org/letters/1758-10-27-ToMaryWesley</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Mary (Goldhawk/Vazeille) Wesley (October 27, 1758)</title>
+                     <date when="1758-10-27"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="139" to="140"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mrs <persName><ptr target="/persons/pers2091.xml"
+                     />Wesley</persName> / At the <placeName>Foundery</placeName> /
+                     <placeName>London</placeName>&apos;. Postmark: &apos;28 / OC&apos;. Charge:
+                  &apos;3&apos;. Source: holograph; MARC, MAM <persName><ptr
+                        target="/persons/pers2180.xml"/>JW</persName> 5/58.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0058">
+                  <persName>Brother Arvin</persName>
+               </person>
+               <person xml:id="pers2182">
+                  <persName>Martha (Wesley) Hall</persName>
+               </person>
+               <person xml:id="pers0615">
+                  <persName>Elizabeth Duchesne</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers2091.xml"/>Mary (Goldhawk/Vazeille)
+               Wesley</persName></head>
+         <opener><placeName>Colchester</placeName><lb/><date when="1758-10-27">October 27,
+               1758</date><lb/><lb/>
+            <salute>My Dear Love,</salute>
+         </opener>
+         <p>I had a pleasant ride to <placeName>Ingatestone</placeName><note place="foot" n="1"
+               >Orig., &apos;<placeName>Ingotstone</placeName>&apos;;
+                  <placeName>Ingatestone</placeName> and <placeName>Maldon</placeName> are both in
+                  <placeName>Essex</placeName>.</note> in the coach. I then took horse and came to
+               <placeName>Maldon</placeName> by dinnertime. Between ten and eleven this morning we
+            set out from <placeName>Maldon</placeName>, and in three hours found honest
+                  <persName><ptr target="/persons/pers0058.xml"/>brother Arvin</persName> here. If I
+            find no particular reason to alter my design, I purpose going on toward
+               <placeName>Norwich</placeName> on Monday.</p>
+         <p>You obliged me on Tuesday afternoon by inviting my sister <persName><ptr
+                  target="/persons/pers2182.xml"/>Hall</persName><note place="foot" n="2">I.e.,
+                     <persName><ptr target="/persons/pers2182.xml"/>Martha (Wesley)
+               Hall</persName>.</note> to drink tea with you; and likewise by leaving <persName><ptr
+                  target="/persons/pers0615.xml"/>Betty Duchesne</persName> with me till she had
+            said what she had to say. My dear, this is the way (as I have often told you) to secure
+            a person&apos;s affections:</p>
+         <p>
+            <lg>
+               <l>Let all his ways be unconfined,</l>
+               <l>And clap your padlock on his mind.<note place="foot" n="3">The concluding couplet
+                     of <persName>Matthew Prior</persName>, &apos;An English Padlock&apos;, changing
+                     &apos;her&apos; to &apos;his&apos;.</note></l>
+            </lg>
+         </p>
+         <p>Believe me, there is no other way; <index indexName="biblical">
+               <term cRef="1Cor10:29">leave every one to his own conscience. For why am I judged,
+                  says St. Paul, of another’s conscience</term>
+            </index>?<note place="foot" n="4">See <index indexName="biblical">
+                  <term cRef="1Cor10:29">1 Cor. 10:29</term>
+               </index>.</note> Every one must give an account of himself to God. And even if a man
+            acts contrary to good conscience, can you reclaim him by violent methods? Vain
+            thought!</p>
+         <p>
+            <lg>
+               <l>By force beasts act, and are by force restrained;</l>
+               <l>The human mind by gentle means is gained.<note place="foot" n="5"
+                        ><persName>Matthew Prior</persName>, &apos;Solomon&apos;, Book II, ll.
+                     257–58.</note></l>
+            </lg>
+         </p>
+         <p>Either by gentle means or by none at all. Or if there be an exception, <index
+               indexName="biblical">
+               <term cRef="Prov14:3">if a rod be for a fool&apos;s back</term>
+            </index>,<note place="foot" n="6">See <index indexName="biblical">
+                  <term cRef="Prov14:3">Prov. 14:3</term>
+               </index>.</note> the wife is not the person who is to use it towards her husband.</p>
+         <p>If it please God to bring me safe to <placeName>Norwich</placeName>, I hope to have a
+            letter from you there. Peace be with your spirit. I am,</p>
+         <closer><signed>Your affectionate husband,<lb/><persName>John
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
