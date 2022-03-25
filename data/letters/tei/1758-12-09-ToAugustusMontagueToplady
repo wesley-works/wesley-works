@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Augustus Montague Toplady (December 9, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-24</date>
+            <idno type="URI">http://syriaca.org/letters/1758-12-09-ToAugustusMontagueToplady</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Augustus Montague Toplady (December 9, 1758)</title>
+                     <date when="1758-12-09"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="143" to="144"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mr <persName><ref target="/persons/pers2049.xml"
+                     />Toplady</persName> / in Trinity College /
+                  <placeName>Dublin</placeName>&apos;. Source: holograph; MARC, MA 2008/016.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2049">
+                  <persName>Augustus Montague Toplady</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1991">
+                  <persName>John Taylor</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers1471">
+                  <persName>James Morris</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers2049.xml"/>Augustus Montague
+               Toplady</persName><note place="foot" n="1"><persName><ref
+                     target="/persons/pers2049.xml"/>Augustus Montague Toplady</persName> (<date
+                  from="1740" to="1788">1740–88</date>) had been converted after hearing a sermon in
+                  <date when="1755">1755</date> preached at <placeName>Coolamain</placeName> by
+                     <persName><ref target="/persons/pers1471.xml"/>James Morris</persName>, one of
+                     <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s preachers.
+               Sometime there after he and <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName> began to correspond, with this being the first surviving letter of
+                     <persName><ref target="/persons/pers2180.xml"/>JW</persName> to the 18 year-old
+                     <persName><ref target="/persons/pers2049.xml"/>Toplady</persName> (a prior
+               letter is referred to in <persName><ref target="/persons/pers2049.xml"
+                  />Toplady</persName> to <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName>, <date when="1758-09-13">Sept. 13, 1758</date>). <persName><ref
+                     target="/persons/pers2049.xml"/>Toplady</persName> would shortly align with the
+               Calvinist Methodists and become a strong critic of <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName>&apos;s Arminianism; see, for
+               example, <persName><ref target="/persons/pers2180.xml"/>JW</persName>, <hi
+                  rend="italic">The Consequence Proved</hi> (<date when="1771">1771</date>),
+               13:422–28 in this edn. See <hi rend="italic">ODNB</hi>.</note></head>
+         <opener><placeName>London</placeName><lb/><date when="1758-12-09">December 9, 1758</date><lb/><lb/>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>I verily believe no single person since <persName><ref
+                  target="http://viaf.org/viaf/97245226"/>Mahomet</persName> has given such a wound
+            to Christianity as Dr. <persName><ref target="/persons/pers1991.xml"
+               />Taylor</persName>.<note place="foot" n="2"><persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName> had published his response to
+                     <persName><ref target="/persons/pers1991.xml"/>John Taylor</persName>&apos;s
+                  <hi rend="italic">The Scripture-Doctrine of Original Sin</hi> in <date when="1757"
+                  >1757</date>; see 12:117ff in this edn.</note> They are his books, chiefly that
+            upon <hi rend="italic">Original Sin</hi>, which have poisoned so many of the clergy and
+            indeed the fountains themselves—the universities in <placeName>England</placeName>,
+               <placeName>Scotland</placeName>, <placeName>Holland</placeName>, and
+               <placeName>Germany</placeName></p>
+         <p>If you do not immediately see the fruit of your labour in conversing with this or that
+            person, still there is no reason to think it lost. <index indexName="biblical">
+               <term cRef="John3:8">The wind bloweth when as well as where it listeth</term>
+            </index>.<note place="foot" n="3">See <index indexName="biblical">
+                  <term cRef="John3:8">John 3:8</term>
+               </index>.</note> We know the help that is done, God doth it himself. And it is fit he
+            should do it in his own time as well as manner.</p>
+         <p>If you continue to <index indexName="biblical">
+               <term cRef="Micah6:8">walk humbly and simply with God</term>
+            </index>,<note place="foot" n="4">See <index indexName="biblical">
+                  <term cRef="Micah6:8">Micah 6:8</term>
+               </index>.</note> there is no need the darkness should ever return. God is willing to
+            give the love, the joy, the peace always which he gives once. Only, hear his voice, and
+            follow it with all diligence. Do whatever he calls you to, be it ever so grievous to
+            flesh and blood, and shun whatever you find lessens your communion with him.</p>
+         <p>Nothing but almighty grace can amend that child. She had a taste of it once; and she may
+            again. It would be well to put her in the way of it as frequently as may be.</p>
+         <p>I have not had my health so well for many years. How many are the mercies of God! We
+            want only thankful hearts.</p>
+         <p>Have you had yet any thoughts as to your future life, in what way you might most glorify
+            God? I am, dear sir,</p>
+         <closer><signed>Your affectionate servant,<lb/><persName>John
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
