@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Dorothy Furly (December 28, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-24</date>
+            <idno type="URI">http://syriaca.org/letters/1758-12-28-ToDorothyFurly</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Dorothy Furly (December 28, 1758)</title>
+                     <date when="1758-12-28"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="146" to="147"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Benson, <hi rend="italic">Works</hi>,
+                  16:323.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0762">
+                  <persName>Dorothy Furly</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0762.xml"/>Dorothy Furly</persName></head>
+         <opener><placeName>Colchester</placeName><lb/><date when="1758-12-28">December 28,
+               1758</date><lb/><lb/>
+            <salute>My Dear Sister,</salute>
+         </opener>
+         <p>I thought it long since I heard from you, but I imputed it to your illness. And I did
+            not desire you should do anything which would put you to pain or increase your bodily
+            weakness.</p>
+         <p>When you seemed confident of receiving the promise in a few days, I did not judge it
+            needful to say anything to the contrary, both because I was persuaded that expectation
+            would be a quickening to your soul, and because I knew you had one near you who was able
+            to advise you in any emergency. See that your desires do not cool, and you shall not be
+            ashamed of this confident expectation. So long as it is tempered with resignation, it
+            can do you no disservice. And what else is there worthy of a desire? Health you shall
+            have if health be best, even bodily health. But what is that in comparison of an
+            healthful mind? And this you are sure to have.</p>
+         <p>I scruple <persName><ref target="/persons/pers1793.xml"/>Sarah Ryan</persName>&apos;s
+            drinking tar-water because it is so extremely nauseous. Neither will it profit if it
+            occasion costiveness,<note place="foot" n="1">Constipation.</note> unless stewed prunes
+            be taken every second or third night instead of it. I rather wish she would resume the
+            medicine I formerly prescribed, only taking care not to catch cold with it. Perhaps in a
+            few days you may see,</p>
+         <closer><signed>Your affectionate brother,<lb/><persName>J.
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
