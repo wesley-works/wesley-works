@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Mary (Goldhawk/Vazeille) Wesley (December 23, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-24</date>
+            <idno type="URI">http://syriaca.org/letters/1758-12-23-ToMaryWesley</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Mary (Goldhawk/Vazeille) Wesley (December 23, 1758)</title>
+                     <date when="1758-12-23"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="145" to="146"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To Mrs <persName><ref target="/persons/pers2091.xml"
+                     />Wesley</persName> / At the <placeName>Foundery</placeName> /
+                     <placeName>London</placeName>&apos;. Postmarks: (top of date stamp illegible)
+                  &apos;/DE&apos; and &apos;<placeName>NOR / WICH</placeName>&apos;. Charge:
+                  &apos;4&apos;. Source: holograph; MARC, MAM JW 5/59.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers2091.xml"/>Mary (Goldhawk/Vazeille)
+               Wesley</persName></head>
+         <opener><placeName>Norwich</placeName><lb/><date when="1758-12-23">December 23, 1758</date><lb/><lb/>
+            <salute>Dear Molly,</salute>
+         </opener>
+         <p>I was much concerned the night before I left <placeName>London</placeName> at your
+            unkind and unjust accusation.<note place="foot" n="1"><persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName> left
+                  <placeName>London</placeName> on <date when="1758-12-18">Dec. 18</date> according
+               to his <hi rend="italic">Journal</hi> (21:173 in this edn.).</note> You accused <hi
+               rend="italic">me</hi> of unkindness, cruelty, and what not. And why so? Because I
+            insist on choosing my own company, because I insist upon conversing, by speaking or
+            writing, with those whom I (not you) judge proper! For more than seven years this has
+            been a bone of contention between you and me, and it is so still. For I will not, I
+            cannot, I dare not give it up. &apos;But then <hi rend="italic">you</hi> will rage and
+            fret and call me names.&apos; I am sorry for it. But I cannot help it. I still do and
+            must insist that I have a right to choose my own company. Then you will &apos;denounce
+            against me all the curses from Genesis to the Revelation&apos;. You may so. But you gain
+            no ground hereby, for still I cannot give up my right. Nay, but &apos;you will say all
+            manner of evil of me&apos;. Be it so, but still I stand just where I was. Then &apos;you
+            will show my private letters to all the world&apos;. If you do, I must assert my right
+            still. All this will not extort it from me, <hi rend="italic">nor anything else which
+               you can do</hi>. You may therefore as well <hi rend="italic">allow</hi> it now as
+            after we have squabbled about it (if we live so long) seven years longer, for it is my
+            right by all the laws of God and man, and a right which I never can part with. O do not
+            continue to trouble yourself and me and to disturb the children of God by still grasping
+            at a power which must be denied you by him who is nevertheless,</p>
+         <closer>
+            <signed>Your truly affectionate husband,<lb/><persName>John
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
