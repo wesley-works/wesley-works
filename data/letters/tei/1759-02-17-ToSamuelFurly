@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To the Rev. Samuel Furly (February 17, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-26</date>
+            <idno type="URI">http://syriaca.org/letters/1759-02-17-ToSamuelFurly</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To the Rev. Samuel Furly (February 17, 1759)</title>
+                     <date when="1759-02-17"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="148" to="149"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Telford, <hi rend="italic">Letters</hi>,
+                  4:50–51.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0763">
+                  <persName>Samuel Furly</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1206">
+                  <persName>James Kershaw</persName>
+               </person>
+               <person xml:id="pers1589">
+                  <persName>John Pearse</persName>
+               </person>
+               <person xml:id="pers0762">
+                  <persName>Dorothy Furly</persName>
+               </person>
+               <person xml:id="pers0806">
+                  <persName>Nicholas Gilbert</persName>
+               </person>
+               <person xml:id="pers0761">
+                  <persName>Ann Furly</persName>
+               </person>
+               <person xml:id="pers0159">
+                  <persName>John Berridge</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0763.xml"/>the Rev. Samuel
+            Furly</persName></head>
+         <opener><placeName>London</placeName><lb/><date when="1759-02-17">February 17, 1759</date><lb/><lb/>
+            <salute>Dear Sammy,</salute>
+         </opener>
+         <p><persName><ref target="/persons/pers1206.xml"/>James Kershaw</persName><note
+               place="foot" n="1"><persName><ref target="/persons/pers1206.xml"/>James
+                  Kershaw</persName> (<date from="1730" to="1797">1730–97</date>), one of
+                     <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s first <seg
+                  ana="itinerancy">itinerants</seg>, who had withdrawn from riding the circuit; see
+               Atmore, <hi rend="italic">Memorial</hi>, 237 or Vickers, <hi rend="italic"
+                  >Dictionary</hi>, 190.</note> is an independent minister. Probably, if we live
+            till another Conference, he may be in connexion with us. Hitherto he acts as an
+            independent. We have no society at <placeName>Kenninghall</placeName>.<note place="foot"
+               n="2">Orig., &apos;<placeName>Renninghall</placeName>&apos;; this is surely a
+               misprint for <placeName>Kenninghall, Norfolk</placeName>, which was near
+                  <placeName>Lakenheath, Suffolk</placeName>, where <persName><ref
+                     target="/persons/pers0763.xml"/>Furly</persName> was placed as curate in late
+                  <date when="1758-11">Nov. 1758</date>.</note></p>
+         <p>I take <persName><ref target="/persons/pers1589.xml"/>John Pearse</persName> to be an
+            honest man. As soon as he sees the truth he will preach it. <persName><ref
+                  target="/persons/pers0762.xml"/>Dolly Furly</persName> was considerably better in
+            health before I came from <placeName>Bristol</placeName>. And she was all athirst for
+            God. I think her soul prospers more and more.</p>
+         <p>I will desire Mr. <persName><ref target="/persons/pers0806.xml"/>Gilbert</persName><note
+               place="foot" n="3"><persName><ref target="/persons/pers0806.xml"/>Nicholas
+                  Gilbert</persName>, an <seg ana="itinerancy">itinerant</seg> preacher since <date
+                  when="1744">1744</date>, was currently stationed in <placeName>London</placeName>,
+               and helping care for <persName><ref target="/persons/pers2180.xml"
+               />JW</persName>&apos;s publications (see 10:260 in this edn.).</note> to see whether
+            the four volumes of the <hi rend="italic">Library</hi> which you mention can be spared.
+            And if they can, if they are not necessary for the making up of sets, they will be sent
+            with the last <hi rend="italic">Journal</hi> and the <hi rend="italic">Pilgrim&apos;s
+               Progress</hi>.<note place="foot" n="4">The books in question are volumes from
+                     <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s <hi
+                  rend="italic">Christian Library</hi>, installment 9 of his <hi rend="italic"
+                  >Journal</hi> (which had just been released), and his abridged republication of
+               Bunyan&apos;s <hi rend="italic">Pilgrim&apos;s Progress</hi> (<hi rend="italic"
+                  >Bibliography</hi>, No. 79).</note></p>
+         <p>It is very possible the day of grace may be at end before the day of life is. But I
+            believe this is very rarely the case. I have narrowly observed, and have found but one
+            indisputable instance in thirty years.</p>
+         <p><persName><ref target="/persons/pers0761.xml"/>Nancy</persName><note place="foot" n="5"
+                     ><persName><ref target="/persons/pers0761.xml"/>Ann (Bloodworth)
+                  Furly</persName>, <persName><ref target="/persons/pers0763.xml"
+               />Samuel</persName>&apos;s wife, whom he married in <date when="1758-06">June
+                  1758</date>.</note> must give me credit for her letter a little longer, for I am
+            at present much straitened for time. <date when="1759-03-01">March 1</date> I hope to be
+            at Mr. <persName><ref target="/persons/pers0159.xml"/>Berridge</persName>&apos;s,<note
+               place="foot" n="6"><persName><ref target="/persons/pers0159.xml"/>John
+                  Berridge</persName> (<date from="1716" to="1793">1716–93</date>), vicar of
+                  <placeName>Everton, Bedfordshire</placeName>, had met <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName> in <date when="1758">1758</date>,
+               and was drawn into the evangelical revival. At this point his parish was a center for
+               the work of <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+               preachers in the <placeName>East Midlands</placeName> (see the account of the revival
+               in late <date when="1759-05">May 1759</date> in <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName>&apos;s <hi rend="italic"
+                  >Journal</hi>, 21:195–200 in this edn.). <persName><ref
+                     target="/persons/pers0159.xml"/>Berridge</persName> later embraced Calvinist
+               views and attacked <persName><ref target="/persons/pers2180.xml"
+               />JW</persName>&apos;s theology. See Vickers, <hi rend="italic">Dictionary</hi>, 28;
+               and <hi rend="italic">ODNB</hi>.</note> whence I must strike off for
+               <placeName>Colchester</placeName>, so that you will not see me this spring unless you
+            come to <placeName>Everton</placeName>. I am, dear Sammy,</p>
+         <closer><signed>Yours affectionately,<lb/><persName>J. Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
