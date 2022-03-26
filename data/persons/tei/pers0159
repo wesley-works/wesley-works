@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Berridge, Rev. John (1717–1793)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-26</date>
+            <idno type="URI">http://syriaca.org/persons/pers0159</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0159">
+               <p>A graduate of <placeName>Clare College, Cambridge</placeName> in <date when="1739"
+                     >1739</date>, <persName>Berridge</persName> became a fellow and continued to
+                  reside at <placeName>Clare</placeName> until <date when="1757">1757</date>. While
+                  of Socinian convictions and doubtful of his ministerial skills, he accepted the
+                  living as vicar of <placeName>Everton, Bedfordshire</placeName> in <date
+                     when="1755">1755</date>. In late <date when="1757">1757</date>
+                  <persName>Berridge</persName> underwent a dramatic conversion. He met
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> shortly after,
+                  and was drawn into the evangelical revival. His parish became a center for the
+                  work of <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  preachers in the <placeName>East Midlands</placeName>, with
+                     <persName>Berridge</persName> often joining in <seg ana="itinerancy"
+                     >itinerant</seg> preaching. By the early <date>1770s</date>
+                  <persName>Berridge</persName> was worn out; moreover, he embraced Calvinist views,
+                  and turned to attacking <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s theology. See <hi rend="italic">Alumni
+                     Catabrigienses</hi>; CCEd; <hi rend="italic">DEB</hi>, 87–88; <hi rend="italic"
+                     >ODNB</hi>; and Vickers, <hi rend="italic">Dictionary</hi>, 28.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
