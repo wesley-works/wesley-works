@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To an Unidentified Man (December 9, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-26</date>
+            <idno type="URI">http://syriaca.org/letters/1758-12-09-ToAnUnidentifiedMan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To an Unidentified Man (December 9, 1758)</title>
+                     <date when="1758-12-09"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="144" to="145"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: holograph; Huntington Library, HM 57037 (address portion
+                  missing).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="persx">
+                  <persName>[x]</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0932">
+                  <persName>Ann Hardwick</persName>
+               </person>
+               <person xml:id="pers0933">
+                  <persName>Faith Hardwick</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers0923">
+                  <persName>John Hampson</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0000.xml"/>an Unidentified Man</persName><note
+               place="foot" n="1">The letter was likely directed to <persName><ref
+                     target="/persons/pers0923.xml"/>John Hampson</persName> or one of
+                     <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s other
+               preachers stationed in <placeName>Leeds</placeName>.</note></head>
+         <opener><placeName>London</placeName><lb/><date when="1759-12-09">December 9, 1758</date><lb/><lb/>
+            <salute>My Dear Brother,</salute>
+         </opener>
+         <p>From time to time I have had more trouble with the society at
+               <placeName>Leeds</placeName> than with all the other societies in
+               <placeName>Yorkshire</placeName>. And now I hear that <hi rend="italic">the
+               leaders</hi><!-- I am unsure who the leaders is referencing to and if there is any special tagging I should do for them. -->
+            insist that such and such persons be put out of the society! I desire the leaders may
+            know their place and not stretch themselves beyond their line. Pray let me judge who
+            should be put out of a Methodist society and who not. I desire <persName><ref
+                  target="/persons/pers0933.xml"/>Faith</persName> and <persName><ref
+                  target="/persons/pers0932.xml"/>Ann Hardwick</persName> may not be put out of the
+            society, unless some fresh matter appear against them; and if any new matter does
+            appear, let it be laid before <hi rend="italic">me</hi>.</p>
+         <p><index indexName="biblical">
+               <term cRef="James2:13">He shall have judgement without mercy who hath shown no
+                  mercy</term>
+            </index>!<note place="foot" n="2">See <index indexName="biblical">
+                  <term cRef="James2:13">James 2:13</term>
+               </index>.</note> I am,</p>
+         <closer><signed>Your affectionate brother,<lb/><persName>J.
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
