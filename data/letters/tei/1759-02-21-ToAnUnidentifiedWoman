@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To an Unidentified Woman (February 21, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-27</date>
+            <idno type="URI">http://syriaca.org/letters/1759-02-21-ToAnUnidentifiedWoman</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To an Unidentified Woman (February 21, 1759)</title>
+                     <date when="1759-02-21"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="149" to="150"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Arminian Magazine</hi>
+                  2 (<date when="1780">1780</date>): 161–62.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="persx">
+                  <persName>[x]</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0000.xml"/>an Unidentified
+            Woman</persName></head>
+         <opener><placeName>London</placeName><lb/><date when="1759-02-21">February 21, 1759</date><lb/><lb/>
+            <salute/>
+         </opener>
+         <p>Probably, Miss —,<note place="foot" n="1">This and a subsequent letter of <date
+                  when="1759-03-20">Mar. 20</date> were published in <hi rend="italic">AM</hi>
+               together as directed to the same unidentified recipient. <persName>Telford</persName>
+               suggests &apos;Miss
+               <persName>Johnson</persName>&apos;<!-- Did not find any specific match for this person -->,
+               with no indication of why he makes that association.</note> this may be the last
+            trouble of the kind which you will receive from me. Therefore you may forgive me this,
+            and the rather when you consider my motives to it. You know I can have no temporal view.
+            I can have none but a faint, distant hope (because with God all things are possible) of
+            doing some service to one whom I love. And this may answer the question which you might
+            naturally ask, &apos;What would you have! What do you want with me!&apos; I want you,
+            not to be a convert to my opinions, but to be a member of Christ, a child of God, and an
+            heir of his kingdom. Be anything as to outward profession, so you are lowly in heart, so
+            you resist and conquer every motion of pride, and have that mind in you which was also
+            in Christ Jesus. Be what you please besides; only be meek and gentle, and in patience
+            possess your soul, so that one may truly say to you,</p>
+         <p>
+            <lg>
+               <l>Calm thou ever art within,</l>
+               <l>All unruffled, all serene.<note place="foot" n="2"><persName><ref
+                           target="/persons/pers2176.xml"/>CW</persName>, &apos;The
+                     Beatitudes&apos;, ll. 79–80, <hi rend="italic">HSP</hi> (<date when="1749"
+                        >1749</date>), 1:37.</note></l>
+            </lg>
+         </p>
+         <p>Hear what preacher you will, but hear the voice of God, and beware of prejudice and
+            every unkind temper. Beware of foolish and hurtful desires or they will pierce you
+            through with many sorrows. In one word, be anything but a trifler, a trifler with God
+            and your own soul. It was not for this that God gave you</p>
+         <p>
+            <lg>
+               <l>A mind superior to the vulgar herd.<note place="foot" n="3">Cf. <persName><ref
+                           target="http://viaf.org/viaf/68976517"/>Matthew
+                     Prior</persName><!-- Do I use PTR or REF here? -->, &apos;Solomon&apos;, Book
+                     I, l. 681, &apos;And turn superior to the vulgar herd&apos;.</note></l>
+            </lg>
+         </p>
+         <p>No, Miss —, no! But that you might employ all your talents to the glory of him that gave
+            them. O do not grieve the Holy Spirit of God! Is he not still striving with you!
+            Striving to make you not almost but altogether a Christian! Indeed, you must be all or
+            nothing— a saint or a devil, eminent in sin or holiness! The good Lord deliver you from
+            every snare, and guide your feet in the way of peace! How great a pleasure would this
+            give to all your real friends, and in particular to,</p>
+         <closer><signed>Your affectionate servant for Christ&apos;s sake,<lb/><persName>John
+                  Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
