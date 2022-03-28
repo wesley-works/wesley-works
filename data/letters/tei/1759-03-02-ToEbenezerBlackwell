@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Ebenezer Blackwell (March 2, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-27</date>
+            <idno type="URI">http://syriaca.org/letters/1759-03-02-ToEbenezerBlackwell</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Ebenezer Blackwell (March 2, 1759)</title>
+                     <date when="1759-03-02"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="151"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mr <persName><ref target="/persons/pers0179.xml"
+                     />Blackwell</persName> / In <placeName>Change Alley</placeName> /
+                     <placeName>London</placeName>&apos;. No postmark or indications of postal <hi
+                     rend="italic">charge</hi>; apparently delivered by hand. Endorsement:
+                  &apos;Revd Mr <persName><ref target="/persons/pers2180.xml"/>John
+                     Wesley</persName> / <placeName>Everton</placeName>
+                  <date when="1759-03-02">2nd March 1759</date>&apos;. Source: holograph; MARC, MAM
+                  JW 1/63.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0179">
+                  <persName>Ebenezer Blackwell</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+               <person xml:id="pers0506">
+                  <persName>Sarah Crosby</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0179.xml"/>Ebenezer
+            Blackwell</persName></head>
+         <opener><placeName>Everton</placeName><lb/><date when="1759-03-02">March 2, 1759</date><lb/><lb/>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>When it is probable I may alter my judgement or practice, I am very willing to speak
+            upon any head. But when I am clearly and fully fixed, then I do not speak, for it would
+            be lost labour. For this reason I did not speak the other night, because I was fully
+            fixed.</p>
+         <p>My <persName><ref target="/persons/pers2091.xml"/>wife</persName> picks my lock and
+            steals my papers. Afterwards she says, &apos;You cannot trust me.&apos; I answer,
+            &apos;I cannot, till you restore what you stole and promise to steal no more.&apos; She
+            replies, &apos;I will burn them, or lodge them with another, on such terms.&apos; I
+            answer nothing. Do you ask why so? I answer to <hi rend="italic">you</hi>: 1) I will not
+               <hi rend="italic">consent</hi> my goods shall be <hi rend="italic">burnt</hi>, much
+            less accept it as a favour. I require her to <hi rend="italic">restore</hi> them. 2) I
+            will not thank her for lodging them with another. I require that they be restored to <hi
+               rend="italic">me</hi>. 3) I will not so much as consider <hi rend="italic">the
+               terms</hi>; I require the restitution of my own goods without <hi rend="italic">any
+               terms</hi>. And I know you would do so were it your case. And so would any man of
+            common sense. &apos;But she will not restore them.&apos; Then she must keep them. But
+            let her not blame <hi rend="italic">me</hi> because I cannot trust her.</p>
+         <p>Permit me to add one word to <hi rend="italic">you</hi>. You think yourself a match for
+            her, but you are not. By her exquisite art she has already made you think ill of two
+            very deserving women.<note place="foot" n="1"><persName><ref
+                     target="/persons/pers1793.xml"/>Sarah Ryan</persName> and <persName><ref
+                     target="/persons/pers0506.xml"/>Sarah Crosby</persName>.</note> And you have
+            been more than once much puzzled what to think of me! Nor could you help thinking me <hi
+               rend="italic">a little</hi> in the wrong. I am almost afraid she likewise entertains
+            you with the faults of many in the society, the knowing of which (be they real or
+            feigned) does you no good at all. O sir, let us look inward, let us <hi rend="italic"
+               >live at home</hi>! The more we know of our own faults and the less of other
+            people&apos;s, the more will the work of God prosper in our hearts.</p>
+         <closer>Wishing all happiness to you and yours, I am, dear sir,<lb/>
+            <signed>Your affectionate servant,<lb/><persName>John
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
