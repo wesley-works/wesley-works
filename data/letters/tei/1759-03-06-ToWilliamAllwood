@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To William Allwood (March 6, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-02</date>
+            <idno type="URI">http://syriaca.org/letters/1759-03-06-ToWilliamAllwood</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To William Allwood (March 6, 1759)</title>
+                     <date when="1759-03-06"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="152"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To Mr. <persName><ref target="/persons/pers0025.xml"
+                     />Will. Alwood</persName>, At Mr. <persName><ref target="/persons/pers0907.xml"
+                     />John Hall</persName>&apos;s, / In <placeName>Newgate Street,
+                  York</placeName>&apos;. Source: published transcription; Telford, <hi
+                     rend="italic">Letters</hi>, 4:55.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0025">
+                  <persName>William Allwood</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0433">
+                  <persName>Thomas Cockburn</persName>
+               </person>
+               <person xml:id="pers0907">
+                  <persName>John Hall</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="persx2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0025.xml"/>William Allwood</persName></head>
+         <opener><placeName>Norwich</placeName><lb/><date when="1759-03-06">March 6, 1759</date><lb/><lb/>
+            <salute>Dear Billy,</salute>
+         </opener>
+         <p>You spoil my plan. I had appointed, with God&apos;s leave, to be at
+               <placeName>Wakefield</placeName> on <date when="1759-04-18">Wednesday, April
+               18</date>. But you tell me I must be at <placeName>York</placeName>. If I must, who
+            can help it? Then I must set out from <placeName>Epworth</placeName> that morning, dine
+            at <placeName>Selby</placeName> about noon, and so go on in the afternoon for
+               <placeName>York</placeName>.<note place="foot" n="1"><persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName>&apos;s <hi rend="italic"
+                  >Journal</hi> for <date when="1759-04-18">Apr. 18, 1759</date> (21:187 in this
+               edn.) indicates that he did just this.</note> But I hope you will begin the building
+            directly. I suppose Dr. <persName><ref target="/persons/pers0433.xml"
+               />Cockburn</persName> has my plan.<note place="foot" n="2">Dr. <persName><ref
+                     target="/persons/pers0433.xml"/>Thomas Cockburn</persName> of
+                  <placeName>York</placeName>, a younger classmate of <persName><ref
+                     target="/persons/pers2176.xml"/>CW</persName> at Westminster, who had become a
+               supporter of the Methodist movement in <placeName>York</placeName>. He later moved to
+                  <placeName>Jamaica</placeName>, where he died in <date when="1768"
+               >1768</date>.</note> Lose no time. I have some money in my hands for you.<note
+               place="foot" n="3">Probably funds raised for a new preaching house at
+                  <placeName>York</placeName>.</note>
+            <index indexName="biblical">
+               <term cRef="1Sam21:8">The King&apos;s business requireth haste</term>
+            </index>.<note place="foot" n="4"><index indexName="biblical">
+                  <term cRef="1Sam21:8">1 Sam. 21:8</term>
+               </index>.</note> You may still direct your letters to <placeName>London</placeName>.
+            I am,</p>
+         <closer><signed>Your affectionate friend and brother,<lb/><persName>J.
+               Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
