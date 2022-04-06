@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Dorothy Furly (March 6, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-05</date>
+            <idno type="URI">http://syriaca.org/letters/1759-03-06-ToDorothyFurly</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Dorothy Furly (March 6, 1759)</title>
+                     <date when="1759-03-06"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="152" to="153"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Benson, <hi rend="italic">Works</hi>,
+                  16:323–24.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0762">
+                  <persName>Dorothy Furly</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0762.xml"/>Dorothy Furly</persName></head>
+         <opener><placeName>Norwich</placeName><lb/><date when="1759-03-06">March 6, 1759</date><lb/><lb/>
+            <salute>My Dear Sister,</salute>
+         </opener>
+         <p>I shall always be glad to hear from you when you can write without hurting yourself. But
+            I am almost afraid to write, for fear of tempting you to answer whether you can or
+            not.</p>
+         <p>Since you left <placeName>Kingswood</placeName>, I hope you use the water at the
+               <placeName>Hot Wells</placeName> as often as possible.<note place="foot" n="1"
+                     ><persName><ref target="/persons/pers0762.xml"/>Furly</persName> has apparently
+               now gone to <placeName>Clifton</placeName>, just south of
+                  <placeName>Bristol</placeName> and adjacent to <placeName>Hot Wells</placeName>
+               (see the letter of <date when="1758-04-13">Apr. 13, 1758</date>).</note> If anything
+            medicinal profit you, probably it will be this. But perhaps God will not suffer you to
+            be healed by outward medicines. It may be he is determined to have all the glory of his
+            own work. Meantime he designs by this weakness of body to keep your soul low as a weaned
+            child. There is a wonderful mystery in the manner and circumstances of that mighty
+            working whereby he subdues all things to himself and leaves nothing in the heart but his
+            pure love alone.</p>
+         <p>I have no doubt but God will give you the answer to that prayer,</p>
+         <p>
+            <lg>
+               <l>Let me thy witness live,</l>
+               <l>When sin is all destroyed!</l>
+               <l>And then my spotless soul receive,</l>
+               <l>And take me home to God!<note place="foot" n="2"><persName><ref
+                           target="/persons/pers2176.xml"/>CW</persName>, Hymn for Believers #15,
+                     st. 7, <hi rend="italic">HSP</hi> (<date when="1749">1749</date>),
+                     1:219.</note></l>
+            </lg>
+         </p>
+         <closer>I am, my dear sister,<lb/>
+            <signed>Your affectionate brother,<lb/><persName>J. Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
