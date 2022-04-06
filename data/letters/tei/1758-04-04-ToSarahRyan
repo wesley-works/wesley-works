@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Sarah Ryan (April 4,1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-16</date>
+            <idno type="URI">http://syriaca.org/letters/1758-04-04-ToSarahRyan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Sarah Ryan (April 4, 1758)</title>
+                     <date when="1758-04-04"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="119"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Arminian Magazine 5 (<date when="1782"
+                     >1782</date>): 494.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers1793.xml"/>Sarah Ryan</persName><note
+               place="foot" n="1"/>Possibly replying to <persName><ptr
+                  target="/persons/pers1793.xml"/>Ryan</persName>&apos;s letter of <date
+               when="1758-03-20">Mar. 20</date>.</head>
+         <opener><placeName>Dublin</placeName><lb/><date when="1758-04-04">April 4, 1758</date><lb/><lb/>
+            <salute>My Dear Sister,</salute>
+         </opener>
+         <p>Oh that I could be of some use to you! I long to help you forward in your way. I want to
+            have your understanding a mere lamp of light, always shining with light from above! I
+            want you to be full of divine knowledge and wisdom, as <index indexName="biblical">
+               <term cRef="Josh3:15">Jordan in the time of harvest</term>
+            </index>.<note place="foot" n="2">See <index indexName="biblical">
+                  <term cRef="Josh3:15">Josh. 3:15</term>
+               </index></note> I want your words to be full of grace, <index indexName="biblical">
+               <term cRef="Matt26:7">poured out as precious ointment</term>
+            </index>.<note place="foot" n="3">See <index indexName="biblical">
+                  <term cRef="Matt26:7">Matt. 26:7</term>
+               </index>.</note> I want your every work to bear the stamp of God, to be <index
+               indexName="biblical">
+               <term cRef="Eph5:2 Phil4:18">a sacrifice of a sweet-smelling savour</term>
+            </index>,<note place="foot" n="4">See <index indexName="biblical">
+                  <term cRef="Eph5:2">Eph. 5:2</term>
+               </index>; <index indexName="biblical">
+                  <term cRef="Phil4:18">Phil. 4:18</term>
+               </index>.</note> without any part weak, earthly or human, all holy, all divine! The
+            great God, your Father and your love, bring you to this self-same thing! Begin, soldier
+            of Christ, child of God! <index indexName="biblical">
+               <term cRef="Eph4:1">Walk worthy of the vocation wherewith thou art called</term>
+            </index>!<note place="foot" n="5"><index indexName="biblical">
+                  <term cRef="Eph4:1">Eph. 4:1</term>
+               </index>.</note> Remember the faith! Remember <index indexName="biblical">
+               <term cRef="Heb2:10">the Captain of thy salvation</term>
+            </index>!<note place="foot" n="6"><index indexName="biblical">
+                  <term cRef="Heb2:10">Heb. 2:10</term>
+               </index>.</note> Fight! Conquer! Die—and live for ever!</p>
+         <closer>I am,<lb/>
+            <signed>Yours, etc.,<lb/><persName>J.W.</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
