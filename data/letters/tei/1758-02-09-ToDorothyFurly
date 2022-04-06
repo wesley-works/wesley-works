@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Dorothy Furly (February 9, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-14</date>
+            <idno type="URI">http://syriaca.org/letters/1758-02-09-ToDorothyFurly</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Dorothy Furly (February 9, 1758)</title>
+                     <date when="1758-02-09"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="113" to="114"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Benson, Works, 16:321–22.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0762">
+                  <persName>Dorothy Furly</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ptr target="/persons/pers0762.xml"/>Dorothy Furly</persName></head>
+         <opener><placeName>Lewisham</placeName><lb/><date when="1758-02-09">February 9, 1758</date><lb/><lb/>
+            <salute/>
+         </opener>
+         <p>Undoubtedly you may arise now and receive power from on high. You are hindered chiefly
+            by not understanding the <hi rend="italic">freeness</hi> of the gift of God. You are
+            perpetually seeking for something in yourself to move him to love and bless you. But it
+            is not to be found there. It is in himself and in the Son of his love. He did <hi
+               rend="italic">then</hi> give you a proof of this in that fresh evidence of pardon,
+            and he is ready to give it you again today, for he is not weary of well doing. But even
+            after this you may or you may not use the power which attends that peace. And if you ask
+            for more power, it shall be given you; for you have an <index indexName="biblical">
+               <term cRef="1John2:1">Advocate with the Father</term>
+            </index>.<note place="foot" n="1">See <index indexName="biblical">
+                  <term cRef="1John2:1">1 John 2:1</term>
+               </index>.</note> O cast yourself upon him. Learn more of that lesson,</p>
+         <p>
+            <lg>
+               <l>Thy salvation to obtain,</l>
+               <l>Out of myself I go;</l>
+               <l>Freely thou must heal my pain,</l>
+               <l>Thy unbought mercy show.<note place="foot" n="2">CW, Hymn on <index
+                        indexName="biblical">
+                        <term cRef="John1:29">John 1:29</term>
+                     </index>, st. 5, HSP (<date when="1742">1742</date>), 28.</note></l>
+            </lg></p>
+         <p>How much of it may you find in this hour! Look up and see redemption near!</p>
+         <closer>I am,<lb/>
+            <signed>Your affectionate brother and servant,<lb/><persName>J.
+               Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
