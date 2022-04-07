@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Selina (Shirley) Hastings, Countess of Huntingdon (March 10, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-06</date>
+            <idno type="URI">http://syriaca.org/letters/1759-03-10-ToSelinaHastings</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Selina (Shirley) Hastings, Countess of Huntingdon (March
+                        10, 1759)</title>
+                     <date when="1756-03-01"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="154" to="155"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Seymour, <hi rend="italic"
+                     >Huntingdon</hi>, 1:398–99, compared with <hi rend="italic">Wesleyan Methodist
+                     Magazine</hi> 80 (1857): 691–92.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0964">
+                  <persName>Selina Hastings</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0159">
+                  <persName>John Berridge</persName>
+               </person>
+               <person xml:id="pers0806">
+                  <persName>Nicholas Gilbert</persName>
+               </person>
+               <person xml:id="pers1496">
+                  <persName>John Nelson</persName>
+               </person>
+               <person xml:id="pers1771">
+                  <persName>William Romaine</persName>
+               </person>
+               <person xml:id="pers0995">
+                  <persName>James Hervey</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0964.xml"/>Selina (Shirley) Hastings, Countess
+               of Huntingdon</persName><note place="foot" n="1">This is the first surviving personal
+               letter from <persName><ref target="/persons/pers2180.xml"/>JW</persName> to
+                     <persName><ref target="/persons/pers0964.xml"/>Selena (Shirley)
+                  Hastings</persName>, Countess of Huntingdon (as compared to his preface to <hi
+                  rend="italic">MSP</hi>, 26:114–16 in this edn.). <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName> consistently addressed her as
+               &apos;Lady Huntingdon&apos;.</note></head>
+         <opener><placeName>Norwich</placeName><lb/><date when="1759-03-10">March 10, 1759</date><lb/><lb/>
+            <salute/>
+         </opener>
+         <p>The agreeable hour which I spent with your Ladyship the last week recalled to my mind
+            the former times, and gave me much matter of thankfulness to the giver of every good
+            gift. I have found great satisfaction in conversing with those instruments whom God has
+            lately raised up. But still there is I know not what in them whom we have known from the
+            beginning, and who have borne the burden and heat of the day, which we do not find in
+            those who have risen up since, though they are upright of heart. Perhaps, too, those who
+            have but lately come into the harvest are led to think and speak<pb n="155"/> more
+            largely of justification and the other first principles of the doctrine of Christ. And
+            it may be proper for <hi rend="italic">them</hi> so to do. Yet <hi rend="italic">we</hi>
+            find a thirst after something farther. We want to sink deeper and rise higher in the
+            knowledge of God our Saviour. We want all helps for walking closely with him whom we
+            have received, that we may the more speedily come to <index indexName="biblical">
+               <term cRef="Eph4:13">the measure of the stature of the fullness of Christ</term>
+            </index>.<note place="foot" n="2">See <index indexName="biblical">
+                  <term cRef="Eph4:13">Eph. 4:13</term>
+               </index>.</note></p>
+         <p>Mr. <persName><ref target="/persons/pers0159.xml"/>Berridge</persName><note place="foot"
+               n="3"><persName><ref target="/persons/pers2180.xml"/>JW</persName> had stayed at
+                  <placeName>Everton</placeName> with <persName><ref target="/persons/pers0159.xml"
+                  />John Berridge</persName> on <date when="1759-03-01">Mar. 1</date> and <date
+                  when="1759-03-02">2</date> (see <hi rend="italic">Journal</hi>, 21:178–79 in this
+               edn.).</note> appears to be one of the most simple as well as most sensible men of
+            all whom it has pleased God to employ in reviving primitive Christianity. I designed to
+            have spent but one night with him, but Mr. <persName><ref target="/persons/pers0806.xml"
+               />Gilbert</persName>&apos;s<note place="foot" n="4"><persName><ref
+                     target="/persons/pers0806.xml"/>Nicholas Gilbert</persName>, who was assisting
+                     <persName><ref target="/persons/pers2180.xml"/>JW</persName> in
+                  <placeName>London</placeName> this <date when="1759">year</date>.</note> mistake
+            (who sent him word I would be at <placeName>Everton</placeName> on Friday) obliged me to
+            stay there another day, or multitudes of people would have been disappointed. They come
+            now twelve or fourteen miles to hear him, and very few come in vain. His word is with
+            power. He speaks as plain and home as <persName><ref target="/persons/pers1496.xml"
+               />John Nelson</persName>, but with all the propriety of Mr. <persName><ref
+                  target="/persons/pers1771.xml"/>Romaine</persName> and tenderness of Mr.
+                  <persName><ref target="/persons/pers0995.xml"/>Hervey</persName>.<note
+               place="foot" n="5"><persName><ref target="/persons/pers2180.xml"/>JW</persName>
+               compares one of his <seg ana="itinerancy">itinerant</seg> preachers known to
+                     <persName><ref target="/persons/pers0964.xml"/>Lady Huntingdon</persName> with
+               two evangelical clergy with whom she worked closely, <persName><ref
+                     target="/persons/pers1771.xml"/>William Romaine</persName> and <persName><ref
+                     target="/persons/pers0995.xml"/>James Hervey</persName> (now
+            deceased).</note></p>
+         <p>At <placeName>Colchester</placeName> likewise the word of God has free course—only no
+            house will contain the congregation. On Sunday I was obliged to preach on <placeName>St.
+               John&apos;s Green</placeName>. The people stood on a smooth sloping ground, sheltered
+            by the walls of an old castle, and behaved as men who felt that God was there.</p>
+         <closer>I am persuaded your Ladyship still remembers in your prayers,<lb/>
+            <signed>Your willing servant for Christ’s sake,<lb/><persName>John
+               Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
