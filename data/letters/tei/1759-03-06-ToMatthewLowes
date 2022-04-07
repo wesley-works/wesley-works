@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Matthew Lowes (March 6, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-06</date>
+            <idno type="URI">http://syriaca.org/letters/1759-03-06-ToMatthewLowes</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Matthew Lowes (March 6, 1759)</title>
+                     <date when="1759-03-06"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="153" to="154"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To Mr. <persName><ref target="/persons/pers1316.xml"
+                     />Matthew Lowes</persName>, At the Methodist /
+                  Preaching-house<!-- Should I include a placeName tag for this methodist preaching house? I imagine it may be useful if this place is mentioned multiple times -->,
+                  In <placeName>Whitehaven</placeName>&apos;. Source: published transcription;
+                  Telford, <hi rend="italic">Letters</hi>, 4:56–57.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1316">
+                  <persName>Matthew Lowes</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0483">
+                  <persName>Lawrence Coughlan</persName>
+               </person>
+               <person xml:id="pers2269">
+                  <persName>W. Wilson</persName>
+               </person>
+               <person xml:id="pers0294">
+                  <persName>Brother Browning</persName>
+               </person>
+               <person xml:id="pers1037">
+                  <persName>Brother Hodgson</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="153"/>
+         <head>To <persName><ref target="/persons/pers1316.xml"/>Matthew Lowes</persName><note
+               place="foot" n="1"><persName><ref target="/persons/pers1316.xml"/>Matthew
+                  Lowes</persName> (<date from="1721" to="1794">1721–94</date>) served as an
+               exhorter for several years, before becoming an <seg ana="itinerancy">itinerant</seg>
+               preacher in <date when="1755">1755</date>; see Atmore, <hi rend="italic"
+                  >Memorial</hi>, 244–46.</note></head>
+         <opener><placeName>Norwich</placeName><lb/><date when="1759-03-06">March 6, 1759</date><lb/><lb/>
+            <salute>My Dear Brother,</salute>
+         </opener>
+         <p><persName><ref target="/persons/pers0483.xml"/>Lawrence Coughlan</persName>,<note
+               place="foot" n="2"><persName><ref target="/persons/pers0483.xml"/>Lawrence
+                  Coughlan</persName>, of Irish ancestry, first shows up in the list of <seg
+                  ana="itinerancy">itinerants</seg> in <date when="1758">1758</date> (see 10:281 in
+               this edn.). He would have a colorful ministry, reaching to <placeName>North
+                  America</placeName> and including being ordained twice. See 21:175, n. 91 in this
+               edn.; and Atmore, <hi rend="italic">Memorial</hi>, 80–83.</note> who was at first
+            appointed for <placeName>Whitehaven</placeName>, is to set out from
+               <placeName>Colchester</placeName> on Monday and to stay at <pb n="154"/>
+            <placeName>Whitehaven</placeName> till the Conference in the beginning of <date
+               when="1759-08">August</date>. Till he comes, I desire you diligently to inquire
+            whether the bulk of the society are for or against <persName><ref
+                  target="/persons/pers2269.xml"/>W. Wilson</persName>&apos;s preaching. If they are
+            against it, he had better not preach at <placeName>Whitehaven</placeName> (but he may
+            preach anywhere else) till I come. If the bulk of them are for it, let him preach at
+            some times; at others brother <persName><ref target="/persons/pers0294.xml"
+               />Browning</persName> may read a sermon.<note place="foot" n="3">Neither
+                     <persName><ref target="/persons/pers2269.xml"/>Wilson</persName> nor
+                     <persName><ref target="/persons/pers0294.xml"/>Browning</persName> are listed
+               among <seg ana="itinerancy">itinerants</seg> at this point. <persName><ref
+                     target="/persons/pers2269.xml"/>Wilson</persName> may have been an
+               exhorter.</note> But if he does speak, let him take care to conclude the whole
+            service within the hour.</p>
+         <p>Certainly, rather than any flame should have arisen concerning it, brother
+                  <persName><ref target="/persons/pers1037.xml"/>Hodgson</persName> and the rest
+            ought to have dropped their opposition. What would not one do (except sin) that
+            brotherly love may continue! I am,</p>
+         <closer><signed>Your affectionate brother,<lb/><persName>J.
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
