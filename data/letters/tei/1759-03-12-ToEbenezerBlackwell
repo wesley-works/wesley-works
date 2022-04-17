@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Ebenezer Blackwell (March 12, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-17</date>
+            <idno type="URI">http://syriaca.org/letters/1759-03-12-ToEbenezerBlackwell</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Ebenezer Blackwell (March 12, 1759)</title>
+                     <date when="1759-03-12"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="156" to="157"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mr <persName><ref target="/persons/pers0179.xml"
+                     />Blackwell</persName> / In <placeName>Change Alley / London</placeName>&apos;.
+                  Postmarks: &apos;<placeName>NOR / WICH</placeName>&apos; and &apos;14 / MR&apos;.
+                  Charge: &apos;4&apos;. Endorsement: &apos;Revd Mr <persName><ref
+                        target="/persons/pers2180.xml"/>John Westley</persName> /
+                     <placeName>Norwich</placeName>
+                  <date when="1759-03-12">12 March 1759</date>&apos;. Source: holograph; MARC, MAM
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> 1/64.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0179">
+                  <persName>Ebenezer Blackwell</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers2211">
+                  <persName>James Wheatley</persName>
+               </person>
+               <person xml:id="pers0180">
+                  <persName>Elizabeth Blackwell</persName>
+               </person>
+               <person xml:id="pers0581">
+                  <persName>Hannah Dewell</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0179.xml"/>Ebenezer
+            Blackwell</persName></head>
+         <opener><placeName>Norwich</placeName><lb/><date when="1759-03-12">March 12, 1759</date><lb/><lb/>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>You have entirely satisfied me as to what I was afraid of.<note place="foot" n="1"
+               >Referring to tensions with his wife <persName><ref target="/persons/pers2091.xml"
+                  />Mary</persName>, see the letter of <date when="1759-03-02">Mar. 2</date>.</note>
+            We are at present upon pretty good terms. And I am not without hope that this good
+            understanding will continue for some time longer. I am sure it will, if he who has the
+            hearts of all men in his hand sees it to be expedient for me.</p>
+         <p>You have never yet spoken to me with more freedom than was agreeable to me. Your freedom
+            is the best proof of your friendship. There are not many that will deal freely with me.
+            Nor indeed are there many from whom I would desire it, lest it should hurt themselves
+            without profiting me. But I do desire it of <hi rend="italic">you</hi>; and do not doubt
+            but it will profit me, as it has done in time past.</p>
+         <p>I know not if in all my life I have had so critical a work on my hands as that wherein I
+            am now engaged. I am endeavouring to gather up those who were once gathered together and
+            afterwards scattered by <persName><ref target="/persons/pers2211.xml"/>James
+               Wheatley</persName>.<note place="foot" n="2"><persName><ref
+                     target="/persons/pers2211.xml"/>Wheatley</persName> had been expelled from
+               Methodist <seg ana="itinerancy">itinerancy</seg> in <date when="1751">1751</date> for
+               sexual immorality (see 26:464–65 in this edn.). He became an independent preacher,
+               and built a chapel in <placeName>Norwich</placeName> called the Tabernacle, which
+               grew for a while, until further indiscretions by <persName><ref
+                     target="/persons/pers2211.xml"/>Wheatley</persName> came to light. In the
+               aftermath, in <date when="1758-11">Nov. 1758</date>
+               <persName>Wheatley</persName> offered to lease the Tabernacle to <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName> (see <hi rend="italic"
+                  >Journal</hi>, <date when="1758-11-03">Nov. 3, 1758</date>, 21:170 in this edn.),
+               who was exploring how he could minister to this bruised and scattered society.</note>
+            I have reunited about seventy of them, and hope this evening to make up an hundred. But
+            many of them have wonderful spirits, having been always accustomed to teach their
+            teachers. So that how they will bear any kind of discipline I cannot well tell.</p>
+         <p>At <placeName>Colchester</placeName> the case is far otherwise. About an hundred and
+            sixty simple, upright people are there united together, who are as little children,
+            minding nothing but the salvation of their souls. Only they are greatly distressed for a
+            larger house. What we could have done last Sunday I know not, but that, the day being
+            mild, I took the field and preached on <placeName>St. John&apos;s Green</placeName>. I
+            see but one way—to build a commodious house; and I desired them to look out for a piece
+            of ground. It is true they are poor enough. But if it be God&apos;s work, he will
+            provide the means.</p>
+         <pb n="157"/>
+         <closer>Wishing an increase in all grace both to Mrs. <persName><ref
+                  target="/persons/pers0180.xml"/>[Elizabeth] Blackwell</persName>, Mrs.
+                  <persName><ref target="/persons/pers0581.xml"/>Dewal</persName>,<note place="foot"
+               n="3"><persName><ref target="/persons/pers0581.xml"/>Hannah
+                  Dewal<!-- Hannah Dewell, same date of death and description in Bios --></persName>
+               (d. <date when="1762">1762</date>), who lived with the Blackwell family at
+                  <placeName>Lewisham</placeName>.</note> and you, I remain, dear sir,<lb/>
+            <signed>Your very affectionate servant,<lb/><persName>John
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
