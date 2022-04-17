@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dewell, Hannah (1700–62)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-17</date>
+            <idno type="URI">http://syriaca.org/persons/pers0581</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0180">
+                  <persName>Elizabeth Blackwell</persName>
+               </person>
+               <person xml:id="pers0179">
+                  <persName>Ebenezer Blackwell</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>Jane Sparrow</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0581">
+               <p>Born in <placeName>Kidderminster</placeName>, to a family of some means, Dewell
+                  never married (the Wesley brothers addressed her as &apos;Mrs. Dewal&apos;, but
+                  this was a common title for older unmarried women at the time; and the spelling of
+                  her name on both her baptism record and will was &apos;Dewell&apos;). Dewell
+                  settled in <placeName>Lewisham, Kent</placeName>, and became a member of the
+                  Methodist society there. She was a close friend of <persName><ref
+                        target="/persons/pers0180.xml"/>Elizabeth (Molland) Blackwell</persName>.
+                  She also came to know <persName>Jane Sparrow</persName>, another Lewisham
+                  Methodist, who owned a manor house called <placeName>The Limes</placeName>. When
+                     <persName>Sparrow</persName> died in <date when="1748">1748</date>,
+                        <persName><ref target="/persons/pers0179.xml"/>Ebenezer Blackwell</persName>
+                  was her executor and sold <placeName>The Limes</placeName> to Dewell.
+                        <persName><ref target="/persons/pers0179.xml"/>Blackwell</persName> then
+                  bought back a major share of the manor, making it a home where the Blackwells and
+                  Dewell lived together until her death. She is mentioned frequently in letters of
+                  both <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName>. See Martin,
+                     <hi rend="italic">Grasshopper</hi>, 50–52.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
