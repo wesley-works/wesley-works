@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To an Unidentified Woman (March 20, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-17</date>
+            <idno type="URI">http://syriaca.org/letters/1759-03-20-ToAnUnidentifiedWoman</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To an Unidentified Woman (March 20, 1759)</title>
+                     <date when="1759-03-20"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="157" to="158"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Arminian Magazine</hi>
+                  2 (<date when="1780">1780</date>): 162–64.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="persx">
+                  <persName>[x]</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0000.xml"/>an Unidentified
+            Woman</persName></head>
+         <opener><placeName>Colchester</placeName><lb/><date when="1759-03-20">March 20, 1759</date><lb/><lb/>
+            <salute/>
+         </opener>
+         <p>My <persName><ref target="/persons/pers2091.xml"/>wife</persName>, Miss —,<note
+               place="foot" n="1">The publication of this and the prior letter of <date
+                  when="1759-02-21">Feb. 21</date> together in <hi rend="italic">AM</hi> implies
+               that they are to the same recipient, whom Telford suggested was &apos;Miss
+                  <persName>Johnson</persName>&apos;.</note> surprised me last night by informing me
+            you are left mistress of a large fortune. Shall I say, agreeably surprised me! I cannot
+            tell. Because I believe there is another world, and I do not know what influence this
+            change may have on your condition. Therefore I am in fear and in hope. You may be hereby
+            far more happy or far more miserable in eternity! O make a stand! Consider the situation
+            you are in. Perhaps never before were you in so great danger. You know a little of your
+            natural tempers. Now you have means of indulging and thereby inflaming them to the
+            uttermost. And how many will incite you so to do! How few will dare to warn you against
+            it! Now what food will you have for <hi rend="italic">pride</hi>! What infinite
+            temptations to think more highly than you ought to think! You do so already. But O where
+            will you stop! The good Lord arrest the storm in mid career! How impetuously now, unless
+            God interpose, must <hi rend="italic">self-will</hi> whirl you along! How deeply, unless
+            he help, will you shortly be immersed in practical atheism, as ten thousand things will
+            concur to drive God out of your thoughts, as much as if he were not in the world! But,
+            above all, how will you escape from being swallowed up in <hi rend="italic"
+               >idolatry</hi>, love of the world, such as you never knew before!</p>
+         <pb n="158"/>
+         <p>Hitherto you have been greatly superior to every delicacy in <hi rend="italic"
+            >food</hi>. But even this may assault you now, and perhaps raise in you other <hi
+               rend="italic">desires</hi> which you are now a stranger to. At present you are above
+            the follies of <hi rend="italic">dress</hi>; but will you be so a twelvemonth hence? May
+            you not easily slide into the &apos;<index indexName="biblical">
+               <term cRef="1john2:16">pride of life</term>
+            </index>&apos;,<note place="foot" n="2"><index indexName="biblical">
+                  <term cRef="1john2:16">1 John 2:16</term>
+               </index>.</note> in this as well as other instances, especially considering how your
+               <hi rend="italic">vanity</hi> will be gratified thereby! For who will not <hi
+               rend="italic">admire</hi> and <hi rend="italic">applaud</hi> your admirable taste! It
+            will only remain for you to <hi rend="italic">marry</hi> some agreeable person that has
+            much wit and sense with little or no religion; then it is finished! Either you will be
+            thoroughly miserable in this world or miserable to eternity.</p>
+         <p>&apos;But what business is this of yours! Cannot you let me alone! What have I to do
+            with you!&apos; Believe me, I could very easily let you alone, if I had not a real and
+            tender goodwill toward you, and if I did not know (what perhaps you do not) that you
+            have need even of me. You want friends who understand you well, and who dare tell you
+            the whole, plain truth; and yet not in a surly, imperious manner, for then you could not
+            receive it. I have endeavoured to do this once more. Will not you forgive me! I cannot
+            but think, if you do not thank, you will at least excuse,</p>
+         <closer><signed>Your affectionate servant,<lb/><persName>John
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
