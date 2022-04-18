@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To William Allwood (March 29, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-17</date>
+            <idno type="URI">http://syriaca.org/letters/1759-03-29-ToWilliamAllwood</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To William Allwood (March 29, 1759)</title>
+                     <date when="1759-03-29"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="158" to="159"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: holograph; privately held (current owner unknown, Wesley Works
+                  Editorial Project Archive includes a copy of front side only).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0025">
+                  <persName>William Allwood</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0433">
+                  <persName>Dr. Thomas Cockburn</persName>
+               </person>
+               <person xml:id="pers2038">
+                  <persName>Thomas Tobias</persName>
+               </person>
+               <person xml:id="pers0909">
+                  <persName>Ruth Hall</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0025.xml"/>William Allwood</persName></head>
+         <opener><placeName>Norwich</placeName><lb/><date when="1759-03-29">March 29, 1759</date><lb/><lb/>
+            <salute>Dear Billy,</salute>
+         </opener>
+         <p>I believe each window may stand eight foot (the bottom of it) from the ground, and be
+            four foot broad and six or seven high, arched at the top.<note place="foot" n="1">At the
+               new preaching house in <placeName>York</placeName>; see the previous letter of <date
+                  when="1759-03-06">Mar. 6</date>.</note></p>
+         <pb n="159"/>
+         <p>If you think it would do good, I should have no objection to preaching at
+               <placeName>Selby</placeName> about eleven o’clock, as I come from
+               <placeName>Epworth</placeName> on <date when="1759-04-18">Wednesday, April
+            18</date>.</p>
+         <p>Oblige Dr. <persName><ref target="/persons/pers0433.xml"/>Cockburn</persName> as far as
+            possibly you can. We can <hi rend="italic">bear</hi> with little tempers, though we do
+            not <hi rend="italic">approve</hi> of them.</p>
+         <p>I can say little now to what <persName><ref target="/persons/pers2038.xml"/>Thomas
+               Tobias</persName> writes of. I should think a patient, mild man might quiet two
+            scolding women.</p>
+         <p><persName><ref target="/persons/pers0025.xml"/>Billy</persName>, pray and labour with
+            your might! You may direct your next to me at <placeName>Epworth</placeName>. I am,</p>
+         <closer><signed>Your affectionate friend and brother,<lb/><persName>John
+               Wesley</persName></signed></closer>
+         <postscript>
+            <p>I doubt sister <persName><ref target="/persons/pers0909.xml"/>Hall</persName><note
+                  place="foot" n="2"><persName><ref target="/persons/pers0909.xml"/>Ruth
+                     Hall</persName>.</note> forgets me.</p>
+         </postscript>
+      </body>
+   </text>
+</TEI>
