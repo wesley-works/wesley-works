@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vazeille, Noah (1747–1809)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-19</date>
+            <idno type="URI">http://syriaca.org/persons/pers2092</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Anthony Vazeille</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers2092">
+               <p><persName>Noah</persName> was the youngest son of <persName>Anthony</persName> and
+                        <persName><ref target="/persons/pers2091.xml"/>Mary (Goldhawk)
+                     Vazeille</persName>, living with her during the years of the active
+                  correspondence between <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> and <persName><ref target="/persons/pers2091.xml"
+                     />Mary</persName>. He apprenticed in <date when="1762">1762</date> as a
+                  &apos;stationer&apos; or book seller; and was married in <date when="1782"
+                     >1782</date>. Little more is known beyond his death in <date when="1809"
+                     >1809</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
