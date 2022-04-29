@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Clayton Carthy (June 12, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-29</date>
+            <idno type="URI">http://syriaca.org/letters/1759-06-12-ToClaytonCarthy</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Clayton Carthy (June 12, 1759)</title>
+                     <date when="1759-06-12"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="163" to="164"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mr <persName><ref target="/persons/pers0355.xml"
+                     />Carthy</persName> / At the New Room in /
+                  <placeName>Bristol</placeName>&apos;. Source: holograph; Wesley&apos;s Chapel
+                     (<placeName>London</placeName>), LDWMM 1997/6773 (bottom half of address
+                  section is missing).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0355">
+                  <persName>Clayton Carthy</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0355.xml"/>Clayton Carthy</persName><note
+               place="foot" n="1"><persName><ref target="/persons/pers0355.xml"/>Clayton
+                  Carthy</persName> does not appear in any list of <seg ana="itinerancy"
+                  >itinerants</seg>. He was apparently serving as <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName>&apos;s book steward in
+                  <placeName>Bristol</placeName>, assisting with compiling the fourth volume of <hi
+                  rend="italic">Sermons on Several Occasions</hi>, which <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName> finished in early <date
+                  when="1759-10">Oct. 1759</date> (see <hi rend="italic">Journal</hi>, 21:231 in
+               this edn.).</note></head>
+         <opener><placeName>Newcastle-Upon-Tyne</placeName><lb/><date when="1759-06-12">June 12,
+               1759</date><lb/><lb/>
+            <salute>Dear Clayton,</salute>
+         </opener>
+         <p>I hope you have received the sermon upon the New Birth.<note place="foot" n="2">Sermon
+               45, &apos;The New Birth&apos; (2:187–201 in this edn.).</note> I can easily send you
+            one a week. I have finished eight, and am now transcribing the fourth. You should supply
+            any word that is wanting.</p>
+         <p>Go east, west, north, or south, to <placeName>Norton</placeName><note place="foot" n="3"
+                  ><placeName>Norton St Philip</placeName> between <placeName>Bath</placeName> and
+                  <placeName>Frome</placeName>.</note> or elsewhere, and speak sense or nonsense for
+            a quarter of an hour. I believe it will avail both for your soul and body more than you
+            imagine.</p>
+         <p>I do &apos;think what is doing&apos;.<note place="foot" n="4"><persName><ref
+                     target="/persons/pers0355.xml"/>Carthy</persName> had apparently asked if
+                     <persName><ref target="/persons/pers2180.xml"/>JW</persName> was aware of the
+               turmoil being caused by his estrangement with his wife <persName><ref
+                     target="/persons/pers2091.xml"/>Mary</persName>.</note> By this post (to leave
+            that poor sinner without excuse) I have wrote once more in the following words:</p>
+         <p>
+            <quote>
+               <l>I make you one more offer. Only leave off speaking against me behind my back
+                  (whereby you do not hurt me, but the cause of God) and restore my papers to me,
+                  and you will find me,</l>
+               <l>Your still affectionate husband,</l>
+            </quote>
+         </p>
+         <closer>My part is to go on my way and to finish my work. I am, dear Clayton,<lb/>
+            <signed>Yours affectionately,<lb/><persName>J. Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
