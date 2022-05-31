@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Mary (Goldhawk/Vazeille) Wesley (April 9, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-18</date>
+            <idno type="URI">http://syriaca.org/letters/1759-04-09-ToMaryWesley</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Mary (Goldhawk/Vazeille) Wesley (April 9, 1759)</title>
+                     <date when="1759-04-09"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="159" to="161"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mrs <persName><ptr target="/persons/pers2091.xml"
+                     />Wesley</persName> / At <placeName>the Foundery</placeName> /
+                     <placeName>London</placeName>&apos;. Postmarks: &apos;13/AP&apos; and
+                  &apos;LIN/COLN&apos;. Charge: &apos;4&apos;. Source: holograph; MARC, MAM
+                        <persName><ptr target="/persons/pers2180.xml"/>JW</persName> 5/60.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0179">
+                  <persName>Ebenezer Blackwell</persName>
+               </person>
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+               <person xml:id="pers0506">
+                  <persName>Sarah Crosby</persName>
+               </person>
+               <person xml:id="pers2092">
+                  <persName>Noah Vazeille</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers2091.xml"/>Mary (Goldhawk/Vazeille)
+               Wesley</persName></head>
+         <opener><placeName>Grimsby</placeName><lb/><date when="1759-04-09">April 9, 1759</date><lb/><lb/>
+            <salute>My Dear Molly,</salute>
+         </opener>
+         <p>I must write once more. Then, if I hear nothing from you, I have done.</p>
+         <p>Above a year ago, while I suspected nothing less, you opened my bureau and took out many
+            of my letters and papers. Mr. <persName><ref target="/persons/pers0179.xml"
+               />Blackwell</persName> advised me, before you, if you refused to restore them, to
+            send that instant for a smith and break open your bureau and take my own, to prevent
+            which you restored them. But it was not long before you robbed me again, and showed my
+            private letters to more than twenty different persons on purpose to make them have an
+            ill opinion of me. For the same end you spoke much evil of me while I was several
+            hundred miles off.<note place="foot" n="1"><persName><ref target="/persons/pers2180.xml"
+                  />JW</persName> defines &apos;evil-speaking&apos; as &apos;speaking evil of an
+               absent person&apos; in Sermon 49, &apos;The Cure of Evil-speaking&apos;
+               <!-- Should there be a tag to link to this sermon? -->, §1, 2:252 in this
+            edn.</note></p>
+         <pb n="160"/>
+         <p>Your pretence was that I conversed with sisters <persName><ref
+                  target="/persons/pers1793.xml"/>Ryan</persName> and <persName><ref
+                  target="/persons/pers0506.xml"/>Crosby</persName>.<note place="foot" n="2">I.e,
+               his correspondence with <persName><ref target="/persons/pers1793.xml"/>Sarah
+                  Ryan</persName> and <persName><ref target="/persons/pers0506.xml"/>Sarah
+                  Crosby</persName></note> I know it was only a pretence, and told your friends the
+            humouring you herein would leave matters just where they were. I knew giving a person
+            drink would not cure a dropsy.<note place="foot" n="3">&apos;Dropsy&apos; was the term
+               for swelling of bodily tissue due to accumulating liquid (i.e., an edema); thus,
+                     <persName><ref target="/persons/pers2180.xml"/>JW</persName> is saying that you
+               do not cure a problem by giving in to it.</note> However, at their instance I made
+            the experiment. I broke off all correspondence with them, whether by speaking or
+               writing.<note place="foot" n="4">Indeed, there is no evidence of correspondence
+               between <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                     <persName><ref target="/persons/pers0506.xml"/>Crosby</persName> or
+                     <persName><ref target="/persons/pers1793.xml"/>Ryan</persName> after <date
+                  when="1758-12">Dec. 1758</date>, until the mid <date>1760s</date>.</note> For a
+            while, having gained your point, you was in a good humour. Afterwards it was just as I
+            said. You robbed me again. And your sin (as before) carried its own punishment, for the
+            papers you had stole harrowed up your soul and tore your poor fretful spirit in
+            pieces.</p>
+         <p>Notwithstanding this, you wrote me two loving letters.<note place="foot" n="5">These
+               letters have not survived, because <persName><ref target="/persons/pers2091.xml"
+                  />Mary</persName> requested <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName> to destroy her letters after he received them.</note> (I hope, not
+            with a design of reading them to other people; which I shall not suspect if you assure
+            me you have not read or shown them in part or in whole to any one.) So that I was a
+            little surprised when at our meeting in <placeName>Colchester</placeName> I found you
+            thoroughly out of humour.<note place="foot" n="6"><persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName> was in
+                  <placeName>Colchester</placeName> on <date when="1759-03-19">Mar. 19, 1759</date>,
+               though his <hi rend="italic">Journal</hi> makes no mention of <persName><ref
+                     target="/persons/pers2091.xml"/>Mary</persName>&apos;s presence there; see
+               21:179 in this edn.</note> It really seemed as if you was heartily vexed by the
+            papers you had taken, and so were resolved to have it out with me. Accordingly you could
+            not refrain from throwing squibs<note place="foot" n="7">&apos;Squibs&apos;: broken
+               firecrackers, a term used to describe caustic conversational insults.</note> at me
+            even in company, and from speaking with such keenness when we were alone as I think no
+            wife ought to speak to an husband— such as I apprehend you could not have used decently
+            to any but <persName><ref target="/persons/pers2092.xml"/>Noah Vazeille</persName>.<note
+               place="foot" n="8"><persName><ref target="/persons/pers2091.xml"
+               />Mary</persName>&apos;s son by her first husband, who would be 12 years old at the
+               time.</note></p>
+         <p>Perhaps you may now take the greater liberty, because, having stripped me of all my
+            papers, you imagine it is now absolutely impossible for me to justify myself. But you
+            are under a mistake. To all that know me, my word is a sufficient justification. And if
+            anything more is needful, I know One that is able to say to the grave, &apos;Give
+            back!&apos; Yea, and if he say it to jealousy, cruel as the grave, it shall hear and
+            obey his voice.</p>
+         <pb n="161"/>
+         <p>Wishing you the blessing which you now want above any other, namely, unfeigned and deep
+            repentance, I remain,</p>
+         <closer><signed>Your much injured yet still affectionate husband,<lb/><persName>John
+                  Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
