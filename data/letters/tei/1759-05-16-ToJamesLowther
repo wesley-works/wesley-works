@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To James Lowther (May 16, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-29</date>
+            <idno type="URI">http://syriaca.org/letters/1759-05-16-ToJamesLowther</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To James Lowther (May 16, 1759)</title>
+                     <date when="1759-05-16"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="161" to="163"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Arminian Magazine</hi>
+                  3 (<date when="1780">1780</date>): 445–47.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1319">
+                  <persName>James Lowther</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers1319.xml"/>James Lowther</persName><note
+               place="foot" n="1"><hi rend="italic">AM</hi> does not give the name of the recipient
+               of either this or a follow-up letter on <date when="1759-07-01">July 1</date>.
+               Telford identifies it as <persName><ref target="/persons/pers1319.xml"/>James
+                  Lowther</persName> (<date from="1736" to="1802">1736–1802</date>), eventually
+                  <roleName type="nobility">Earl</roleName> of Lonsdale. <persName><ref
+                     target="/persons/pers1319.xml"/>Lowther</persName> had inherited a family
+               estate in <placeName>Whitehaven</placeName> (where <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName> was currently preaching) on the
+               death of <roleName type="nobility">Sir</roleName>
+               <persName>William Lowther</persName>, his uncle (see <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName>&apos;s comment in <hi
+                  rend="italic">Journal</hi>, <date when="1759-05-19">May 19, 1759</date>, 21:192 in
+               this edn.). Being just 23 years of age, and recently elected a Member of <seg
+                  ana="parliament">Parliament</seg> for <placeName>Cumberland</placeName>,
+                     <persName><ref target="/persons/pers1319.xml"/>James Lowther</persName> had
+               sent <persName><ref target="/persons/pers2180.xml"/>JW</persName> an inquiry about
+               prudence. See <hi rend="italic">ODNB</hi>.</note></head>
+         <opener><placeName>Whitehaven</placeName><lb/><date when="1759-05-16">May 16, 1759</date><lb/><lb/>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>Since I received your favour I have had many thoughts on worldly and Christian prudence.
+            What is the nature of each? How do they differ? How may we distinguish one from the
+            other?</p>
+         <p>It seems <hi rend="italic">worldly prudence</hi> either pursues <hi rend="italic"
+               >worldly ends</hi>—riches, honour, ease, or pleasure—or pursues Christian ends on <hi
+               rend="italic">worldly maxims</hi> or by <hi rend="italic">worldly means</hi>. The
+            grand maxims which obtain in the world are: The more power, the more money, the more
+            learning, and the more reputation a man has, the more good he will do. And whenever a
+            Christian, pursuing the noblest ends, forms his behaviour by these maxims, he will
+            infallibly (though perhaps by insensible degrees) decline into worldly prudence. He will
+            use more or less of conformity to the world, if not in sin, yet in doing some things
+            that are good in themselves yet (all things considered) are not good to him, and perhaps
+            at length using guile or disguise, simulation or dissimulation, either seeming to be
+            what he is not, or not seeming to be what he is. By any of these marks may worldly
+            prudence be discerned from the wisdom which is from above.</p>
+         <pb n="162"/>
+         <p>This, <hi rend="italic">Christian prudence</hi>, pursues <hi rend="italic">Christian
+               maxims</hi> and by <hi rend="italic">Christian means</hi>. The ends it pursues are
+            holiness in every kind and in the highest degree, and usefulness in every kind and
+            degree. And herein it proceeds on the following maxims: The help that is done upon
+            earth, God doeth it himself. <index indexName="biblical">
+               <term cRef="1Cor12:6">It is he that worketh all in all</term>
+            </index>,<note place="foot" n="2">See <index indexName="biblical">
+                  <term cRef="1Cor12:6">1 Cor. 12:6</term>
+               </index>.</note> and that, not by human power. Generally <index indexName="biblical">
+               <term cRef="1Cor1:27">he uses weak things to confound the strong</term>
+            </index>,<note place="foot" n="3">See <index indexName="biblical">
+                  <term cRef="1Cor1:27">1 Cor. 1:27</term>
+               </index>.</note> not by men of wealth (most of his choicest instruments may say,
+               &apos;<index indexName="biblical">
+               <term cRef="Acts3:6">Silver and gold have I none</term>
+            </index>&apos;<note place="foot" n="4"><index indexName="biblical">
+                  <term cRef="Acts3:6">Acts 3:6</term>
+               </index>.</note>), not by learned or wise men after the flesh (no, <index
+               indexName="biblical">
+               <term cRef="1Cor1:27">the foolish things hath God chosen</term>
+            </index><note place="foot" n="5">See <index indexName="biblical">
+                  <term cRef="1Cor1:27">1 Cor. 1:27</term>
+               </index>.</note>), not by men of reputation, but by the men that were <index
+               indexName="biblical">
+               <term cRef="1Cor4:13">as the filth and offscouring of the world</term>
+            </index>.<note place="foot" n="6">See <index indexName="biblical">
+                  <term cRef="1Cor4:13">1 Cor. 4:13</term>
+               </index>.</note> All which is for this plain reason, &apos;<index
+               indexName="biblical">
+               <term cRef="1Cor1:29">that no flesh may glory in his sight</term>
+            </index>.&apos;<note place="foot" n="7"><index indexName="biblical">
+                  <term cRef="1Cor1:29">1 Cor. 1:29</term>
+               </index>.</note></p>
+         <p>Christian prudence pursues these ends upon these principles, by only Christian means. A
+            truly prudent Christian, while in things purely indifferent <index indexName="biblical">
+               <term cRef="1Cor9:22">he becomes all things to all men</term>
+            </index>,<note place="foot" n="8">See <index indexName="biblical">
+                  <term cRef="1Cor9:22">1 Cor. 9:22</term>
+               </index>.</note> yet wherever duty is concerned, matters the example of all mankind
+            no more than a grain of sand. His word is then,</p>
+         <p>
+            <quote>
+               <l><foreign rend="italic">… Non me, qui caetera, vincit</foreign></l>
+               <l><foreign rend="italic">impetus; et rapido contrarius evehor orbi.</foreign><note
+                     place="foot" n="9">Cf. Ovid, <hi rend="italic">Metamorphoses</hi>, ii.1.72–73;
+                     &apos;nor does the swift motion which overcomes all else overcome me, but I
+                     drive clear contrary to the swift circuit of the universe&apos; (<persName><ref
+                           target="http://viaf.org/viaf/30304224"/>Loeb</persName>).</note></l>
+            </quote>
+         </p>
+         <p>He will not, to gain the favour or shun the hate of all, omit the least point of duty.
+            He cannot prevail upon himself on any account or pretence to use either simulation or
+            dissimulation. There is <index indexName="biblical">
+               <term cRef="1Pet2:22">no guile in his mouth</term>
+            </index>,<note place="foot" n="10">See <index indexName="biblical">
+                  <term cRef="1Pet2:22">1 Pet. 2:22</term>
+               </index>.</note> no evasion or ambiguity. Having one desire, one design, to glorify
+            God with his body and with his spirit; having only one fear,</p>
+         <p>
+            <lg>
+               <l>Lest a motion, or a word,</l>
+               <l>Or thought arise to grieve his Lord;<note place="foot" n="11">Cf. <persName><ref
+                           target="http://viaf.org/viaf/17298403"/>Isaac Watts</persName>,
+                     &apos;Song of Solomon, 2:14ff &apos;, st. 2, <hi rend="italic">Hymns and
+                        Spiritual Songs</hi> (<placeName>London</placeName>, <date when="1709"
+                        >1709</date>), 53; included by <persName><ref target="/persons/pers2180.xml"
+                        />JW</persName> in <hi rend="italic">Collection of Psalms and Hymns</hi>
+                        (<date when="1737">1737</date>), 31.</note></l>
+            </lg>
+         </p>
+         <p>Having one rule, the Word of God; one guide, even his Spirit; he goes on in childlike
+            simplicity. Continually seeing him that is invisible, he <pb n="163"/>walks in open day.
+               <index indexName="biblical">
+               <term cRef="Heb12:2">Looking unto Jesus</term>
+            </index>,<note place="foot" n="12">See <index indexName="biblical">
+                  <term cRef="Heb12:2">Heb. 12:2</term>
+               </index>.</note> and deriving strength from him, he goes on in his steps, in the work
+            of faith, the labour of love, the patience of hope, till he is called up to be ever with
+            the Lord.</p>
+         <p>Oh that this were in all points your own character! Surely you desire it above all
+            things. But how shall you attain? Difficulties and hindrances surround you on every
+            side! Can you bear with my plainness? I believe you can? Therefore I will speak without
+            any reserve. I fear you have scarce one friend who has not more or less of the prudence
+            which is not from above. And I doubt you have (in or near your own rank) hardly one
+            example of true Christian prudence! Yet I am persuaded your own heart advises you right,
+            or rather God in your heart. Oh that you may hearken to his voice alone, and <index
+               indexName="biblical">
+               <term cRef="Hab2:20">let all creatures keep silence before him</term>
+            </index>!<note place="foot" n="13">See <index indexName="biblical">
+                  <term cRef="Hab2:20">Hab. 2:20</term>
+               </index>.</note> Why should they encumber you with <index indexName="biblical">
+               <term cRef="1Sam17:38">Saul&apos;s armour</term>
+            </index>!<note place="foot" n="14">See <index indexName="biblical">
+                  <term cRef="1Sam17:38 1Sam17:39 1Sam17:40">1 Sam. 17:38–40</term>
+               </index><!-- is this correct for tagging these multiple lines referenced? -->, for this extended comparison to David</note> If you essay to go forth thus,
+            it will be in vain. You have no need of this, neither of his sword or spear, for you
+               <index indexName="biblical">
+               <term cRef="Ps84:12">trust in the Lord of hosts</term>
+            </index>.<note place="foot" n="15">See <index indexName="biblical">
+                  <term cRef="Ps84:12">Ps. 84:12</term>
+               </index> and similar verses.</note> O go forth in his strength! and with the stones
+            of the brook you shall overthrow all your enemies. I am, dear sir,</p>
+         <closer><signed>Your obedient servant for Christ&apos;s sake,<lb/><persName>John
+                  Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
