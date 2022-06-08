@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To the Rev. Dr. John Taylor (July 3, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-08</date>
+            <idno type="URI">http://syriaca.org/letters/1759-07-03-ToRev.Dr.JohnTaylor</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To the Rev. Dr. John Taylor (July 3, 1759)</title>
+                     <date when="1759-07-03"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="165" to="167"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic"
+                     >Journal</hi>, <date when="1759-07-03">July 3, 1759</date> (21:205–6 in this
+                  edn.).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1991">
+                  <persName>Dr. John Taylor</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1506">
+                  <persName>Rev. John Newton</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="persx3">
+                  <persName>[x]</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers1991.xml"/>the Rev. Dr. John
+               Taylor</persName><note place="foot" n="1"><persName><ref
+                     target="/persons/pers1991.xml"/>John Taylor</persName> (<date from="1694"
+                  to="1761">1694–1761</date>), long-time pastor of a Presbyterian congregation in
+                  <placeName>Norwich</placeName>, had assumed the role of tutor at
+                  <placeName>Warrington Academy</placeName> in late <date when="1757">1757</date>.
+               He was a prominent voice among the &apos;rational dissenters&apos;, and
+                     <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s most
+               extended apologetic treatise was a response to <persName><ref
+                     target="/persons/pers1991.xml"/>Taylor</persName>&apos;s <hi rend="italic"
+                  >Scripture-Doctrine of Original Sin</hi> (<date when="1740">1740</date>). For more
+               details on <persName><ref target="/persons/pers1991.xml"/>Taylor</persName> and this
+               work, see the editorial introduction to <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName>&apos;s <hi rend="italic">Doctrine of Original Sin</hi>, 12:117–54
+               in this edn., and <hi rend="italic">ODNB</hi>.</note></head>
+         <opener><placeName>Hartlepool</placeName><lb/><date when="1759-07-03">July 3, 1759</date><lb/><lb/>
+            <salute>Rev. Sir,</salute>
+         </opener>
+         <p><pb n="165"/>I esteem you as a person of uncommon sense and learning. But your doctrine
+            I cannot esteem, and some time since I believed it my<pb n="166"/> duty to speak my
+            sentiments at large concerning your doctrine of <hi rend="italic">Original
+               Sin</hi>.<note place="foot" n="2">See <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName>, <hi rend="italic">Doctrine of Original Sin</hi>, 12:155–481 in
+               this edn.</note> When <persName><ref target="/persons/pers1506.xml"/>Mr.
+               Newton</persName><note place="foot" n="3"><persName><ref
+                     target="/persons/pers1506.xml"/>John Newton</persName> (<date from="1725"
+                  to="1807">1725–1807</date>), a native of <placeName>London</placeName> and a
+               former slave-trader, had a conversion experience on board his ship in <date
+                  when="1748-03">March 1748</date>. He continued to practice the slave trade through
+               about <date when="1756">1756</date>, when he abandoned it and became active in the
+               Evangelical revival. He was currently supporting himself as a tax collector in the
+               port of <placeName>Liverpool</placeName>, while seeking to be ordained. He would
+               finally be ordained in <date when="1764">1764</date> and become vicar at
+                  <placeName>Olney</placeName>. He is best known for his hymns and his writings
+               against the slave trade. He and <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName> had been in correspondence since at least early <date when="1758"
+                  >1758</date> (see <persName><ref target="/persons/pers1506.xml"/>Newton</persName>
+               to <persName><ref target="/persons/pers2180.xml"/>JW</persName>, <date
+                  when="1758-04-03">Apr. 3</date>). See <hi rend="italic">ODNB</hi>.</note> of
+               <placeName>Liverpool</placeName> mentioned this, and asked whether you designed to
+            answer, you said you thought not, &apos;for it would only be a <hi rend="italic"
+               >personal controversy</hi> between <persName><ref target="/persons/pers2180.xml"
+               />John Wesley</persName> and <persName><ref target="/persons/pers1991.xml"/>John
+               Taylor</persName>.&apos; How gladly, if I durst, would I accept of this discharge
+            from so unequal contest! For I am thoroughly sensible, humanly speaking, it is
+               &apos;<foreign rend="italic">formica contra leonem</foreign>&apos;.<note place="foot"
+               n="4">&apos;An ant against a lion&apos;.</note> How gladly, were it indeed no other
+            than a <hi rend="italic">personal</hi> controversy! But certainly it is not. It is a
+            controversy <foreign rend="italic">de re</foreign><note place="foot" n="5">&apos;On the
+               very thing&apos; or &apos;on a serious matter&apos;.</note> if ever there was one in
+            this world. Indeed, concerning a thing of the highest importance—nay, all the things
+            that concern our eternal peace. It is <hi rend="italic">Christianity</hi> or <hi
+               rend="italic">heathenism</hi>? For take away the scriptural doctrine of redemption or
+            justification, and that of the new birth, the beginning of sanctification, or which
+            amounts to the same, explain them as you do, suitably to your doctrine of original sin,
+            and what is Christianity better than heathenism? Wherein (save in rectifying some of our
+               <hi rend="italic">notions</hi>) has the religion of St. Paul any preeminence over
+            that of <persName><ref target="http://viaf.org/viaf/88039167"/>Socrates</persName> or
+                  <persName><ref target="http://viaf.org/viaf/100218891"/>Epictetus</persName>?</p>
+         <p>This is, therefore, to my apprehension, the least a <hi rend="italic">personal
+               controversy</hi> of any in the world. Your person and mine are out of the question.
+               <hi rend="italic">The point</hi> is, Are <hi rend="italic">those things</hi> that
+            have been believed for many ages throughout the Christian world real, solid <hi
+               rend="italic">truths</hi>, or <hi rend="italic">monkish dreams</hi> and vain
+            imaginations?</p>
+         <p>But farther, it is certain between you and me there need be no <hi rend="italic"
+               >personal</hi> controversy at all. For we may agree to leave each other&apos;s person
+            and character absolutely untouched, while we sum up and answer the several arguments
+            advanced as plainly and closely as we can.<note place="foot" n="6">This challenge seems
+               to have encouraged <persName><ref target="/persons/pers1991.xml"/>Taylor</persName>
+               to collect a few observations on <persName><ref target="/persons/pers2180.xml"
+                  />Wesley</persName>&apos;s volume. <persName><ref target="/persons/pers1991.xml"
+                  />Taylor</persName> died before <seg ana="publishing">publishing</seg> these
+               observations, but they were issued posthumously as <hi rend="italic">A Reply to the
+                  Reverend <persName><ref target="/persons/pers2180.xml"/>John
+                  Wesley</persName>&apos;s Remarks on &apos;The Scripture-Doctrine of Original
+                  Sin</hi>&apos; (<placeName>London</placeName>, <date when="1767">1767</date>).
+               There is no evidence that <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName> ever saw <persName><ref target="/persons/pers1991.xml"
+                  />Taylor</persName>&apos;s response.</note></p>
+         <p>Either I or you mistake the whole of Christianity from the beginning to the end! Either
+            my scheme or yours is as contrary to the<pb n="167"/> scriptural as the Koran<note
+               place="foot" n="7">I.e., Quran.</note> is. Is it mine, or yours? Yours has gone
+            through all <placeName>England</placeName> and made numerous converts. I attack it from
+            end to end. Let all <placeName>England</placeName> judge whether it can be defended or
+            not!</p>
+         <closer>Earnestly praying that God may give you and me a right understanding in all things,
+            I am, rev. sir,<lb/>
+            <signed>Your servant for Christ&apos;s sake,<lb/><persName>J.
+            W.</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
