@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To the Rev. Thomas Goodday (July 6, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-09</date>
+            <idno type="URI">http://syriaca.org/letters/1759-07-06-ToThomasGoodday</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To the Rev. Thomas Goodday (July 6, 1759)</title>
+                     <date when="1759-07-06"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="167" to="168"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: privately held (current owner unknown; MARC, MA <date when="1977"
+                     >1977</date>/609 includes a transcription made in <date when="1971"
+                  >1971</date>).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0824">
+                  <persName>Thomas Goodday</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0879">
+                  <persName>William Grimshaw</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0824.xml"/>the Rev. Thomas
+               Goodday</persName><note place="foot" n="1"><persName><ref
+                     target="/persons/pers0824.xml"/>Thomas Goodday</persName> (<date from="1705"
+                  to="1768">1705–1768</date>) matriculated at <placeName>Queen&apos;s College,
+                  Oxford</placeName>, but never graduated. He was perpetual curate of
+                  <placeName>Monkwearmouth</placeName> from <date when="1744">1744</date> to his
+               death. He became a close friend of <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName>, allowing him to preach in his church and hold services in a
+               building next to his home; see <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName>, <hi rend="italic">Journal</hi>, <date when="1761-05-31">May 31,
+                  1761</date>, 21:326 in this edn. The transcriber of this letter mistakenly
+               identifies it as to &apos;<persName><ref target="/persons/pers0824.xml"/>John&apos;
+                  Goodday</persName>.</note></head>
+         <opener><placeName>Yarm</placeName><lb/><date when="1759-07-06">July 6, 1759</date><lb/><lb/>
+            <salute>Rev. and Dear Sir,</salute>
+         </opener>
+         <p><pb n="167"/>The few minutes I had the pleasure of spending with Mrs.
+               <persName>Goodday</persName> and you made me desirous of your farther
+               acquaintance.<note place="foot" n="2"><persName><ref target="/persons/pers2180.xml"
+                  />Wesley</persName> would have passed through <placeName>Monkwearmouth</placeName>
+               as he rode north from <placeName>Sunderland</placeName> to <placeName>South
+                  Shields</placeName> on <date from="1759-06-23" to="1759-06-24">June 23–24,
+                  1759</date> (<hi rend="italic">Journal</hi>, 21:203 in this edn.).This appears to
+               be his first contact with <persName><ref target="/persons/pers0824.xml"
+                  />Goodday</persName>.</note> I believe you will have no great taste for your
+            former acquaintance, any farther than you find profitable for their souls. Indeed if you
+            did not help <hi rend="italic">them</hi>, they would hurt <hi rend="italic">you</hi>,
+            and the more if they were civil and good natured. &apos;Harmless men&apos;, so called,
+            are the most mischievous of all. God deliver you and me out of their hands!</p>
+         <p>I have been often afraid lest you should light on another kind of mischievous creatures,
+            called pre-deist<note place="foot" n="3">The transcriber marks this as a questionable
+               reading.</note> men. These are continually palming upon us the wisdom of the world,
+            under the notion of Christian wisdom, hereby damping our zeal for God and destroying the
+            childlike simplicity of faith. These, if we hearken to them,<pb n="168"/> will soon
+            bring us again into bondage to worldly shame and the fear of man. And I know few
+            clergymen in <placeName>England</placeName>, except Mr. <persName><ref
+                  target="/persons/pers0879.xml"/>Grimshaw</persName>,<note place="foot" n="4">I.e.,
+                     <persName><ref target="/persons/pers0879.xml"/>William Grimshaw</persName> of
+                  <placeName>Haworth</placeName>; see his letter to <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName>, <date when="1747-05-30">May 30,
+                  1747</date>, 26:243 in this edn.</note> who are not touched with it more or less.
+            O sir, regard not man but God! Let his Spirit be your constant guide! When he convinces
+            you that this or that would be to his glory, <index indexName="biblical">
+               <term cRef="Gal1:16">confer not with flesh and blood</term>
+            </index>.<note place="foot" n="5"><index indexName="biblical">
+                  <term cRef="Gal1:16">Gal. 1:16</term>
+               </index>.</note> It is enough that God is on your side.</p>
+         <closer>To him I commend you and yours. I am, dear sir,<lb/>
+            <signed>Your affectionate brother,<lb/><persName>John
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
