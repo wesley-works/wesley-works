@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Annesley, Anne (1661–1734)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0041</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2193">
+                  <persName>Susanna (Annesley) Wesley</persName>
+               </person>
+               <person>
+                  <persName>Jane Shore</persName>
+               </person>
+               <person>
+                  <persName>Edward IV</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0041">
+               <p>An older sister of <persName><ref target="/persons/pers2193.xml"/>Susanna
+                     (Annesley) Wesley</persName>, Anne never married. She lived in
+                     <placeName>Hackney</placeName>, at Shore House (the earlier home of
+                     <persName>Jane Shore</persName>, mistress of <persName>Edward IV</persName>;
+                  now an area named Shore Road). She was visited frequently by <persName><ref
+                        target="/persons/pers2193.xml"/>Susanna</persName> and the Wesley children,
+                  and included several of them in her will. See Clarke, <hi rend="italic"
+                     >Memoirs</hi> (1823, 252; 1836, 1:395; 1848, 314).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
