@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abraham, Rev. John (fl. 1764–1784)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0007</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1903">
+                  <persName>Edward Smyth</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1235">
+                  <persName>Alexander Knox</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0007">
+               <p>A native of the district of <placeName>Fahan</placeName> (just outside
+                     <placeName>Londonderry</placeName>), Abraham took his <seg ana="degree"
+                     >BA</seg> at <placeName>Trinity College, Dublin</placeName> in <date
+                     when="1768">1768</date>, was ordained, and served as a curate in the Templemore
+                  parish of Londonderry and chaplain at the Chapel (of Ease) of the Immaculate
+                  Conception in <placeName>Fahan</placeName>. In <date when="1776">1776</date> he
+                  was converted under the influence of Rev. <persName><ref
+                        target="/persons/pers1903.xml"/>Edward Smyth</persName>, and joined
+                        <persName><ref target="/persons/pers1903.xml"/>Smyth</persName> for a while
+                  preaching in <placeName>Dublin</placeName>. In <date when="1778">1778</date>, at
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s request,
+                  Abraham left <placeName>Ireland</placeName> to assist at the new Chapel on
+                     <placeName>City Road</placeName> in <placeName>London</placeName> (see his only
+                  appearance in the <hi rend="italic">Minutes</hi> that year, <hi rend="italic"
+                     >Works</hi>, 10:475). He proved physically and temperamentally unsuited to this
+                  role and returned to <placeName>Ireland</placeName> the following year. In <date
+                     when="1782">1782</date> he was again in <placeName>London</placeName>. The last
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> knew of him,
+                  Abraham was confined in a hospital as &apos;insane&apos;. See J. B. Leslie, <hi
+                     rend="italic">Derry Clergy</hi> and <hi rend="italic">Parishes</hi>
+                  (Enniskillen: Ritchie, <date when="1937">1937</date>), 291; Crookshank, <hi
+                     rend="italic">Ireland</hi>, 1:276, 307, 397, 332; and <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> to <persName><ref
+                        target="/persons/pers1235.xml"/>Alexander Knox</persName>, <date
+                     when="1778-12-20">Dec. 20, 1778</date> &amp; <date when="1784-02-07">Feb. 7,
+                     1784</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
