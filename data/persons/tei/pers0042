@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Annesley, Samuel Jr. (c. 1658–1732)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0042</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2193">
+                  <persName>Susanna (Annesley) Wesley</persName>
+               </person>
+               <person xml:id="pers2188">
+                  <persName>Samuel Wesley Sr</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0042">
+               <p>The eldest brother of <persName><ref target="/persons/pers2193.xml"/>Susanna
+                     (Annesley) Wesley</persName>, Samuel became in his early twenties a
+                  representative of the East India Company in <placeName>Surat, India</placeName>.
+                        <persName><ref target="/persons/pers2193.xml"/>Susanna</persName> believed
+                  that he was wealthy and that he might bestow some of his wealth on her family,
+                  despite a disagreement between him and <persName><ref
+                        target="/persons/pers2188.xml"/>Samuel Wesley Sr</persName>. Both of these
+                  beliefs proved to be mistaken; cf. Arnold Wright, <hi rend="italic">Annesley of
+                     Surat</hi> (<placeName>London</placeName>, Melrose, <date when="1918"
+                     >1918</date>). See Clarke, <hi rend="italic">Memoirs</hi> (1823, 244–51; 1836,
+                  1:381–94; 1848, 303–13).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
