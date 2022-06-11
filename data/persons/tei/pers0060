@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Asbury, Francis (1745–1816)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0060</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0435">
+                  <persName>Thomas Coke</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0060">
+               <p>Raised just south of <placeName>Birmingham</placeName>, Asbury was introduced to
+                  Methodism in his teens, in both its Calvinist and Wesleyan forms. After
+                  experiencing a marvelous display of God&apos;s grace in the early 1760s he began
+                  to serve as a local preacher. He entered the <seg ana="itinerancy">itinerant</seg>
+                  ministry in <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  connexion in <date when="1766">1766</date>, serving three different appointments
+                  in <placeName>England</placeName> before he volunteered to be appointed to
+                     <placeName>North America</placeName> at the <date when="1771">1771</date>
+                  Conference. He would never return to his native <placeName>England</placeName>,
+                  remaining to serve in <placeName>American</placeName> during the War of
+                  Independence. After the war, he was ordained in <date when="1784-12">December
+                     1784</date>, by <persName><ref target="/persons/pers0435.xml"/>Thomas
+                     Coke</persName> and others, at <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s direction, as deacon and elder, and appointed as a
+                  superintendent (alongside <persName><ref target="/persons/pers0435.xml"
+                     />Coke</persName>). He and <persName><ref target="/persons/pers0435.xml"
+                     />Coke</persName> soon began to use instead the title of &apos;bishop&apos;, to
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s chagrin.
+                  Asbury served thirty years in this role and was central to the establishment and
+                  growth of the Methodist Episcopal Church. See <hi rend="italic">DEB</hi>,
+                  31–33.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
