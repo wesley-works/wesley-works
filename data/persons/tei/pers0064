@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aspernell, Bilhah (d. 1774)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0064</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0064">
+               <p>Aspernell was a leader of a band for single women at the Foundery in
+                     <placeName>London</placeName> from <date when="1742-04">Apr. 1742</date>, and
+                  of a Select Society from <date when="1743-12">Dec. 1743</date>. She is frequently
+                  mentioned in <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  diary, and he performed her burial service on <date when="1774-01-28">Jan. 28,
+                     1774</date> (<persName><ref target="/persons/pers2180.xml"/>JW</persName>, <hi
+                     rend="italic">Journal</hi>, <hi rend="italic">Works</hi>, 22:397).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
