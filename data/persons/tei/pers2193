@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Annesley) Wesley, Susanna (1669–1742)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers2193</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2188">
+                  <persName>Samuel Wesley</persName>
+               </person>
+               <person>
+                  <persName>Rev. Samuel Annesley</persName>
+               </person>
+               <person>
+                  <persName>Mary (White) Annesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers2193">
+               <p>Susanna was born to Rev. <persName>Samuel</persName> and <persName>Mary (White)
+                     Annesley</persName> on <date when="1669-01-20">Jan. 20, 1669</date> in
+                     <placeName>London</placeName>. Among other gifts she received from her parents,
+                  Susanna was taught to read and encouraged to draw from the full range of her
+                  father&apos;s library. She became versed in theology and developed an independence
+                  of thought that eventually led her to leave her father&apos;s dissenting
+                  (Presbyterian) church and join the Church of England. In her late teens Susanna
+                  met <persName><ref target="/persons/pers2188.xml"/>Samuel Wesley</persName>, who
+                  had taken a similar journey, and they were married on <date when="1688-11-12">Nov.
+                     12, 1688</date>. Susanna accompanied <persName><ref
+                        target="/persons/pers2188.xml"/>Samuel</persName> through his various
+                  parishes, and gave birth to at least seventeen children. She took an active hand
+                  in her children&apos;s early education, insuring that her daughters in particular
+                  were encouraged to the life of the mind. Among her surviving correspondence are
+                  several letters instructing the boys in spiritual matters while they are away at
+                  boarding schools, and catechetical material prepared for her daughters when the
+                  family was scattered due to a fire at the rectory in
+                     <placeName>Epworth</placeName>. After the death of her husband, Susanna lived
+                  with various of her children, settling finally in <placeName>London</placeName> at
+                  the Foundery. She died on <date when="1742-07-30">July 30, 1742</date> and is
+                  buried in <placeName>Bunhill Fields</placeName>. See Clarke, <hi rend="italic"
+                     >Memoirs</hi> (1823, 255–361; 1836, 2:1–135; 1848, 318–420); <hi rend="italic"
+                     >DEB</hi>, 1173–74; <hi rend="italic">ODNB</hi>; and John A. Newton, <hi
+                     rend="italic">Susanna Wesley and the Puritan Tradition in Methodism</hi> (2nd
+                  edn. <placeName>London</placeName>: <placeName>Epworth</placeName>, <date
+                     when="2002">2002</date>).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
