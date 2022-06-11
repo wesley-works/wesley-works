@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Andrews, Abraham (1717–1801)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0035</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0441">
+                  <persName>Benjamin Colley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0035">
+               <p>Andrews was a timber merchant and carpenter in <placeName>Hertford</placeName> who
+                  was drawn into the Methodist cause by the preaching of <persName><ref
+                        target="/persons/pers0441.xml"/>Benjamin Colley</persName> in <date
+                     when="1766">1766</date>. He soon began holding classes for children in
+                     <placeName>Hertford</placeName> and built a school, which became the earliest
+                  house used for Methodist worship. While the work in and around
+                     <placeName>Hertford</placeName> struggled, Andrews remained a solid supporter
+                  until he departed for <placeName>North America</placeName> in <date when="1793"
+                     >1793</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
