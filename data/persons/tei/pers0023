@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Allen, John (1737–1810)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0023</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="persx">
+                  <persName>First Name, Last Name</persName>
+               </person>
+               <person>
+                  <persName>First Name, Last Name</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0023">
+               <p>A native of <placeName>Chapel-en-le-Frith</placeName>, Allen&apos;s mother was a
+                  Presbyterian with Methodist connections. Her death brought on his conversion in
+                     <date when="1759">1759</date> and he became an <seg ana="itinerancy"
+                     >itinerant</seg> in <date when="1766">1766</date>. He served until <date
+                     when="1799">1799</date>, when he settled in <placeName>Liverpool</placeName>
+                  and died <date when="1810-02-20">Feb. 20, 1810</date>. See <hi rend="italic"
+                     >EMP</hi>, 6:241–48; and <hi rend="italic">Minutes</hi> (post-Wesley, <date
+                     when="1810">1810</date>), 3:133.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
