@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ingham, Rev. Benjamin (1712–1772)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers1121</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>Margaret Hastings</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1121">
+               <p>Ingham, a native of <placeName>Ossett, Yorkshire</placeName>, matriculated at
+                     <placeName>Queen&apos;s College, Oxford</placeName> in <date when="1730"
+                     >1730</date>, and in <date>1733</date> became involved with the Wesley brothers
+                  in the &apos;Oxford Methodists&apos;. He received his <seg ana="degree">BA</seg>
+                  in <date when="1734">1734</date>, was ordained in <date when="1735-06">June
+                     1735</date>, and accompanied <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> and <persName><ref target="/persons/pers2176.xml"
+                     />CW</persName> to minister in <placeName>Georgia</placeName>. Thus, he met the
+                  Moravians on the ship going to <placeName>Georgia</placeName>. When Ingham
+                  returned to <placeName>England</placeName> he accompanied <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> in <date when="1738"
+                     >1738</date> to <placeName>Herrnhut</placeName> and
+                     <placeName>Marienborn</placeName>. Ingham&apos;s initial labors in the
+                  evangelical revival that was breaking out were focused in the West Riding of
+                  Yorkshire. As the Wesley brothers and Moravians parted ways in the early
+                     <date>1740s</date>, Ingham sided with the Moravians. In <date when="1741"
+                     >1741</date>, in spite of opposition in her family, Ingham married Lady
+                     <persName>Margaret Hastings</persName> (<date from="1700" to="1768"
+                     >1700–1768</date>). This helped provide the means to buy Bank House, near
+                     <placeName>Pudsey</placeName>, which in <date when="1746-05">May 1746</date>
+                  was dedicated as the Moravian headquarters in the north of
+                     <placeName>England</placeName>. About a decade later, Ingham separated from the
+                  Moravians, leading about 80 congregations into a connexion of
+                  &apos;Ighamites&apos; that he guided. See <hi rend="italic">Alumni
+                  Oxonienses</hi>; <hi rend="italic">DEB</hi>, 590–91; <hi rend="italic">ODNB</hi>;
+                  Tyerman, <hi rend="italic">Oxford Methodists</hi>, 57–154; and Vickers, <hi
+                     rend="italic">Dictionary</hi>, 175.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
