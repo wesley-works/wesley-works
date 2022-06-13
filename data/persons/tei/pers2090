@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vazeille, John Anthony (b. c. 1738)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers2090</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1405">
+                  <persName>Lady Darcy Maxwell</persName>
+               </person>
+               <person>
+                  <persName>Anthony Vazeille</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers2090">
+               <p>John Anthony was the oldest son of <persName>Anthony</persName> and <persName><ref
+                        target="/persons/pers2091.xml"/>Mary (Goldhawk) Vazeille</persName>. He is
+                  apparently the son that <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> describes in a letter to <persName><ref
+                        target="/persons/pers2091.xml"/>Mary</persName> dated <date
+                     when="1774-07-15">July 15, 1774</date> as having been &apos;a grievous
+                  cross&apos; to her. He is almost certainly the son-in-law that <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> tells <persName><ref
+                        target="/persons/pers1405.xml"/>Lady Maxwell</persName> in a letter dated
+                     <date when="1788-08-08">Aug. 8, 1788</date> had been a physician for a while,
+                  but left that profession. In <date when="1768">1768</date> he was in
+                     <placeName>India</placeName> as a member of the Bengal army of the East Indies
+                  Company, from where he wrote to his mother. By <date when="1788">1788</date>, when
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> wrote
+                        <persName><ref target="/persons/pers1405.xml"/>Lady Maxwell</persName>, he
+                  was deceased.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
