@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Hilton) Barton, Jane (1747–1825)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0112</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Francis Hilton</persName>
+               </person>
+               <person>
+                  <persName>Jane Hilton</persName>
+               </person>
+               <person>
+                  <persName>William Barton</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0112">
+               <p>Jane Hilton was baptized on <date when="1747-02-28">Feb. 28, 1747</date> in
+                     <placeName>Beverley, Yorkshire</placeName>, the daughter of
+                     <persName>Francis</persName> and <persName>Jane Hilton</persName>. She joined
+                  the Methodist society there in <date when="1764">1764</date>, and was
+                  corresponding with <persName><ref target="/persons/pers2180.xml"/>JW</persName> by
+                     <date when="1766">1766</date>. In <date when="1769-03">March 1769</date> Jane
+                  married <persName>William Barton</persName>, of <placeName>Beverley</placeName>.
+                  Her last known letter from <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> was in <date when="1788">1788</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
