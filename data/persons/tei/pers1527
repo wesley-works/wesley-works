@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oglethorpe, James Edward (1696–1785)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers1527</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1677">
+                  <persName>Samuel Quincy</persName>
+               </person>
+               <person xml:id="pers2188">
+                  <persName>Samuel Wesley Sr.</persName>
+               </person>
+               <person xml:id="pers2227">
+                  <persName>John Whitelamb</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1527">
+               <p>Oglethorpe obtained a commission in the British army in <date when="1710"
+                     >1710</date>, and saw military service in <placeName>Europe</placeName> for a
+                  few years before returning to oversee his family estate and (from <date
+                     when="1722">1722</date>) to serve as MP for <placeName>Haslemere</placeName>.
+                  His attention was drawn to the terrible conditions in debtors&apos; prisons. This
+                  led to his securing a charter to settle the colony of
+                     <placeName>Georgia</placeName> in <placeName>America</placeName>, partly as an
+                  outlet for social misfits, partly as an opportunity for developing new territory
+                  both as a market and as a buffer zone against the encroachments of the Spanish in
+                  the south. In <date when="1732">1732</date> Oglethorpe escorted the first 114
+                  settlers to <placeName>Georgia</placeName>, and during <date from="1734" to="1735"
+                     >1734–35</date> was recruiting a further contingent, as well as reinforcements
+                  and perhaps a replacement for its spiritual leadership—the first minister, Rev.
+                        <persName><ref target="/persons/pers1677.xml"/>Samuel Quincy</persName>,
+                  having fallen below expectations. <persName><ref target="/persons/pers2188.xml"
+                     />Samuel Wesley Sr</persName>. suggested his (recently widowed) son-in-law
+                        <persName><ref target="/persons/pers2227.xml"/>John Whitelamb</persName>;
+                  but it was <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName> who accompanied
+                  Oglethorpe back to <placeName>Georgia</placeName>, <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> as a parish priest and
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName> as
+                  Oglethorpe&apos;s secretary. See <hi rend="italic">ODNB</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
