@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vazeille, Jeanne (1736–1820)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers2089</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1396">
+                  <persName>John Matthews</persName>
+               </person>
+               <person>
+                  <persName>Anthony Vazeille</persName>
+               </person>
+               <person>
+                  <persName>William Smith</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers2089">
+               <p>Jeanne (&apos;Jane&apos;) was the only surviving daughter of
+                     <persName>Anthony</persName> and <persName><ref target="/persons/pers2091.xml"
+                     />Mary (Goldhawk) Vazeille</persName>. She is often mentioned fondly in
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s letters
+                  after he became her step-father, and they remained close despite the marital
+                  tensions between <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                        <persName><ref target="/persons/pers2091.xml"/>Mary</persName>. In <date
+                     when="1757-07">July 1757</date> Jane married <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s close supporter
+                        <persName><ref target="/persons/pers1396.xml"/>John Matthews</persName>. A
+                  couple of years after <persName><ref target="/persons/pers1396.xml"
+                     />Matthews</persName>&apos; death in <date when="1764">1764</date> she married
+                  again, this time to <persName>William Smith</persName>
+                  <!-- could not decide an XML ID -->(<date from="1736" to="1824">1736–1824</date>)
+                  of <placeName>Newcastle</placeName>. This second marriage was blessed by two
+                  daughters, both of whom appear in <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s will.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
