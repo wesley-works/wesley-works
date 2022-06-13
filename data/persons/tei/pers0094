@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ball, Hannah (1734–1792)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0094</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2127">
+                  <persName>Thomas Walsh</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>William Ball</persName>
+               </person>
+               <person>
+                  <persName>Mary Ball</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0094">
+               <p>Hannah was born to <persName>William</persName> and <persName>Mary
+                  Ball</persName>, of <placeName>Tisbury, Wiltshire</placeName> on <date
+                     when="1734-03-13">March 13, 1734</date>. Living with her brother from her later
+                  teens in <placeName>High Wycombe</placeName>, Ball was drawn to Methodism by the
+                  sermons of <persName><ref target="/persons/pers2127.xml"/>Thomas Walsh</persName>.
+                  She soon began correspondence with <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>, with letters surviving from <date from="1768" to="1789"
+                     >1768–89</date>. In <date when="1769">1769</date> she began a class for
+                  children that is now considered the first &apos;Sunday School&apos; in
+                     <placeName>England</placeName>. Ball became a key Methodist leader in
+                     <placeName>High Wycombe</placeName> and <placeName>Oxfordshire</placeName> more
+                  broadly. See John Parker (ed.), <hi rend="italic">Memoir of Miss Hannah Ball</hi>
+                     (<placeName>London</placeName>: John Mason, <date when="1839">1839</date>); and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 16.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
