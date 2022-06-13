@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Orpe, William (fl. 1760s)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers1543</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Sense Massey</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1543">
+               <p>Orpe was the son of a farmer at <placeName>Prestwood, Staffordshire</placeName>.
+                  The <hi rend="italic">Minutes</hi> show he was admitted on trial in <date
+                     when="1765-08">Aug. 1765</date> and assigned to the
+                     <placeName>Staffordshire</placeName> circuit (<hi rend="italic">Works</hi>,
+                  10:303–5). He was admitted to regular rank the following year, but in <date
+                     when="1767-10">Oct. 1767</date> he married <persName>Sense Massey</persName>
+                  and withdrew from <seg ana="itinerancy">itinerancy</seg>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
