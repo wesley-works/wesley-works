@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bardsley, Samuel (c. 1729–1818)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0100</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0100">
+               <p>A native of <placeName>Ashton-under-Lyne, Lancashire</placeName>, Bardsley was
+                  admitted as a <seg ana="itinerancy">traveling preacher</seg> in <date when="1768"
+                     >1768</date> (<hi rend="italic">Works</hi>, 10:353). He continued to serve long
+                  past <persName><ref target="/persons/pers2180.xml"/>John Wesley</persName>&apos;s
+                  death, and was one of <persName><ref target="/persons/pers2180.xml"
+                     />Wesley</persName>&apos;s favorites. See <hi rend="italic">DEB</hi>, 58; <hi
+                     rend="italic">MM</hi> 41 (<date when="1818">1818</date>): 348; <hi
+                     rend="italic">Minutes</hi> (post-Wesley, <date when="1819">1819</date>), 5:5–6;
+                  and Vickers, <hi rend="italic">Dictionary</hi>, 19.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
