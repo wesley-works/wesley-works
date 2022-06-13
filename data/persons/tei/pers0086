@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Baddeley, Rev. John (c. 1704–1765)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0086</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0086">
+               <p>Baddeley was assigned as perpetual curate of <placeName>Hayfield,
+                     Derbyshire</placeName> in <date when="1735">1735</date> and served until his
+                  death. He underwent an evangelical conversion in <date when="1748">1748</date> and
+                  for a while welcomed <persName><ref target="/persons/pers2180.xml"/>JW</persName>
+                  in his parish. Baddeley eventually distanced himself from <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, for not taking a firmer hand
+                  with Methodist lay preachers in resisting separation from the Church of
+                     <placeName>England</placeName>. See CCEd; <hi rend="italic">DEB</hi>, 45; and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 15.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
