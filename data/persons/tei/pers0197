@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[last name, first name] [year of birth-year of death]</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers0197</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2310">
+                  <persName>Count Zinzendorf</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0197">
+               <p>Böhler was ordained in <date when="1737-12">Dec. 1737</date>, by <persName><ref
+                        target="/persons/pers2310.xml"/>Zinzendorf</persName>, to serve as the
+                  Moravian pastor in <placeName>Savannah, Georgia</placeName> and undertake
+                  missionary work among the slaves in <placeName>Purrysburg, South
+                     Carolina</placeName>. He arrived in <placeName>London</placeName> en route to
+                     <placeName>America</placeName> a few days before <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s return from
+                     <placeName>Savannah</placeName>, and they met on <date when="1738-02-07">Feb.
+                     7, 1738</date>. <persName><ref target="/persons/pers2180.xml"/>JW</persName>
+                  procured lodgings for Böhler, who in turn instructed <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> and <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> in Moravian piety. This
+                  culminated in a personal experience of saving faith for <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> on <date when="1738-05-21">May
+                     21</date>,<!-- Assume year as 1738 --> and for <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> on <date when="1738-05-24">May
+                     24</date>. By this point Böhler had left <placeName>London</placeName> for
+                     <placeName>Georgia</placeName>, but not before he and <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> founded a new religious
+                  society in Fetter Lane, <placeName>London</placeName>, on <date when="1738-05-01"
+                     >May 1</date>. During his first visit to <placeName>North America</placeName>,
+                  Böhler helped to establish a Moravian settlement in <placeName>Bethlehem,
+                     Pennsylvania</placeName>. He returned to <placeName>England</placeName> in
+                     <date when="1741">1741</date> and preached for a time in
+                     <placeName>Yorkshire</placeName>, but went back to <placeName>North
+                     America</placeName> in <date when="1742">1742</date> with a party of German
+                  emigrants. In <date when="1744">1744</date> he returned to
+                     <placeName>Germany</placeName> where he was consecrated a bishop in <date
+                     when="1748">1748</date>. In <date when="1753">1753</date> Böhler went again to
+                     <placeName>North America</placeName> and for the next eleven years he divided
+                  his time between <placeName>America</placeName> and <placeName>Europe</placeName>.
+                  After the death of <persName><ref target="/persons/pers2310.xml"
+                     />Zinzendorf</persName>, Böhler returned to <placeName>Europe</placeName>
+                  permanently and died in <placeName>London</placeName> from the effects of a stroke
+                  in <date when="1775">1775</date>. See <hi rend="italic">DEB</hi>, 115–16; and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 35.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
