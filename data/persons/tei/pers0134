@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bell, George (fl. 1760s)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0134</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0134">
+               <p>A corporal in the Life Guards, Bell converted in <placeName>London</placeName>
+                  about <date when="1758">1758</date>. The noisy prayer meetings over which he
+                  officiated in <date when="1761">1761</date> excited Methodists all over
+                     <placeName>England</placeName>. He increasingly claimed unique spiritual
+                  privileges, the power to heal miraculously, and predicted that the world would end
+                  on <date when="1763-02-28">Feb. 28, 1763</date>. When <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> resisted these claims, Bell
+                  withdrew from Methodism, never to return. See <hi rend="italic">DEB</hi>, 80; and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 26.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
