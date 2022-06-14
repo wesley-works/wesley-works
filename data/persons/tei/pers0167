@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Biggs, Benjamin (1709–78)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers0167</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1318">
+                  <persName>Sir James Lowther</persName>
+               </person>
+               <person xml:id="pers1483">
+                  <persName>John Murlin</persName>
+               </person>
+               <person xml:id="pers0134">
+                  <persName>George Bell</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0167">
+               <p>Born in <placeName>Winslow, Buckinghamshire</placeName>, Biggs served as butler to
+                        <persName><ref target="/persons/pers1318.xml"/>Sir James Lowther</persName>
+                     (<date from="1673" to="1755">1673–1755</date>), and was included in
+                        <persName><ref target="/persons/pers1318.xml"/>Lowther</persName>&apos;s
+                  will. He came under Methodist preaching in <date when="1750">1750</date> and was
+                  converted. While never listed in the Minutes, he traveled with <seg
+                     ana="itinerancy">itinerant</seg>
+                  <persName><ref target="/persons/pers1483.xml"/>John Murlin</persName> in the late
+                     <date>1750s</date>. He was part of the perfectionist group that gathered around
+                        <persName><ref target="/persons/pers0134.xml"/>George Bell</persName> in
+                     <date when="1760">1760</date>, and departed Methodism with <persName><ref
+                        target="/persons/pers0134.xml"/>Bell</persName> in <date when="1763"
+                     >1763</date>. Cf. his autobiographical letter to <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> of <date when="1759-12"
+                     >December 1759</date>, <hi rend="italic">AM</hi> 3 (<date when="1780"
+                     >1780</date>): 493–96.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
