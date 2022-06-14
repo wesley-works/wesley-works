@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bayley, Rev. Dr. Cornelius (1751–1812)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0126</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0719">
+                  <persName>John Fletcher</persName>
+               </person>
+               <person xml:id="pers0459">
+                  <persName>Richard Conyers</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0126">
+               <p>Bayley was born at <placeName>Ashe</placeName>, near <placeName>Whitchurch,
+                     Shropshire</placeName> into an artisan family. He was educated at the
+                  Whitchurch Free [Grammar] School, <placeName>Shropshire</placeName>, and proved
+                  such a student that when the current master died, Bayley was named his replacement
+                  at the age of 17. Since his father was active in Methodist circles Bayley soon
+                  came to <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  attention, and by <date when="1773">1773</date> he had moved to Kingswood in the
+                  role of English teacher and later second master. While at Kingswood he <seg
+                     ana="publishing">published</seg> an acclaimed Hebrew grammar. While never a
+                  formal Methodist <seg ana="itinerancy">itinerant</seg>, Bayley did serve as a
+                  local preacher. In <date when="1780">1780</date> he received ordination as a
+                  deacon and began to serve as curate for <persName><ref
+                        target="/persons/pers0719.xml"/>John Fletcher</persName> (while remaining
+                  active at Kingswood). He was ordained an elder the following year and served as
+                  curate in <placeName>Deptford</placeName> with <persName><ref
+                        target="/persons/pers0459.xml"/>Richard Conyers</persName>. In <date
+                     when="1787">1787</date> he became the first incumbent of St. James&apos;
+                  Church, Manchester, a &apos;proprietary church&apos; which he built. The degree of
+                     <seg ana="degree">B.D</seg>., taken by the ten-year route, was conferred on him
+                  at Cambridge in <date when="1792">1792</date>, and that of <seg ana="degree"
+                     >D.D</seg>. in <date when="1800">1800</date>. See <hi rend="italic">WHS</hi> 34
+                     (<date when="1964">1964</date>): 153–58.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
