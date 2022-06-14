@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Norman / Murray) Bennet, Grace (1716–1803)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0141</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers0143">
+                  <persName>John Bennet</persName>
+               </person>
+               <person>
+                  <persName>Alexander Murray</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0141">
+               <p>Born in <placeName>Newcastle upon Tyne</placeName>, in <date when="1736"
+                     >1736</date> Grace Norman married <persName>Alexander Murray</persName>, a
+                  seaman, who died six years later. She first heard <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> preach in
+                     <placeName>Moorfields</placeName> on <date when="1739-09-09">Sept. 9,
+                     1739</date>, and in the early <date>1740s</date> was a member of bands for
+                  married women at the Foundery. After her husband&apos;s death <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> made her housekeeper at the
+                  Orphan House in <placeName>Newcastle</placeName>. She accompanied <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> on a preaching tour in
+                     <placeName>Ireland</placeName> in <date when="1748">1748</date>, during which
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> suggested the
+                  possibility of their marriage. This was not to be, largely through the
+                  intervention of <persName><ref target="/persons/pers2176.xml"/>CW</persName>, who
+                  solemnized the marriage of Grace to <persName><ref target="/persons/pers0143.xml"
+                     />John Bennet</persName> on <date when="1749-10-03">Oct. 3, 1749</date>. See
+                     <hi rend="italic">DEB</hi>, 808; and Vickers, <hi rend="italic"
+                  >Dictionary</hi>, 248.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
