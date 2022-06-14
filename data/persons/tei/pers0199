@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Bolton) Conibeere, Ann (1743–1822)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers0199</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0200">
+                  <persName>Edward Bolton Sr.</persName>
+               </person>
+               <person xml:id="pers0201">
+                  <persName>Edward Bolton Jr.</persName>
+               </person>
+               <person xml:id="pers0204">
+                  <persName>Sarah Bolton</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>George Conibeere</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0199">
+               <p>The eldest child of <persName><ref target="/persons/pers0200.xml"
+                     />Edward</persName> and <persName><ref target="/persons/pers0204.xml"/>Sarah
+                     (Beecham) Bolton</persName>, from <placeName>Witney, Oxfordshire</placeName>,
+                  Ann (&apos;Nancy&apos;) was exposed to Methodist preaching and joined the society
+                  in <placeName>Witney</placeName> in <date when="1764-09">Sept. 1764</date>.
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> often stayed
+                  with her and her brother <persName><ref target="/persons/pers0201.xml"/>Edward
+                     Bolton</persName> (<date from="1747" to="1818">1747–1818</date>), a local
+                  preacher, when he passed through <placeName>Witney</placeName> and
+                     <placeName>Finstock</placeName>. Ann became one of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s most frequent
+                  correspondents through the last two decades of his life. After <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s death, Ann married
+                     <persName>George Conibeere</persName> in <date when="1792">1792</date>. See
+                  John Banks, &apos;<hi rend="italic">Nancy, Nancy</hi>&apos; (Wilmslow, Cheshire:
+                  Penwork, <date when="1984">1984</date>); and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 35–36.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
