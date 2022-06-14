@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Patten) Bennis, Elizabeth (1725–1802)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers0146</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0148">
+                  <persName>Mitchell Bennis</persName>
+               </person>
+               <person xml:id="pers1972">
+                  <persName>Robert Swindells</persName>
+               </person>
+               <person xml:id="pers0149">
+                  <persName>Thomas Bennis</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0146">
+               <p>Both natives of <placeName>Limerick, Ireland</placeName>, Elizabeth Patten married
+                        <persName><ref target="/persons/pers0148.xml"/>Mitchell Bennis</persName>
+                     (<date from="1720" to="1788">1720–88</date>) in <date when="1745">1745</date>.
+                  Elizabeth (&apos;Eliza&apos;) was converted in <date when="1749">1749</date> when
+                        <persName><ref target="/persons/pers1972.xml"/>Robert Swindells</persName>
+                  came to <placeName>Limerick</placeName>. She was soon a leader in the Methodist
+                  work there. Her influence extended to <placeName>Waterford</placeName> in the
+                     <date>1770s</date> as some of her children settled there. In the early
+                     <date>1790s</date>, after her husband&apos;s death, she accompanied her son
+                        <persName><ref target="/persons/pers0149.xml"/>Thomas</persName> (<date
+                     from="1756" to="1812">1756–1812</date>) to <placeName>Philadelphia</placeName>,
+                  where she died in <date when="1802">1802</date>. She was one of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s most frequent
+                  correspondents between <date from="1762" to="1776">1762–76</date>, keeping him
+                  abreast of Irish Methodism. See Curnock, <hi rend="italic">Irish Women</hi>,
+                  20–31; and Rosemary Raughter, <hi rend="italic">The Journal of Elizabeth Bennis,
+                     1749–79</hi> (<placeName>Dublin, Ireland</placeName>: Columba Press, <date
+                     when="2007">2007</date>).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
