@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bastable, Cornelius (c. 1725–1775)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0114</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Catherine Stockdale</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0114">
+               <p>Bastable, apparently a native of <placeName>Middlezoy, Somerset</placeName>, began
+                  &apos;exhorting&apos; in <date when="1747">1747</date> and came to <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s attention as a
+                  promising prospective preacher in <date when="1748-09">Sept. 1748</date>. He
+                  appears in the Minutes as a &apos;probationary helper&apos; in <date when="1750"
+                     >1750</date>, but did not advance to the regular <seg ana="itinerancy"
+                     >itinerancy</seg>, likely because he married <persName>Catherine
+                     Stockdale</persName> (<date from="1726" to="1786">1726–86</date>) in
+                     <placeName>Cork</placeName> in <date when="1752">1752</date> (see <hi
+                     rend="italic">Works</hi>, 10:205, 237). Their time thereafter was split between
+                     <placeName>Cork</placeName> and <placeName>Bristol</placeName>. Bastable&apos;s
+                  letters to <persName><ref target="/persons/pers2180.xml"/>JW</persName> in <date
+                     when="1767">1767</date> show him to be in failing health. He died in
+                     <placeName>Bristol</placeName> in <date when="1775-06">June 1775</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
