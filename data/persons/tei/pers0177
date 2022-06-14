@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bishop, Mary (1741–1819)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers0177</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0964">
+                  <persName>Selina Hastings</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>John Bishop</persName>
+               </person>
+               <person>
+                  <persName>Martha Bishop</persName>
+               </person>
+               <person>
+                  <persName>Thomas Mills</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0177">
+               <p>Mary was apparently the daughter of <persName>John</persName> and <persName>Martha
+                     (Harvest) Bishop</persName> who was baptized <date when="1741-02-20">Feb. 20,
+                     1741</date>, in <placeName>Bath, Somerset</placeName>. By the
+                     mid-<date>1760s</date> she was running a boarding school in The Vineyards
+                  neighborhood of <placeName>Bath</placeName>. She became associated with
+                        <persName><ref target="/persons/pers0964.xml"/>Lady Huntingdon</persName>,
+                  when the <persName><ref target="/persons/pers0964.xml"/>Countess</persName> opened
+                  her paragon chapel in The Vineyards. Some tension with Lady <persName><ref
+                        target="/persons/pers0964.xml"/>Huntingdon</persName> led Bishop to approach
+                  the Methodist society meeting on <placeName>Avon Street</placeName> in late <date
+                     when="1769">1769</date>, and she soon was taking leadership in the group. Mary
+                  became quite ill in <date when="1777">1777</date>, closed her school, went for a
+                  while to <placeName>Frome</placeName>. By <date when="1782">1782</date> she had
+                  moved to <placeName>Keynsham</placeName> and was opening a new boarding school.
+                  Mary and <persName><ref target="/persons/pers2180.xml"/>JW</persName> carried on
+                  frequent correspondence from <date when="1769">1769</date> through <date
+                     when="1784">1784</date>. In <date when="1789-08">August 1789</date> Mary Bishop
+                  was wed to <persName>Thomas Mills</persName> (<date from="1735" to="1820"
+                     >1735–1820</date>), a widowed Quaker bookseller in
+                     <placeName>Bristol</placeName>. Mary aligned with the Quakers and the couple
+                  were buried together in the Redcliff Pit Quaker burying ground in
+                     <placeName>Bristol</placeName>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
