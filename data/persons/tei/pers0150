@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Benson, Joseph (1748–1821)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers0150</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0964">
+                  <persName>Selina Hastings</persName>
+               </person>
+               <person>
+                  <persName>Sarah Thompson</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0150">
+               <p>Born of farming stock at <placeName>Malmerby</placeName> in
+                     <placeName>Cumberland</placeName>, and educated by a Presbyterian minister,
+                  Benson received a sound classical education. Converted under the influence of a
+                  Methodist cousin, he was introduced to <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> and appointed classics master
+                  at Kingswood School in <date when="1766">1766</date>, while still in his teens. In
+                     <date when="1769">1769</date> Benson entered St. Edmund Hall,
+                     <placeName>Oxford</placeName>, but was denied Anglican orders because of his
+                  Methodist sympathies. After serving for a short time as headmaster of the
+                        <persName><ref target="/persons/pers0964.xml"/>Countess of
+                     Huntingdon</persName>&apos;s ministerial training college at
+                     <placeName>Trevecca</placeName>, he joined <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s Methodist <seg
+                     ana="itinerancy">itinerancy</seg> in <date when="1771">1771</date>. In <date
+                     when="1780">1780</date> he married <persName>Sarah Thompson</persName> in
+                     <placeName>Leeds</placeName>. Benson was a great favorite of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> and the two corresponded
+                  often. He went on to become President of Conference in <date when="1798"
+                     >1798</date> and <date when="1810">1810</date> and served as its secretary in
+                     <date when="1805">1805</date> and <date when="1809">1809</date>. Throughout,
+                  Benson was a staunch supporter of the link with the Church of England, and two of
+                  his own sons entered the Anglican priesthood. See <hi rend="italic">DEB</hi>,
+                  84–85; Ives, <hi rend="italic">Kingswood</hi>, 64–71; <hi rend="italic"
+                     >Minutes</hi> (post-Wesley, <date when="1821">1821</date>), 5:200–02; <hi
+                     rend="italic">ODNB</hi>; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  28.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
