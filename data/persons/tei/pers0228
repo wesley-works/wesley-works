@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Boyce, Rev. Gilbert (1712–1800)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-19</date>
+            <idno type="URI">http://syriaca.org/persons/pers0228</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0228">
+               <p>Boyce was pastor of the <placeName>Coningsby</placeName> Baptist church from <date
+                     when="1738">1738</date> until his death, and the mainstay of the
+                     <placeName>Lincolnshire</placeName> General Baptist Association. In <date
+                     when="1748">1748</date> he entered into a friendship with <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, and a vigorous debate over
+                  baptism that carried on for two decades. In <date when="1770">1770</date> Boyce
+                  published some of their later letters, including a hundred-page treatise
+                  enshrining his own views.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
