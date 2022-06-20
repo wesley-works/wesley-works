@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bourke, Richard (d. 1778)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-19</date>
+            <idno type="URI">http://syriaca.org/persons/pers0223</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0223">
+               <p>Bourke was admitted &apos;on trial&apos; in <date when="1765">1765</date>, to full
+                  connection in <date when="1767">1767</date>, and assigned to the
+                     <placeName>Limerick</placeName> circuit at the <date when="1768">1768</date>
+                  conference (see <hi rend="italic">Works</hi>, 10:303, 343, 355). Bourke continued
+                  to <seg ana="itinerancy">itinerate</seg> until his death, and <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> performed his funeral on <date
+                     when="1778-02-15">Feb. 15, 1778</date> (see <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic">Journal,
+                     Works</hi>, 23:75–76). See also Atmore, <hi rend="italic">Memorial</hi>,
+                  71.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
