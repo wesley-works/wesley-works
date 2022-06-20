@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Bosanquet) Fletcher, Mary (1739–1815)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-19</date>
+            <idno type="URI">http://syriaca.org/persons/pers0215</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1273">
+                  <persName>Mrs. Lefevre</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+               <person xml:id="pers0506">
+                  <persName>Sarah Crosby</persName>
+               </person>
+               <person xml:id="pers0719">
+                  <persName>John Fletcher</persName>
+               </person>
+               <person>
+                  <persName>Samuel Bosanquet</persName>
+               </person>
+               <person>
+                  <persName>Mary Bosanquet</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0215">
+               <p>Mary was the daughter of <persName>Samuel</persName> and <persName>Mary (Dunster)
+                     Bosanquet</persName> of Forest House in <placeName>Essex</placeName>.
+                     <persName>Samuel</persName> was a wealthy Huguenot merchant. In her early teens
+                  Mary came in contact with <persName><ref target="/persons/pers1273.xml"/>Mrs.
+                     Lefevre</persName> and other Methodists during visits to
+                     <placeName>London</placeName>. By <date when="1757">1757</date> she had met
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> and formed a
+                  particular friendship with <persName><ref target="/persons/pers1793.xml"/>Sarah
+                     Ryan</persName>. The growing resistance of her parents to this association with
+                  the Methodists led Mary to take a home in <placeName>Hoxton</placeName> in <date
+                     when="1761">1761</date>, where she was able to participate actively in the
+                  emerging revival and debates over perfection among <placeName>London</placeName>
+                  Methodists. In <date when="1762">1762</date> Bosanquet gathered <persName><ref
+                        target="/persons/pers1793.xml"/>Sarah Ryan</persName>, <persName><ref
+                        target="/persons/pers0506.xml"/>Sarah Crosby</persName>, and some other
+                  women into a community that converted a manor house in <placeName>Leytonstone,
+                     Essex</placeName> into an orphanage and school. The group moved in <date
+                     when="1768-06">June 1768</date> to <placeName>Yorkshire</placeName>, eventually
+                  settling on a farm called Cross Hall near <placeName>Gildersome Morley</placeName>
+                  (about 4 miles southwest of <placeName>Leeds</placeName>), to continue their work
+                  in the north. While she had long planned to remain single, in <date when="1781"
+                     >1781</date> Bosanquet married Rev. <persName><ref
+                        target="/persons/pers0719.xml"/>John Fletcher</persName>. Bosanquet had
+                  emerged prior to this as one of the early women preachers in Methodism and
+                  continued various forms of ministry after the death of her husband. See <hi
+                     rend="italic">DEB</hi>, 394; Henry Moore, <hi rend="italic">The Life of Mrs.
+                     Mary Fletcher</hi> (<date when="1817">1817</date>); <hi rend="italic"
+                  >ODNB</hi>; Taft, <hi rend="italic">Holy Women</hi>, 1:19–40; and Vickers, <hi
+                     rend="italic">Dictionary</hi>, 37.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
