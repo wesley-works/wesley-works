@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bray, John (b. 1702)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0245</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0245">
+               <p>A brazier of <placeName>Little Britain, London</placeName>, Bray was one of the
+                  founding members of the Fetter Lane society. He was very helpful to <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName>, who was lodging in his home
+                  at the time of his conversion on <date when="1738-05-21">May 21, 1738</date>.
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> corresponded
+                  with him frequently throughout <date when="1738">1738</date> and <date when="1739"
+                     >1739</date>. In <date when="1739-12">Dec. 1739</date> Bray emerged as a leader
+                  in the &apos;stillness&apos; controversy, which eventuated in the Wesley brothers
+                  leaving the Fetter Lane society in mid <date when="1740">1740</date>. The next
+                  three years were marked by Bray seeking leadership roles among the English
+                  Moravians, finding those doors blocked, and seeking reconciliation with the
+                  Wesleys. Financial difficulties led him to leave <placeName>London</placeName> in
+                  late <date when="1744">1744</date>, and his disappearance from <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s correspondence. See
+                  <hi rend="italic">DEB</hi>, 134.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
