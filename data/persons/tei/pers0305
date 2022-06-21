@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bumsted, Daniel (c. 1742–1797)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0305</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0305">
+               <p>Bumsted joined the ranks of <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s <seg ana="itinerancy">itinerant</seg> preachers about
+                     <date when="1763">1763</date> (first appearing in the Minutes in <date
+                     when="1765">1765</date>) and served until he desisted in <date when="1775"
+                     >1775</date> (see <hi rend="italic">Works</hi>, 10:440), at which time he
+                  entered into business in <placeName>London</placeName>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
