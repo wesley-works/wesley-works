@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Briggs) Thompson, Philothea (1753–1823)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0255</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0256">
+                  <persName>William Briggs</persName>
+               </person>
+               <person xml:id="pers1603">
+                  <persName>Elizabeth (Perronet) Briggs</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2021">
+                  <persName>Thomas Thompson</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0255">
+               <p>The daughter of <persName><ref target="/persons/pers0256.xml"/>William</persName>
+                  and <persName><ref target="/persons/pers1603.xml"/>Elizabeth (Perronet)
+                     Briggs</persName>, &apos;Philly&apos; was a frequent correspondent with
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> in the
+                     <date>1770s</date>, prior to marriage in <date when="1781">1781</date> to
+                        <persName><ref target="/persons/pers2021.xml"/>Thomas Thompson</persName> of
+                     <placeName>Kingston upon Hull</placeName>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
