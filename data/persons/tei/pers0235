@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brackenbury, Robert Carr (1752–1818)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0235</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0235">
+               <p>Squire of Raithby Hall (<placeName>Lincolnshire</placeName>), Brackenbury entered
+                  St. Catharine&apos;s College, <placeName>Cambridge</placeName> in <date
+                     when="1769">1769</date> with a view to Anglican ordination, but did not finish.
+                  He was influenced by Methodist preaching in <placeName>Hull</placeName>, met
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> in <date
+                     when="1776">1776</date>, and travelled with him in
+                     <placeName>England</placeName>, <placeName>Scotland</placeName>, and
+                     <placeName>Holland</placeName>. Sent by <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> to the <placeName>Channel
+                     Islands</placeName> in <date when="1783">1783</date>, he established societies
+                  and built chapels in both <placeName>Jersey</placeName> and
+                     <placeName>Guernsey</placeName>. On returning to <placeName>England</placeName>
+                  in <date when="1790">1790</date>, he continued this work, notably on
+                     <placeName>Portland, Dorset</placeName>. A modest, educated, and generous man,
+                  he spent himself for Methodism. <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> included him in <date when="1784">1784</date> in the Legal
+                  Hundred. See Mary Ann Smith, <hi rend="italic">Raithby Hall</hi>
+                     (<placeName>London</placeName>, <date when="1859">1859</date>); <hi
+                     rend="italic">Alumni Catabrigienses</hi>; <hi rend="italic">DEB</hi>, 128–29;
+                     <hi rend="italic">Minutes</hi> (post-Wesley, <date when="1819">1819</date>),
+                  5:4; and Vickers, <hi rend="italic">Dictionary</hi>, 40.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
