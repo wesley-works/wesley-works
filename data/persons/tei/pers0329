@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Butts, Thomas (1719–78)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0329</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2270">
+                  <persName>Robert Windsor</persName>
+               </person>
+               <person>
+                  <persName>Hannah Witham</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0329">
+               <p>A native of <placeName>Stepney, Middlesex</placeName>, as early as <date
+                     when="1742">1742</date> Butts was looking after <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s book-keeping at the
+                  Foundery in <placeName>London</placeName>, when he was still &apos;on trial&apos;
+                  there as a member of a single men&apos;s band. On <date when="1746-05-19">May 19,
+                     1746</date> he married <persName>Hannah Witham</persName> (<date from="1720"
+                     to="1762">1720–62</date>), with <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> officiating. By <date when="1754-12">Dec. 1754</date> Butts
+                  appears to have been replaced as <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s book steward by <persName><ref
+                        target="/persons/pers2270.xml"/>Robert Windsor</persName>, and set up on his
+                  own as a music publisher, building on the success of <hi rend="italic">Harmonia
+                     Sacra</hi> (<date when="1753">1753</date>). See Karen Mulhallen (ed.), <hi
+                     rend="italic">Blake in our Time</hi> (Toronto: University of Toronto Press,
+                     <date when="2010">2010</date>), 131–64.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
