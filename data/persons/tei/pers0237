@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bradburn, Samuel (1751–1816)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0237</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0237">
+               <p>The son of a gardener-turned-soldier, Bradburn was converted in <date when="1769"
+                     >1769</date>, became a local preacher in <date when="1773">1773</date>, and an
+                     <seg ana="itinerancy">itinerant</seg> the following year. He was an eloquent
+                  preacher, writer, and protagonist for Methodism against establishment intolerance.
+                  He was also a frequent correspondent of <persName><ref
+                        target="/persons/pers2180.xml"/>John Wesley</persName>. See <hi
+                     rend="italic">DEB</hi>, 129; <hi rend="italic">Minutes</hi> (post-Wesley, <date
+                     when="1816">1816</date>), 4:196; Vickers, <hi rend="italic">Dictionary</hi>,
+                  40; and <hi rend="italic">Wesley&apos;s Chapel Magazine</hi> 8 (<date
+                     when="1938-03">March 1938</date>), 17ff.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
