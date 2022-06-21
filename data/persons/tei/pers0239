@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bradford, Joseph (c. 1741–1808)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0239</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0240">
+                  <persName>Mary Angell</persName>
+               </person>
+               <person>
+                  <persName>Charles Angell Bradford</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0239">
+               <p>Bradford entered the <seg ana="itinerancy">itinerant</seg> ministry in <date
+                     when="1773">1773</date>, and frequently over the following years travelled with
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> as his
+                  companion and secretary. On <date when="1779-07-26">July 26, 1779</date> he
+                  married <persName><ref target="/persons/pers0240.xml"/>Mary Angell</persName>
+                     (<date from="1750" to="1787">1750–87</date>) in <placeName>Newport, Isle of
+                     Wight</placeName>. See <hi rend="italic">DEB</hi>, 130; and <persName>Charles
+                     Angell Bradford</persName>, <hi rend="italic">Life of Rev Joseph Bradford</hi>
+                     (<placeName>London</placeName>: R. F. Hunger, <date when="1932"
+                  >1932</date>).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
