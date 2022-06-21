@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Burton, Rev. John (1696–1771)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0320</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0320">
+               <p>A graduate of Corpus Christi College, Oxford (<seg ana="degree">BA</seg>, <date
+                     when="1717">1717</date>; <seg ana="degree">MA</seg>, <date when="1721"
+                     >1721</date>), and from <date when="1733">1733</date> fellow of Eton College
+                  (where he spent much of his time), Burton came to know <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> at Oxford. <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s first recorded letter
+                  to him is dated <date when="1726-05-02">May 2, 1726</date>. From <date when="1731"
+                     >1731</date> Burton was also vicar of <placeName>Buckland,
+                     Berkshire</placeName>, where <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> occasionally preached for him. In <date when="1734">1734</date>
+                  Burton became vicar of <placeName>Mapledurham, Oxfordshire</placeName>, where he
+                  served until <date when="1766">1766</date>. In the mid <date>1730s</date> Burton
+                  was a very active founding trustee of the colony of
+                  <placeName>Georgia</placeName>, helping to underwrite the cost of a catechist
+                  there. He recruited <persName><ref target="/persons/pers2180.xml"/>JW</persName>
+                  for the project and rejoiced in his acceptance. See <hi rend="italic">Alumni
+                     Oxonienses</hi>; and <hi rend="italic">ODNB</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
