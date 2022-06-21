@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brooke, Henry (1738–1806)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0266</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0265">
+                  <persName>Henry Brooke</persName>
+               </person>
+               <person xml:id="pers0267">
+                  <persName>Robert Brooke</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0266">
+               <p>Originally of co. <placeName>Cavan, Ireland</placeName>, Brooke was an artist like
+                  his father <persName><ref target="/persons/pers0267.xml"/>Robert</persName> (<date
+                     from="1710" to="1784">1710–84</date>). He became active in Methodism in
+                     <placeName>Dublin</placeName> in <date from="1764" to="1765">1764–65</date>,
+                  and thereafter a frequent correspondent with <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>. In <date when="1780"
+                     >1780</date>
+                  <persName><ref target="/persons/pers2180.xml"/>JW</persName> published an abridged
+                  version of a novel titled <hi rend="italic">The Fool of Quality</hi> (<hi
+                     rend="italic">Bibliography</hi>, No. 414) that was written by his uncle
+                        <persName><ref target="/persons/pers0265.xml"/>Henry Brooke</persName>
+                  (1703–83). See <hi rend="italic">DEB</hi>, 145; <hi rend="italic">ODNB</hi>; and
+                     <hi rend="italic">WHS</hi> 20 (<date when="1935">1935</date>): 49.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
