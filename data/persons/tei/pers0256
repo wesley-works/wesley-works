@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Briggs, William (c. 1722–1788)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0256</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1603">
+                  <persName>Elizabeth (Perronet) Briggs</persName>
+               </person>
+               <person xml:id="pers1605">
+                  <persName>Vincent Perronet</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+               <person>
+                  <persName>Henry Briggs</persName>
+               </person>
+               <person>
+                  <persName>George II</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0256">
+               <p>The son of the Rev. <persName>Henry Briggs</persName>, D.D., rector of
+                     <placeName>Holt, Norfolk</placeName> and Chaplain to <persName>George
+                     II</persName>, William worked at the custom house (and later the Ordnance
+                  Office) in <placeName>London</placeName>. He wrote <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> on <date when="1742-11-22"
+                     >Nov. 22, 1742</date>, seeking membership in the Methodist society. He was
+                  added to band No. 4 for single men on <date when="1743-03-01">Mar. 1, 1743</date>.
+                  On <date when="1743-12-25">Dec. 25, 1743</date>, <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> listed him as a member of the
+                  select society, and on <date when="1744-01-01">Jan. 1, 1744</date>, he became the
+                  leader of band No. 3 for the single men. Speedily his natural abilities raised him
+                  to positions of still more responsibility. He was named a &apos;steward&apos; of
+                  the Foundery School in <date when="1746">1746</date> and attended the Conference
+                  of <date when="1748">1748</date> in that capacity. He served as a Book Steward
+                     <date from="1753" to="1759">1753–59</date>. In <date when="1749">1749</date> he
+                  married <persName><ref target="/persons/pers1603.xml"/>Elizabeth</persName>,
+                  daughter of the Rev. <persName><ref target="/persons/pers1605.xml"/>Vincent
+                     Perronet</persName> of <placeName>Shoreham</placeName>, with <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> presiding. He was one of the
+                  parties to <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  marriage agreement with <persName><ref target="/persons/pers2091.xml"/>Mary
+                     Vazeille</persName> on <date when="1751-02-09">Feb. 9, 1751</date>. His whole
+                  family were staunch Methodists. See <hi rend="italic">DEB</hi>, 140–41; and
+                  Vickers, <hi rend="italic">Dictionary</hi> (electronic only).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
