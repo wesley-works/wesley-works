@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Broughton, Rev. Thomas (1712–1777)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0275</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person>
+                  <persName>Rachel Capell</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0275">
+               <p>Broughton matriculated at University College, <placeName>Oxford</placeName> in
+                     <date when="1731">1731</date>. In early <date when="1733">1733</date> he became
+                  part of the &apos;Oxford Methodists&apos; gathered around the Wesley brothers.
+                  Later that year he was elected a fellow of Exeter College. Broughton served
+                  briefly, beginning in late <date when="1735">1735</date>, as curate of
+                     <placeName>Cowley</placeName>, near <placeName>Uxbridge</placeName>. In <date
+                     when="1736">1736</date> he was ordained deacon and became curate at the Tower
+                  of <placeName>London</placeName>. He received his <seg ana="degree">BA</seg>
+                  degree in <date when="1737-03">March 1737</date>. A year later he challenged, as
+                  too Moravian, <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  claims of instantaneous conversion and assurance of faith, and consequently became
+                  estranged from the Methodists. Having both obtained and lost a lectureship at St
+                  Helen, <placeName>Bishopsgate</placeName>, through the influence of <persName><ref
+                        target="/persons/pers2221.xml"/>George Whitefield</persName>, in <date
+                     when="1741">1741</date> Broughton became lecturer of <placeName>All Hallows,
+                     Lombard Street</placeName>, a position he held until his death in <date
+                     when="1777-12">Dec. 1777</date>. In <date when="1741-06">June 1741</date>
+                  Broughton married <persName>Rachel Capell</persName> and resigned his fellowship
+                  at <placeName>Exeter</placeName>. In <date when="1743-06">June 1743</date> he was
+                  appointed Secretary of the Society for Promoting Christian Knowledge, another
+                  position that occupied him for the rest of his life. See <hi rend="italic">Alumni
+                     Oxonienses</hi>; <hi rend="italic">DEB</hi>, 146; <hi rend="italic">ODNB</hi>;
+                  and Tyerman, <hi rend="italic">Oxford Methodists</hi>, 334–60.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
