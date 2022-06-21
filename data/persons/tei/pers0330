@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Byrom, John (1692–1763)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0330</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers0423">
+                  <persName>John Clayton</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0330">
+               <p>Byrom, of <placeName>Manchester</placeName>, took his degrees at Trinity College,
+                     <placeName>Cambridge</placeName>, and was elected fellow there in <date
+                     when="1714">1714</date>. Shortly thereafter he went to
+                     <placeName>France</placeName> to study medicine. He returned to
+                     <placeName>England</placeName> in <date when="1718">1718</date>, dividing his
+                  time between <placeName>London</placeName>, <placeName>Cambridge</placeName>, and
+                     <placeName>Manchester</placeName>. While he anticipated a career in medicine,
+                  this was soon abandoned. He turned his focus instead to poetry and developing a
+                  unique system of shorthand, gaining a reputation that led to election as fellow of
+                  the Royal Society in <date when="1724">1724</date>. He also cultivated
+                  relationships with several leading non-Jurors. Both <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> and <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> used Byrom&apos;s shorthand.
+                  They were also influenced by him in the <date>1730s</date> through their
+                  connection with <persName><ref target="/persons/pers0423.xml"/>John
+                     Clayton</persName><!-- Used XML ID 0423 but there is another rev John Clayton under 0422 -->
+                  and other non-Jurors in <placeName>Manchester</placeName>. See <hi rend="italic"
+                     >ODNB</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
