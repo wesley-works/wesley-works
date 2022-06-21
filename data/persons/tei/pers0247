@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bredin, John (1737–1819)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-21</date>
+            <idno type="URI">http://syriaca.org/persons/pers0247</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0247">
+               <p>Bredin was a native of <placeName>Ireland</placeName>, serving as a Roman Catholic
+                  schoolmaster and struggling with a drinking problem, when he was converted by a
+                  Methodist preacher. He was admitted on trial as an <seg ana="itinerancy"
+                     >itinerant</seg> preacher himself in <date when="1769">1769</date>, and given
+                  full standing in <date when="1771">1771</date>, serving in
+                     <placeName>Ireland</placeName>, <placeName>Scotland</placeName>,
+                     <placeName>England</placeName>, and the <placeName>Channel Islands</placeName>.
+                  During this time he was a frequent correspondent with <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>. Poor health forced Bredin to
+                  retire in <date when="1792">1792</date>. See <hi rend="italic">Minutes</hi>
+                  (post-Wesley, <date when="1820">1820</date>), 5:98; and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 42.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
