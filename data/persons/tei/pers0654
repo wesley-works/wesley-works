@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ellis, John (d. 1772)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers0654</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0654">
+               <p>Ellis may have been a native of <placeName>Liverpool</placeName>, but he was
+                  living in <placeName>Ireland</placeName> when he was approved in <date when="1752"
+                     >1752</date> by a Conference in <placeName>Limerick</placeName> to serve that
+                  region (<hi rend="italic">Works</hi>, 10:253). He entered full <seg
+                     ana="itinerancy">itinerant</seg> ministry in <date when="1762">1762</date>
+                  (10:294) and served faithfully until his death in <date when="1772-01">January
+                     1772</date>. See Atmore, <hi rend="italic">Memorials</hi>, 118–20.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
