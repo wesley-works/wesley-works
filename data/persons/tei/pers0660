@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ellison, Richard (1690–1760)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers0660</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2188">
+                  <persName>Samuel Wesley Sr</persName>
+               </person>
+               <person xml:id="pers2194">
+                  <persName>Susanna Wesley Jr</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0660">
+               <p>A native of <placeName>Epworth, Lincolnshire</placeName>, Richard
+                  (&apos;Dick&apos;) Ellison was baptized at the parish church by <persName><ref
+                        target="/persons/pers2188.xml"/>Samuel Wesley Sr</persName>.&apos;s
+                  predecessor as rector on <date when="1690-08-09">Aug. 9, 1690</date>. He married
+                        <persName><ref target="/persons/pers2194.xml"/>Susanna Wesley Jr</persName>.
+                  in <placeName>Ackworth, Yorkshire</placeName> on <date when="1718-01-11">Jan. 11,
+                     1718</date>. The couple had at least ten children, of whom four lived to
+                  adulthood. Ellison was a landowner of some means, but he had a temper and a
+                  weakness for alcohol. He beat <persName><ref target="/persons/pers2194.xml"
+                     />Susanna</persName> on more than one occasion, until she finally took the
+                  children and moved to <placeName>London</placeName> about <date when="1735"
+                     >1735</date>. The couple were eventually reunited in
+                     <placeName>London</placeName>, and Ellison died there in <date when="1760-04"
+                     >April 1760</date>. See Maser, <hi rend="italic">Sisters</hi>, 32–36.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
