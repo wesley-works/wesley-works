@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Furz, John (1717–1800)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers0765</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName/>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0765">
+               <p>Furz first appears in the Minutes as an <seg ana="itinerancy">itinerant
+                     preacher</seg> in <date when="1755">1755</date> (<hi rend="italic">Works</hi>,
+                  10:273) and served through <date when="1782">1782</date>. See Atmore, <hi
+                     rend="italic">Memorial</hi>, 148–54; <hi rend="italic">EMP</hi>, 5:108–34; <hi
+                     rend="italic">Minutes</hi> (post-Wesley, <date when="1800">1800</date>),
+                  2:42–43; and Vickers, <hi rend="italic">Dictionary</hi>, 130.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
