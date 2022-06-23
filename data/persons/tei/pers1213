@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Garrett) King / Johnson, Dorothea (1732–1817)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers1213</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1162">
+                  <persName>John Johnson</persName>
+                  <!-- Unsure if this is the correct ID as there are two John Johnsons, 1162 and 1163. This ID has a similar age to Dorothea -->
+               </person>
+               <person>
+                  <persName>Thomas Garrett</persName>
+               </person>
+               <person>
+                  <persName>Mr. King</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1213">
+               <p>Daughter of a merchant, <persName>Thomas Garrett</persName>, Dorothea married a
+                  creditor named <persName>King</persName> to save her father from debtor&apos;s
+                  prison. The marriage was cruel and unhappy, ending in separation. After her
+                  conversion Dorothea became a class leader of great spiritual repute and one of the
+                  legendary characters of early <placeName>Dublin</placeName> Methodism, as well as
+                  one of <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  frequent correspondents. In <date when="1784">1784</date> she married the retired
+                     <seg ana="itinerancy">itinerant</seg>
+                  <persName><ref target="/persons/pers1162.xml"/>John
+                  Johnson</persName><!-- Unsure if this is the correct ID -->. See Crookshank, <hi
+                     rend="italic">Ireland</hi>, 1:123, 384, 387; and Crookshank, <hi rend="italic"
+                     >Irish Women</hi>, 53–62.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
