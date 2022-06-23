@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Kirkham) Chapone, Sarah (1699–1764)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers1224</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1222">
+                  <persName>Lionel Kirkham</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>John Chapone</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1224">
+               <p>The eldest surviving daughter of Rev. <persName><ref
+                        target="/persons/pers1222.xml"/>Lionel Kirkham</persName>, &apos;Sally&apos;
+                  became a close friend of <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>, referred to by him in writing as &apos;Varanese&apos; (and
+                  sometimes as &apos;Sappho&apos;). Their correspondence began in <date when="1725"
+                     >1725</date>, the year of <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s ordination, only a few months before Sarah married Rev.
+                     <persName>John Chapone</persName> (d. <date when="1759">1759</date>), and
+                  continued until <date when="1736">1736</date>, during which time she was
+                  apparently a happy wife and mother, yet sharing tender feelings of platonic love
+                  with <persName><ref target="/persons/pers2180.xml"/>JW</persName>, who wrote at
+                  least forty-three letters to her. In the mid <date>1730s</date> Sarah also
+                  composed a manuscript published under the title <hi rend="italic">The Hardships of
+                     the English Laws in Relation to Wives</hi>, which helped establish her as a
+                  literary figure. See <hi rend="italic">ODNB</hi>; and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 194.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
