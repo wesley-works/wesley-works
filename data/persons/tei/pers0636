@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eden, Thomas Jr. (1750–97)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers0636</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0635">
+                  <persName>Thomas Eden</persName>
+               </person>
+               <person xml:id="pers0634">
+                  <persName>Susannah Eden</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Mary Loxdale</persName>
+               </person>
+               <person>
+                  <persName>Thomas Loxdale</persName>
+               </person>
+               <person>
+                  <persName>Hannah Loxdale</persName>
+               </person>
+               <person>
+                  <persName>William Henry Loxdale Eden</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0636">
+               <p>Born in <placeName>Broad Marston, Gloucestershire</placeName>, to <persName><ref
+                        target="/persons/pers0635.xml"/>Thomas</persName> and <persName><ref
+                        target="/persons/pers0634.xml"/>Susannah (Smith) Eden</persName>, Thomas was
+                  admitted as a <seg ana="itinerancy">traveling preacher</seg> in <date when="1771"
+                     >1771</date> (See <hi rend="italic">Works</hi>, 10:395). His independence of
+                  spirit led to preaching more on his own direction and he never appears again in
+                  the <hi rend="italic">Minutes</hi> (see also his letter to <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> on <date when="1773-07-25"
+                     >July 25, 1773</date>). Instead, he matriculated at Hertford College,
+                     <placeName>Oxford</placeName> in <date when="1774">1774</date>, and entered
+                  Anglican orders. Thomas married <persName>Mary Loxdale</persName> (<date
+                     from="1755" to="1785">1755–85</date>), a daughter of
+                     <persName>Thomas</persName> and <persName>Hannah (Skitt) Loxdale</persName> of
+                     <placeName>Shrewsbury</placeName>, and they had one son: <persName>William
+                     Henry Loxdale Eden</persName> (<date from="1782" to="1868">1782–1868</date>),
+                  who became a Wesleyan Methodist minister. Thomas spent his last five years (<date
+                     from="1787" to="1792">1787–92</date>) as Rector of <placeName>Alvescot in
+                     Oxfordshire</placeName>
+                  <date from="1787" to="1792">1787–92</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
