@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Newman) Coussins, Penelope (c. 1750–1831)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers1502</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0484">
+                  <persName>Jonathan Coussins</persName>
+               </person>
+               <person xml:id="pers1281">
+                  <persName>Philadelphia Coussins</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1502">
+               <p>A native of <placeName>Cheltenham</placeName>, Penelope was converted about <date
+                     when="1769">1769</date>. She soon became the leader of two classes and a select
+                  society, and was for several years one of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s regular correspondents.
+                  Before her conversion she kept a bookshop. But afterwards she devoted full time to
+                  providing spiritual leadership to Methodists groups in the surrounding towns and
+                  villages, occasionally giving a public exhortation. She was instrumental in the
+                  conversion of <persName><ref target="/persons/pers0484.xml"/>Jonathan
+                     Coussins</persName> and they were married on <date when="1782-10-17">Oct. 17,
+                     1782</date>. They had one daughter, <persName><ref
+                        target="/persons/pers1281.xml"/>Philadelphia</persName>, baptized in <date
+                     when="1783">1783</date>. Penelope&apos;s will was proved in
+                     <placeName>Cheltenham</placeName> in <date when="1831-02">Feb. 1831</date>,
+                  leaving everything to her daughter. See Taft, <hi rend="italic">Holy Women</hi>,
+                  1:290–95; Vickers, <hi rend="italic">Dictionary</hi>, 252–53; and <hi
+                     rend="italic">WHS</hi> 34 (<date when="1963">1963</date>): 58–60.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
