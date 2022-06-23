@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Knox, Alexander (1757–1831)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers1235</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Lord Castlereagh</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1235">
+               <p>Born in <placeName>Londonderry Ireland</placeName>, in a home where <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> and his preachers were often
+                  entertained, Knox broke with Methodism by the age of 20 and joined the Church of
+                     <placeName>England</placeName>. Despite poor health, he became for a while
+                  private secretary to <persName>Lord Castlereagh</persName>. Then he retired from
+                  public life to a quest for spiritual holiness, during which he carried on frequent
+                  correspondence with <persName><ref target="/persons/pers2180.xml"/>JW</persName>.
+                  See <hi rend="italic">ODNB</hi>; Vickers, <hi rend="italic">Dictionary</hi>, 195;
+                  and <hi rend="italic">WHS</hi> 22 (<date when="1939">1939</date>): 67– 71.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
