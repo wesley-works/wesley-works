@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Koker, Dr. Johannes de (b. 1696)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers1237</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1237">
+               <p>De Koker was a Dutch physician, resident in <placeName>Rotterdam</placeName>, who
+                  was part of a pietist group in <placeName>Rotterdam</placeName> (the Collegianten)
+                  and associated with a Mennonite church. He hosted <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> when the latter traveled
+                  through the <placeName>Netherlands</placeName> and <placeName>Germany</placeName>
+                  to visit the Moravians in <date when="1738">1738</date>. The two struck up a
+                  friendship and correspondence, and De Koker helped make some of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s writings accessible in
+                  the <placeName>Netherlands</placeName> by translating them into Dutch. See
+                  Johannes Van Den Berg, <hi rend="italic"><persName><ref
+                           target="/persons/pers2180.xml"/>John Wesley</persName> and the
+                     Netherlands</hi> (<placeName>Nashville</placeName>: Kingswood, <date
+                     when="2002">2002</date>), 59–78.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
