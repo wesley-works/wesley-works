@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edwards, John (1714–1785)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers0644</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0644">
+               <p>Converted under <persName><ref target="/persons/pers2221.xml"/>George
+                     Whitefield</persName> in <placeName>Ireland</placeName>, Edwards became a lay
+                  preacher in <date when="1745">1745</date> and a <seg ana="itinerancy">traveling
+                     preacher</seg> in <date when="1747">1747</date>. He had successful ministries
+                  in <placeName>Dublin</placeName> and <placeName>Limerick</placeName>, and then in
+                     <placeName>England</placeName>. But by the mid <date>1750s</date> he was
+                  chafing under <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  control of the <seg ana="itinerancy">itinerants</seg>, the restriction of lay
+                  preachers from the sacramental office, and <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s Arminian theology.
+                  Assigned the <placeName>Leeds</placeName> circuit in <date when="1754"
+                  >1754</date>, at the end of the <date when="1755">1755</date> Conference Edwards
+                  refused to move, taking many in the society with him to form an Independent
+                  congregation that built White Chapel. He remained their pastor until his death.
+                  See Atmore, <hi rend="italic">Memorial</hi>, 117–18; <hi rend="italic">DEB</hi>,
+                  345; Pawson, <hi rend="italic">Letters</hi>, 3:143; and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 108.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
