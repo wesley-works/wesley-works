@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kinchin, Rev. Charles (1711–1742)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers1208</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0995">
+                  <persName>James Hervey</persName>
+               </person>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers0275">
+                  <persName>Thomas Broughton</persName>
+               </person>
+               <person xml:id="pers0773">
+                  <persName>John Gambold</persName>
+               </person>
+               <person xml:id="pers1106">
+                  <persName>John Hutchings</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1208">
+               <p>Kinchin matriculated Corpus Christi College, <placeName>Oxford</placeName> in
+                     <date when="1725">1725</date>, receiving his <seg ana="degree">BA</seg> in
+                     <date when="1729">1729</date> and his <seg ana="degree">MA</seg> in <date
+                     when="1733">1733</date>. He was elected a fellow of the college in <date
+                     when="1731">1731</date>, and Dean in <date when="1736">1736</date>. An early
+                  member of the &apos;Oxford Methodists&apos;, Kinchin gave leadership when the
+                  Wesley brothers departed for <placeName>Georgia</placeName>. Ordained and
+                  installed as rector of <placeName>Dummer</placeName> in <date when="1735"
+                     >1735</date>, Kinchin also supervised a series of Oxford Methodists as curates:
+                  including <persName><ref target="/persons/pers0995.xml"/>Hervey</persName>,
+                        <persName><ref target="/persons/pers2221.xml"/>Whitefield</persName>,
+                        <persName><ref target="/persons/pers0275.xml"/>Broughton</persName>,
+                        <persName><ref target="/persons/pers0773.xml"/>Gambold</persName>, and
+                        <persName><ref target="/persons/pers1106.xml"/>Hutchings</persName>. See <hi
+                     rend="italic">Alumni Oxonienses</hi>; <hi rend="italic">DEB</hi>, 646; Tyerman,
+                     <hi rend="italic">Oxford Methodists</hi>, 363–70; and Vickers, <hi
+                     rend="italic">Dictionary</hi>, 191–92.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
