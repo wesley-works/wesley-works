@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Neale, Rev. James (1712–1792)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers1495</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1462">
+                  <persName>James Morgan</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1495">
+               <p>A graduate of Pembroke College, <placeName>Cambridge</placeName> (<seg
+                     ana="degree">M.A</seg>. <date when="1746">1746</date>), Neale was Master of
+                  Henley-on- Thames Free Grammar School and curate in <placeName>Bix,
+                     Oxfordshire</placeName> (<date from="1747" to="1762">1747–62</date>).
+                  Sympathetic with the revival, he began to assist <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s congregations in
+                     <placeName>London</placeName> (particularly on Sundays, for sacrament; see
+                        <persName><ref target="/persons/pers1462.xml"/>James Morgan</persName> to
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName>, <date
+                     when="1761-07-20">July 20, 1761</date>) This (and apparent comments about his
+                  associates) led to Neale&apos;s removal from the earlier positions, whereupon
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> chose not to
+                  bring him on staff at the Foundery (see <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> to <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName>, <date when="1763-03-06">Mar.
+                     6, 1763</date>. In <date when="1770">1770</date> he was assisting the Calvinist
+                  Methodists in <placeName>London</placeName> at both the Tabernacle and Tottenham
+                  Court chapel. Finally, from <date from="1783" to="1789">1783–89</date> he served
+                  as curate of <placeName>Aldboure</placeName>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
