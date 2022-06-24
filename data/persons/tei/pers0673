@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Erskine, James, Lord Grange (1679–1754)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://syriaca.org/persons/pers0673</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2125">
+                  <persName>Robert Walpole</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>Adam Cockburn</persName>
+               </person>
+               <person>
+                  <persName>Charles Erskine</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0673">
+               <p>The second son of <persName>Charles Erskine</persName>, <roleName type="nobility"
+                     >Earl</roleName> of <placeName>Mar</placeName>
+                  (<placeName>Scotland</placeName>), James trained for law. His career advanced
+                  rapidly. He was made a <roleName type="office">Lord of Justiciary</roleName> in
+                     <date when="1706">1706</date>, taking the title of Lord Grange, and raised to
+                  the bench the same year. In <date when="1710">1710</date> Erskine succeeded
+                     <persName>Adam Cockburn</persName> of <placeName>Ormiston</placeName> as
+                     <roleName type="office">Lord Justice Clerk</roleName>. While sympathetic with
+                  the Jacobite cause, Erskine took no part in the <date when="1715">1715</date>
+                  Rebellion, which allowed him to stay in favor with Presbyterians in
+                     <placeName>Scotland</placeName> and active in the General Assembly. When
+                        <persName><ref target="/persons/pers2125.xml"/>Robert Walpole</persName>
+                  succeeded in excluding Scottish judges from sitting in the British House of
+                  Commons, Erskine resigned his judgeship and was elected a Member of Parliament in
+                     <date when="1734">1734</date>. He generally resided in
+                     <placeName>London</placeName> from that point on, even after leaving Parliament
+                  in <date when="1747">1747</date>. Erskine was drawn into Methodist circles in the
+                  early <date>1740s</date> by <persName><ref target="/persons/pers2221.xml"/>George
+                     Whitefield</persName>, who introduced him to <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> and <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName>. Erskine was soon offering
+                  legal advice to both brothers on Methodist matters, and his irenic spirit led them
+                  to seek his advice in attempts to hold the Calvinist and Wesleyan wings of the
+                  revival together. See <hi rend="italic">ODNB</hi>; and <hi rend="italic">WHS</hi>
+                  58 (<date when="2012">2012</date>): 264–75.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
