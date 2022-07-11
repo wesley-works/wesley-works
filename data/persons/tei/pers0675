@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Erskine, Rev. Ralph (1685–1752)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0675</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Ebenezer Erskine</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0675">
+               <p>In <date when="1736">1736</date> Ralph Erskine and his brother
+                     <persName>Ebenezer</persName> seceded from the Church of
+                     <placeName>Scotland</placeName> to form an &apos;Associate Presbytery&apos;. On
+                  the advice of <persName><ref target="/persons/pers2221.xml"/>George
+                     Whitefield</persName>, <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> wrote to Erskine in <date when="1739">1739</date>, seeking
+                  advice about guiding the revival in <placeName>Bristol</placeName>. While Erskine
+                  was of some help, his staunch Calvinism soon led to an end of the correspondence.
+                  See <hi rend="italic">DEB</hi>, 363–64; and <hi rend="italic">ODNB</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
