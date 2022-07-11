@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Evans, David (fl. 1770s)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0682</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person/>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0682">
+               <p>Evans first appears in the <hi rend="italic">Minutes</hi> in <date when="1769"
+                     >1769</date> (see <hi rend="italic">Works</hi>, 10:369). He remained &apos;on
+                  trial&apos; until <date when="1773">1773</date>, when he was granted full
+                  membership (10:415). He desisted from traveling in <date when="1776">1776</date>
+                  (10:452), was readmitted in <date when="1779">1779</date> (10:484), and served
+                  until <date when="1783">1783</date> (10:531).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
