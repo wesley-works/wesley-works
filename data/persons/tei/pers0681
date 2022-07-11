@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Evans, Caleb (1717–1791)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0681</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Hugh Evans</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0681">
+               <p>Born the son of <persName>Hugh Evans</persName>, a minister in the Particular
+                  Baptist communion, Caleb followed in the same vocation. After serving as an
+                  assistant at <placeName>Broadmead</placeName> in <placeName>Bristol</placeName>,
+                  he was ordained a copastor of the congregation in <date when="1767">1767</date>.
+                  He also assisted in the Baptist Academy of <placeName>Bristol</placeName>. While a
+                  supporter of the Hanovers on the throne of <placeName>England</placeName>, Evans
+                  was a strong champion of personal liberty and emerged as one of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s most vigorous critics
+                  in the debate over the declaration of independence by the North American
+                  colonists. See <hi rend="italic">DEB</hi>, 366–67.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
