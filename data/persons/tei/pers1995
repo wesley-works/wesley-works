@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Taylor, Richard (fl. 1760s)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers1995</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0215">
+                  <persName>Mary Bosanquet</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1995">
+               <p>Originally of <placeName>Yorkshire</placeName>, Taylor came to know <persName><ref
+                        target="/persons/pers0215.xml"/>Mary Bosanquet</persName> in <date
+                     when="1767">1767</date>, while in <placeName>London</placeName> trying to
+                  resolve some debts. In <date when="1768-06">June 1768</date> he helped persuade
+                        <persName><ref target="/persons/pers0215.xml"/>Bosanquet</persName> and her
+                  circle of friends to move to the <placeName>Leeds</placeName> area and located the
+                  Cross Hall farm which she purchased. Taylor and his family moved next door to
+                  Cross Hall and he supervised <persName><ref target="/persons/pers0215.xml"
+                     />Bosanquet</persName>&apos;s farm. This proved a poor choice, as Taylor was a
+                  poor manager and soon in further financial trouble. Taylor also did some local
+                  preaching during this time.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
