@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Taylor, John (fl. 1740s)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers1989</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0964">
+                  <persName>Selina Hastings</persName>
+               </person>
+               <person xml:id="pers1988">
+                  <persName>David Taylor</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1989">
+               <p>Apparently the younger brother of <persName><ref target="/persons/pers1988.xml"
+                     />David Taylor</persName>, and like him in service to Lady <persName><ref
+                        target="/persons/pers0964.xml"/>Huntingdon</persName>, John Taylor assisted
+                  the Wesley brothers in the early <date>1740s</date>, at Lady <persName><ref
+                        target="/persons/pers0964.xml"/>Huntingdon</persName>&apos;s request. He
+                  later settled in <placeName>London</placeName>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
