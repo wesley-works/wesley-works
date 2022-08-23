@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cennick, John (1718–1755)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-29</date>
+            <idno type="URI">http://syriaca.org/persons/pers0365</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0365">
+               <p>Cennick was a native of <placeName>Reading, Berkshire</placeName>. His
+                  grandparents had been Quakers, but his parents were loyal Church of
+                     <placeName>England</placeName> members. He experienced a religious
+                  transformation on <date when="1737-09-06">Sept. 6, 1737</date>, and sought out the
+                  Methodists in <placeName>Oxford</placeName> in late <date when="1738">1738</date>.
+                  In <date when="1739">1739</date>
+                  <persName><ref target="/persons/pers2180.xml"/>JW</persName> employed him to teach
+                  at the Kingswood school, but he also preached occasionally and helped administer
+                  the society there. Within two years, however, he broke with <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, aligning first with
+                        <persName><ref target="/persons/pers2221.xml"/>Whitefield</persName>, and
+                  then throwing in his lot with the Moravians—for whom, in <date when="1745"
+                     >1745</date>, he became a pioneer preacher in <placeName>Ireland</placeName>.
+                  See <hi rend="italic">DEB</hi>, 210; Ives, <hi rend="italic">Kingswood</hi>,
+                  231–33; <hi rend="italic">ODNB</hi>; and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 57.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
