@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cayley, Cornelius (1727–1779)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-29</date>
+            <idno type="URI">http://syriaca.org/persons/pers0363</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2211">
+                  <persName>James Wheatley</persName>
+               </person>
+               <person xml:id="pers0364">
+                  <persName>Sarah (Dyer) Cayley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0363">
+               <p>Born in <placeName>Brompton, Yorkshire</placeName>, Cayley was educated at a
+                  public school and at nineteen became a clerk in the Prince of Wales&apos;s
+                  treasury. For a while he sought advancements, but by <date when="1751">1751</date>
+                  turned to religious pursuits. He was drawn to the Tabernacle in
+                     <placeName>London</placeName> and its Calvinist Methodism, and soon began
+                  preaching in and around <placeName>London</placeName>. About <date when="1756"
+                     >1756</date> he came under the influence of <persName><ref
+                        target="/persons/pers2211.xml"/>James Wheatley</persName>, and soon
+                  abandoned his wife—<persName><ref target="/persons/pers0364.xml"/>Sarah (Dyer)
+                     Cayley</persName>—and moved to <placeName>Norwich</placeName>. When things fell
+                  apart for <persName><ref target="/persons/pers2211.xml"/>Wheatley</persName> in
+                     <placeName>Norwich</placeName>, Cayley turned to travel and a series of
+                  literary pursuits, until settling at an estate in <placeName>Kingston upon
+                     Hull</placeName>. There he occasionally preached in surrounding towns.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
