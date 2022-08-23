@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Chapman, Martha (d. 1810)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-29</date>
+            <idno type="URI">http://syriaca.org/persons/pers0376</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0094">
+                  <persName>Hannah Ball</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0376">
+               <p>Martha, who never married, was residing in <placeName>Watlington,
+                     Oxfordshire</placeName> in <date when="1768">1768</date> when she first appears
+                  as an associate of <persName><ref target="/persons/pers0094.xml"/>Hannah
+                     Ball</persName> (in nearby <placeName>High Wycombe</placeName>) in one of
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s letters
+                  to <persName><ref target="/persons/pers0094.xml"/>Ball</persName>. Chapman became
+                  a frequent correspondent with <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> herself between <date from="1772" to="1783">1772–83</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
