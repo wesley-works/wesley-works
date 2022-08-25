@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Chapman, Rev. Walter (1711–1791)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-29</date>
+            <idno type="URI">http://syriaca.org/persons/pers0378</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Walter Chapman</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0378">
+               <p>The son of <persName>Walter Chapman</persName> (<date from="1669" to="1720"
+                     >1669–1720</date>), mayor of <placeName>Bath</placeName>, Walter Jr.
+                  matriculated at Pembroke College, <placeName>Oxford</placeName> in <date
+                     when="1729-03">March 1729</date>, receiving his <seg ana="degree">BA</seg> in
+                     <date when="1732">1732</date> and <seg ana="degree">MA</seg> in <date
+                     when="1735">1735</date>. He was drawn into the &apos;Oxford Methodists&apos;
+                  during his student days. Ordained an elder in <date when="1735">1735</date>, he
+                  served first as Master of St. John&apos;s Hospital in <placeName>Bath</placeName>,
+                  became a canon of <placeName>Bristol</placeName> Cathedral in <date when="1745"
+                     >1745</date>, and vicar of <placeName>Bradford on Avon, Wiltshire</placeName>
+                  in <date when="1754">1754</date>. See <hi rend="italic">Alumni Oxonienses</hi>;
+                  CCEd; <hi rend="italic">DEB</hi>, 215; and Tyerman, <hi rend="italic">Oxford
+                     Methodists</hi>, 361–62 (misidentified as &apos;William&apos;).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
