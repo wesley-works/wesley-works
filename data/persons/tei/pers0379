@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Chappell, Benjamin (1741–1825)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-29</date>
+            <idno type="URI">http://syriaca.org/persons/pers0379</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Elizabeth Chappell</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0379">
+               <p>Born in <placeName>London</placeName>, Chappell was trained as a wheelwright.
+                  Drawn into the revival, Benjamin and his brother became lay evangelists in
+                     <placeName>London</placeName> and beyond. For example, <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> commented on the benefit of
+                  their presence for three months in early <date when="1770">1770</date> in
+                     <placeName>Inverness, Scotland</placeName> (<hi rend="italic">Journal</hi>,
+                     <date when="1770-04-26">Apr. 26, 1770</date>, <hi rend="italic">Works</hi>,
+                  22:226). In the summer of <date when="1774">1774</date> Chappell and his wife
+                     <persName>Elizabeth</persName> emigrated to <placeName>North
+                     America</placeName>, ending up on <placeName>St John&apos;s (Prince Edward)
+                     Island</placeName>. They became lay leaders of the Methodist movement there and
+                  Benjamin remained in correspondence with <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
