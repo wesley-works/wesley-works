@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Crook, John (1742–1805)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0504</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person/>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0504">
+               <p>Crook was converted at a Methodist service in <date when="1770">1770</date> and
+                  became an active lay member. In late <date when="1774">1774</date> the society in
+                     <placeName>Liverpool</placeName> convinced Crook to travel to <placeName>Isle
+                     of Man</placeName> and attempt to launch a Methodist presence there. His
+                  efforts met with some success, and confirmed in Crook a call to <seg
+                     ana="itinerancy">itinerant</seg> ministry. He was admitted on trial at
+                  Conference in <date when="1775-08">August 1775</date> (see <hi rend="italic"
+                     >Works</hi>, 10:440) and assigned to <placeName>Lincolnshire West</placeName>.
+                  He would serve for a quarter of a century. See his biography in <hi rend="italic"
+                     >MM</hi> 31 (<date when="1808">1808</date>): 3–10, 49–57, 97–105, 145–51,
+                  193–202; and <hi rend="italic">Minutes</hi> (post-Wesley, <date when="1806"
+                     >1806</date>), 2:323–24.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
