@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Foulkes) Gallatin, Lucia (c. 1716–1799)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0771</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0770">
+                  <persName>Bartholomew Gallatin</persName>
+               </person>
+               <person xml:id="pers0879">
+                  <persName>William Grimshaw</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0771">
+               <p>Married to <persName><ref target="/persons/pers0770.xml"/>Bartholomew
+                     Gallatin</persName> in <date when="1746-05">May 1746</date>, Lucia (née
+                  Foulkes) corresponded with all the chief leaders of British Methodism, both
+                  Arminian and Calvinist. Something of her own character and her travels as the wife
+                  of a field officer in the dragoons may be traced by means of the thirty-three
+                  letters written to her by <persName><ref target="/persons/pers0879.xml"/>William
+                     Grimshaw</persName>; cf. Frank Baker, <hi rend="italic">William Grimshaw</hi>
+                     (<placeName>London</placeName>: <placeName>Epworth</placeName>, <date
+                     when="1963">1963</date>), 217–30, 275–77.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
