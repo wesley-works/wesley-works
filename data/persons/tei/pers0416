@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Clarke, Adam (c. 1760–1832)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-30</date>
+            <idno type="URI">http://syriaca.org/persons/pers0416</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0463">
+                  <persName>Mary Cooke</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0416">
+               <p>Born to a schoolmaster in <placeName>Londonderry, Ireland</placeName>, Clarke
+                  proved a self-directing student, building competency in many languages. He was
+                  converted in <date when="1778">1778</date>, and joined a Methodist society. Within
+                  a couple of years he was exhorting, and preached his first sermon in <date
+                     when="1782-06">June 1782</date>. By this time he had gained <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s attention, was sent to
+                  Kingswood for further study (but stayed only a month), and put into a circuit. He
+                  was a frequent correspondent with <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> through the latter&apos;s final decade, and rose to prominence
+                  as both a scholar and leading figure in British Methodism after <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s death. In <date
+                     when="1788">1788</date> Clarke married <persName><ref
+                        target="/persons/pers0463.xml"/>Mary Cooke</persName>, another frequent
+                  correspondent in <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName>&apos;s last decades. See <hi rend="italic">DEB</hi>, 225–26; <hi
+                     rend="italic">Minutes</hi> (post-Wesley, <date when="1833">1833</date>),
+                  7:222–25; <hi rend="italic">ODNB</hi>; and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 69.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
