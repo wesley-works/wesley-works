@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Clark, George (1711–1797)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-30</date>
+            <idno type="URI">http://syriaca.org/persons/pers0410</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Adylena</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0410">
+               <p>Converted at the age of thirty-five after hearing <persName><ref
+                        target="/persons/pers2180.xml"/> JW</persName> preach at the Foundry, Clark
+                  was appointed a class leader. He was so successful that he soon had to form two
+                  additional classes. Clark was a close friend and correspondent of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> and frequently provided
+                  hospitality for visiting preachers. When City Road Chapel was erected, Clark took
+                  a plot of adjacent land and built a house, which after his death was lived in by
+                  one of the City Road ministers. Clark and his wife <persName>Adylena</persName>
+                  are interred near the east wall of City Road Chapel close to the altar.
+                     <persName>Adylena</persName> (<date from="1727" to="1807">1727–1807</date>) was
+                  a favorite of <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                  enjoyed a considerable reputation for piety. See Stevenson, <hi rend="italic">City
+                     Road</hi>, 506–7.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
