@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coats, Alexander (d. 1765)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-06</date>
+            <idno type="URI">http://syriaca.org/persons/pers0431</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0431">
+               <p>Coats was a native of <placeName>Scotland</placeName> who became a <seg
+                     ana="itinerancy">traveling preacher</seg> in <date when="1741">1741</date>. He
+                  had a gift for languages, having studied Gaelic, Danish, and Dutch in addition to
+                  Greek, Hebrew, and Latin. At the time of his death, <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> referred to him as &apos;the
+                  oldest preacher in our connexion&apos;. See Atmore, <hi rend="italic"
+                     >Memorial</hi>, 75. On the spelling of his last name, see <hi rend="italic"
+                     >Works</hi>, 10:281 n 981.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
