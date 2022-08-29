@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cook, John (1705–1777)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-07</date>
+            <idno type="URI">http://syriaca.org/persons/pers0461</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0461">
+               <p>A physician with an <seg ana="degree">M.D</seg>. from Edinburgh University, Cook
+                  hosted <persName><ref target="/persons/pers2180.xml"/>JW</persName> during some of
+                  his visits to <placeName>Leigh</placeName> (now called
+                     <placeName>Leigh-on-Sea</placeName>), <placeName>Essex</placeName>. The first
+                  visit was <date when="1748-11-21">Nov. 21, 1748</date> (see <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic">Journal,
+                     Works</hi>, 20:260, n. 10). <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s last recorded visit to <placeName>Leigh</placeName> was
+                  in <date when="1757">1757</date>. Cook&apos;s concerns about Methodism, which led
+                  to the cooling of their relationship, become evident in a series of letters that
+                  he published beginning in <date when="1760-11">Nov. 1760</date> under the
+                  pseudonym &apos;Stephen Church&apos;.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
