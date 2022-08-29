@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dornford, Josiah (1734–1810)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0604</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1771">
+                  <persName>William Romaine</persName>
+               </person>
+               <person>
+                  <persName>Eleanor Leyton</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0604">
+               <p>Dornford was a wine merchant and JP for the county of <placeName>Kent</placeName>.
+                  He was born at <placeName>Deptford</placeName>, and after his conversion joined
+                  the local Methodist society. When he married <persName>Eleanor Leyton</persName>
+                  in <date when="1759">1759</date>, <persName><ref target="/persons/pers1771.xml"
+                     />William Romaine</persName> performed the ceremony and <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> gave the bride away.
+                     <persName>Eleanor</persName> died in <date when="1790">1790</date> and was
+                  buried by <persName><ref target="/persons/pers2180.xml"/>JW</persName> in
+                     <placeName>Bunhill Fields</placeName>. When Josiah died he was buried in the
+                  same grave.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
