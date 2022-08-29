@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Coke, Thomas (1747–1814)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-06</date>
+            <idno type="URI">http://syriaca.org/persons/pers0435</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0435">
+               <p>A native of <placeName>Brecon, Wales</placeName>, Coke was educated at Jesus
+                  College, <placeName>Oxford</placeName>, with special interest in jurisprudence.
+                  After earning his <seg ana="degree">M.A</seg>. in <date when="1770">1770</date>,
+                  he returned to <placeName>Brecon</placeName> and in <date when="1772">1772</date>
+                  served a term as mayor. He received a Doctor of Christian Letters degree in <date
+                     when="1775">1775</date>. In <date when="1772">1772</date> Coke also took clergy
+                  orders and entered a curacy in <placeName>South Petherton, Somerset</placeName>,
+                  during which he increasingly cooperated with the Methodists. When a new rector was
+                  assigned in <date when="1777">1777</date>, Coke was expelled from his curacy
+                  because of his Methodist connections. He swiftly rose to become <persName><ref
+                        target="/persons/pers2180.xml"/>John Wesley</persName>&apos;s chief
+                  Assistant, and the one that <persName><ref target="/persons/pers2180.xml"
+                     />Wesley</persName> consecrated as Superintendent for the new church in
+                     <placeName>North America</placeName>. See <hi rend="italic">DEB</hi>, 238–39;
+                     <hi rend="italic">Minutes</hi> (post-Wesley, <date when="1815">1815</date>),
+                  4:89–90; <hi rend="italic">ODNB</hi>; Vickers, <hi rend="italic">Dictionary</hi>,
+                  72–73; and John Vickers, <hi rend="italic">Apostle of Methodism</hi> (<date
+                     when="1969">1969</date>).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
