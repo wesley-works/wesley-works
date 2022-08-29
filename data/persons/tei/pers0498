@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Creighton, Rev. James (1739–1819)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0498</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>First Name, Last Name</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0498">
+               <p>A native of <placeName>Cavan, Ireland</placeName>, and educated at Trinity
+                  College, <placeName>Dublin</placeName>, Creighton was ordained by the Bishop of
+                     <placeName>Kilmore</placeName>. In <date when="1773">1773</date>, while serving
+                  as curate at <placeName>Swanlinbar</placeName>, he read some of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s writings and they met
+                  in person. In <date when="1776">1776</date> he underwent a conversion experience.
+                  Creighton began introducing Methodist practices and doctrine into his parish,
+                  leading to tensions with his vicar and people, and discharge from his curacy. This
+                  finally led in <date when="1783">1783</date> to accepting <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s invitation to become a
+                  colleague assisting at <placeName>City Road Chapel</placeName> in
+                     <placeName>London</placeName>. He served faithfully until <date when="1810"
+                     >1810</date> when health challenges led to retirement. See <hi rend="italic"
+                     >DEB</hi>, 268–69; <hi rend="italic">Minutes</hi> (post-Wesley,
+                     <date>1820</date>), 5:95; Stevenson, <hi rend="italic">City Road</hi>, 147–49;
+                  and Vickers, <hi rend="italic">Dictionary</hi>, 83.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
