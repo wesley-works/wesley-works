@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collins, Rev. Brian Bury (1754–1807)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-07</date>
+            <idno type="URI">http://syriaca.org/persons/pers0444</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0159">
+                  <persName>John Berridge</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0964">
+                  <persName>Selina Hastings</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0444">
+               <p>Collins entered St John&apos;s College, <placeName>Cambridge</placeName> in <date
+                     when="1771">1771</date>, receiving his <seg ana="degree">BA</seg> in <date
+                     when="1776">1776</date> and <seg ana="degree">MA</seg> in <date when="1780"
+                     >1780</date>. He was ordained deacon in <date when="1776">1776</date> and
+                  assigned as a curate at <placeName>Rauceby</placeName> and <placeName>Cranwell,
+                     Lincolnshire</placeName>, but dismissed for field preaching. He moved on to
+                  curacies in <placeName>Hull</placeName> and under <persName><ref
+                        target="/persons/pers0159.xml"/>John Berridge</persName> in
+                     <placeName>Everton</placeName>, eventually persuading the Bishop of
+                     <placeName>Chester</placeName> to ordain him a priest in <date when="1781"
+                     >1781</date>. Meanwhile Collins had met <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, and after ordination he
+                  decided to remain in <seg ana="itinerancy">itinerant</seg> ministry, preaching for
+                  both <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s and Lady
+                        <persName><ref target="/persons/pers0964.xml"/>Huntingdon</persName>&apos;s
+                  connexions. His independence of approach led to a gradual cooling of his
+                  relationship with <persName><ref target="/persons/pers2180.xml"/>JW</persName>.
+                  See <hi rend="italic">Alumni Catabrigienses</hi>; <hi rend="italic">DEB</hi> 242;
+                  Stevenson, <hi rend="italic">City Road</hi>, 450–51; Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 74; and <hi rend="italic">WHS</hi> 9 (<date when="1913"
+                     >1913</date>): 25–35, 49–58, 73–83.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
