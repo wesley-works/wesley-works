@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Delamotte, Charles (c. 1714–1796)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0565</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0568">
+                  <persName>Peter Delamotte</persName>
+               </person>
+               <person xml:id="pers0567">
+                  <persName>Elizabeth (Whickham) Dela</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1121">
+                  <persName>Benjamin Ingham</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0565">
+               <p>Charles was the eldest son of a wealthy sugar merchant <persName><ref
+                        target="/persons/pers0568.xml"/>Peter Delamotte</persName> (d. <date
+                     when="1749">1749</date>) of <placeName>Blendon Hall, Bexley</placeName>, and
+                  his wife <persName><ref target="/persons/pers0567.xml"/>Elizabeth (Whickham)
+                     Delamotte</persName> (<date from="1685" to="1771"
+                  >1685–71</date><!-- Unsure if these are the right dates -->). Charles accompanied
+                  the Wesley brothers on their voyage to <placeName>Georgia</placeName>, in
+                  principle as his father&apos;s business agent. He was soon serving as schoolmaster
+                  without remuneration, and assisting <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> in various pastoral duties. On his return to
+                     <placeName>England</placeName>, a few months after <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, he found that many of his
+                  family had been converted to the emerging Methodist revival. Delamotte was more
+                  drawn to the Moravian stream of the renewal and, on taking over the family
+                  business, offered financial support to the work of <persName><ref
+                        target="/persons/pers1121.xml"/>Benjamin Ingham</persName>. Even so, he
+                  remained on friendly terms with <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>. See <hi rend="italic">DEB</hi>, 307–8; and Vickers, <hi
+                     rend="italic">Dictionary</hi>, 92.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
