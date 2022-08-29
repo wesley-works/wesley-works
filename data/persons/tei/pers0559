@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Deacon, Rev. Dr. Thomas (1697–1753)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0559</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1408">
+                  <persName>Richard Mead</persName>
+               </person>
+               <person xml:id="pers0423">
+                  <persName>John Clayton</persName>
+               </person>
+               <person>
+                  <persName>William Deacon</persName>
+               </person>
+               <person>
+                  <persName>Cecelia Deacon</persName>
+               </person>
+               <person>
+                  <persName>Jeremy Collier</persName>
+               </person>
+               <person>
+                  <persName>George Hickes</persName>
+               </person>
+               <person>
+                  <persName>Archibald Campbell</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0559">
+               <p>After the death of his father <persName>William</persName>, Thomas&apos;s mother
+                     <persName>Cecelia</persName> married the non-juror bishop <persName>Jeremy
+                     Collier</persName>. Thereby Thomas was introduced to many of the leading
+                  Jacobite and non-juror figures including <persName>George Hickes</persName>.
+                  Though lacking a university education, Deacon became an accomplished scholar and
+                  was ordained by <persName>Jeremy Collier</persName> to the nonjuring priesthood in
+                     <date when="1716">1716</date>. In addition to his theological studies, Deacon
+                  studied medicine with Dr. <persName><ref target="/persons/pers1408.xml"/>Richard
+                     Mead</persName>. He served several non-juror congregations in
+                     <placeName>London</placeName> before moving to
+                     <placeName>Manchester</placeName> around <date when="1722">1722</date>, where
+                  he became a leading physician. During Deacon&apos;s years in
+                     <placeName>Manchester</placeName>, the city became a significant hub of
+                  Jacobite and Non-juror activity, an influence shared with the Wesley brothers
+                  particularly through <persName><ref target="/persons/pers0423.xml"/>John
+                     Clayton</persName>. Deacon strongly espoused ecclesial independence of the
+                  nonjurors from the state and opposed reunion with the Church of
+                     <placeName>England</placeName>. This led to his consecration in <date
+                     when="1733">1733</date> by Scottish bishop <persName>Archibald
+                     Campbell</persName> as a bishop of what became the Orthodox British Church.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
