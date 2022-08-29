@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cooper, Jane (1738–1762)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-07</date>
+            <idno type="URI">http://syriaca.org/persons/pers0469</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0469">
+               <p>Cooper, born in <date when="1738">1738</date> at <placeName>Higham in
+                     Norfolk</placeName>, moved to <placeName>London</placeName> in <date
+                     when="1758">1758</date>, was converted, and became a devout Methodist domestic
+                  servant. In failing health for some time, she died of smallpox and was buried by
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> on <date
+                     when="1762-11-25">Nov. 25, 1762</date> (see <hi rend="italic">Journal,
+                     Works</hi>, 21:399). In <date when="1764">1764</date>
+                  <persName><ref target="/persons/pers2180.xml"/>JW</persName> published <hi
+                     rend="italic">Letters wrote by Jane Cooper</hi> (<hi rend="italic"
+                     >Bibliography</hi>, No. 260). See <hi rend="italic">DEB</hi>, 253.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
