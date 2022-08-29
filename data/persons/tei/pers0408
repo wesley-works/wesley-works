@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Clark, Alexander (c. 1740–1807)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-29</date>
+            <idno type="URI">http://syriaca.org/persons/pers0408</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1373">
+                  <persName>James Martin</persName>
+               </person>
+               <person>
+                  <persName>Elenor</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0408">
+               <p>A native of <placeName>Ireland</placeName>, Clark was a tailor in
+                     <placeName>Dublin</placeName> when he and his wife <persName>Elenor</persName>
+                  (c. <date from="1737" to="1799">1737–99</date>; maiden name unknown) became active
+                  in the Methodist society there. In late <date when="1771">1771</date>
+                  <persName><ref target="/persons/pers2180.xml"/>JW</persName> appointed Clark as
+                  steward of the <placeName>Dublin</placeName> society. This the two in frequent
+                  correspondence until late <date when="1777">1777</date>, when Clark and three
+                  others were excluded from the <placeName>Dublin</placeName> society for falsely
+                  accusing <persName><ref target="/persons/pers1373.xml"/>James Martin</persName>,
+                  the treasurer of the Whitefriar Street Widows&apos; Home of fraud. <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, also unhappy with
+                  Clark&apos;s Calvinistic sympathies, affirmed the decision (see <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> to Clark, <date
+                     when="1777-09-11">Sept. 11, 1777</date>). In later years Clark took leadership
+                  in the Tailor&apos;s Guild of <placeName>Dublin</placeName>, was elected by the
+                  Guild to city council, and served as church warden of St. Bridget&apos;s church in
+                     <placeName>Dublin</placeName>. See D. A. Levistone Cooney, &apos;Twenty Reduced
+                  Widows&apos;, <hi rend="italic">Dublin Historical Record</hi>, 50 (<date
+                     when="1997">1997</date>): 40–45.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
