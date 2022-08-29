@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Cooke) Clarke, Mary (1760–1836)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-07</date>
+            <idno type="URI">http://syriaca.org/persons/pers0463</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2077">
+                  <persName>Joanna (Cooke) Turner</persName>
+               </person>
+               <person xml:id="pers0416">
+                  <persName>Adam Clarke</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0463">
+               <p>The daughter and heiress of a <placeName>Trowbridge</placeName> clothier, Mary was
+                  also the niece of <persName><ref target="/persons/pers2077.xml"/>Joanna (Cooke)
+                     Turner</persName> (<date from="1732" to="1784">1732–84</date>), a prominent
+                  figure in the Methodist society at <placeName>Trowbridge</placeName>. Although her
+                  immediate family remained staunch members of the Church of
+                     <placeName>England</placeName>, they were supportive of Methodist preachers,
+                  including <persName><ref target="/persons/pers0416.xml"/>Adam Clarke</persName>
+                  who was stationed in nearby <placeName>Bradford</placeName> in <date when="1782"
+                     >1782</date>. Mary met <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> in <date when="1785-09">Sept. 1785</date> and they soon struck
+                  up a correspondence, sparked in part by <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s interest in her poetry.
+                  In <date when="1788">1788</date> Mary Cooke married <persName><ref
+                        target="/persons/pers0416.xml"/>Adam Clarke</persName>. See Mary Ann Cooke
+                  Smith, <hi rend="italic">Mrs. Adam Clarke</hi> (<placeName>London</placeName>:
+                  Partridge and Oakey, <date when="1851">1851</date>).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
