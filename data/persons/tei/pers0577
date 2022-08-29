@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Designe, Susannah (1712–1779)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0577</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person/>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0577">
+               <p>Susannah (maiden name unknown) was born of French parentage near the
+                     <placeName>Isle of Ely</placeName>. After marriage, she moved to
+                     <placeName>Bristol</placeName> about <date when="1733">1733</date> with her
+                  husband and opened a private school in their home. She was drawn into the
+                  Methodist revival in <placeName>Bristol</placeName> in <date from="1738" to="1739"
+                     >1738–39</date>, becoming a devout member and band-leader in the society.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
