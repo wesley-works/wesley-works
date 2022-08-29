@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Duprey?) Cumberland, Jane (d. 1787)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0513</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Hans</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0513">
+               <p>Jane and her husband <persName>Hans</persName>, of <placeName>Lisburn,
+                     Ireland</placeName>, were drawn into the Methodist movement in <date
+                     when="1756">1756</date> and became supporters of the preachers. After her
+                  husband&apos;s death Jane continued to host the preachers at her house. See
+                  Crookshank, <hi rend="italic">Irish Women</hi>, 31–38; and &apos;A Short Account
+                  of Mrs. Jane Cumberland, of Lisburn, in the north of Ireland&apos;, <hi
+                     rend="italic">AM</hi> 11 (<date when="1788">1788</date>), 16–17.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
