@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Delamotte, William (1718–1743)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0569</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0565">
+                  <persName>Charles Delamotte</persName>
+               </person>
+               <person xml:id="pers1121">
+                  <persName>Benjamin Ingham</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers1528">
+                  <persName>Francis Okely</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0569">
+               <p>The younger brother of <persName><ref target="/persons/pers0565.xml"
+                     />Charles</persName>, William matriculated at St. Catherine&apos;s College,
+                     <placeName>Cambridge</placeName> in <date when="1736-05">May 1736</date>. An
+                  illness that year sparked a new spiritual seriousness that was strengthened by
+                  encountering <persName><ref target="/persons/pers1121.xml"/>Benjamin
+                     Ingham</persName> and <persName><ref target="/persons/pers2176.xml"
+                     />CW</persName>. On his return to <placeName>Cambridge</placeName> in fall
+                     <date when="1737">1737</date> Delamotte gathered a fellowship group that
+                  quickly garnered the pejorative title of &apos;Methodists&apos;, like in
+                     <placeName>Oxford</placeName>. In <date when="1738-06">June 1738</date>
+                  <persName><ref target="/persons/pers2176.xml"/>CW</persName> was central to
+                  persuading William of the evangelical emphasis on justification by grace. But
+                        <persName><ref target="/persons/pers1528.xml"/>Francis Okely</persName>,
+                        <persName><ref target="/persons/pers1121.xml"/>Ingham</persName>, and other
+                  Moravian connections played a more prominent role in Delamotte&apos;s attempts to
+                  minister at the university and beyond. His commitment to preaching finally ended
+                  his university studies, and a recurrence of his illness led to his early death in
+                     <date when="1743-01">January 1743</date>. See <hi rend="italic">Alumni
+                     Catabrigienses</hi>; <hi rend="italic">DEB</hi>, 308; and Vickers, <hi
+                     rend="italic">Dictionary</hi>, 92–93.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
