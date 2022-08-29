@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Flesher / Sharp) Colbeck, Sarah (1738–1816)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-06</date>
+            <idno type="URI">http://syriaca.org/persons/pers0436</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0438">
+                  <persName>Thomas Colbeck</persName>
+               </person>
+               <person xml:id="pers1523">
+                  <persName>James Oddie</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Samuel Sharp</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0436">
+               <p>Sarah Flesher, a native of <placeName>Otley</placeName>, married <persName>Samuel
+                     Sharp</persName> in <date when="1757">1757</date> (with <persName><ref
+                        target="/persons/pers0438.xml"/>Thomas Colbeck</persName> as a witness). She
+                  married <persName><ref target="/persons/pers0438.xml"/>Thomas Colbeck</persName>
+                  in <date when="1765">1765</date>. Left a widow in <date when="1779">1779</date>,
+                  she married <persName><ref target="/persons/pers1523.xml"/>James Oddie</persName>,
+                  one of <persName><ref target="/persons/pers2180.xml"/>Wesley</persName>&apos;s
+                     <seg ana="itinerancy">itinerants</seg>, in <date when="1784">1784</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
