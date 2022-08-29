@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Deaves, James (fl. 1750–1790)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0561</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0146">
+                  <persName>Eliza Bennis</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0561">
+               <p>Deaves entered the <seg ana="itinerancy">itinerancy</seg> in
+                     <placeName>Ireland</placeName> in <date when="1753">1753</date> (<hi
+                     rend="italic">Works</hi>, 10:267), and served at least at intervals through
+                     <date when="1767">1767</date> (10:344). He remained associated with Methodism
+                  after he ceased to <seg ana="itinerancy">itinerate</seg>, settling for a while in
+                     <placeName>Wexford</placeName> and later in <placeName>Waterford</placeName>.
+                  By many, like <persName><ref target="/persons/pers0146.xml"/>Eliza
+                     Bennis</persName>, he was viewed as a &apos;sower of discord&apos; in the ranks
+                  (see JW, <hi rend="italic">Journal</hi>, <date when="1789-04-28">Apr. 28,
+                     1789</date>, <hi rend="italic">Works</hi>, 24:131).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
