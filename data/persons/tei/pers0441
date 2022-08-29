@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Colley, Rev. Benjamin (d. 1767)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-07</date>
+            <idno type="URI">http://syriaca.org/persons/pers0441</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1353">
+                  <persName>John Manners</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0134">
+                  <persName>George Bell</persName>
+               </person>
+               <person xml:id="pers1404">
+                  <persName>Thomas Maxfield</persName>
+               </person>
+               <person>
+                  <persName>Elizabeth La Croissette</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0441">
+               <p>A resident of <placeName>Tollerton, Yorkshire</placeName>, Colley was converted by
+                     <seg ana="itinerancy">itinerant</seg>
+                  <persName><ref target="/persons/pers1353.xml"/>John Manners</persName> and joined
+                  the Methodists in <date when="1761">1761</date>. He received episcopal ordination
+                  and by early <date when="1762">1762</date> was assisting <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> as a clergyman in the
+                     <placeName>London</placeName> chapels. He was briefly drawn in with the
+                  &apos;enthusiasm&apos; of <persName><ref target="/persons/pers0134.xml"/>eorge
+                     Bell</persName> and <persName><ref target="/persons/pers1404.xml"/>Thomas
+                     Maxfield</persName>, but reclaimed by <persName><ref
+                        target="/persons/pers1353.xml"/>Manners</persName> and appointed to
+                     <placeName>Newcastle upon Tyne</placeName> in <date when="1763">1763</date>. By
+                     <date when="1767">1767</date> he was back in <placeName>London</placeName>,
+                  where he married <persName>Elizabeth La Croissette</persName> in <date
+                     when="1767-06">June</date>, but passed away by the end of the year. See Atmore,
+                     <hi rend="italic">Memorial</hi>, 78–80.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
