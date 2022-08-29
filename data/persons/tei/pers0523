@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Dale) Avison, Margaret (c. 1744–1777)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0523</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0524">
+                  <persName>Mary Dale</persName>
+               </person>
+               <person xml:id="pers0522">
+                  <persName>Ann Dale</persName>
+               </person>
+               <person xml:id="pers1284">
+                  <persName>Margaret Lewen</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0080">
+                  <persName>Edward Avison</persName>
+               </person>
+               <person>
+                  <persName>Thomas Lewen</persName>
+               </person>
+               <person>
+                  <persName>Sarah Lewen</persName>
+               </person>
+               <person>
+                  <persName>Edward Dale</persName>
+               </person>
+               <person>
+                  <persName>Eleanor Dale</persName>
+               </person>
+               <person>
+                  <persName>Charles Avison</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0523">
+               <p>Margaret (&apos;Peggy&apos;) Dale and her two sisters (<persName><ref
+                        target="/persons/pers0524.xml"/>Mary</persName> and <persName><ref
+                        target="/persons/pers0522.xml"/>Ann</persName>) were raised in
+                     <placeName>Kibblesworth, Durham</placeName> (just outside
+                     <placeName>Newcastle</placeName>) by their aunt and uncle,
+                     <persName>Thomas</persName> and <persName>Sarah Lewen</persName>, after their
+                  father <persName>Edward</persName> died in <date when="1755">1755</date> (and
+                  their mother <persName>Eleanor</persName>, sister of <persName>Sarah [Lawrence]
+                     Lewen</persName>, sometime before that). The Lewens were active in Methodism.
+                  Their daughter <persName><ref target="/persons/pers1284.xml"/>Margaret
+                     Lewen</persName> took Margaret Dale along on <date when="1765-04-22">Apr. 22,
+                     1765</date>, when she provided <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> a ride in her chaise to <placeName>Newcastle</placeName> (JW,
+                     <hi rend="italic">Journal, Works</hi>, 21:504). This may have been
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s first
+                  meeting with Margaret. He at least came to know her better and they struck up an
+                  extended correspondence. In <date when="1773">1773</date> Margaret married
+                        <persName><ref target="/persons/pers0080.xml"/>Edward Avison</persName>
+                     (<date from="1747" to="1776">1747–76</date>), organist (son of the famous
+                  organist <persName>Charles Avison</persName>), but both died shortly after. See
+                  Helen Pelham Dale (ed.), <hi rend="italic">The Life and Letters of Thomas Pelham
+                     Dale</hi> (<placeName>London</placeName>: G. Allen, <date when="1894"
+                     >1894</date>), 1:1–26; and Roz Southey, et al., <hi rend="italic">The Ingenious
+                     Mr. Avison</hi> (<placeName>Newcastle</placeName>: Tyne Bridge, <date
+                     when="2009">2009</date>) 52, 112–14.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
