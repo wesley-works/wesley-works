@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dickinson, Rev. Peard (1758–1802)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0584</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1605">
+                  <persName>Vincent Perronet</persName>
+               </person>
+               <person xml:id="pers1603">
+                  <persName>Elizabeth Briggs</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0584">
+               <p>Born at <placeName>Topsham</placeName> and educated at Taunton School, Dickinson
+                  apprenticed under a jeweler in <placeName>Bristol</placeName> whose wife was
+                  Methodist. He converted and joined the local Society. With the encouragement of
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> and help from a
+                  widowed relative, he enrolled at St. Edmund Hall, <placeName>Oxford</placeName> in
+                     <date when="1779">1779</date>, receiving his <seg ana="degree">BA</seg> in
+                     <date when="1783">1783</date> and his <seg ana="degree">MA</seg> in <date
+                     when="1785">1785</date>. He was ordained deacon in <date when="1783"
+                     >1783</date> and served as curate to <persName><ref
+                        target="/persons/pers1605.xml"/>Vincent Perronet</persName> in
+                     <placeName>Shoreham</placeName>. Unsuccessful in succeeding <persName><ref
+                        target="/persons/pers1605.xml"/>Perronet</persName> in <date when="1785"
+                     >1785</date>, Dickinson served other curacies in
+                     <placeName>Nottinghamshire</placeName> and <placeName>Lincolnshire</placeName>
+                  until <date when="1786">1786</date>, when <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> recruited him to assist at
+                     <placeName>City Road Chapel, London</placeName>. On <date when="1788-04-20"
+                     >Apr. 30, 1788</date>, he married <persName><ref target="/persons/pers1603.xml"
+                     />Elizabeth Briggs</persName>, granddaughter of <persName><ref
+                        target="/persons/pers1605.xml"/>Vincent Perronet</persName>. See <hi
+                     rend="italic">Alumni Oxonienses</hi>; <hi rend="italic">DEB</hi>, 312; <hi
+                     rend="italic">Minutes</hi> (post-Wesley, <date when="1802">1802</date>),
+                  2:124–25; Stevenson, <hi rend="italic">City Road</hi>, 150–51; and Vickers, <hi
+                     rend="italic">Dictionary</hi>, 94.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
