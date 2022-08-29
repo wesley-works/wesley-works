@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Williams) Dutton, Anne (1692–1765)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0622</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Benjamin Dutton</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0622">
+               <p>Anne Williams was born in <placeName>Northampton</placeName>, a center of
+                  dissenting churches, and early affiliated with a Calvinist church. Her second
+                  husband, <persName>Benjamin Dutton</persName> (<date from="1691" to="1747"
+                     >1691–1747</date>), was pastor of a Congregational church in <placeName>Great
+                     Gransden, Huntingdonshire</placeName>. Anne corresponded with several leaders
+                  of the emerging evangelical revival, including <persName><ref
+                        target="/persons/pers2221.xml"/>George Whitefield</persName> and
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName>. She also wrote
+                  some 25 tracts, many devotional in nature but some focused on Calvinist themes,
+                  and a few directly challenging <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>&apos;s views. See <hi rend="italic">DEB</hi>, 335; and <hi
+                     rend="italic">ODNB</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
