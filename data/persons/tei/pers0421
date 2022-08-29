@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Clay, Sarah (c. 1717–1783)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers0421</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0421">
+               <p>Member of an unmarried women&apos;s band at the Foundery from <date when="1742-04"
+                     >Apr. 1742</date>, Clay was a leader of such a band from <date when="1742-11"
+                     >Nov. 1742</date>, and a member of the select society from its beginning in
+                     <date when="1743-12">Dec. 1743</date>. When <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> buried her remains on <date
+                     when="1783-02-11">Feb. 11, 1783</date>, he spoke of her as &apos;the last of
+                  those holy women who … forty years ago devoted themselves wholly to God&apos;
+                        (<persName><ref target="/persons/pers2180.xml"/>JW</persName>, <hi
+                     rend="italic">Works</hi>, 23:262). At his request she had written a spiritual
+                  autobiography, which he published after her death. See <hi rend="italic">AM</hi> 6
+                     (<date when="1783">1783</date>): 528ff.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
