@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Davies, Edward (c. 1736–1812)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://syriaca.org/persons/pers0536</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0536">
+               <p>Originally of <placeName>Rhyddlan, Flintshire</placeName>, Davies graduated from
+                  Jesus College, <placeName>Oxford</placeName> in <date when="1759">1759</date> and
+                  was ordained a priest in <date when="1760-01">January 1760</date>. He served as a
+                  perpetual curate at <placeName>Bengeworth</placeName> from <date from="1767"
+                     to="1772">1767–72</date>, where he once invited <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> to preach (JW, <hi
+                     rend="italic">Journal</hi>, <date when="1768-03-17">Mar. 17, 1768</date>). In
+                     <date when="1768">1768</date> Davies was also made rector of Coychurch,
+                     <placeName>Glamorgan, Wales</placeName> (though he was infrequently resident
+                  there). In <date when="1772">1772</date>
+                  <persName><ref target="/persons/pers2180.xml"/>JW</persName> sought to recruit
+                  Davies as another ordained leader for the Methodist work in
+                     <placeName>London</placeName>. This attempt provoked resentment among some lay
+                  preachers, and was further soured by tensions between Davies and <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName>, leading to a parting of ways
+                  in <date when="1774">1774</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
