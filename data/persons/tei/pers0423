@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Clayton, Rev. John (1709–1773)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-06</date>
+            <idno type="URI">http://syriaca.org/persons/pers0423</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0330">
+                  <persName>John Byrom</persName>
+               </person>
+               <person xml:id="pers0559">
+                  <persName>Thomas Deacon</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0423">
+               <p>Son of a Manchester bookseller, Clayton matriculated at <placeName>Brasenose,
+                     Oxford</placeName> in <date when="1725">1725</date>, receiving his <seg
+                     ana="degree">BA</seg> in <date when="1729">1729</date>, and <seg ana="degree"
+                     >MA</seg> in <date when="1732">1732</date>. It was also <date when="1732"
+                     >1732</date> when Clayton met <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> and became part of the &apos;Oxford Methodists&apos;. At his
+                  suggestion they began observing stationary fasts on Wednesdays and Fridays.
+                  Returning to <placeName>Manchester</placeName> in <date when="1733">1733</date>,
+                  Clayton was appointed perpetual curate of Sacred Trinity,
+                     <placeName>Salford</placeName>. In <date when="1740">1740</date> he became
+                  chaplain at the Collegiate Church. He was a close friend of the non-jurors
+                        <persName><ref target="/persons/pers0330.xml"/>John Byrom</persName> and
+                        <persName><ref target="/persons/pers0559.xml"/>Thomas Deacon</persName> and
+                  had a number of pupils from Jacobite families in his academy in
+                     <placeName>Salford</placeName>. His Jacobite sympathies led to his temporary
+                  suspension by the bishop of <placeName>Chester</placeName> in <date when="1745"
+                     >1745</date>. <persName><ref target="/persons/pers2180.xml"/>JW</persName>
+                  visited Clayton both before and after going to <placeName>Georgia</placeName>, but
+                  Clayton distanced himself from the Wesley brothers after their evangelical
+                  conversion. <persName><ref target="/persons/pers2180.xml"/>JW</persName> heard him
+                  read prayers in <date when="1752">1752</date>, and <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> heard him preach in <date
+                     when="1756">1756</date>, but without any renewal of their friendship. Clayton
+                  died at <placeName>Salford</placeName> on <date when="1773-09-25">Sept. 25,
+                     1773</date>. See <hi rend="italic">Alumni Oxonienses</hi>; <hi rend="italic"
+                     >DEB</hi>, 229–30; <hi rend="italic">ODNB</hi>; Tyerman, <hi rend="italic"
+                     >Oxford Methodists</hi>, 24–56; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  70.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
