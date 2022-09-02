@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Granville) Dewes, Ann (c. 1708–1761)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0842</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0843">
+                  <persName>Mary (Westcomb) Granville</persName>
+               </person>
+               <person xml:id="pers0844">
+                  <persName>Mary (Granville) Pendarves</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>Bernard Granville</persName>
+               </person>
+               <person>
+                  <persName>John Dewes</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0842">
+               <p>Ann, daughter of <persName>Bernard</persName> and <persName><ref
+                        target="/persons/pers0843.xml"/>Mary (Westcomb) Granville</persName> and
+                  younger sister <persName><ref target="/persons/pers0844.xml"/>Mary (Granville)
+                     Pendarves</persName>, was one of the neighbours of the Kirkham family that
+                  became part of a network of friends of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> and <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> in the
+                     <placeName>Cotswolds</placeName> during their Oxford years. Ann&apos;s literary
+                  nickname was &apos;Selima&apos;, which appears in several of
+                     <persName>JW</persName>&apos;s letters of the time. In <date when="1740"
+                     >1740</date>, after this group had broken up, Ann married <persName>John
+                     Dewes</persName>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
