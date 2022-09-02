@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gilbert, Nathaniel (c. 1721–1774)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0805</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0802">
+                  <persName>Francis Gilbert</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0805">
+               <p>The elder brother of <persName><ref target="/persons/pers0802.xml"
+                     />Francis</persName>, Nathaniel had succeeded his father as a representative of
+                  the Assembly in <placeName>Antigua</placeName> prior to the trip to
+                     <placeName>England</placeName> in <date when="1757">1757</date> where he and
+                        <persName><ref target="/persons/pers0802.xml"/>Francis</persName> met
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> and were
+                  converted to Methodism. In <date when="1759">1759</date> Nathaniel returned to
+                     <placeName>Antigua</placeName> to stay, serving as Speaker of the Assembly from
+                     <date from="1763" to="1769">1763–69</date>, and helping pioneer Methodist work
+                  in the <placeName>West Indies</placeName>. See Frank Baker, &apos;The Origins of
+                  Methodism in the West Indies: the Story of the Gilbert Family&apos;, <hi
+                     rend="italic">LQHR</hi> 185 (<date when="1960">1960</date>): 9–17; <hi
+                     rend="italic">DEB</hi>, 439; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  135.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
