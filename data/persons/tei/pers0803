@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gilbert, Mary (1751–1768)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0803</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0805">
+                  <persName>Nathaniel Gilbert</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0803">
+               <p>Mary was a daughter of <persName><ref target="/persons/pers0805.xml"/>Nathaniel
+                     Gilbert</persName> (below). <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> published <hi rend="italic">An Extract of Miss Mary
+                     Gilbert&apos;s Journal</hi>, giving an account of her &apos;happy death&apos;
+                  in <date when="1768">1768</date> (<hi rend="italic">Bibliography</hi>, No. 309).
+                  See Vickers, <hi rend="italic">Dictionary</hi>, 135; and <hi rend="italic"
+                     >WHS</hi> 55 (<date when="2005">2005</date>): 16–18.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
