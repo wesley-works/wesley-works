@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gillies, Rev. Dr. John (1712–1796)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0810</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0810">
+               <p>Gillies, DD, a minister in the Church of <placeName>Scotland</placeName>, was
+                  pastor of Blackfriars church, <placeName>Glasgow</placeName> from <date
+                     when="1742">1742</date> until his death. His concern to cultivate international
+                  awareness of the current revivals led to <hi rend="italic">Historical Collections
+                     relating to the Success of the Gospel</hi>, which appeared in two volumes in
+                     <date when="1754">1754</date>, with an Appendix in <date when="1761"
+                     >1761</date>. Gillies contacted <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> in finalizing these volumes, leading <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> to visit
+                     <placeName>Scotland</placeName> in <date when="1753-04">April 1753</date>. The
+                  two engaged in frequent correspondence for the next several years. See <hi
+                     rend="italic">DEB</hi>, 443; and <hi rend="italic">ODNB</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
