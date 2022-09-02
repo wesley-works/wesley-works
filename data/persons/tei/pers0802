@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gilbert, Francis (d. 1779)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0802</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0805">
+                  <persName>Nathaniel Gilbert</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0804">
+                  <persName>Mary (Leadbetter / née Walsh) Gilbert</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0802">
+               <p>Son of a prosperous planter in <placeName>Antigua</placeName>, Francis had taken
+                  refuge in <placeName>England</placeName> in disgrace in <date when="1757"
+                     >1757</date>. There he and his brother <persName><ref
+                        target="/persons/pers0805.xml"/>Nathaniel</persName> came under the
+                  influence of <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                  other Methodists and were converted. In <date when="1759">1759</date> the Gilbert
+                  brothers returned to <placeName>Antigua</placeName> as evangelists, pioneering
+                  Methodist work in the <placeName>West Indies</placeName>. Francis later returned
+                  to <placeName>England</placeName> in poor health and died, leaving his wife,
+                        <persName><ref target="/persons/pers0804.xml"/>Mary (Leadbetter / née Walsh)
+                     Gilbert</persName> a widow. See <hi rend="italic">DEB</hi>, 439; and Vickers,
+                     <hi rend="italic">Dictionary</hi>, 135.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
