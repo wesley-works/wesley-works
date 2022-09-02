@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Walsh / Leadbetter) Gilbert, Mary (1733–1816)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-11</date>
+            <idno type="URI">http://syriaca.org/persons/pers0804</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2126">
+                  <persName>John Walsh</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0805">
+                  <persName>Nathaniel Gilbert</persName>
+               </person>
+               <person xml:id="pers0803">
+                  <persName>Mary Gilbert</persName>
+               </person>
+               <person xml:id="pers0802">
+                  <persName>Francis Gilbert</persName>
+               </person>
+               <person>
+                  <persName>Robert Leadbetter</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0804">
+               <p>The sister of <persName><ref target="/persons/pers2126.xml"/>John Walsh</persName>
+                  (one of <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s <seg
+                     ana="itinerancy">traveling preachers</seg>), Mary became the wife of
+                     <persName>Robert Leadbetter</persName> in <date when="1750-06">June
+                  1750</date>. By <date when="1758-10">Oct. 1758</date> she had been widowed, and
+                  became governess of the children of <persName><ref target="/persons/pers0805.xml"
+                     />Nathaniel Gilbert</persName> (including <persName><ref
+                        target="/persons/pers0803.xml"/>Mary</persName>, listed previously), who had
+                  recently arrived in <placeName>England</placeName> from
+                     <placeName>Antigua</placeName>. She accompanied the family on their return to
+                     <placeName>Antigua</placeName> in <date when="1759-04">April 1759</date>, then
+                  returned with the children a few years later, to live with their uncle
+                        <persName><ref target="/persons/pers0802.xml"/>Francis Gilbert</persName> in
+                     <placeName>Chester</placeName>. On <date when="1767-11-17">November 17,
+                     1767</date> she married <persName><ref target="/persons/pers0802.xml"/>Francis
+                     Gilbert</persName>. See <hi rend="italic">WHS</hi> 55 (<date when="2005"
+                     >2005</date>): 16–18.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
