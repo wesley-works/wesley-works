@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hall, Rev. Westley (c. 1710–1776)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0911</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2182">
+                  <persName>Martha Wesley</persName>
+               </person>
+               <person xml:id="pers2181">
+                  <persName>Kezia Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0911">
+               <p>A native of <placeName>Salisbury</placeName>, Hall became a pupil of
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> at Lincoln
+                  College on <date when="1731-01-26">Jan. 26, 1731</date>. Within a year he was
+                  closely involved with the &apos;Oxford Methodists&apos;. An apparent model of
+                  Christian piety, <persName><ref target="/persons/pers2180.xml"/>JW</persName>
+                  gladly introduced Hall to his family; only to find him courting <persName><ref
+                        target="/persons/pers2182.xml"/>Martha</persName> and <persName><ref
+                        target="/persons/pers2181.xml"/>Kezia</persName> at the same time in <date
+                     from="1734" to="1735">1734–35</date>. Hall married <persName><ref
+                        target="/persons/pers2182.xml"/>Martha</persName> on <date when="1735-09-13"
+                     >Sept. 13, 1735</date>, days after being ordained both deacon and priest,
+                  professedly in order to accompany <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> and <persName><ref target="/persons/pers2176.xml"
+                     />CW</persName> to <placeName>Georgia</placeName>. Within a month Hall withdrew
+                  from this venture. As the Methodist revival emerged, Hall was initially supportive
+                  but then drawn toward the Moravian side, eventually setting up his own society. By
+                  the mid-<date>1740s</date> he also proved unfaithful to <persName><ref
+                        target="/persons/pers2182.xml"/>Martha</persName>, justifying his actions by
+                  appeals to polygamy in Scripture. While <persName><ref
+                        target="/persons/pers2182.xml"/>Martha</persName> stayed with her husband
+                  much longer than her family could understand, this eventually fractured their
+                  marriage. Hall kept up some correspondence with <persName><ref
+                        target="/persons/pers2182.xml"/>Martha</persName> until his death. See <hi
+                     rend="italic">DEB</hi>, 507–8; Maser, <hi rend="italic">Sisters</hi>, 86–96;
+                     <hi rend="italic">ODNB</hi>; Tyerman, <hi rend="italic">Oxford Methodists</hi>,
+                  386–411; Vickers, <hi rend="italic">Dictionary</hi>, 147; and <hi rend="italic"
+                     >WHS</hi> 5 (<date when="1906">1906</date>): 146–51.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
