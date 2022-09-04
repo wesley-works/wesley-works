@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jones, Robert Jr. (c. 1734–1793)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-26</date>
+            <idno type="URI">http://syriaca.org/persons/pers1186</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1185">
+                  <persName>Robert Jones</persName>
+               </person>
+               <person xml:id="pers1183">
+                  <persName>Mary Jones</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1186">
+               <p>The eldest son of <persName><ref target="/persons/pers1185.xml"/>Robert</persName>
+                  and <persName><ref target="/persons/pers1183.xml"/>Mary (Forrest) Jones</persName>
+                  of Fonmon Castle, Robert was sent for training to Kingswood School upon its
+                  opening in <date when="1748">1748</date>. See Ives, <hi rend="italic"
+                     >Kingswood</hi>, 35–39.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
