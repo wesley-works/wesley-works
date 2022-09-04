@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Peacock, John (c. 1739–1803)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1587</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Margaret Woolfe</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1587">
+               <p>Peacock was admitted on trial as an <seg ana="itinerancy">itinerant preacher</seg>
+                  in <date when="1767">1767</date> (<hi rend="italic">Works</hi>, 10:343) and to
+                  full status the following year. He desisted in <date when="1768">1768</date>
+                  (10:367) and married <persName>Margaret Woolfe</persName>
+                  <date when="1769-12-09">Dec. 9, 1769</date> in <placeName>York</placeName>.
+                  Peacock was readmitted to the <seg ana="itinerancy">itinerancy</seg> in <date
+                     when="1770">1770</date> (10:379) and served through <date when="1796"
+                     >1796</date>, and which point he settled in <placeName>Bridlington,
+                     Yorkshire</placeName> until his death. See <hi rend="italic">Minutes</hi>
+                  (post-Wesley, <date>1803</date>) 2:167.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
