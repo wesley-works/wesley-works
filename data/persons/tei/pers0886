@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gumley, Colonel Samuel (1698–1763)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0886</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>John Gumley</persName>
+               </person>
+               <person>
+                  <persName>Martha (Meighen / Colvill) Gumley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0886">
+               <p>Samuel was the only son of <persName>John Gumley</persName>, Muster-master General
+                  (d. <date when="1728">1728</date>). He became a lieutenant in the Duke of
+                  Marlborough&apos;s Regiment of Dragoons in <date when="1718">1718</date>, a
+                  captain in <date when="1724">1724</date>, and a major in <date when="1740"
+                     >1740</date>. In <date when="1742">1742</date> he became lieutenant colonel in
+                  the First Regiment of Foot Guards (later the Grenadier Guards), and their colonel
+                  in <date when="1748">1748</date>. He inherited his mother&apos;s considerable
+                  estate, and resigned his military office in <date when="1753-11">Nov. 1753</date>,
+                  though he retained his title. By this time he had also acquired a reputation as a
+                  pious and earnest supporter of Methodism. He seems to have been officially
+                  admitted to membership of the London Society on <date when="1749-04-06">Easter
+                     Day, 1749</date>. He died in <placeName>Spa, Belgium</placeName>, in <date
+                     when="1763">1763</date>. Samuel&apos;s widow <persName>Martha (Meighen /
+                     Colvill) Gumley</persName> (<date from="1711" to="1787">1711–87</date>) was a
+                  close friend of <persName><ref target="/persons/pers2176.xml"
+                  />CW</persName>&apos;s family. See <hi rend="italic">WHS</hi> 59 (<date
+                     when="2013">2013</date>): 3–11.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
