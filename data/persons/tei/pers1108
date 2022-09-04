@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hutchinson, John Jr. (d. 1754)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1108</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1106">
+                  <persName>John Hutchinson Sr.</persName>
+               </person>
+               <person xml:id="pers1109">
+                  <persName>Sarah Hutchinson</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1108">
+               <p><persName><ref target="/persons/pers1106.xml"/>John Hutchinson Sr</persName>., a
+                  merchant, and his wife <persName><ref target="/persons/pers1109.xml"/>Sarah
+                     (&apos;Sally</persName>&apos;), were leading Methodists in
+                     <placeName>Leeds</placeName>. Their son John became closely attached to
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName>. He accompanied
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName> on journeys in
+                  the early <date>1750s</date> when his health, which was fragile, would allow. When
+                  Hutchinson died in <date when="1754-07">July 1754</date>, <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> composed three mourning hymns
+                  (in MS Funeral Hymns).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
