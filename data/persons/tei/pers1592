@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pennington, Rev. John (1699–1768)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1592</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2188">
+                  <persName>Samuel Wesley Sr.</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1592">
+               <p>Pennington matriculated at Christ&apos;s College,
+                  <placeName>Cambridge</placeName>, in <date when="1716">1716</date>, receiving his
+                     <seg ana="degree">BA</seg> in <date when="1720">1720</date>. He was ordained
+                  deacon in <date when="1721">1721</date> and priest in <date when="1722"
+                     >1722</date>. He served as curate for <persName><ref
+                        target="/persons/pers2188.xml"/>Samuel Wesley Sr</persName>. from <date
+                     when="1725-07">July 1725</date> through <date when="1727-04">April 1727</date>.
+                  From there he became rector of <placeName>Foulness, Essex</placeName>, <date
+                     from="1727" to="1733">1727–33</date>; of All Saints&apos;,
+                     <placeName>Huntingdon</placeName>, <date from="1733" to="1762">1733–62</date>;
+                  and prebend of <placeName>Lincoln</placeName> from <date when="1755">1755</date>
+                  to his death. See <hi rend="italic">Alumni Catabrigienses</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
