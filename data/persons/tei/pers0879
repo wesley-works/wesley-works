@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Grimshaw, Rev. William (1708–1763)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0879</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0879">
+               <p>Grimshaw matriculated at Christ&apos;s College, <placeName>Cambridge</placeName>
+                  in <date when="1726">1726</date>, receiving his <seg ana="degree">BA</seg> in
+                     <date when="1730">1730</date>. He was ordained deacon and priest over the next
+                  two years. He held the curacy of St. Mary&apos;s Chapel,
+                     <placeName>Todmorden</placeName> for ten years; and in <date when="1742-05">May
+                     1742</date> became perpetual curate at <placeName>Haworth</placeName>, where he
+                  remained until his death. The Methodists also came to
+                     <placeName>Haworth</placeName> in <date when="1742">1742</date>, and within
+                  five years both <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName> had met
+                  Grimshaw. From the outset they were greatly attached, for Grimshaw was deeply
+                  religious and a boisterous evangelist. He became <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s right hand man in the
+                  midlands and the north, and in Methodist trust deeds was named as the one
+                  responsible for the direction of Methodism in the event of the death of both
+                  Wesley brothers. See <hi rend="italic">Alumni Catabrigienses</hi>; Atmore, <hi
+                     rend="italic">Memorial</hi>, 165–69; <hi rend="italic">DEB</hi>, 480–82; <hi
+                     rend="italic">ODNB</hi>, and Vickers, <hi rend="italic">Dictionary</hi>,
+                  142–43.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
