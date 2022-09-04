@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Perrin) Jones, Sarah (1708–1787)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1597</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers1179">
+                  <persName>John Jones</persName>
+               </person>
+               <person>
+                  <persName>Thomas Perrin</persName>
+               </person>
+               <person>
+                  <persName>Sarah (Groom) Perrin</persName>
+               </person>
+               <person>
+                  <persName>Mary Perrin</persName>
+               </person>
+               <person>
+                  <persName>Samuel Perrin</persName>
+               </person>
+               <person>
+                  <persName>James Perrin</persName>
+               </person>
+               <person>
+                  <persName>Thomas Perrin</persName>
+               </person>
+               <person>
+                  <persName>Constant (Groom) Bailward</persName>
+               </person>
+               <person>
+                  <persName>John Bailward</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1597">
+               <p>Perrin was born <date when="1708-05-14">May 14, 1708</date> in
+                     <placeName>London</placeName>, the daughter of <persName>Thomas
+                     Perrin</persName> (<date from="1678" to="1742">1678–c.1742</date>) and
+                     <persName>Sarah (Groom) Perrin</persName> (<date from="1683" to="1735">1683–c.
+                     1735</date>). Her parents, both of Quaker merchant families, were married in
+                     <date when="1699">1699</date> in <placeName>London</placeName> and had five
+                  children that reached adulthood—<persName>Mary</persName> (b. <date when="1704"
+                     >1704</date>), <persName>Samuel</persName> (b. <date when="1706">1706</date>),
+                     <persName>James</persName> (b. <date when="1709">1709</date>), and
+                     <persName>Thomas</persName> (b. <date when="1711">1711</date>), in addition to
+                  Sarah. Sarah&apos;s father became involved in importing tobacco from
+                     <placeName>North America</placeName> and resorted to devious means to avoid the
+                  increasing excise tax. His actions uncovered, Thomas was put in
+                     <placeName>Fleet</placeName> prison in <date when="1712">1712</date>, with his
+                  merchandise seized and a hefty debt of unpaid taxes. Bribing his way out of prison
+                  in <date when="1716">1716</date>, Thomas went briefly to
+                     <placeName>Holland</placeName>, and then on to
+                     <placeName>Pennsylvania</placeName>, where he resided until his death.
+                  Fortunately for <persName>Sarah (Groom) Perrin</persName>, several lines of
+                  inheritance from her family were protected from the seizure of
+                     <persName>Thomas</persName>&apos;s property, and she was able to provide for
+                  her children, living with extended family in the <placeName>London</placeName>
+                  area. After their mother&apos;s death, <persName>Mary</persName> and Sarah Perrin
+                  likely went to live in <placeName>Bradford-on-Avon</placeName>—with their aunt
+                     <persName>Constant (Groom) Bailward</persName> (<date from="1686" to="1746"
+                     >1686–1746</date>) and her husband <persName>John</persName> (d. <date
+                     when="1744">1744</date>). But by <date when="1739-01">January 1739</date> the
+                  sisters had also acquired property in <placeName>Bristol</placeName>. Sarah met
+                  both <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName> the following
+                  year and was soon corresponding with them. Their interchange led Sarah to join the
+                  Church of <placeName>England</placeName> within a couple of years. At
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  invitation, Sarah became the housekeeper at the New Room in
+                     <placeName>Bristol</placeName> in <date when="1744-02">Feb. 1744.</date> She
+                  was one of three women that <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> suggested as a possible wife for <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> in <date when="1748"
+                     >1748</date>. Instead, Perrin became the second wife of <persName><ref
+                        target="/persons/pers1179.xml"/>John Jones</persName> (<date from="1721"
+                     to="1785">1721–85</date>) on <date when="1752-05-20">May 20, 1752</date>. She
+                  accompanied <persName><ref target="/persons/pers1179.xml"/>Jones</persName> in
+                     <date when="1758">1758</date> to work among the Methodists in
+                     <placeName>London</placeName>; and then into the parish of
+                     <placeName>Harwich</placeName> when <persName><ref
+                        target="/persons/pers1179.xml"/>Jones</persName> was ordained. See Letter of
+                  Mary Perrin to Henry Sperling, <date>Jan. 20, 1739</date>, Essex Record Office,
+                  D/DGd E59; G.M. Best, <hi rend="italic">The Cradle of Methodism</hi>
+                     (<placeName>Bristol</placeName>: New Room Publications, <date when="2017"
+                     >2017</date>), 163–64; and Gareth Lloyd, &apos;Sarah Perrin&apos;, <hi
+                     rend="italic">Methodist History</hi> 41 (<date when="2003">2003</date>):
+                  79–88.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
