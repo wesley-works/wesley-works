@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Henderson, Richard (1737–1792)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0988</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0987">
+                  <persName>John Henderson</persName>
+               </person>
+               <person>
+                  <persName>Charlotte Henderson</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0988">
+               <p>Henderson was a native of <placeName>Ireland</placeName> who came to
+                     <placeName>England</placeName> about <date when="1762">1762</date>, along with
+                  his wife <persName>Charlotte</persName> (d. <date when="1775">1775</date>) and son
+                        <persName><ref target="/persons/pers0987.xml"/>John</persName>. Richard
+                  entered the Methodist <seg ana="itinerancy">itinerancy</seg> almost immediately
+                  (cf. 10:296 in this edn.), but ceased travelling about <date when="1770"
+                     >1770</date>. He and his wife settled in <placeName>Hanham</placeName>, near
+                     <placeName>Bristol</placeName>, where they first ran a boarding school, and
+                  later converted it to an asylum for the mentally impaired. See Atmore, <hi
+                     rend="italic">Memorial</hi>, 183–85.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
