@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pritchard, John (1746–1814)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-20</date>
+            <idno type="URI">http://syriaca.org/persons/pers1659</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1659">
+               <p>Pritchard was a native of <placeName>County Meath, Ireland</placeName>. About
+                     <date when="1765">1765</date> he came to <placeName>London</placeName>, where
+                  he was drawn into Wesleyan circles and converted. <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> appointed him as class leader
+                  over a group of young men. While their enthusiasm raised concern among some,
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> saw potential
+                  and in <date when="1770-03">March 1770</date> asked Pritchard to accompany him on
+                  his preaching tour of <placeName>Ireland</placeName>. On their return
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> convinced
+                  Pritchard to go study at Kingswood School and in late <date when="1771"
+                     >1771</date>
+                  <persName><ref target="/persons/pers2180.xml"/>JW</persName> sent Pritchard to
+                  preach on the <placeName>Wiltshire</placeName> circuit. Pritchard was formally
+                  accepted by the <date when="1772">1772</date> Conference as a <seg
+                     ana="itinerancy">traveling preacher</seg> (see <hi rend="italic">Works</hi>,
+                  10:405). His first year under appointment was rocky, but he found his feet and
+                     <seg ana="itinerancy">itinerated</seg> for thirty years. In <date when="1802"
+                     >1802</date> he was asked by Conference to serve as Governor of Kingswood
+                  School, which he did for five years. See <hi rend="italic">EMP</hi>, 6:249–72; and
+                     <hi rend="italic">Minutes</hi> (post- Wesley, <date when="1814">1814</date>),
+                  4:6.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
