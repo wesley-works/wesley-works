@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Westcomb) Granville, Mary (c. 1670–1747)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0843</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0844">
+                  <persName>Mary Granville</persName>
+               </person>
+               <person xml:id="pers0842">
+                  <persName>Ann Granville</persName>
+               </person>
+               <person>
+                  <persName>Martin Westcomb</persName>
+               </person>
+               <person>
+                  <persName>Bernard Granville</persName>
+               </person>
+               <person>
+                  <persName>George Granville</persName>
+               </person>
+               <person>
+                  <persName>Bernard Granville Jr.</persName>
+               </person>
+               <person>
+                  <persName>Bevil Granville</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0843">
+               <p>Mary, daughter of Sir <persName>Martin Westcomb</persName>, Consul of Cadiz,
+                  married <persName>Bernard Granville</persName>, youngest brother of
+                     <persName>George Granville</persName>, Lord Lansdowne. Her husband died in
+                     <date when="1723">1723</date>, leaving her with two sons,
+                     <persName>Bernard</persName> and <persName>Bevil</persName>, and two daughters,
+                        <persName><ref target="/persons/pers0844.xml"/>Mary</persName> and
+                        <persName><ref target="/persons/pers0842.xml"/>Ann</persName>. She then
+                  settled with her daughters at <placeName>Buckland</placeName> in the
+                     <placeName>Cotswolds</placeName>, where they became friends of the Kirkhams of
+                     <placeName>Stanton</placeName>. From <placeName>Buckland</placeName> Mary and
+                  her daughter <persName><ref target="/persons/pers0842.xml"/>Ann</persName> later
+                  moved to <placeName>Gloucester</placeName>, while retaining their
+                     <placeName>Cotswolds</placeName> friendships. Mrs. Granville died in <date
+                     when="1747">1747</date>, and was buried in
+                  <placeName>Gloucester</placeName>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
