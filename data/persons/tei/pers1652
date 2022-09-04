@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Price, Peter (b. c. 1740)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-20</date>
+            <idno type="URI">http://syriaca.org/persons/pers1652</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Joseph Mason</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1652">
+               <p>While serving as an apprentice in <placeName>Gosport</placeName>, Price felt
+                  called to evangelize the native peoples of <placeName>North America</placeName>.
+                  After deserting his apprenticeship, and being sent back to fulfil it by some
+                  Methodists he encountered, he became a <seg ana="itinerancy">travelling
+                     preacher</seg>, apparently entering &apos;on trial&apos; in <date when="1764"
+                     >1764</date>. He was admitted to full standing in <date when="1765">1765</date>
+                  (see <hi rend="italic">Works</hi>, 10:303) and assigned as a master at Kingswood.
+                  Unfortunately, Price proved mentally unstable and was dismissed in <date
+                     when="1768">1768</date>. He spent several years wandering before being
+                  institutionalized at an asylum founded by <persName>Joseph Mason</persName> in
+                     <placeName>Fishponds</placeName>, near <placeName>Bristol</placeName>. See
+                  Hastling, et al., <hi rend="italic">Kingswood</hi>, Register, 195; and Pawson, <hi
+                     rend="italic">Letters</hi>, 3:143–44.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
