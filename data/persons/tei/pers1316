@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lowes, Matthew (1721–1794)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1316</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1315">
+                  <persName>Grace Robson</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1316">
+               <p>Lowes, who married <persName><ref target="/persons/pers1315.xml"/>Grace
+                     Robson</persName> in <date when="1745">1745</date>, served as an exhorter for
+                  several years, before becoming a <seg ana="itinerancy">traveling preacher</seg> in
+                     <date when="1755">1755</date>. He was obliged to leave the <seg
+                     ana="itinerancy">itinerancy</seg> in <date when="1771">1771</date> due to poor
+                  health and his refusal to stop selling a medicinal balm he had developed. See
+                  Atmore, <hi rend="italic">Memorial</hi>, 244–46; Frank Baker, &apos;Lowes
+                  Balsam&apos;, <hi rend="italic">Minutes</hi> (post-Wesley, <date when="1795"
+                     >1795</date>), 1:318; <hi rend="italic">MM</hi> 160 (<date when="1947"
+                     >1947</date>): 123–25; and <hi rend="italic">Works</hi>, 10:381.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
