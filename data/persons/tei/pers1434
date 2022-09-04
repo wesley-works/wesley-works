@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Milner, Rev. John (1710–1777)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1434</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1434">
+               <p>Milner, a graduate of Jesus College, <placeName>Cambridge</placeName> in <date
+                     when="1732">1732</date>, was vicar of <placeName>Chipping,
+                     Lancashire</placeName>. He was sympathetic to the Methodist movement, inviting
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> to preach in
+                  his church in the face of significant opposition. See <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic"
+                     >Journal</hi>, <date when="1753-04-07">Apr. 7, 1753</date> (<hi rend="italic"
+                     >Works</hi>, 20:450); <hi rend="italic">Alumni Catabrigienses</hi>; <hi
+                     rend="italic">DEB</hi>, 775–76; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  238.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
