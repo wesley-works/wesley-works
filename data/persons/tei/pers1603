@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Perronet) Briggs, Elizabeth (1728–1807)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-20</date>
+            <idno type="URI">http://syriaca.org/persons/pers1603</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1605">
+                  <persName>Vincent Perronet</persName>
+               </person>
+               <person xml:id="pers1598">
+                  <persName>Charity (Goodhew) Perronet</persName>
+               </person>
+               <person xml:id="pers0256">
+                  <persName>William Briggs</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1603">
+               <p>A daughter of <persName><ref target="/persons/pers1605.xml"/>Vincent</persName>
+                  and <persName><ref target="/persons/pers1598.xml"/>Charity (Goodhew)
+                     Perronet</persName>, Elizabeth married <persName><ref
+                        target="/persons/pers0256.xml"/>William Briggs</persName> on <date
+                     when="1749-01-28">Jan. 28, 1749</date>. <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> presided at the wedding. She
+                  was buried at <placeName>City Road</placeName> Chapel on <date when="1807-05-02"
+                     >May 2, 1807</date>. See Batty, <hi rend="italic">Perronet</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
