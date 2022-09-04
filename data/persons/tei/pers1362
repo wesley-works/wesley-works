@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Marriott, Thomas (1725–1775)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1362</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1363">
+                  <persName>Webster Langdon</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1362">
+               <p>Marriott, a baker on <placeName>Norton Folgate, London</placeName>, married
+                        <persName><ref target="/persons/pers1363.xml"/>Webster Langdon</persName>
+                     (<date from="1722" to="1772">1722–72</date>) in <date when="1747">1747</date>.
+                  They were among the earliest members of the Foundery society and Thomas was on the
+                  first list of select members in <date when="1744">1744</date>. See Stevenson, <hi
+                     rend="italic">City Road</hi>, 572–74; and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 223.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
