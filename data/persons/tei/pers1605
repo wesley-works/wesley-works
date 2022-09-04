@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Perronet, Rev. Vincent (1693–1785)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-20</date>
+            <idno type="URI">http://syriaca.org/persons/pers1605</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1598">
+                  <persName>Charity Goodhew</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1622">
+                  <persName>Henry Piers</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>Vincent Perronet jr.</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1605">
+               <p>The son of a Swiss father who came to <placeName>England</placeName> about <date
+                     when="1680">1680</date>, Vincent was baptized in <placeName>London</placeName>
+                  on <date when="1693-12-12">Dec. 12, 1693</date>. He matriculated at Queen&apos;s
+                  College, <placeName>Oxford</placeName> in <date when="1714-12">Dec. 1714</date>,
+                  receiving the <seg ana="degree">BA</seg> in <date when="1718">1718</date>. He
+                  proceeded that year to be ordained deacon <date when="1718-10-08">Oct. 8</date>,
+                  married to <persName><ref target="/persons/pers1598.xml"/>Charity
+                     Goodhew</persName> on <date when="1718-12-04">Dec. 4</date>, ordained priest in
+                  the Church of <placeName>England</placeName> on <date when="1718-12-21">Dec.
+                     21</date>, and appointed curate at <placeName>Sundridge, Kent</placeName>. In
+                     <date when="1734">1734</date> he was made vicar of
+                     <placeName>Shoreham</placeName>, where he remained to his death. Vincent and
+                        <persName><ref target="/persons/pers1598.xml"/>Charity</persName> had at
+                  least a dozen children, several of whom appear in Wesley correspondence. Vincent
+                  first met <persName><ref target="/persons/pers2180.xml"/>JW</persName> in <date
+                     when="1744-08">Aug. 1744</date>, being introduced through <persName><ref
+                        target="/persons/pers1622.xml"/>Henry Piers</persName>. His interest in and
+                  support of the Methodist revival was intensified by the death of his son
+                     <persName>Vincent</persName> in <date when="1746">1746</date>. Within a couple
+                  of years Peronnet was one of the strongest supporters and confidants of both
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName>. See <hi
+                     rend="italic">Alumni Oxonienses</hi>; Atmore, <hi rend="italic">Memorial</hi>,
+                  317–26; Batty, <hi rend="italic">Perronet</hi>; CCEd; <hi rend="italic">DEB</hi>,
+                  876; <hi rend="italic">ODNB</hi>; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  269–70.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
