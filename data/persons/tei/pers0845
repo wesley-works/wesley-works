@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Graves, Rev. Charles Caspar (c. 1717–1787)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0845</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0845">
+               <p>Graves, of <placeName>Mickleton, Gloucestershire</placeName>, matriculated at
+                  Magdalen College, <placeName>Oxford</placeName> in <date when="1736-10">Oct.
+                     1736</date>, where he was drawn into the &apos;Oxford Methodists.&apos; Graves
+                  was ordained deacon in <date when="1740">1740</date>, on receiving his <seg
+                     ana="degree">BA</seg>, at which time he formally disavowed the Methodists. He
+                  was reconciled to the Wesley brothers in <date when="1742">1742</date> and
+                  traveled with them for a time. In <date when="1750">1750</date> he was ordained a
+                  priest and became perpetual curate of the chapel in <placeName>Tissington,
+                     Derbyshire</placeName>, while continuing to offer support to surrounding
+                  Methodist societies as a clergyman. While <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> appreciated Graves&apos;
+                  intent, he found him to be of unstable character. See <hi rend="italic">Alumni
+                     Oxonienses</hi>; and <hi rend="italic">DEB</hi>, 469.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
