@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Francis) Maddern, Mary (fl. 1750–1780)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1345</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1343">
+                  <persName>John Maddern</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1345">
+               <p>Mary (&apos;Molly&apos;) Francis was serving as mistress of the school for girls
+                  lodged in the &apos;old house&apos; at Kingswood, when she met and married
+                        <persName><ref target="/persons/pers1343.xml"/>John Maddern</persName>, one
+                  of <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s <seg
+                     ana="itinerancy">traveling preachers</seg>. The couple served together at
+                  Kingswood for a few years, then moved to <placeName>London</placeName>, where
+                        <persName><ref target="/persons/pers1343.xml"/>John</persName> became a
+                  respected local preacher. When <persName><ref target="/persons/pers1343.xml"
+                     />John</persName> died, Molly returned to <placeName>Bristol</placeName>, to
+                  serve as housekeeper at the New Room <date from="1770" to="1782">1770–82</date>.
+                  See A. G. Ives, <hi rend="italic">Kingswood School</hi>
+                     (<placeName>London</placeName>: <placeName>Epworth</placeName>, <date
+                     when="1970">1970</date>), 40, 50.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
