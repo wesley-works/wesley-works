@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hindmarsh, James (1732–1812)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers1013</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1014">
+                  <persName>Phillis (Laing) Hindmarsh</persName>
+               </person>
+               <person xml:id="pers1015">
+                  <persName>Robert Hindmarsh</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1013">
+               <p>Originally an innkeeper in <placeName>Alnwick</placeName>, Hindmarsh was appointed
+                  as writing tutor, and his wife <persName><ref target="/persons/pers1014.xml"
+                     />Phillis (Laing) Hindmarsh</persName> (<date from="1731" to="1797"
+                     >1731–97</date>) as housekeeper, at Kingswood school by the <date when="1766"
+                     >1766</date> Conference. James served there until <date when="1771"
+                  >1771</date>, when he was admitted &apos;on trial&apos; as a preacher. He was
+                  granted full connection in <date when="1773">1773</date>, and traveled until
+                     <date>1783</date>. In <date when="1785">1785</date> he left the Methodists to
+                  join his son <persName><ref target="/persons/pers1015.xml"/>Robert</persName> with
+                  the Swedenborgians. See <hi rend="italic">Works</hi>, 10:319, 415, 531; and <hi
+                     rend="italic">WHS</hi> 7 (<date when="1909">1909</date>): 66–67.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
