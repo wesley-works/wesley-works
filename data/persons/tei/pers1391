@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mather, Alexander (1733–1800)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1391</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1362">
+                  <persName>Thomas Marriott</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1391">
+               <p>A native of <placeName>Scotland</placeName>, apprenticed in baking, and after
+                  moving to <placeName>London</placeName> was employed by <persName><ref
+                        target="/persons/pers1362.xml"/>Thomas Marriott</persName>. He was converted
+                  under <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  preaching in <date when="1754">1754</date> and became a class leader at the
+                  Foundery. In <date when="1757">1757</date> he was accepted as a <seg
+                     ana="itinerancy">traveling preacher</seg> (the first one married at that time)
+                  and emerged as one of <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName>&apos;s most trusted Assistants. See Atmore, <hi rend="italic"
+                     >Memorial</hi>, 256–66; <hi rend="italic">DEB</hi>, 752; <hi rend="italic"
+                     >EMP</hi>, 2:158–239; <hi rend="italic">Minutes</hi> (post-Wesley, <date
+                     when="1801">1801</date>), 2:82–83; and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 224.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
