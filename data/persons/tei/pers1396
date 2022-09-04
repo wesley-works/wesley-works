@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Matthews, John (d. 1764)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1396</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2089">
+                  <persName>Jeanne Vazeille</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1396">
+               <p>Matthews, a <placeName>London</placeName> woolery draper and supporter of
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName>, married his
+                  stepdaughter <persName><ref target="/persons/pers2089.xml"/>Jeanne
+                     Vazeille</persName> on <date when="1757-07-24">July 24, 1757</date>.
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> was at
+                  Matthews&apos; side when he died on <date when="1764-12-28">Dec. 28, 1764</date>.
+                  See <persName><ref target="/persons/pers2180.xml"/>JW</persName>, <hi
+                     rend="italic">Journal</hi> (<hi rend="italic">Works</hi>, 21:497).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
