@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lloyd, Rev. Richard (1699–1775)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1305</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1305">
+               <p>Richard Lloyd studied at Trinity College, <placeName>Dublin</placeName>; was
+                  curate at St. Peter&apos;s, <placeName>Cork</placeName> in <date when="1722"
+                     >1722</date>; and from <date when="1742">1742</date> was rector of
+                     <placeName>Rathcormack</placeName>, where he opened his doors to <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> in <date from="1749" to="1750"
+                     >1749–50</date>. See W.M. Brady, <hi rend="italic">Clerical and Parochial
+                     Records of Cork, Cloyne, and Ross</hi> (<placeName>London</placeName>: Longman,
+                  et al., <date when="1864">1864</date>), 2:371–72.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
