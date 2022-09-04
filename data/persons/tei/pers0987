@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Henderson, John (1757–1788)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0987</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0988">
+                  <persName>Richard Henderson</persName>
+               </person>
+               <person xml:id="pers0150">
+                  <persName>Joseph Benson</persName>
+               </person>
+               <person xml:id="pers0719">
+                  <persName>John Fletcher</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0987">
+               <p>The son of the <seg ana="itinerancy">itinerant</seg>
+                  <persName><ref target="/persons/pers0988.xml"/>Richard Henderson</persName>, John
+                  began studying at Kingwood at a young age. By the age of eight he understood Latin
+                  well enough to teach it there. In <date when="1769">1769</date> he moved (along
+                  with <persName><ref target="/persons/pers0150.xml"/>Joseph Benson</persName>) to
+                     <placeName>Trevecca</placeName>, to teach Greek. When <placeName><ref
+                        target="/persons/pers0179.xml"/>John Fletcher</placeName> left
+                     <placeName>Trevecca</placeName>, Henderson returned to
+                     <placeName>Bristol</placeName> and taught at a boarding school in his
+                  father&apos;s house. In <date when="1781">1781</date> Henderson went to Pembroke
+                  College, <placeName>Oxford</placeName>, where he acquired a reputation as a
+                  polymath in languages, philosophy, law, and medicine, but died at the age of
+                  31.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
