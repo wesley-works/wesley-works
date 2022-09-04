@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lee, Thomas (1727–1786)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1270</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0879">
+                  <persName>William Grimshaw</persName>
+               </person>
+               <person xml:id="pers1269">
+                  <persName>Mary Lee</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1270">
+               <p>A native of <placeName>Yorkshire</placeName>, Lee was accepted as an <seg
+                     ana="itinerancy">itinerant preacher</seg> in <date when="1758">1758</date>,
+                  having assisted <persName><ref target="/persons/pers0879.xml"/>William
+                     Grimshaw</persName> in his circuit for several years previously. In <date
+                     when="1750-04">April 1750</date> he married <persName><ref
+                        target="/persons/pers1269.xml"/>Mary Brooke</persName>. Lee remained
+                  steadfast in the Wesleyan work from this point until his death. See Atmore, <hi
+                     rend="italic">Memorial</hi>, 240–42; and <hi rend="italic">EMP</hi>,
+                  4:125–69.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
