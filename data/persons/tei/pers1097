@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hunter, William (1728–1797)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1097</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1065">
+                  <persName>Christopher Hopper</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1097">
+               <p>A native of <placeName>Placey, Northumberland</placeName>, Hunter was awakened in
+                  his later teens by the preaching of <persName><ref target="/persons/pers1065.xml"
+                     />Christopher Hopper</persName>. He eventually began to preach locally, and in
+                     <date when="1767">1767</date> was persuaded to enter the <seg ana="itinerancy"
+                     >itinerant</seg> ministry (see <hi rend="italic">Works</hi>, 10:343). Hunter
+                  served faithfully, mainly in the north of <placeName>England</placeName> and
+                     <placeName>Scotland</placeName>, until retiring from travelling in <date
+                     when="1794">1794</date>. He continued to preach locally until his death. See
+                     <hi rend="italic">AM</hi> 2 (<date when="1779">1779</date>): 589–98; <hi
+                     rend="italic">EMP</hi>, 2:240–61; and <hi rend="italic">Minutes</hi>
+                  (post-Wesley, <date when="1798">1798</date>), 1:413–14.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
