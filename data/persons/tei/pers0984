@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Healey Jonathan (fl. 1745–1750)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0984</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0984">
+               <p>Usually called &apos;John&apos;, this former Jacobite, had aligned with Methodism
+                  in <placeName>Newcastle</placeName> by early <date when="1743">1743</date>, when
+                  he served as a guide to <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> (see <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName>, <hi rend="italic">Journal</hi>, <date when="1743-04-01">Apr.
+                     1, 1743</date>, <hi rend="italic">Works</hi>, 19:321). He had a tendency to
+                  defend the cause physically, leading <persName><ref target="/persons/pers2176.xml"
+                     />CW</persName> to send him out of <placeName>Newcastle</placeName> on <date
+                     when="1744-02-19">Feb. 19, 1744</date> to avoid a mob (see <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName>, MS Journal). Healey moved to
+                     <placeName>Nottingham</placeName> and was arrested there on <date
+                     when="1744-03-10">Mar. 10</date> as a Methodist sympathizer. He appears to have
+                  continued to assist the Wesley brothers from that point, though his name does not
+                  appear in the Minutes as a preacher. In <date when="1747-10">Oct. 1747</date>
+                  <persName><ref target="/persons/pers2176.xml"/>CW</persName> appealed to
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> for Healey to
+                  be sent to <placeName>Ireland</placeName>. There he suffered the attack of a mob
+                  and was rescued by <persName><ref target="/persons/pers2176.xml"/>CW</persName> in
+                     <date when="1748-02">Feb. 1748</date>. By <date when="1749-05">May 1749</date>
+                  he was back in <placeName>England</placeName>, causing concern again for
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName> by physical
+                  threats against the opponents of Methodism. On <date when="1749-07-06">July 6,
+                     1749</date>, <persName><ref target="/persons/pers2176.xml"/>CW</persName>
+                  finally put him out of the society for beating a mentally-unstable elderly man
+                  (see MS Journal).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
