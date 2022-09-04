@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lefevre, Mrs. (c. 1723–1756)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1273</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0719">
+                  <persName>John Fletcher</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1273">
+               <p>Little biographical evidence is available upon Mrs. Lefevre. <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> wrote a two part poem for her
+                  death on <date when="1756-07-06">July 6, 1756</date>, which implied that she was
+                  thirty-three years old. Scattered clues indicate that she had been converted and
+                  had become a Methodist only two or three years earlier. Of her character and
+                  spirituality, however, there is ample evidence. <persName><ref
+                        target="/persons/pers0719.xml"/>John Fletcher</persName> testified,
+                  &apos;She lived a saint and died an angel&apos;. In his poems <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> described her as &apos;a
+                  spotless soul, a sinless saint, in perfect love renewed&apos;, and <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> spoke of her as &apos;a
+                  dove-like woman, full of faith and humble love, and harmless as a little
+                  child&apos;. After her death, ninety of her devout letters were published by her
+                  husband, and although all names were suppressed it seems clear that five of these
+                  were to <persName><ref target="/persons/pers2180.xml"/>JW</persName>. Twelve years
+                  later <persName><ref target="/persons/pers2180.xml"/>JW</persName> reprinted
+                  fifty-five of the ninety, together with one further letter to him.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
