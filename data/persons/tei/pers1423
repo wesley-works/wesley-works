@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Meyrick, Rev. Thomas (d. 1770)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1423</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1710">
+                  <persName>Thomas Richards</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Elizabeth Sutherland</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1423">
+               <p>Meyrick (or Merrick), a Cornishman trained for the law, was a member of
+                        <persName><ref target="/persons/pers1710.xml"/>Thomas
+                  Richards</persName>&apos; band for single men at the Foundery on <date
+                     when="1742-04-17">Apr. 17, 1742</date>. In <date when="1742-08">August</date>
+                  he became leader of his own band. He seems also to have been <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s business manager or
+                  &apos;steward&apos; at the time. He was one of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s <seg ana="itinerancy"
+                     >traveling preachers</seg> for several years, serving in various parts of the
+                  country. In <date when="1750">1750</date>, having secured episcopal ordination, he
+                  became curate of St. Ann&apos;s, <placeName>Halifax</placeName>, where he served
+                  until <date when="1767">1767</date>. In <date when="1751">1751</date> he married
+                     <persName>Elizabeth Sutherland</persName>. See Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 237.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
