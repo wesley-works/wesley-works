@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Moore) Knutton, Sarah (b. 1738)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1455</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Samuel Knutton</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1455">
+               <p>Sarah Moore was born at <placeName>King&apos;s Lynn, Norfolk</placeName> in <date
+                     when="1738">1738</date>, and moved with her parents to
+                     <placeName>Sheffield</placeName> four years later. She began to teach at a
+                  school in <placeName>Sheffield</placeName> when seventeen. At eighteen she was
+                  appointed the first class-leader at <placeName>Hallam</placeName>, walking there
+                  from <placeName>Sheffield</placeName> every week for two years. The first
+                  Quarterly Meeting was held in her house at <placeName>Fargate</placeName> between
+                     <date when="1756">1756</date> and <date when="1760">1760</date>, and the
+                  Society held its meetings there. She married <persName>Samuel Knutton</persName>,
+                  a popular local preacher at <placeName>Sheffield</placeName>, in <date when="1772"
+                     >1772</date>. See James Everett, <hi rend="italic">Historical Sketches of
+                     Wesleyan Methodism, in Sheffield and its Vicinity</hi>
+                     (<placeName>Sheffield</placeName>: James Montgomery, <date when="1823"
+                     >1823</date>), 1:80.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
