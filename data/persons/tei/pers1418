@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Meriton, Rev. John (1698–1753)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1418</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1418">
+               <p>Meriton was educated at Gonville and Caius College,
+                     <placeName>Cambridge</placeName>, and ordained deacon in <date when="1723"
+                     >1723</date> to serve as curate to his stepfather, the rector of
+                     <placeName>Oxborough, Norfolk</placeName>. In <date when="1740">1740</date> he
+                  served as a hired clergyman in the <placeName>Isle of Man</placeName>, arousing
+                  some opposition because of his evangelical preaching. He was befriended by
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> and by
+                        <persName><ref target="/persons/pers2221.xml"/>Whitefield</persName>, who
+                  sought to have him appointed minister of <placeName>Savannah</placeName>. By <date
+                     when="1744">1744</date> Meriton was closely associated with the Wesley
+                  brothers, and attended their first Conference that year. For a few years he
+                  accompanied one or other of them on their preaching <seg ana="itinerancy"
+                     >itineraries</seg>. He was sincere, able, and courageous, but somewhat
+                  unpredictable, so that their relationship cooled off, and eventually they parted.
+                  See <hi rend="italic">Alumni Catabrigienses</hi>; <hi rend="italic">DEB</hi>, 765;
+                  and Vickers, <hi rend="italic">Dictionary</hi>, 229.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
