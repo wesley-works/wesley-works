@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lambert, John Jr. (b. 1726)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1244</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1243">
+                  <persName>John Lambert</persName>
+               </person>
+               <person xml:id="pers2175">
+                  <persName>Anne (Wesley) Lambert</persName>
+               </person>
+               <person xml:id="pers0694">
+                  <persName>Felix Farley</persName>
+               </person>
+               <person>
+                  <persName>John Wesley Jarvis</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1244">
+               <p>Baptized in <placeName>Wroot</placeName> on <date when="1726-09-15">Sept. 15,
+                     1726</date>, John was the only surviving child of <persName><ref
+                        target="/persons/pers1243.xml"/>John</persName> and <persName><ref
+                        target="/persons/pers2175.xml"/>Anne (Wesley) Lambert</persName>. He
+                  apprenticed to <persName><ref target="/persons/pers0694.xml"/>Felix
+                     Farley</persName> in <placeName>Bristol</placeName> in <date when="1740"
+                     >1740</date>, but his later career is not certain. Among his grandchildren was
+                     <persName>John Wesley Jarvis</persName> (<date from="1781" to="1839"
+                     >1781–1839</date>).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
