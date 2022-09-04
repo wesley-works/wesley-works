@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Leybourne, Robert (c. 1694–1759)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1293</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2189">
+                  <persName>Samuel Wesley Jr</persName>
+               </person>
+               <person xml:id="pers2179">
+                  <persName>Emilia Wesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2193">
+                  <persName>Susanna Wesley</persName>
+               </person>
+               <person>
+                  <persName>Rebeccah Towne</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1293">
+               <p>A contemporary of <persName><ref target="/persons/pers2189.xml"/>Samuel Wesley
+                     Jr</persName>. at Westminster School and Christ Church, Leybourne became fellow
+                  of Brasenose College, <placeName>Oxford</placeName>, in <date when="1717"
+                     >1717</date>, <seg ana="degree">BD</seg> and <seg ana="degre">DD</seg> in <date
+                     when="1731">1731</date>. He was rector of St. Dunstan&apos;s,
+                     <placeName>Stepney</placeName>, <date when="1729">1729</date>, and of St.
+                  Anne&apos;s, <placeName>Limehouse</placeName>, from <date when="1730">1730</date>
+                  until his death. He was buried in <placeName>Bath Abbey</placeName> in the grave
+                  of his second wife, <persName>Rebeccah Towne</persName> of
+                     <placeName>Stratford-at-Bow, Essex</placeName>, whom he was licensed to marry
+                     <date when="1733-01-20">Jan. 20, 1733</date>. For some time it had seemed
+                  likely that Leybourne would marry <persName><ref target="/persons/pers2179.xml"
+                     />Emily Wesley</persName>, but &apos;a near relation&apos; (apparently her
+                  brother <persName><ref target="/persons/pers2189.xml"/>Samuel</persName>) and her
+                        <persName><ref target="/persons/pers2193.xml"/>mother</persName> intervened.
+                  See <persName><ref target="/persons/pers2179.xml"/>Emily</persName>&apos;s letter
+                  to <persName><ref target="/persons/pers2180.xml"/>JW</persName>, <date
+                     when="1725-04-07">Apr. 7, 1725</date>; and <hi rend="italic">Alumni
+                     Oxonienses</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
