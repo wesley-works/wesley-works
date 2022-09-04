@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Goodhew) Perronet, Charity (1689–1763)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-20</date>
+            <idno type="URI">http://syriaca.org/persons/pers1598</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1605">
+                  <persName>Vincent Perronet</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Thomas Goodhew</persName>
+               </person>
+               <person>
+                  <persName>Margaret Goodhew</persName>
+               </person>
+               <person>
+                  <persName>Vincent Perronet jr.</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1598">
+               <p>Charity, daughter of <persName>Thomas</persName> and <persName>Margaret
+                     Goodhew</persName> of <placeName>London</placeName>, was christened in <date
+                     when="1689-04">Apr. 1689</date>. On <date when="1718-12-04">Dec. 4, 1718</date>
+                  she married <persName><ref target="/persons/pers1605.xml"/>Vincent
+                     Perronet</persName>. While she did not share her husband&apos;s strong support
+                  of Methodism that blossomed in <date when="1746">1746</date>, partly through the
+                  death of their son <persName>Vincent</persName> (<date from="1724" to="1746"
+                     >1724–46</date>) from smallpox, she was ever the faithful host to the Wesley
+                  brothers and their preachers. When Charity died on <date when="1763-02">Feb.
+                     1763</date>, <persName><ref target="/persons/pers2180.xml"/>JW</persName> made
+                  a special trip to <placeName>Shoreham</placeName> to preside at her funeral. See
+                  Batty, <hi rend="italic">Perronet</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
