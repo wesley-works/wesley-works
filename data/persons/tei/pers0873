@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Whitefield) Grevil, Elizabeth (fl. 1735–1740)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0873</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>C. Grevil</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0873">
+               <p><persName><ref target="/persons/pers2221.xml"/>George Whitefield</persName>&apos;s
+                  sister Elizabeth married <persName>C. Grevil</persName> (or Greville), a grocer of
+                     <placeName>Wine Street, Bristol</placeName>. By <date when="1739">1739</date>
+                  she appears to have been a widow, and her mother lived with her. Her brother
+                  lodged with them, as did <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> and <persName><ref target="/persons/pers2176.xml"
+                     />CW</persName> from time to time, especially until the building of the New
+                  Room in <placeName>the Horsefair</placeName>. At the outbreak of the revival in
+                     <placeName>Bristol</placeName> she was a stalwart of the society, which
+                  occasionally met in her home, but her allegiance became somewhat spasmodic.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
