@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pilmore, Joseph (1743–1825)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-20</date>
+            <idno type="URI">http://syriaca.org/persons/pers1626</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0194">
+                  <persName>Richard Boardman</persName>
+               </person>
+               <person xml:id="pers0060">
+                  <persName>Francis Asbury</persName>
+               </person>
+               <person>
+                  <persName>Bishop Seabury</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1626">
+               <p>Born in <placeName>Yorkshire</placeName>, Pilmore was converted by <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> around <date when="1759"
+                     >1759</date>. After some time at Kingswood school he entered the <seg
+                     ana="itinerancy">itinerancy</seg> &apos;on trial&apos; in <date when="1765"
+                     >1765</date>. He volunteered to go with <persName><ref
+                        target="/persons/pers0194.xml"/>Richard Boardman</persName> to
+                     <placeName>America</placeName> in <date when="1769">1769</date>. He had a
+                  particularly successful ministry in <placeName>Philadelphia</placeName>, during
+                  which St. George&apos;s Church was bought and fitted out. A popular preacher, his
+                  disinclination to alternate frequently between <placeName>Philadelphia</placeName>
+                  and <placeName>New York</placeName> led to friction with <persName><ref
+                        target="/persons/pers0060.xml"/>Francis Asbury</persName> and to his recall
+                  by <persName><ref target="/persons/pers2180.xml"/>JW</persName> in <date
+                     when="1774">1774</date>. Pilmore withdrew briefly from the <seg
+                     ana="itinerancy">itinerancy</seg>, but returned in <date when="1776"
+                     >1776</date> and served until <date when="1785">1785</date>, when he finally
+                  withdrew. Returning to the <placeName>USA</placeName>, he was ordained by
+                     <persName>Bishop Seabury</persName> in <date when="1785">1785</date> and became
+                  a leading evangelical in the Protestant Episcopal Church. From <date when="1789"
+                     >1789</date> to <date when="1794">1794</date> he was assistant minister at St
+                  Paul&apos;s, <placeName>Philadelphia</placeName>; then served for ten years as
+                  rector of Christ Church, <placeName>New York</placeName>. He returned to
+                     <placeName>Philadelphia</placeName> in <date when="1804">1804</date> to a
+                  highly popular ministry as rector of St. Paul&apos;s. In <date when="1807"
+                     >1807</date> the University of <placeName>Pennsylvania</placeName> conferred an
+                  honorary <seg ana="degree">DD</seg> on him. He retired in <date when="1821"
+                     >1821</date> and died in <placeName>Philadelphia</placeName> on <date
+                     when="1825-07-24">July 24, 1825</date>. See Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 272.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
