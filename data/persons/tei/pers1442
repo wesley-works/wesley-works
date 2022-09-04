@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Molther, Rev. Philip Henry (c. 1714–1780)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1442</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2310">
+                  <persName>Count Zinzendorf</persName>
+               </person>
+               <person xml:id="pers1113">
+                  <persName>James Hutton</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Renatus</persName>
+               </person>
+               <person>
+                  <persName>Johanna Sophia Seidewitz</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1442">
+               <p>Molther was born in <placeName>Alsace</placeName>, educated at Jena, and in <date
+                     when="1737">1737</date> became tutor to <persName><ref
+                        target="/persons/pers2310.xml"/>Count Zinzendorf</persName>&apos;s son
+                     <persName>Renatus</persName>. In <date when="1739">1739</date> he was ordained
+                  and appointed to missionary work in <placeName>Pennsylvania</placeName>. On <date
+                     when="1739-09-05">Sept. 5, 1739</date> he married Countess <persName>Johanna
+                     Sophia Seidewitz,</persName> who was designated to follow him to
+                     <placeName>Pennsylvania</placeName>. Arriving in <placeName>London</placeName>
+                  on <date when="1739-10-18">Oct. 18, 1739</date>, Molther was faced with a three
+                  months&apos; delay before his vessel sailed. <persName><ref
+                        target="/persons/pers1113.xml"/>James Hutton</persName> introduced him to
+                  the Fetter Lane Society, where he was distressed with the popular charismatic
+                  phenomena, which seemed a form of compensation for spiritual hunger. In reaction
+                  he encouraged a type of quietism, nearing complete separation from all
+                  church-related activities. This led to the disruption of the society on <date
+                     when="1740-07-20">July 20, 1740</date>, and drew <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> into correspondence with
+                  Molther. See <hi rend="italic">DEB</hi>, 780–81.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
