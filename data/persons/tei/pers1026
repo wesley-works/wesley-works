@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hitchens, William (1727–1773)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers1026</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1021">
+                  <persName>James Hitchens sr.</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1026">
+               <p>One of four sons of Capt. <persName><ref target="/persons/pers1021.xml"/>James
+                     Hitchens</persName> of <placeName>Gwennap</placeName>, William served as an
+                     <seg ana="itinerancy">itinerant</seg> minister from about <date from="1745"
+                     to="1758">1745–58</date> (see <hi rend="italic">Works</hi>, 10:260, 286). In
+                     <date when="1757">1757</date> he was briefly forced into military service. He
+                  subsequently married and settled in <placeName>Bristol</placeName> as a hatter,
+                  serving many years as a local preacher. See Atmore, <hi rend="italic"
+                     >Memorial</hi>, 190–91.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
