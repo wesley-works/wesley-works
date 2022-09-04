@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rankin, Thomas (1738–1810)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-20</date>
+            <idno type="URI">http://syriaca.org/persons/pers1682</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1682">
+               <p>A native of <placeName>Scotland</placeName> who lived for a brief period in
+                     <placeName>South Carolina</placeName>, Rankin returned to
+                     <placeName>Britain</placeName>, where he was converted under the influence of
+                        <persName><ref target="/persons/pers2221.xml"/>Whitefield</persName> and
+                  other evangelical preachers. He began preaching independently in <date when="1759"
+                     >1759</date>, and became a <seg ana="itinerancy">traveling preacher</seg>
+                  within <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  connexion in <date when="1761">1761</date>. From <date from="1773" to="1778"
+                     >1773–78</date> he was back in <placeName>North America</placeName> as
+                  &apos;general superintendent&apos; of the lay preachers <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> appointed to this realm. He
+                  completed his career back in <placeName>London</placeName>. See <hi rend="italic"
+                     >DEB</hi>, 916; <hi rend="italic">EMP</hi>, 5:135–217; and Vickers, <hi
+                     rend="italic">Dictionary</hi>, 288.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
