@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hanby, Thomas (1733–1796)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0925</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0925">
+               <p>Hanby became a <seg ana="itinerancy">traveling preacher</seg> in <date when="1754"
+                     >1754</date> and served in <placeName>Staffordshire</placeName>,
+                     <placeName>Northumberland</placeName>, and other northern circuits. In <date
+                     when="1785">1785</date>
+                  <persName><ref target="/persons/pers2180.xml"/>JW</persName> ordained him as an
+                  elder for Methodist work in <placeName>Scotland</placeName>, and he presided at
+                  the <date when="1794">1794</date> Conference. See Atmore, <hi rend="italic"
+                     >Memorial</hi>, 179–81; <hi rend="italic">DEB</hi>, 513; <hi rend="italic"
+                     >EMP</hi>, 2:131–57; <hi rend="italic">Minutes</hi> (post-Wesley, <date
+                     when="1797">1797</date>), 1:380; and Vickers, <hi rend="italic"
+                  >Dictionary</hi>, 148.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
