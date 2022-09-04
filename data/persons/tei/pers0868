@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Greenwood, Paul (d. 1767)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0868</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0879">
+                  <persName>William Grimshaw</persName>
+               </person>
+               <person xml:id="pers2127">
+                  <persName>Thomas Walsh</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0868">
+               <p>Greenwood began <seg ana="itinerancy">itinerating</seg> about <date when="1747"
+                     >1747</date>, serving for some years as one of &apos;<persName><ref
+                        target="/persons/pers0879.xml"/>Grimshaw</persName>&apos;s men&apos; in the
+                     <placeName>Haworth</placeName> round. The <date when="1752">1752</date> Irish
+                  Conference called him over to take care of <placeName>Dublin</placeName>, along
+                  with <persName><ref target="/persons/pers2127.xml"/>Thomas Walsh</persName>, while
+                  moving to <placeName>Wexford</placeName> in alternate quarters. After this year he
+                  spent most of his ministry in the north of <placeName>England</placeName>. He was
+                  one of the preachers that started serving the Lord&apos;s Supper in <date
+                     when="1760">1760</date> without ordination, a practice that was soon quashed.
+                  Greenwood died in the <placeName>Manchester</placeName> circuit in <date
+                     when="1767-03">March 1767</date>. See Atmore, <hi rend="italic">Memorial</hi>,
+                  164–65; and Vickers, <hi rend="italic">Dictionary</hi>, 140.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
