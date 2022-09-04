@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Morgan, Richard Sr. (c. 1679–1742)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1465</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1467">
+                  <persName>William Morgan</persName>
+               </person>
+               <person xml:id="pers1466">
+                  <persName>Richard Jr. Morgan</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1465">
+               <p>Richard Morgan was born in <placeName>Barbados</placeName>, educated at Hart Hall,
+                     <placeName>Oxford</placeName>, and the Middle Temple,
+                     <placeName>London</placeName>, and at this time was the Second Remembrancer in
+                  the Court of Exchequer in <placeName>Dublin</placeName>. He was the father of both
+                        <persName><ref target="/persons/pers1467.xml"/>William</persName> and
+                        <persName><ref target="/persons/pers1466.xml"/>Richard Jr</persName>., who
+                  participated in the &apos;Oxford Methodists&apos;. See <hi rend="italic">Alumni
+                     Oxonienses</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
