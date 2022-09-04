@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lewis, Rev. John (1686–1762)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1289</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1289">
+               <p>A graduate of St. Edmund Hall, <placeName>Oxford</placeName>, Lewis was master of
+                  the school at <placeName>Tetbury</placeName> (<date from="1705" to="1712"
+                     >1705–12</date>); then rector of <placeName>Great Chalfield</placeName> and
+                  curate of <placeName>Holt</placeName> and <placeName>Atford</placeName> (or
+                     <placeName>Atworth</placeName>) in <placeName>Wiltshire</placeName> (<date
+                     from="1712" to="1761">1712–61</date>). Lewis wrote <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> in <date when="1746-02-04"
+                     >Feb. 4. 1746</date>, attacking his recently-published Parts II-III of the <hi
+                     rend="italic">Farther Appeal to the Men of Reason and Religion</hi>, sparking
+                  an interchange of several letters between the two men. See <hi rend="italic"
+                     >Alumni Oxonienses</hi>; CCEd; and <hi rend="italic">Wesley and Methodist
+                     Studies</hi> 7 (<date when="2015">2015</date>): 121–48.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
