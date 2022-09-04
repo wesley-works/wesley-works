@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Perronet, William (1729–1781)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-20</date>
+            <idno type="URI">http://syriaca.org/persons/pers1606</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1605">
+                  <persName>Vincent Perronet</persName>
+               </person>
+               <person xml:id="pers1598">
+                  <persName>Charity (Goodhew) Perronet</persName>
+               </person>
+               <person xml:id="pers0719">
+                  <persName>John Fletcher</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1606">
+               <p>Another son of <persName><ref target="/persons/pers1605.xml"/>Vincent</persName>
+                  and <persName><ref target="/persons/pers1598.xml"/>Charity (Goodhew)
+                     Perronet</persName>, William (&apos;Will&apos; or &apos;Billy&apos;) was born
+                  in <date when="1729">1729</date>, and trained as a physician in
+                     <placeName>Bristol</placeName>. During the Seven Years War with
+                     <placeName>France</placeName> (<date from="1756" to="1763">1756–63</date>) he
+                  served as an army surgeon. He then settled at <placeName>Stoke
+                     Newington</placeName> in civilian medical practice. Here he cared for
+                        <persName><ref target="/persons/pers0719.xml"/>John Fletcher</persName>.
+                        <persName><ref target="/persons/pers0719.xml"/>Fletcher</persName> in turn
+                  nurtured William&apos;s conversion, and a deep friendship ensued. In <date
+                     when="1779">1779</date> William accompanied <persName><ref
+                        target="/persons/pers0719.xml"/>Fletcher</persName> on an extended trip to
+                     <placeName>Switzerland</placeName>. He fell sick and died in <date
+                     when="1781-12">Dec. 1781</date>. See Batty, <hi rend="italic">Perronet</hi>,
+                  89–100; and <hi rend="italic">WHS</hi> 22 (<date when="1940">1940</date>):
+                  187–88.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
