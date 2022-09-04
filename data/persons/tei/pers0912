@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hall, Westley Jr. (1742–1767)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0912</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0911">
+                  <persName>Westley Hall</persName>
+               </person>
+               <person xml:id="pers2182">
+                  <persName>Martha Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0912">
+               <p>At least the fourth child born to <persName><ref target="/persons/pers0911.xml"
+                     />Westley</persName> and <persName><ref target="/persons/pers2182.xml"/>Martha
+                     (Wesley) Hall</persName>, Westley Jr. was the only one to live past early
+                  childhood. His death in <date when="1767-09">Sept. 1767</date>, at the age of 15,
+                  was devastating for his mother.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
