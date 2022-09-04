@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Forrest) Jones, Mary (1712–1788)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-26</date>
+            <idno type="URI">http://syriaca.org/persons/pers1183</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1185">
+                  <persName>Robert Jones</persName>
+               </person>
+               <person xml:id="pers0950">
+                  <persName>Howell Harris</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers1184">
+                  <persName>Mary Jones Jr.</persName>
+               </person>
+               <person xml:id="pers1186">
+                  <persName>Robert Jones Jr.</persName>
+               </person>
+               <person xml:id="pers2191">
+                  <persName>Sarah Wesley</persName>
+               </person>
+               <person>
+                  <persName>Catherine Jones</persName>
+               </person>
+               <person>
+                  <persName>Charlotte Jones</persName>
+               </person>
+               <person>
+                  <persName>Diana Jones</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1183">
+               <p>Mary Forrest (of <placeName>Minehead, Somerset</placeName>) married <persName><ref
+                        target="/persons/pers1185.xml"/>Robert Jones</persName> (<date from="1706"
+                     to="1742">1706–42</date>) of Fonmon Castle near <placeName>Cardiff,
+                     Glamorganshire</placeName> in <date when="1732">1732</date>. <persName><ref
+                        target="/persons/pers1185.xml"/>Robert</persName> came under the influence
+                  of <persName><ref target="/persons/pers0950.xml"/>Howell Harris</persName> in
+                     <date when="1741">1741</date>, became a Methodist, and a warm friend of
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName>. <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> wrote an extended elegy on the
+                  death of Mary&apos;s husband in <date when="1742-06">June 1742</date>, and both
+                  brothers kept up a close relationship with her and her five surviving children:
+                        <persName><ref target="/persons/pers1184.xml"/>Mary</persName>
+                  (&apos;Molly&apos; <date from="1733" to="1781">1733–81</date>), <persName><ref
+                        target="/persons/pers1186.xml"/>Robert</persName> (&apos;Robin&apos; c.
+                     <date from="1734" to="1793">1734–93</date>), <persName>Catherine</persName>
+                  (&apos;Kitty&apos; <date from="1735" to="1768">1735–68</date>),
+                     <persName>Charlotte</persName> (<date from="1737" to="1816">1737–1816</date>),
+                  and <persName>Diana</persName> (<date from="1738" to="1822">1738–1822</date>).
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName> made nearly
+                  annual visits to Fonmon Castle, while Mary was often in the
+                     <placeName>Bristol</placeName> area, where <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> and <persName><ref
+                        target="/persons/pers2191.xml"/>Sarah</persName> could encourage her. See
+                  George T. Clark, <hi rend="italic">Limbus Patrum Morganiae et Glamorganiae</hi>
+                     (<placeName>London</placeName>: Wyman, <date when="1886">1886</date>), 216; and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 185.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
