@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kirkham, Rev. Robert (c. 1707–1767)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1223</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1222">
+                  <persName>Lionel Kirkham</persName>
+               </person>
+               <person xml:id="pers1221">
+                  <persName>Henry Kirkham</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1223">
+               <p>Robert, who had entered Merton College, <placeName>Oxford</placeName> in <date
+                     when="1727">1727</date>, was one of the four earliest members of the
+                  &apos;Oxford Methodists&apos;. Son of Rev. <persName><ref
+                        target="/persons/pers1222.xml"/>Lionel Kirkham</persName>, Robert succeeded
+                  his father after his death in <date when="1736">1736</date>, having earlier served
+                  as curate to his uncle, <persName><ref target="/persons/pers1221.xml"/>Henry
+                     Kirkham</persName>, vicar of <placeName>Stanway, Gloucestershire</placeName>.
+                  See <hi rend="italic">Alumni Oxonienses</hi>; <hi rend="italic">DEB</hi>, 652;
+                  Tyerman, <hi rend="italic">Oxford Methodists</hi>, 1–4; and Vickers, <hi
+                     rend="italic">Dictionary</hi>, 194.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
