@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Helton, John (c. 1731–1817)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers0986</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Robert Barclay</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0986">
+               <p>Helton first appears in the <hi rend="italic">Minutes</hi> as an
+                  &apos;assistant&apos; in <date when="1765">1765</date> (see <hi rend="italic"
+                     >Works</hi>, 10:304); he had likely been travelling since <date when="1763"
+                     >1763</date>. A person of some financial means, Helton was a popular preacher,
+                  and taken into <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  trust. From <date from="1770" to="1775">1770–75</date> he was stationed in
+                     <placeName>London</placeName> to assist <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>. In <date when="1776"
+                     >1776</date> he was moved to <placeName>Bristol</placeName>, and on reading
+                     <persName>Robert Barclay</persName>&apos;s <hi rend="italic">Apology</hi> he
+                  decided to withdraw from the Methodists and become Quaker, provoking a significant
+                  debate at the <date when="1777">1777</date> Conference in
+                     <placeName>Bristol</placeName> (see <hi rend="italic">Works</hi>, 10:463 fn).
+                  Helton published the following year: <hi rend="italic">Reasons for Quitting the
+                     Methodist Society; Being a Defense of Barclay&apos;s Apology</hi>
+                     (<placeName>London</placeName>: J. Fry, <date when="1778">1778</date>).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
