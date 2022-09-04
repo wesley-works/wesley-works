@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lloyd, Samuel (c. 1705–1775)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1306</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>Thomas Lombe</persName>
+               </person>
+               <person>
+                  <persName>John Lombe</persName>
+               </person>
+               <person>
+                  <persName>Thomas Unwin</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1306">
+               <p>Samuel Lloyd was born into a family of &apos;silk throwers&apos; in the
+                     <placeName>London</placeName> area who worked for <persName>Thomas
+                     Lombe</persName> (<date from="1685" to="1739">1685–1739</date>).
+                     <persName>Lombe</persName>&apos;s brother <persName>John</persName> had
+                  surreptitiously copied a mechanized process developed in
+                     <placeName>Italy</placeName> for preparing raw silk for weaving.
+                     <persName>Thomas</persName> replicated the process in
+                     <placeName>Derby</placeName> in <date when="1717">1717</date> and then in
+                     <placeName>Spitalfields, London</placeName>. While he entered the family trade,
+                  at <persName>Lombe</persName>&apos;s advice, in <date when="1723">1723</date>,
+                  Lloyd soon tired of it and in <date when="1726">1726</date> began setting himself
+                  up as a silk merchant instead. At this point <persName>Lombe</persName> approached
+                  Lloyd about the possibility of going to <placeName>South Carolina</placeName> and
+                  setting up silk farms. As preparation, <persName>Lombe</persName> suggested that
+                  Lloyd go to <placeName>France</placeName> and <placeName>Italy</placeName> to
+                  observe how the trade operated there, serving as a buyer of silk for
+                     <persName>Lombe</persName> while he was there. The venture in
+                     <placeName>Carolina</placeName> was repeatedly delayed and Lloyd ended up
+                  serving as one of <persName>Lombe</persName>&apos;s silk buyers in
+                     <placeName>Italy</placeName> from <date from="1727" to="1734">1727–34</date>.
+                  At that point Lloyd formed a partnership with <persName>Thomas Unwin</persName>,
+                  an English merchant in <placeName>Livorno, Italy</placeName>, and became a silk
+                  merchant. Lloyd left this partnership and returned to
+                     <placeName>England</placeName> about <date when="1739">1739</date>, setting up
+                  his own business as a silk merchant in <placeName>London</placeName>, with his
+                  main office and residence on <placeName>Devonshire Square</placeName>. Lloyd
+                  quickly became active among the Huguenot community in
+                     <placeName>Spitalfields</placeName>. These French immigrants had become a
+                  center of silk weaving in <placeName>London</placeName>. Lloyd participated in the
+                  founding of a Huguenot church on <placeName>Brick Lane</placeName> in <date
+                     when="1743">1743</date>, and is listed as a deacon of the church on
+                     <placeName>Threadneedle Street</placeName> in <date when="1744">1744</date>. He
+                  also was elected a trustee for the colony of <placeName>Georgia</placeName> in
+                     <date when="1747">1747</date>, at a time when it was hoped that
+                     <placeName>Georgia</placeName> might host major plantations cultivating the
+                  silk worm. Lloyd was drawn into the Methodist revival in late <date when="1748"
+                     >1748</date>. He became particularly close to <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName>, but assisted both Wesley
+                  brothers in business matters over the next two decades. In <date when="1766-08"
+                     >August 1766</date> Lloyd listed his <placeName>Devonshire Square</placeName>
+                  property for sale and retired from the silk trade. He lived briefly at
+                     <placeName>Paternoster Row in Spitalfields</placeName>, then settled at
+                     <placeName>Friday Hill</placeName> near <placeName>Woodford in
+                     Essex</placeName>. He died on <date when="1775-07-12">July 12, 1775</date>. See
+                     <hi rend="italic">London Chronicle</hi> (<date from="1775-07-13"
+                     to="1775-07-15">July 13–15, 1775</date>), p. 54; a legal document detailing his
+                  relationship with <persName>Thomas Lombe</persName> in the National Archives, C
+                  11/2084/28; and a <date when="1739">1739</date> letter on this relationship
+                  published in <hi rend="italic">Industrial Archaeology</hi> Review 16 (<date
+                     when="1993">1993</date>): 99.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
