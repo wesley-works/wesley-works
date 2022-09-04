@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Maddern, John (d. 1770)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1343</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1345">
+                  <persName>Mary Maddern</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1343">
+               <p>A native of <placeName>Cornwall</placeName> (where <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> sheltered in his home in <date
+                     when="1745">1745</date>), Maddern became an exhorter in <date when="1746"
+                     >1746</date>, and a <seg ana="itinerancy">traveling preacher</seg> from <date
+                     when="1747">1747</date>. In <date when="1751">1751</date> he married
+                        <persName><ref target="/persons/pers1345.xml"/>Molly Francis</persName>,
+                  mistress of the girls&apos; school at Kingswood, and served as English master at
+                  Kingswood <date from="1756" to="1757">1756–57</date>. The couple then moved to
+                     <placeName>London</placeName>, where John became a respected local preacher. He
+                  died by <date when="1770">1770</date>, and his wife returned to
+                     <placeName>Bristol</placeName>, to serve as housekeeper at the New Room <date
+                     from="1770" to="1782">1770–82</date>. See Atmore, <hi rend="italic"
+                     >Memorial</hi>, 247; Ives, <hi rend="italic">Kingswood</hi>, 50; and Vickers,
+                     <hi rend="italic">Dictionary</hi>, 220.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
