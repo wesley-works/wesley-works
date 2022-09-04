@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hoole, Rev. Joseph (d. 1745)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1057</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person/>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1057">
+               <p>Joseph held an <seg ana="degree">MA</seg> from Sidney College,
+                     <placeName>Cambridge</placeName>, served as vicar of
+                     <placeName>Haxey</placeName>
+                  <date from="1712" to="1737">1712–37</date>, then as rector of St. Ann&apos;s
+                  church, <placeName>Manchester</placeName>, until his death. See <hi rend="italic"
+                     >Alumni Catabrigienses</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
