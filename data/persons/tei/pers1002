@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hicks, Rev. Samuel (c. 1721–1796)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-13</date>
+            <idno type="URI">http://syriaca.org/persons/pers1002</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0159">
+                  <persName>John Berridge</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1002">
+               <p>Hicks matriculated Clare College, <placeName>Cambridge</placeName> in <date
+                     when="1739-01">Jan. 1739</date>. He took his <seg ana="itinerancy">BA</seg> and
+                  was ordained deacon in <date when="1742-06">June 1742</date>. Ordination as priest
+                  came in <date when="1744-09">Sept. 1744</date>, when he was appointed rector of
+                     <placeName>Wrestlingworth</placeName>, a village about 4 miles east of
+                     <placeName>Everton</placeName>. While initially hostile to the evangelical
+                  preaching of his neighbour <persName><ref target="/persons/pers0159.xml"/>John
+                     Berridge</persName>, Hicks soon became a convert and joined <persName><ref
+                        target="/persons/pers0159.xml"/>Berridge</persName> in preaching excursions.
+                  See <persName><ref target="/persons/pers2180.xml"/>JW</persName>, <hi
+                     rend="italic">Journal</hi>, <date when="1758-11-09">Nov. 9, 1758</date> (<hi
+                     rend="italic">Works</hi>, 21:171, where this is a correction of the name in fn.
+                  79) and <date when="1759-07-29">July 29, 1759</date> (21:213); <hi rend="italic"
+                     >Alumni Catabrigienses</hi>; and CCEd.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
