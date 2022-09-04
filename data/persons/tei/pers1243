@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lambert, John (1700–1743)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1243</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2175">
+                  <persName>Anne Wesley</persName>
+               </person>
+               <person xml:id="pers1244">
+                  <persName>John Lambert Jr.</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1243">
+               <p>A native of <placeName>Wroot, Lincolnshire</placeName>, John Lambert married
+                        <persName><ref target="/persons/pers2175.xml"/>Anne Wesley</persName> on
+                     <date when="1725-12-02">Dec. 2, 1725</date>. He was plagued with financial
+                  troubles and prone to drinking. The Lamberts eventually ended up in
+                     <placeName>London</placeName>, where John died in <date when="1743-01">Jan.
+                     1743</date>, leaving one surviving son (also <persName><ref
+                        target="/persons/pers1244.xml"/>John</persName>). See Maser, <hi
+                     rend="italic">Sisters</hi>, 72–78.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
