@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Philipps, Sir John, 4th Baronet (c. 1666–1737)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-20</date>
+            <idno type="URI">http://syriaca.org/persons/pers1615</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person/>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1615">
+               <p>Sir John, of Picton Castle, county <placeName>Pembroke</placeName>, was a leading
+                  figure in philanthropy and piety, a member of all the major societies organized by
+                  the Church of <placeName>England</placeName>, and the most influential member of
+                  the SPCK from a month after its foundation until his death. He appears frequently
+                  in correspondence related to the Wesley brothers time in
+                     <placeName>Georgia</placeName>. See <hi rend="italic">DEB</hi>, 882; and <hi
+                     rend="italic">ODNB</hi>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
