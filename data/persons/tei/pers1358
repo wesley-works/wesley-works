@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>March, Jane Catherine (c. 1744–1820)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1358</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0215">
+                  <persName>Mary Bosanquet</persName>
+               </person>
+               <person>
+                  <persName>Thomas March</persName>
+               </person>
+               <person>
+                  <persName>Jane March</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1358">
+               <p>Jane was the daughter of prosperous merchant <persName>Thomas March</persName> (d.
+                     <date when="1754">1754</date>) and his wife <persName>Jane (née
+                     Lisle</persName>) of St. Peter Le Poer parish in <placeName>London</placeName>.
+                  By early <date when="1760">1760</date> she was connected to a circle of
+                     <placeName>London</placeName> Methodists, likely through friendship with
+                        <persName><ref target="/persons/pers0215.xml"/>Mary Bosanquet</persName>.
+                  Miss March had a significant family estate, and never married. She eventually
+                  settled in <placeName>Bristol</placeName>, where she was buried <date
+                     when="1820-02-26">Feb. 26, 1820</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
