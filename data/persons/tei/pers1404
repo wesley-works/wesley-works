@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Maxfield, Thomas (d. 1784)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1404</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2193">
+                  <persName>Susanna Wesley</persName>
+               </person>
+               <person xml:id="pers1403">
+                  <persName>Elizabeth Branford</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1404">
+               <p>A native of <placeName>Bristol</placeName>, Maxfield was converted by
+                        <persName><ref target="/persons/pers2221.xml"/>Whitefield</persName> in
+                     <date when="1739">1739</date> in the earliest stages of the revival. Maxfield
+                  began assisting <persName><ref target="/persons/pers2180.xml"/>JW</persName> with
+                  pastoral duties there, and followed <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> to <placeName>London</placeName>, where he became a trusted
+                  leader at the Foundery. During one of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s absences, Maxfield
+                  ventured to preach, though a layman. <persName><ref target="/persons/pers2180.xml"
+                     />JW</persName> initially resisted this innovation, until his mother
+                        <persName><ref target="/persons/pers2193.xml"/>Susanna</persName> convinced
+                  him in <date when="1741">1741</date> that Maxfield was &apos;a son in the
+                  gospel&apos;. He then embraced Maxfield as the first lay traveling preacher.
+                  Maxfield was later ordained at <placeName>Bath</placeName> by the Bishop of Derry,
+                  to assist <persName><ref target="/persons/pers2180.xml"/>JW</persName>. Maxfield
+                  was trusted by <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                  central to deliberations in Conference for two decades. But in the early
+                     <date>1760s</date> he took the side of the perfectionist party in
+                     <placeName>London</placeName>. This led to a break from <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, with Maxfield setting up an
+                  independent chapel. The breach was only minimally healed in the following years.
+                  Maxfield married <persName><ref target="/persons/pers1403.xml"/>Elizabeth
+                     Branford</persName> on <date when="1749-12-21">Dec. 21, 1749</date>, in
+                     <placeName>London</placeName>. See Atmore, <hi rend="italic">Memorial</hi>,
+                  266–69; <hi rend="italic">DEB</hi>, 756–57; Pawson, <hi rend="italic"
+                  >Letters</hi>, 3:143; and Vickers, <hi rend="italic">Dictionary</hi>, 225.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
