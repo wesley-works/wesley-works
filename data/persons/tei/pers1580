@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pawson, John (1737–1806)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1580</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1580">
+               <p>Pawson, a native of <placeName>Thorner</placeName>, near
+                     <placeName>Leeds</placeName>, encountered Methodism in
+                     <placeName>Hull</placeName> while apprenticing as a builder. He was proposed as
+                  an <seg ana="itinerancy">itinerant preacher</seg> in <date when="1762">1762</date>
+                  and assigned to the <placeName>York</placeName> circuit (see <hi rend="italic"
+                     >Works</hi>, 10:294) and served faithfully from that point. In <date
+                     when="1785">1785</date> he was ordained by <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> for the work in
+                     <placeName>Scotland</placeName>, but then told to discontinue offering the
+                  sacrament when he returned to <placeName>England</placeName> in <date when="1787"
+                     >1787</date>. He served as President of Conference twice in the years after
+                        <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s death.
+                  See <hi rend="italic">DEB</hi>, 860–61; <hi rend="italic">EMP</hi>, 4:1–108; <hi
+                     rend="italic">Minutes</hi> (post-Wesley), <date when="1806">1806</date>, 2:324;
+                  and Vickers, <hi rend="italic">Dictionary</hi>, 267–68.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
