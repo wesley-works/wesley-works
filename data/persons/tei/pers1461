@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Morgan) Bates, Elizabeth Mary (1755–1835)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1461</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers0373">
+                  <persName>Anne Chapman</persName>
+               </person>
+               <person xml:id="pers2192">
+                  <persName>Sarah Wesley Jr</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Thomas Wilkins Morgan</persName>
+               </person>
+               <person>
+                  <persName>Elizabeth Morgan</persName>
+               </person>
+               <person>
+                  <persName>Ely Bates</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1461">
+               <p>Born in <placeName>London</placeName> to <persName>Thomas Wilkins
+                     Morgan</persName> Esq. and his wife <persName>Elizabeth (nee
+                  Russell</persName>), Elizabeth Mary&apos;s parents sent her to live in
+                     <placeName>Bristol</placeName> during her teens, where she had some connection
+                  with <persName><ref target="/persons/pers2221.xml"/>Whitefield</persName>&apos;s
+                  Tabernacle in Kingswood. After she came of age Elizabeth was again in
+                     <placeName>Bristol</placeName>, lodging with <persName><ref
+                        target="/persons/pers0373.xml"/>Anne Chapman</persName>, where she became
+                  friends with <persName><ref target="/persons/pers2192.xml"/>Sarah Wesley
+                     Jr</persName>. and her family, as well as a correspondent of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>. In <date when="1787"
+                     >1787</date> Morgan married <persName>Ely Bates</persName> (d. <date
+                     when="1812">1812</date>). Prior to her marriage Morgan had aligned with the
+                  Moravians, and after her husband&apos;s death she withdrew from society into their
+                  community in <placeName>Okbrook, Derbyshire</placeName> (and latter to
+                     <placeName>Gracehill</placeName>, <placeName>Antrim</placeName>,
+                     <placeName>Ireland</placeName>). See Mrs. T. G. Tyndale, <hi rend="italic"
+                     >Selections from the correspondence of Mrs. Ely Bates, and incidents of her
+                     early life </hi>(<placeName>Oxford</placeName>, <date from="1872" to="1873"
+                     >1872–73</date>).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
