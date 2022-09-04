@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gwynne, Marmaduke (1692–1769)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://syriaca.org/persons/pers0889</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0950">
+                  <persName>Howell Harris</persName>
+               </person>
+               <person xml:id="pers2191">
+                  <persName>Sarah Gwynne</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers0889">
+               <p>A wealthy landholder of <placeName>Garth, Wales</placeName>, and loyal member of
+                  the Established Church, Gwynne was drawn into the evangelical revival in <date
+                     when="1737">1737</date> through the preaching of <persName><ref
+                        target="/persons/pers0950.xml"/>Howell Harris</persName>, and began offering
+                  support to the leaders of the revival, including the Wesley brothers.
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName> met
+                  Gwynne&apos;s daughter <persName><ref target="/persons/pers2191.xml"
+                     />Sarah</persName> in <date when="1747-08">August 1747</date> and they were
+                  married in <date when="1749-04">April 1749</date>. Thus letters between Marmaduke
+                  and the Wesley brothers concern not only plans for evangelistic visits but
+                  negotiations over the pending wedding and continuing family matters. See <hi
+                     rend="italic">DEB</hi>, 497; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  145.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
