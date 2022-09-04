@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ley, Rev. William (1739–1803)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-04</date>
+            <idno type="URI">http://syriaca.org/persons/pers1292</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person/>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1292">
+               <p>A native of <placeName>Exeter</placeName>, Ley was active as a Methodist preacher
+                     <date from="1758" to="1763">1758–63</date>, though his name never appears in
+                  the Minutes. This was likely because of Ley&apos;s intention to seek ordination.
+                  He matriculated St. Edmund Hall, <placeName>Oxford</placeName> in <date
+                     when="1764-04">April 1764</date>, completing his studies the following year. He
+                  was ordained deacon in <date when="1765-10">Oct. 1765</date> and took a curacy in
+                     <placeName>Lakenheath (Suffolk</placeName>). In <date when="1769">1769</date>
+                  he was ordained priest, and appointed vicar of <placeName>East
+                     Tilsbury</placeName>, a position he held until his death. He continued to
+                  support the Wesley brothers through the early <date>1770s</date>.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
