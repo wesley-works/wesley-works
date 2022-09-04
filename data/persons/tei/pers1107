@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hutchins, Richard (c. 1698–1781)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1107</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1107">
+               <p>Hutchins became a fellow of Lincoln College in <date when="1720">1720</date>,
+                  earning his <seg ana="degree">MA</seg> in <date when="1723">1723</date>. He would
+                  go on to receive both the <seg ana="degree">BD</seg> and <seg ana="degree"
+                     >DD</seg> degrees, and serve as Rector of Lincoln College from <date
+                     when="1755">1755</date> until his death. He enters <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s correspondence as one
+                  of his colleagues at Lincoln College in the <date>1730s</date>. See <hi
+                     rend="italic">Alumni Oxonienses</hi>; and Tyerman, <hi rend="italic">Oxford
+                     Methodists</hi>, 370–71.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
