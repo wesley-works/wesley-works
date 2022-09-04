@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Humphreys, Joseph (c. 1720–1785)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1094</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>John Eames</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1094">
+               <p>Son of a zealous dissenting minister, Humphreys studied at Deptford Academy with
+                  this ministry in view (<date from="1733" to="1739">1733–39</date>). Converted by
+                        <persName><ref target="/persons/pers2221.xml"/>Whitefield</persName> he
+                  began preaching in his home town of <placeName>Burford, Oxfordshire</placeName> in
+                     <date when="1738">1738</date>, while on summer vacation. He formed a religious
+                  society at <placeName>Deptford</placeName> for <persName><ref
+                        target="/persons/pers2221.xml"/>Whitefield</persName>&apos;s converts that
+                  fall. These activities led to his expulsion from Deptford Academy, so he moved to
+                  study with <persName>John Eames</persName> in Moorfields, where he became friends
+                  with <persName><ref target="/persons/pers2180.xml"/>JW</persName> and
+                        <persName><ref target="/persons/pers2176.xml"/>CW</persName>. In <date
+                     when="1740-09">Sept. 1740</date> he began to preach at the Foundery, and to
+                  serve as <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s
+                  pastoral assistant (<persName><ref target="/persons/pers2180.xml"/>JW</persName>
+                  called him &apos;the first lay preacher that assisted me in
+                     <placeName>England</placeName> in <date when="1738">1738</date>&apos;). Within
+                  about a year Humphreys recognized his divergence from <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s Arminianism, and joined
+                  forces with <persName><ref target="/persons/pers2221.xml"/>Whitefield</persName>.
+                  This relationship was also short lived; by <date when="1744">1744</date> Humphreys
+                  had gone independent. He eventually received first Presbyterian and then (in <date
+                     when="1751">1751</date>) Anglican ordination, and ended his career as rector of
+                     <placeName>North Stoke and Ellisfield</placeName>—now disenchanted with the
+                  evangelical movement. See Atmore, <hi rend="italic">Memorial</hi>, 202–3; <hi
+                     rend="italic">CCEd</hi>; <hi rend="italic">DEB</hi>, 582; and Vickers, <hi
+                     rend="italic">Dictionary</hi>, 170.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
