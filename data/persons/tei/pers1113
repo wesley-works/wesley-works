@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hutton, James (1715–1795)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1113</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1114">
+                  <persName>Rev. John Hutton</persName>
+               </person>
+               <person xml:id="pers1112">
+                  <persName>Elizabeth (Ayscough) Hutton</persName>
+               </person>
+               <person xml:id="pers2189">
+                  <persName>Samuel Wesley Jr</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1113">
+               <p>James was the son of Rev. <persName><ref target="/persons/pers1114.xml"
+                     />John</persName> and <persName><ref target="/persons/pers1112.xml"/>Elizabeth
+                     (Ayscough) Hutton</persName>, who boarded scholars at Westminster School, and
+                  lived in a house adjoining that of <persName><ref target="/persons/pers2189.xml"
+                     />Samuel Wesley Jr</persName>. in <placeName>Dean&apos;s Yard,
+                     Westminster</placeName>. Like <persName><ref target="/persons/pers2176.xml"
+                     />CW</persName>, James Hutton was educated at Westminster. <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> became friendly with the
+                  Huttons through his brothers. James was converted by <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s sermon &apos;One Thing
+                  is Needful&apos;, preached on the eve of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s departure for
+                     <placeName>Georgia</placeName> in <date when="1735">1735</date>. Hutton saw the
+                  party off at <placeName>Gravesend</placeName>, but was dissuaded by his parents
+                  from accompanying them. He followed their progress with keen interest, and the
+                  Hutton home became a clearing-house for letters to and from
+                     <placeName>Georgia</placeName>. On the Wesley brothers&apos; return to
+                     <placeName>England</placeName>, Hutton co-operated in their religious
+                  activities, and published many of their early works. When <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> and <persName><ref
+                        target="/persons/pers2176.xml"/>CW</persName> split with the Moravians,
+                  however, Hutton parted company with them and became a key English leader of that
+                  movement. See <hi rend="italic">DEB</hi>, 588–89; <hi rend="italic">ODNB</hi>; and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 172.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
