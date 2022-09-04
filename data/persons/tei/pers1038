@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hodgson, Samuel (1759–1795)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1038</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person/>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1038">
+               <p>A native of <placeName>Halifax, Yorkshire</placeName>, Hodgson became active in
+                  the Methodist society in <date when="1775">1775</date>. He underwent an
+                  evangelical conversion in <date when="1777">1777</date> and began to exhort
+                  locally. In <date when="1780">1780</date> he was accepted on trial into the <seg
+                     ana="itinerancy">itinerant</seg> ministry (see <hi rend="italic">Works</hi>,
+                  10:496). He continued to serve until his death, by drowning, while crossing the
+                  river <placeName>Were</placeName>. See Atmore, <hi rend="italic">Memorial</hi>,
+                  191–99; and <hi rend="italic">Minutes</hi> (post-Wesley, <date when="1795"
+                     >1795</date>), 1:318.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
