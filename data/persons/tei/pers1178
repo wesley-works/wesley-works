@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jones, Rev. Dr. John (1721–1785)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-26</date>
+            <idno type="URI">http://syriaca.org/persons/pers1178</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers1352">
+                  <persName>Elizabeth Mann</persName>
+               </person>
+               <person xml:id="pers1597">
+                  <persName>Sarah Perrin</persName>
+               </person>
+               <person xml:id="pers0964">
+                  <persName>Selina Hastings</persName>
+               </person>
+               <person xml:id="pers0912">
+                  <persName>Westley Hall Jr.</persName>
+               </person>
+               <person xml:id="pers0671">
+                  <persName>Erasmus Aulonita</persName>
+               </person>
+               <person>
+                  <persName>Henry Hastings</persName>
+                  <!-- I could not find an ID for Lady Huntingdons son -->
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1178">
+               <p>John Jones, a native of <placeName>Haverfordwest, Pembrokeshire</placeName>, was
+                  one of <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s most
+                  scholarly lay helpers. He matriculated at Trinity College,
+                     <placeName>Oxford</placeName> in <date when="1736">1736</date>, receiving his
+                     <seg ana="degree">BA</seg> in <date when="1739">1739</date>, his <seg
+                     ana="degree">MA</seg> in <date when="1742">1742</date>, and a <seg ana="degree"
+                     >B.Med</seg>. in <date when="1745">1745</date> (by virtue of this last degree
+                  he was known as Dr. Jones). Originally converted under <persName><ref
+                        target="/persons/pers2221.xml"/>Whitefield</persName>, Jones gravitated to
+                  the Arminianism of the Wesley brothers and began serving <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> as an assistant in
+                     <placeName>London</placeName> in <date when="1746">1746</date>. In <date
+                     when="1748">1748</date>
+                  <persName><ref target="/persons/pers2180.xml"/>JW</persName> appointed Jones
+                  languages master at Kingswood School, and on <date when="1749-02-08">Feb. 8,
+                     1749</date> solemnized Jones&apos;s marriage to <persName><ref
+                        target="/persons/pers1352.xml"/>Elizabeth Mann</persName>. <persName><ref
+                        target="/persons/pers1352.xml"/>Elizabeth</persName> died a year or two
+                  later; and on <date when="1752-05-20">May 20, 1752</date> Jones was wed to
+                        <persName><ref target="/persons/pers1597.xml"/>Sarah Perrin</persName>.
+                     <date when="1752">1752</date> capped a period of decline for Kingswood School
+                  and by the end of that year Jones appears to have left his position. He remained
+                  in <placeName>Bristol</placeName>, serving as <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s chief assistant for
+                     <placeName>Bristol</placeName> and <placeName>Cornwall</placeName>, and
+                  boarding and tutoring some select students (including <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s nephew <persName><ref
+                        target="/persons/pers0912.xml"/>Westley Hall Jr</persName>. and
+                        <persName><ref target="/persons/pers0964.xml"/>Lady
+                  Huntingdon</persName>&apos;s youngest son <persName>Henry</persName>. In <date
+                     when="1758">1758</date> Jones left <placeName>Bristol</placeName>, but
+                  continued a staunch friend of the Wesley brothers, listed as one of their chief
+                  local preachers, moving to <placeName>London</placeName> to help care for the
+                  society there (since he was too frail for <seg ana="itinerancy">itinerancy</seg>).
+                  Because of his Methodist associations Jones&apos;s attempts to secure episcopal
+                  ordination were long frustrated. In some exasperation, <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> helped arrange for Jones to be
+                  ordained by <persName><ref target="/persons/pers0671.xml"/>Erasmus
+                     Aulonita</persName>, who presented himself as Bishop of Arcadia. This
+                  ordination proved controversial and in <date when="1770">1770</date> Jones finally
+                  secured ordination from the Bishop of <placeName>London</placeName>. He ended his
+                  days as vicar of <placeName>Harwich, Essex</placeName>. See <hi rend="italic"
+                     >Alumni Oxonienses</hi>; Atmore, <hi rend="italic">Memorial</hi>, 224; <hi
+                     rend="italic">DEB</hi>, 621; Ives, <hi rend="italic">Kingswood</hi>, 24–25; A.
+                  Barrett Sackett, <hi rend="italic">John Jones, First After the Wesleys?</hi>
+                  (Bankhead Press, <date when="1972">1972</date>); and Vickers, <hi rend="italic"
+                     >Dictionary</hi>, 185.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
