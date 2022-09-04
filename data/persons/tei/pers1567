@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Franklin) Parker, Mary (b. 1754)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-15</date>
+            <idno type="URI">http://syriaca.org/persons/pers1567</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>John Franklin</persName>
+               </person>
+               <person>
+                  <persName>Ann Franklin</persName>
+               </person>
+               <person>
+                  <persName>Franklin Parker</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1567">
+               <p>Mary Franklin (b. <date when="1754">1754</date>) was born in <placeName>Wood
+                     Dalling, Norfolk</placeName>, the daughter of <persName>John</persName> and
+                     <persName>Ann Franklin</persName>. She apparently met <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> in <date when="1771"
+                     >1771</date> and received at least one letter from him in <date when="1772"
+                     >1772</date>.In <date when="1779-09">Sept. 1779</date> she married
+                     <persName>Franklin Parker</persName> in <placeName>Fakenham,
+                     Norfolk</placeName>. Two more letters survive from <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName> to her after she married. See
+                  New Zealand Branch inset in <hi rend="italic">WHS</hi> 21.3 (<date when="1937-09"
+                     >Sept. 1937</date>).</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
