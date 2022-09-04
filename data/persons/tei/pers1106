@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hutchings, John (b. 1716)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1106</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1208">
+                  <persName>Charles Kinchin</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1106">
+               <p>Hutchings, a native of <placeName>Woolmiston, Somerset</placeName>, matriculated
+                  at Pembroke College, <placeName>Oxford</placeName> in <date when="1734"
+                     >1734</date>, where he became involved in the &apos;Oxford Methodists&apos;.
+                  Receiving his <seg ana="degree">BA</seg> in <date when="1738">1738</date>, he was
+                  ordained deacon in <date when="1738-09">September</date> of that year and became
+                        <persName><ref target="/persons/pers1208.xml"/>Charles
+                  Kinchin</persName>&apos;s curate at <placeName>Dummer, Hampshire</placeName>. He
+                  was present at the origins of the revival in <placeName>London</placeName> in
+                     <date when="1739">1739</date>, but soon sided with the Moravians and stepped
+                  out of prominent leadership. See <hi rend="italic">Alumni Oxonienses</hi>; and <hi
+                     rend="italic">DEB</hi>, 587.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
