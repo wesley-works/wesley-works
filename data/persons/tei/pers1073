@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Horner, William (1752–1826)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-14</date>
+            <idno type="URI">http://syriaca.org/persons/pers1073</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Amey Gregory</persName>
+               </person>
+               <person>
+                  <persName>William George Horner</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person xml:id="pers1073">
+               <p>A native of <placeName>County Down, Ireland</placeName>, Horner entered the <seg
+                     ana="itinerancy">itinerancy</seg> in <date when="1770">1770</date> (see <hi
+                     rend="italic">Works</hi>, 10:397). He remained in
+                     <placeName>Ireland</placeName> for his first few appointments, but he served
+                  broadly throughout <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName>&apos;s life and was the recipient of one of <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>&apos;s last surviving letters.
+                  Horner married <persName>Amey Gregory</persName> in <date when="1783">1783</date>,
+                  and their son <persName>William George Horner</persName> (<date from="1784"
+                     to="1837">1784–1837</date>) was a mathematician who served for a time as
+                  headmaster of Kingswood School.</p>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>
