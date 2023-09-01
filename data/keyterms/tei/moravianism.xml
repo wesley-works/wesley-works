@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Moravianism</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer5/moravianism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>The Moravians, or Brethren (Unitas Fratrum), are one of the oldest Protestant
+            traditions, dating back to the Bohemian Reformation in the 15th century. Historically,
+            they have exhibited a strong mixture of fellowship and pietism, especially in the form
+            of missionary work to unchurched peoples. In 1722, under the patronage of Count Ludwig
+            von Zinzendorf, they settled in Herrnhut (eastern Germany), where they were closely
+            linked to the Lutheran Church. John Wesley became affiliated with the Moravians during
+            the 1730s—first during a mission to the Georgia colony, then with the newly-formed
+            London Fetter Lane Society (established by Peter Böhler earlier that year) in 1738,
+            followed by a trip to study with Zinzendorf at Herrnhut. Upon his return to England,
+            Wesley drafted the "Rules for the Band Societies" (see Works 9:77-78) into which the
+            Fetter Lane Society had been divided. However, by 1740, Wesley had cut ties with the
+            Moravians because he believed they had strayed into quietism.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Epistemology</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer5/epistemology</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Epistemology (from the Greek epistēmē, "knowledge") is the branch of philosophical
+            inquiry that concerns human knowledge, including its nature, origin, scope, and
+            veracity. For the likes of Plato, real knowledge could be obtained by the intellect's
+            apprehension of the eternal "form" of a thing, with knowledge of particular instances
+            being deductions from such forms. For Aristotle, though, humans could only apprehend
+            things empirically and sensorily, working inductively through discursive reasoning to
+            arrive at genuine knowledge. Within a theological framework, epistemology also touches
+            involves the relationship of the (human) intellect to faith: What can be known (and
+            truly so) by human reason alone, and how and where does divine revelation enter in? For
+            Wesley, humans come to know anything through the senses, with physical senses providing
+            the intellect sensory data, and the spiritual senses providing the soul spiritual
+            data.</p>
+      </body>
+   </text>
+</TEI>

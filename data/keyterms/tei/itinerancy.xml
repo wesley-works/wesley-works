@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Itinerancy</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer5/itinerancy</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Itinerancy names a primary characteristic in Methodist polity, in which clergypersons
+            travel (itinerate) widely throughout an appointed geographical area. The practice began
+            with John Wesley appointing the Methodist preachers to various circuits on an annual
+            basis at Conference. A preacher’s "charge" would include oversight of a number of
+            Methodist societies, each with its own class meetings and band meetings. This traveling
+            system provided Methodism a mechanism for maintaining the Methodist "connection,"
+            especially as it continued to grow. Itinerancy is still a hallmark of many contemporary
+            Methodist denominations, although the duration of appointments has increased drastically
+            over the years.</p>
+      </body>
+   </text>
+</TEI>
