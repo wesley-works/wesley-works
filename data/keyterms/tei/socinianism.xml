@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Socinianism</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer4/socinianism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Rooted in the Radical (Protestant) Reformation of the 16th century, Socinianism was a
+            non-Trinitarian, rational theology that may be considered a precursor to Unitarianism.
+            In addition to rejecting the classical doctrine of the Trinity, Socinians also rejected
+            classical (Chalcedonian) Christology—namely, the eternality of Christ (the Second Person
+            of the Trinity), and the divine nature of Jesus. As such, Socinian soteriology was
+            severely limited to a view of Jesus as a moral exemplar, leaving little room for
+            Christ's atonement or for the sacraments. As with other theologies that denied the
+            divinity of Christ, the sacramental means of grace, and the Trinity, Wesley considered
+            Socinianism a heretical movement.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Docetism</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer4/docetism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Docetism (from the Greek dokein, “to appear, seem”) encapsulates a number of
+            Christologies, all of which deny or diminish the full humanity of Jesus Christ. Its
+            adherents claim that Jesus only appeared to have suffered and died, for his divinity
+            must surely have displaced his inferior humanity (the two being inherently incompatible
+            in this system of thought) if he was to be considered fully God. More-extreme forms of
+            Docetism melded with a disdain for the physical/material world, as found within early
+            Gnosticism. Other forms, such as Apollinarianism, allowed that Jesus’ body was real
+            while denying that his mind was genuinely human. The Councils of Nicaea (325) and
+            Chalcedon (451) anathematized any Christology that did not uphold the full humanity and
+            divinity of Jesus Christ—including Docetism, Gnosticism, Apollinarianism, and
+            Arianism.</p>
+      </body>
+   </text>
+</TEI>

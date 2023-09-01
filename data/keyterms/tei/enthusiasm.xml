@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enthusiasm</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer4/enthusiasm</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Deriving from the Greek for "being possessed by a god," enthusiasm has been a pejorative
+            term since the Reformation to refer to groups of people who, in the eyes of those making
+            the accusations, appeal too heavily to the radical work and witness of the Holy Spirit
+            over against conventional forms of piety and ministry in the Church. In Wesley's day,
+            following on the heels of the failed British Commonwealth, "enthusiasm" became a moniker
+            for any movement that opposed the Established Church (and, by extension, the Crown) as
+            being morally lax and spiritually lukewarm. Instead, "enthusiasts" promoted more-direct
+            religious experience beyond the officially sanctioned channels. For this reason,
+            enthusiasm became analogous with dissent (e.g., the Quakers, who rejected both ordained
+            ministry and the sacraments), which is why Wesley took great pains to distance
+            Methodism's stress on personal conversion and religious experience from such opposition
+            to the Church.</p>
+      </body>
+   </text>
+</TEI>

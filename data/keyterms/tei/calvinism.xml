@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Calvinism </title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer4/calvinism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Calvinism is the system of theological thought attributed to John Calvin (1509-1564),
+            who was one of the most prolific theologians during the Protestant Reformation. Within
+            Calvinism, God's absolute sovereignty is the cornerstone of human salvation. As with
+            Augustinianism, humans are altogether incapable of saving faith without God's election.
+            However, Calvinism expanded this doctrine of predestination into what has come to be
+            termed "double predestination": the negative corollary that, just as God has
+            predetermined those who are to be saved ("the elect"), God has also predetermined those
+            who are to be damned ("the reprobate"). This underlying concern on divine sovereignty
+            informs the key tenets of Calvinism, which were canonized at the Synod of Dort
+            (1618-1619), and which may be summarized by the mnemonic TULIP: humanity's Total
+            depravity—that humans are entirely corrupt by nature; Unconditional election —that
+            certain persons are predestined to salvation by God; Limited atonement—that Jesus's
+            salvific death was/is limited to the elect only; Irresistible grace—that divine grace is
+            infallibly efficacious against any human resistance; and the Perseverance of the
+            saints—that the elect will necessarily remain faithful. Stemming back to the Synod
+            itself, Calvinism is often set against Arminianism. John Wesley continued this
+            polarization through his self-affiliation with Arminianism over against Calvinism. </p>
+      </body>
+   </text>
+</TEI>
