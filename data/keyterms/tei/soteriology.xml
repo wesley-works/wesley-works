@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Soteriology</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer2/soteriology</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Soteriology is the branch of Christian theology concerned with salvation. Its focus
+            includes other key doctrines, such as Christ's atonement; human sin, repentance, faith,
+            and conversion; justification, regeneration (new birth), and sanctification; grace and
+            the means of grace; and eternal life. As many have noted, Wesley's overall theology is
+            heavily focused on soteriology and the "holiness of heart" and "holiness of life."</p>
+      </body>
+   </text>
+</TEI>

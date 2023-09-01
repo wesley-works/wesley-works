@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mysticism</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer2/mysticism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Mysticism is the religious belief and practice that seeks a direct, personal, and
+            contemplative union with God. While such contemplation frequently takes the form of a
+            spiritual practice like prayer or meditation, it may also manifest through more
+            "receptive" experiences (e.g., dreams or visions). The core of the mystic's quest is
+            essentially "inward" and is often characterized by an intentional withdrawal from the
+            world (whether temporary or permanent). Generally, Christian mysticism holds that the
+            litmus test of a mystical experience is the fruit of the Spirit that results in the
+            mystic's life.</p>
+      </body>
+   </text>
+</TEI>

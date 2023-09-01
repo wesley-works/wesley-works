@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pelagianism</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer2/pelagianism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Pelagianism is the theological position attributed to the British monk Pelagius (ca.
+            355-ca. 420) and his followers and vigorously attacked by St. Augustine (354–430).
+            Notably, Pelagius denied the incapacitating consequence of original sin on human
+            nature—and, with it, what is maintained by a classical doctrine of predestination.
+            Instead, he insisted that genuine freedom of the will persists in human nature, even
+            after the Fall. Accordingly, Pelagius has often been interpreted as claiming that
+            salvation can be earned through human effort alone (i.e., without divine grace), and it
+            is to this heresy that the pejorative "Pelagianism" points. Wesley's own theological
+            position lies between the extremes of Augustinianism/Calvinism and Pelagianism: while
+            Wesley defends the authenticity and consequent responsibility of a free human will, he
+            always predicates this upon God's gracious activity.</p>
+      </body>
+   </text>
+</TEI>

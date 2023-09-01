@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Deism</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer2/deism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Deism names the rational belief that God has remained distant from Creation, allowing it
+            to play out as it will according to certain "natural laws" woven into its very fabric.
+            In this view, which was especially prevalent in 18th century England, God neither guides
+            nor intervenes in Creation. When applied to the created world, reason alone could
+            perfectly deduce God's existence and nature. Indeed, Deists often repudiated the
+            Incarnation as supernatural (i.e., irrational) and superfluous to Christianity.</p>
+      </body>
+   </text>
+</TEI>

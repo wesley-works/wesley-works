@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Election</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer2/election</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>In general, election refers to God's choice of persons or peoples to be involved with
+            God's good will and purposes. In the Hebrew Bible, the term could be applied to the
+            people of Israel as “God's chosen people”—a theme that is picked up but adapted in the
+            New Testament. There, and in subsequent Christian theology, election takes on a
+            particular meaning: God's choice of persons to inherit salvation through Jesus Christ.
+            In the Western Church, election became informed by an emphasis on God's absolute
+            sovereignty, making it a matter of unconditional divine fiat. While not equivalent with
+            predestination, this (Western) understanding of election paved the way for
+            Reformation-era debates, most notably between Calvinists and Arminians. By contrast, the
+            Eastern Church has traditionally not expended such energy on the topic, in large part
+            due to its emphasis on the co-operant nature of divine grace.</p>
+      </body>
+   </text>
+</TEI>
