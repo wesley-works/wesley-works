@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+      <idno type="URI">http://wesleyworks.smu.edu/persons/pers0105</idno>        
+         <titleStmt>
+            <title>Barnard, Rev. Dr. William (1697–1768)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-26</date>
+      <!--<idno type="URI">http://wesleyworks.smu.edu/persons/pers0105</idno>     -->
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0105">
+                  <persName>Rev. Dr. William Barnard</persName>
+               </person>
+               <person xml:id="pers0972">
+                  <persName>John Haughton</persName>
+               </person>
+               <person xml:id="pers1404">
+                  <persName>Thomas Maxfield</persName>
+               </person>
+               <person>
+                  <persName>Anne (Stone) Barnard</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+                <persName>William Barnard</persName>, a graduate of <placeName>Westminster
+               School</placeName> and <placeName>Trinity College, Cambridge</placeName>, was
+            consecrated Bishop of <placeName>Derry</placeName> in <date when="1747">1747</date>, a
+            role he held until his death. He was one of the few Anglican bishops supportive of the
+            Methodist work, as evidenced by his ordination of both <persName>John
+               Haughton</persName> and <persName>Thomas Maxfield</persName>. He was married to
+               <persName>Anne (née Stone</persName>, d. <date when="1782">1782</date>). See <hi rend="italic">Alumni Catabrigienses</hi>; and <hi rend="italic">ODNB</hi>.</p>
+      </body>
+   </text>
+</TEI>

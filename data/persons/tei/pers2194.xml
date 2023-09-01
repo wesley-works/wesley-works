@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Wesley) Ellison Susanna (c. 1695–1764)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-11</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2194</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2188">
+                  <persName>Samuel Wesley</persName>
+               </person>
+               <person xml:id="pers2193">
+                  <persName>Susanna (Annesley) Wesley</persName>
+               </person>
+               <person xml:id="pers0660">
+                  <persName>Richard Ellison</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Susanna ('Suky') was born to <persName>
+                            <ref target="/persons/pers2188.xml"/>Samuel</persName> and <persName>
+                            <ref target="/persons/pers2193.xml"/>Susanna (Annesley) Wesley</persName> in
+                     <placeName>South Ormsby, Lincolnshire</placeName> around <date when="1695">1695</date> (the exact date is unknown). On <date when="1718-01-11">Jan. 11,
+                     1718</date> she was married to <persName>
+                            <ref target="/persons/pers0660.xml"/>Richard Ellison</persName>, of <placeName>Epworth</placeName>, in
+                     <placeName>Ackworth, Yorkshire</placeName> (where Susanna was apparently
+                  serving as a maid or nanny). The couple had at least ten children, of whom four
+                  lived to adulthood. <persName>
+                            <ref target="/persons/pers0660.xml"/>Ellison</persName> was an abusive husband, leading Susanna to take the
+                  children and move to <placeName>London</placeName> about <date when="1735">1735</date>. The couple were eventually reunited in
+                     <placeName>London</placeName>, and there Susanna died on <date when="1764-12-11">Dec. 11, 1764</date> (four years after her husband). See
+                  Clarke, <hi rend="italic">Memoirs</hi> (<date when="1823">1823</date>, 483–85;
+                     <date when="1836">1836</date>, 2:271–74; <date when="1848">1848</date>,
+                  523–26); and Maser, <hi rend="italic">Sisters</hi>, 30–36.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

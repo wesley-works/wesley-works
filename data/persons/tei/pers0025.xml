@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0025</idno>      
+         <titleStmt>
+            <title>Allwood, William (1728-1811)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-26</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu/persons/pers0025</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0025">
+                  <persName>William Allwood</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+                <persName>Allwood</persName> was a <seg ana="itinerancy">traveling Methodist
+               preacher</seg>, whose name first appears in the Minutes in <date when="1753">1753</date> and continues through <date when="1759">1759</date> (see Works, 10:260,
+            287). He eventually settled in <placeName>Cheshire</placeName>.</p>
+      </body>
+   </text>
+</TEI>

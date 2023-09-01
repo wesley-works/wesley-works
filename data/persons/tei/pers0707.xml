@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fenwick, Michael (d. 1797)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0707</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers0179">
+                  <persName>Ebenezer Blackwell</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Michael Fenwick sought to became one of <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s helpers in <date when="1751">1751</date>, but both <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> and <persName>
+                            <ref target="/persons/pers2176.xml"/>CW</persName> were doubtful of his gifts and discipline (see <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> to <persName>
+                            <ref target="/persons/pers2176.xml"/>CW</persName>, <date when="1751-08-03">Aug.
+                     3, 1751</date>). In <date when="1755">1755</date>
+                  <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> took Fenwick as his
+                  groom for a period, commenting that he was 'upon occasion a tolerable
+                  preacher' (<persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> to
+                        <persName>
+                            <ref target="/persons/pers0179.xml"/>E. Blackwell</persName>,
+                     <date when="1755-09-12">Sept. 12, 1755</date>). But by <date when="1758">1758</date> Fenwick had been encouraged by Conference to return to his career
+                  in business (<hi rend="italic">Works</hi>, 10:283). <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> allowed him to start preaching
+                  in the <placeName>Dales</placeName> again in <date when="1767">1767</date>
+                  (without an official appointment), and in <date when="1772">1772</date> returned
+                  him to official status; but Fenwick was again asked to step aside in <date when="1774">1774</date>. See Atmore, <hi rend="italic">Memorial</hi>,
+                  123–25.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

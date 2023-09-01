@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Venn, Rev. Henry (1725–1797)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2093</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2094">
+                  <persName>Richard Venn</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers0964">
+                  <persName>Selina Hastings</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>The son of Rev. <persName>
+                            <ptr target="/persons/pers2094.xml"/>Richard
+                     Venn</persName>, <persName>Henry</persName> received his <seg ana="degree">BA</seg> from Jesus College, <placeName>Cambridge</placeName> in <date when="1746">1746</date>, and <seg ana="degree">MA</seg> from Queen's
+                  College in <date when="1749">1749</date>. Mirroring these degrees,
+                     <persName>Venn</persName> was ordained deacon in <date when="1747">1747</date>
+                  and priest in <date when="1749">1749</date>. After brief curacies in
+                     <placeName>Cambridgeshire</placeName> and <placeName>Surrey</placeName>,
+                     <persName>Venn</persName> accepted the curacy of <placeName>Clapham</placeName>
+                  in <date when="1754">1754</date>. During his time there he was drawn into the
+                  evangelical wing of the Church of <placeName>England</placeName> and became close
+                  with <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>, <persName>
+                            <ptr target="/persons/pers2221.xml"/>George Whitefield</persName>, and
+                        <persName>
+                            <ptr target="/persons/pers0964.xml"/>Lady Huntingdon</persName>.
+                     <persName>Venn</persName> became vicar of Huddersfield in <date when="1759">1759</date>, and initially welcomed <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>'s <seg ana="itinerancy">traveling preachers</seg> in his parish. But <persName>Venn</persName>'s
+                  theological inclination was shifting from Arminianism to an increasing Calvinism,
+                  and by <date>1761</date> he was limiting the role of <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>'s preachers in his
+                  parish. <persName>Venn</persName>'s health broke after a decade at
+                     <placeName>Huddersfield</placeName>, leading him to transition to the quiet
+                  living of <placeName>Yelling, Huntingdonshire</placeName> in <date when="1771">1771</date>, where he served (and mentored students at nearby
+                     <placeName>Cambridge</placeName>) until his death. See <hi rend="italic">Alumni
+                     Catabrigienses</hi>; CCEd; <hi rend="italic">DEB</hi>, 1137–38; <hi rend="italic">ODNB</hi>; and Vickers, <hi rend="italic">Dictionary</hi>,</p>
+            
+         
+      </body>
+   </text>
+</TEI>

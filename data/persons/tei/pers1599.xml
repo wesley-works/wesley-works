@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Perronet, Charles (c. 1719–1776)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-16</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1599</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1605">
+                  <persName>Vincent Perronet</persName>
+               </person>
+               <person xml:id="pers1598">
+                  <persName>Charity Perronet</persName>
+               </person>
+               <person xml:id="pers1602">
+                  <persName>Edward Perronet</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Charles was a son of <persName>
+                            <ptr target="/persons/pers1605.xml"/>Vincent
+                     Perronet</persName> and <persName>
+                            <ptr target="/persons/pers1598.xml"/>Charity
+                     (Goodhew) Perronet</persName>. When his family aligned with Methodism in the
+                     mid-<date>1740s</date>, Charles became a <seg ana="itinerancy">traveling
+                     preacher</seg>, helping to form the Methodist society in
+                     <placeName>Dublin</placeName>. Like his brother <persName>
+                            <ptr target="/persons/pers1602.xml"/>Edward</persName>, Charles was estranged
+                  from the Wesley brothers by the mid-<date>1750s</date> through his advocacy of
+                  separation from the Church of <placeName>England</placeName>. He spent his later
+                  years in <placeName>Canterbury</placeName> with his brother. See Atmore, <hi rend="italic">Memorial</hi>, 327–35; Batty, <hi rend="italic">Perronet</hi>;
+                     <hi rend="italic">DEB</hi>, 876; and Vickers, <hi rend="italic">Dictionary</hi>, 270.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

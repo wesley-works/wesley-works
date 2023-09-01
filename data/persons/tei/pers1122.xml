@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ireland, James (1724–1814)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-12</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1122</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1513">
+                  <persName>John Norman</persName>
+               </person>
+               <person xml:id="pers1514">
+                  <persName>Mary Norman</persName>
+               </person>
+               <person xml:id="pers0719">
+                  <persName>John Fletcher</persName>
+               </person>
+               <person>
+                  <persName>Constant Norman</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Ireland began his career in <placeName>Bristol</placeName> as a shopman, prospered
+                  as a sugar merchant, and eventually owned an estate in
+                     <placeName>Brislington</placeName>. He was an evangelical sympathizer. In <date when="1749-10">October 1749</date> he married <persName>Constant
+                     Norman</persName>, daughter of <persName>
+                            <ref target="/persons/pers1513.xml"/>John</persName> and <persName>
+                            <ref target="/persons/pers1514.xml"/>Mary
+                     (Oxford) Norman</persName>—owners of the brickyard on St. Philip's Plain
+                  in <placeName>Bristol</placeName>, where <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> preached his first sermon in
+                  the open air on <date when="1739-04-02">Apr. 2, 1739</date>. Ireland was
+                  particularly close to <persName>
+                            <ref target="/persons/pers0719.xml"/>John
+                     Fletcher</persName><!-- I am unsure if this is the specific Rev. John fletcher but tagged it just in case -->,
+                  who preached the funeral sermon for Ireland's wife
+                     <persName>Constant</persName> in <date when="1769">1769</date>.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

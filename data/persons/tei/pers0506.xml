@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Crosby, Sarah (1729–1804)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-26</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0506</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>
+                        <persName>Sarah</persName> (maiden name unknown) was born in <placeName>Leeds,
+                     Yorkshire</placeName>. She inclined toward Calvinism as a young woman but
+                  joined the Methodists after hearing <persName>JW</persName> preach. She moved to
+                     <placeName>London</placeName> in <date when="1757">1757</date> after her
+                  husband deserted her, and boarded with <persName>Mary (Gardiner)
+                  Clarke</persName>. Here she met <persName>Mary Bosanquet</persName>, which was the
+                  beginning of a long friendship and shared ministry, in <placeName>Leytonstone,
+                     Essex</placeName>, and then in <placeName>Morley, Yorkshire</placeName>. Both
+                  women became prominent female preachers among <persName>JW</persName>'s
+                  followers, with <persName>Crosby</persName> pioneering the way. See
+                     <persName>Frank Baker</persName>, '<persName>John Wesley</persName> and
+                     <persName>Sarah Crosby</persName>', <hi rend="italic">WHS</hi> 27 (<date when="1949">1949</date>): 76–82; <hi rend="italic">DEB</hi>, 273; <hi rend="italic">ODNB</hi>; Taft, <hi rend="italic">Holy Women</hi>, 2:23–115; and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 83.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

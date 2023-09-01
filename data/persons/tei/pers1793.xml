@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ryan, Sarah (1724–1768)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1793</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers1792">
+                  <persName>John Ryan</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0506">
+                  <persName>Sarah Crosby</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+               <person xml:id="pers0215">
+                  <persName>Mary Bosanquet</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>
+                        <persName>Sarah</persName> (maiden name unknown), was spiritually awakened under
+                        <persName>
+                            <ptr target="/persons/pers2221.xml"/>Whitefield</persName>'s
+                  preaching at age seventeen. She married about <date when="1745">1745</date>, but
+                  was soon deserted by her husband (name unknown). Around <date when="1748">1748</date> she married a sailor named [<persName>
+                            <ptr target="/persons/pers1792.xml"/>John?] Ryan</persName> (whom she seems to
+                  suggest was abusive during his times home from the sea). Through the influence of
+                  the wife of the sailor's captain, who was a Methodist,
+                     <persName>Ryan</persName> began attending <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>'s
+                     <placeName>Foundery</placeName> in <placeName>London</placeName>. She
+                  participated in a class meeting and established a lasting friendship with
+                        <persName>
+                            <ptr target="/persons/pers0506.xml"/>Sarah Crosby</persName>. In
+                     <date when="1754">1754</date> she experienced a strong spiritual renewal. Over
+                  the next year, partly in conversation with <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>, she decided not to follow her
+                  husband, who had moved to <placeName>New England</placeName>. In <date when="1757">1757</date>
+                  <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> appointed
+                     <persName>Ryan</persName> housekeeper at the New Room in
+                     <placeName>Bristol</placeName>. <persName>Ryan</persName> became at that point
+                  one of <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>'s most
+                  spiritually intimate correspondents, provoking the jealousy of his wife
+                        <persName>
+                            <ptr target="/persons/pers2091.xml"/>Mary</persName>.
+                        <persName>
+                            <ptr target="/persons/pers0215.xml"/>Mary Bosanquet</persName>
+                  recorded an incident at a meeting of Methodist preachers in
+                     <placeName>Bristol</placeName> in late <date when="1757">1757</date>, when
+                        <persName>
+                            <ptr target="/persons/pers2091.xml"/>Mary Wesley</persName>
+                  pointed to <persName>Ryan</persName> and said, 'See that whore who is serving
+                  you! She hath three husbands now alive!' Within a couple of years this
+                  pressure led <persName>Ryan</persName> to leave <placeName>Bristol</placeName>.
+                  Her final years were spent working closely with <persName>
+                            <ptr target="/persons/pers0215.xml"/>Mary Bosanquet</persName> in ministering to
+                  orphans. She died on <date when="1768-08-17">Aug. 17, 1768</date>. See her
+                  autobiographical letter dated <date when="1760-03-19">March 19, 1760</date> in <hi rend="italic">AM</hi> 2 (1779): 296–310; <hi rend="italic">DEB</hi>, 962; and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 304.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Whitefield, Rev. George (1714–1770)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2221</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2220">
+                  <persName>Elizabeth Whitefield</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2219">
+                  <persName>Elizabeth James</persName>
+               </person>
+               <person>
+                  <persName>Thomas Whitefield</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Born in <placeName>Gloucester</placeName> to <persName>Thomas
+                     Whitefield</persName> and <persName>
+                            <ptr target="/persons/pers2220.xml"/>Elizabeth (Edwards) Whitefield</persName>, <persName>George</persName>
+                  matriculated at Pembroke College, <placeName>Oxford</placeName> in <date when="1732">1732</date>, receiving his <seg ana="degree">BA</seg> in <date when="1736">1736</date>. <persName>
+                            <ptr target="/persons/pers2176.xml"/>CW</persName> befriended him, introducing him to <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>, and he was soon active in the
+                  'Oxford Methodists'. While the junior of the Wesley brothers in age,
+                     <persName>Whitefield</persName> preceded them by three years in his evangelical
+                  conversion in <date when="1735">1735</date>. Ordained deacon in <date when="1736-06">June 1736</date> (and priest in <date when="1739">1739</date>),
+                     <persName>Whitefield</persName> began preaching in
+                     <placeName>London</placeName> in various churches with almost immediate
+                  success. This success carried over to <placeName>Bristol</placeName> in <date when="1737-01">January 1737</date>, and then across the Atlantic on his first
+                  journey there. In <date when="1739-02">February 1739</date>, back in
+                     <placeName>Bristol</placeName>, he turned to 'field preaching' and
+                  soon convinced <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> and
+                        <persName>
+                            <ptr target="/persons/pers2176.xml"/>CW</persName> to join in this
+                  new setting. Despite their shared passion in the revival, the Wesley brothers and
+                     <persName>Whitefield</persName> held divergent theologies (Arminian and
+                  Calvinist). These soon caused tensions (and eventual divisions) in the broad
+                  Methodist movement, which are reflected in their frequent correspondence. In <date when="1741-11">November 1741</date>
+                  <persName>Whitefield</persName> married <persName>
+                            <ptr target="/persons/pers2219.xml"/>Elizabeth (Burnell) James</persName> (<date from="1704" to="1768">1704–68</date>), a Welsh widow. See <hi rend="italic">Alumni Oxonienses</hi>; Atmore, <hi rend="italic">Memorial</hi>, 492–502;
+                  CCEd; <hi rend="italic">DEB</hi>, 1180–81; <hi rend="italic">ODNB</hi>; and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 392.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

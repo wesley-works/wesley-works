@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Freeman (Shepherd), Mary (1731–1815)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0749</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0179">
+                  <persName>Ebenezer Blackwell</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers2191">
+                  <persName>Sarah Wesley</persName>
+               </person>
+               <person xml:id="pers2190">
+                  <persName>Samuel Wesley</persName>
+               </person>
+               <person>
+                  <persName>Nathaniel Shepherd</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Mary Freeman, was a second cousin of <persName>
+                            <ref target="/persons/pers0179.xml"/>Ebenezer Blackwell</persName>, born in <placeName>England</placeName> but
+                  descended on her maternal side from Italian aristocratic roots. She was educated
+                  at a convent in <placeName>Rome</placeName>, and remained a devout Roman Catholic
+                  her whole life. Through the Blackwells Freeman became close friends with
+                        <persName>
+                            <ref target="/persons/pers2176.xml"/>Charles</persName> and
+                        <persName>
+                            <ref target="/persons/pers2191.xml"/>Sarah Wesley</persName> and
+                  their children (perhaps influencing their son <persName>
+                            <ref target="/persons/pers2190.xml"/>Samuel</persName> in his decision to convert
+                  to the Church of <placeName>Rome</placeName>). Freeman never married, but about
+                     <date when="1784">1784</date> she formally changed her name to Mary Freeman
+                  Shepherd, in honor of her uncle <persName>Nathaniel Shepherd</persName>, who was
+                  her godfather and benefactor. See William Urwick, <hi rend="italic">Nonconformity
+                     in Herts</hi> (<placeName>London</placeName>, <date when="1884">1884</date>),
+                  189–90.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

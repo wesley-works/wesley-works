@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Law, William (1686–1761)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-02</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1261</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>King James</persName>
+               </person>
+               <person>
+                  <persName>King George I</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>
+                        <persName>Law</persName>'s brief academic and ecclesiastical career came to
+                  an end in <date when="1716">1716</date> when he refused to abjure allegiance to
+                  the lineage of <persName>James</persName>, upon <persName>George I</persName>
+                  taking the throne of <placeName>England</placeName>. He focused his energy from
+                  that point on devotional writings, among which <hi rend="italic">Serious Call to a
+                     Devout and Holy Life</hi> (<date when="1728">1728</date>) and <hi rend="italic">Practical Treatise upon Christian Perfection</hi> (<date when="1726">1726</date>) greatly influenced <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> during his formative years. <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> corresponded with
+                     <persName>Law</persName> appreciatively in the early <date>1730s</date>. After
+                  <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>'s evangelical conversion in <date when="1738">1738</date>, their correspondence became more critical in tone. See <hi rend="italic">ODNB</hi>; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  198.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

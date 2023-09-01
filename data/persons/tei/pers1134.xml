@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jaco, Peter (1729–1781)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1134</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Elizabeth Hawkesworth</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Born in <placeName>Newlyn</placeName>, Jaco was converted by Methodist preachers
+                  in <date when="1747">1747</date> and given his first assignment as a <seg ana="itinerancy">traveling preacher</seg> in <date when="1754">1754</date>. In
+                     <date when="1763">1763</date> he married <persName>Elizabeth
+                     (Hawkesworth</persName>?), who died in <date when="1794">1794</date>. Jaco
+                  continued to travel until <date when="1779">1779</date>. See Atmore, <hi rend="italic">Memorial</hi>, 215–17; <hi rend="italic">DEB</hi>, 601; <hi rend="italic">EMP</hi> 1:260–68; and Vickers, <hi rend="italic">Dictionary</hi>, 180.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

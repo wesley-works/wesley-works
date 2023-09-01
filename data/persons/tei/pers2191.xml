@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Gwynne) Wesley, Sarah (1726–1822)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2191</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0889">
+                  <persName>Marmaduke Gwynne</persName>
+               </person>
+               <person xml:id="pers0891">
+                  <persName>Sarah Gwynne</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers2177">
+                  <persName>Charles Jr. Wesley</persName>
+               </person>
+               <person xml:id="pers2190">
+                  <persName>Samuel Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Born <date when="1726-10-12">Oct. 12, 1726</date> to <persName>
+                            <ptr target="/persons/pers0889.xml"/>Marmaduke Gwynne</persName> and
+                        <persName>
+                            <ptr target="/persons/pers0891.xml"/>Sarah (Evans)
+                     Gwynne</persName>, in <placeName>Garth, Brecknockshire</placeName>,
+                     <persName>Sarah ('Sally'</persName>) first met <persName>
+                            <ptr target="/persons/pers2176.xml"/>CW</persName> in <date when="1747-08">Aug.
+                     1747</date>. Although there was nearly twenty years difference in their ages,
+                  the two were quickly drawn to one another. The bigger obstacle to their marriage
+                  proved to be convincing <persName>Sarah</persName>'s family (particularly her
+                  mother) that <persName>
+                            <ptr target="/persons/pers2176.xml"/>CW</persName> would be
+                  able to provide her with financial security. The couple was finally joined on
+                     <date when="1749-04-08">April 8, 1749</date>. They settled in
+                     <placeName>Bristol</placeName>, where <persName>Sarah</persName> bore eight
+                  children. Their family happiness was marred mainly by the loss of five of these
+                  children in infancy, and <persName>Sarah</persName> nearly dying of smallpox. In
+                  the <date>1770</date>s the family moved from <placeName>Bristol</placeName> to
+                     <placeName>London</placeName>, in support of the musical careers of their sons
+                        <persName>
+                            <ptr target="/persons/pers2177.xml"/>Charles</persName> and
+                        <persName>
+                            <ptr target="/persons/pers2190.xml"/>Samuel</persName>. It was
+                  here that <persName>
+                            <ptr target="/persons/pers2176.xml"/>CW</persName> would die
+                  in <date when="1788">1788</date>, and <persName>Sarah</persName> would live as a
+                  widow for thirty-four years. See <hi rend="italic">ODNB</hi>.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

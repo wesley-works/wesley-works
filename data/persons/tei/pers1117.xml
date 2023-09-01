@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+                <idno type="URI">http://wesleyworks.smu.edu/persons/pers1117</idno>          
+            <titleStmt>
+                <title>I'Anson, Bryan (1708–1775)</title>
+                <author>Maddox, Randy L.</author>
+                <editor>Gatley, Jenna</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2022-02-26</date>
+                <!--<idno type="URI">http://wesleyworks.smu.edu/persons/pers1117</idno>          -->
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="pers1117">
+                        <persName>Bryan I'Anson</persName>
+                    </person>
+                    <person>
+                        <persName>Sir Thomas I'Anson</persName>
+                    </person>
+                    <person>
+                        <persName>Thomas I'Anson</persName>
+                    </person>
+                    <person xml:id="pers2180">
+                        <persName>John Wesley</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-01-01">note about revisions made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Son of <persName>Sir Thomas I'Anson</persName> (d. <date when="1707">1707</date>), and younger brother of <persName>Thomas I'Anson</persName>
+                    (<date from="1701" to="1764">1701–64</date>), 4th <seg ana="aristocraticTitle">baronet</seg>; Bryan I'Anson was a <seg ana="occupation">solicitor</seg>
+                at <placeName>New Palace Yard, Westminster</placeName>, whom <persName>JW</persName>
+                consulted for legal advice from at least <date when="1750">1750</date>. See <hi rend="italic">WHS</hi> 5 (<date when="1906">1906</date>): 230–37.</p>
+        </body>
+    </text>
+</TEI>

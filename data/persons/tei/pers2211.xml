@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wheatley, James (d. 1775)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-04-17</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2211</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Wheatley became a <seg ana="itinerancy">traveling Methodist
+                     preacher</seg> about <date when="1742">1742</date>, and attended the <date when="1745">1745</date> Conference. While <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> initially thought highly of
+                  him, doubts began to surface in <date when="1749">1749</date>. In <date when="1751">1751</date>
+                  <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> and <persName>
+                            <ref target="/persons/pers2176.xml"/>CW</persName> expelled
+                     <persName>Wheatley</persName> from the connexion in light of evidence of sexual
+                  improprieties with young women in his circuit. Wheatley
+                  immediately set up as an independent preacher in <placeName>Norwich</placeName>,
+                  where he gathered a significant following, but soon fell into his former ways and
+                  by <date when="1756">1756</date> had been found guilty of immorality in public
+                  court. His reputation hampered the Methodist society in
+                     <placeName>Norwich</placeName> for some time, even though he had been put out.
+                  See Atmore, <hi rend="italic">Memorial</hi>, 488–91; Pawson, <hi rend="italic">Letters</hi>, 3:142; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  390–91.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

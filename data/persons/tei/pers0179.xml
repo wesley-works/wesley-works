@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Blackwell, Ebenezer (1711–1782)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-26</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0179</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>
+                        <persName>Blackwell</persName> was related to <persName>George
+                     Whitefield</persName>'s mother <persName>Elizabeth</persName>. He
+                  apprenticed in banking under <persName>Thomas Martin</persName> of Martin's
+                  Bank, <placeName>London</placeName>—where he became a partner in <date when="1746">1746</date>. Raised as an Anabaptist, <persName>Blackwell</persName> was
+                  baptized into the Church of <placeName>England</placeName> by
+                     <persName>Whitefield</persName> in <date when="1739-06">June 1739</date>, and
+                  in <date when="1739-08">August</date> of that year helped
+                     <persName>Whitefield</persName> deal with money collected for establishing a
+                  school for colliers at <placeName>Kingswood</placeName>. <persName>JW</persName>
+                  was also in <placeName>Bristol</placeName> at the time and met
+                     <persName>Blackwell</persName>. Thus began a long friendship, working
+                  relationship, and correspondence. <persName>Blackwell</persName>'s home in
+                     <placeName>Lewisham, The Limes</placeName>, became a favourite retreat for both
+                     <persName>JW</persName> and <persName>CW</persName>. After death of his first
+                  wife, <persName>Elizabeth</persName>, <persName>Blackwell</persName> married
+                     <persName>Mary Eden</persName> (<date from="1746" to="1811">1746–1811</date>)
+                  on <date when="1774-12-22">Dec. 22, 1774</date>. On his death in <date when="1782">1782</date>, <persName>CW</persName> composed an extended funeral hymn (MS
+                  Funeral Hymns [<date from="1756" to="1787">1756–87</date>], 59–62; <hi rend="italic">AM</hi> 6 [<date when="1784">1784</date>] ). See Martin, <hi rend="italic">Grasshopper</hi>, 49–69; and Vickers, <hi rend="italic">Dictionary</hi>, 33–34.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

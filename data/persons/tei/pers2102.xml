@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Viney, Richard (fl. 1738–1744)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2102</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0197">
+                  <persName>Peter Bohler</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1121">
+                  <persName>Benjamin Ingham</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>
+                        <persName>Viney</persName> was a <placeName>London</placeName> tailor with
+                  business contacts in <placeName>Germany</placeName> and proficiency in German. He
+                  was an early member of the Fetter Lane society, and interpreted for <persName>
+                            <ptr target="/persons/pers0197.xml"/>Peter Bohler</persName> in
+                     <placeName>London</placeName>. <persName>Viney</persName> joined <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> in visiting the <seg ana="moravians">Moravians</seg> in <placeName>Germany</placeName> in <date when="1738">1738</date>. He stayed after <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> returned, and aligned himself
+                  with the <seg ana="moravians">Moravians</seg>. <persName>Viney</persName> returned
+                  to <placeName>England</placeName> in <date when="1739">1739</date> and gave
+                  leadership to the <seg ana="moravian">Moravian</seg> continuation of the Fetter
+                  Lane society. In <date when="1742">1742</date> he became master of the <seg ana="moravian">Moravian</seg> school in <placeName>London</placeName>, which
+                  soon moved to <placeName>Broad Oaks, Essex</placeName>. In early <date when="1743">1743</date> he went to <placeName>Yorkshire</placeName> to give guidance to
+                        <persName>
+                            <ptr target="/persons/pers1121.xml"/>Benjamin
+                  Ingham</persName>'s former societies, but came afoul of Spanenberg later that
+                  year and was excommunicated. For about a year <persName>Viney</persName> swung his
+                  loyalties to the Methodists, plying his trade as a tailor and staymaker, while
+                  working for <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> in
+                  various capacities, including that of bookbinder (his diary for <date when="1744">1744</date> is a mine of information on early Methodism). But his <seg ana="moravians">Moravian</seg> tendencies remained, leading <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> not to trust him, and by <date when="1745">1745</date> he had moved to <placeName>Halifax</placeName> and
+                  apparently rejoined the <seg ana="moravians">Moravians</seg> (though details of
+                  his life after <date when="1744">1744</date> are very sketchy). See <hi rend="italic">DEB</hi>, 1145; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  364–65.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

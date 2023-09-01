@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Darney, William (1709–1774)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0528</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0879">
+                  <persName>William Grimshaw</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            
+               <p>Converted in the Scottish awakening in <date when="1740">1740</date>, Darney
+                  became a wandering pedlar-preacher, and in <date when="1743">1743</date> organized
+                  religious societies in <placeName>Lancashire</placeName> and the <placeName>West
+                     Riding of Yorkshire</placeName>. <persName>
+                            <ref target="/persons/pers0879.xml"/>William Grimshaw</persName> came strongly under his influence, and proved to
+                  be the catalyst to secure Darney's societies for <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s Methodism in <date when="1747">1747</date> and Darney himself as one of <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s preachers.
+                  Darney's enthusiasm was difficult to keep within bounds, however, and he was
+                  irked by <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s firm
+                  discipline. On several occasions he was reprimanded, and only escaped dismissal
+                  for Calvinistic preaching, insistence on singing his own hymns, and uncouth
+                  behaviour, by the special pleading of <persName>
+                            <ref target="/persons/pers0879.xml"/>Grimshaw</persName>. When the <date when="1768">1768</date> Conference prohibited preachers from following a trade,
+                  Darney left the <seg ana="itinerancy">itinerancy</seg> and returned to the
+                     <placeName>Rossendale</placeName> area as a local preacher. See Atmore, <hi rend="italic">Memorial</hi>, 100–101; <hi rend="italic">DEB</hi>, 292; and
+                  Vickers, <hi rend="italic">Dictionary</hi>, 87.</p>
+            
+         </listPerson>
+      </body>
+   </text>
+</TEI>

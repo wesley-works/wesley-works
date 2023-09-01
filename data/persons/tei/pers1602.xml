@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Perronet, Edward (1726–1792)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-20</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1602</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1599">
+                  <persName>Charles Perronet</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers1601">
+                  <persName>Duriah (‘Dudie’) Clarke</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Like his brother <persName>
+                            <ref target="/persons/pers1599.xml"/>Charles</persName>, Edward (often called 'Ned' or 'Ted' by
+                  the Wesley brothers) was traveling with the Wesley brothers (esp. <persName>
+                            <ref target="/persons/pers2176.xml"/>CW</persName>) soon after his family aligned
+                  with the Methodists in <date when="1746">1746</date>. He continued to <seg ana="itinerancy">itinerate</seg> even after marrying <persName>
+                            <ref target="/persons/pers1601.xml"/>Duriah ('Dudie') Clarke</persName>
+                  (d. <date when="1792">1792</date>) on <date when="1748-09-10">Sept. 10,
+                     1748</date> (with <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>
+                  officiating). But Edward and <persName>
+                            <ref target="/persons/pers1599.xml"/>Charles</persName> began to chafe at <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s authority in assigning
+                  circuits, and by <date when="1755">1755</date> they both claimed the right to
+                  administer sacraments (although not ordained). In <date when="1756">1756</date>
+                  Edward published <hi rend="italic">The Mitre</hi>, a ferocious poetic attack on
+                  the Church of <placeName>England</placeName>, which led to a final break between
+                  the Wesley brothers and the Perronet brothers in ministry (if not in affection).
+                  It also severely strained Edward's relationships with his parents. He
+                  eventually settled at <placeName>Canterbury</placeName> as an Independent
+                  minister, and is best known for his hymn, 'All hail the power of Jesus'
+                  name'. See Atmore, <hi rend="italic">Memorial</hi>, 335–36; Batty, <hi rend="italic">Perronet</hi>; <hi rend="italic">DEB</hi>, 876; <hi rend="italic">ODNB</hi>; and Vickers, <hi rend="italic">Dictionary</hi>, 270.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

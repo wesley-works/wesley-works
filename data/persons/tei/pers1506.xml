@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Newton, Rev. John (1725–1807)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1506</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName>Mary Catlett</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>A native of <placeName>London</placeName> and a slave-trader, Newton had a
+                  conversion experience on board his ship in <date when="1748-03">March 1748</date>.
+                  About <date when="1756">1756</date> he abandoned his former trade and became
+                  active in the Evangelical revival. He turned to supporting himself as a tax
+                  collector in the port of <placeName>Liverpool</placeName>, while seeking
+                  ordination. He was finally ordained in <date when="1764">1764</date> and became
+                  vicar at <placeName>Olney</placeName>. He is best known for his hymns and his
+                  writings against the slave trade. Newton married <persName>Mary Catlett</persName>
+                  in <date when="1750">1750</date>. See <hi rend="italic">DEB</hi>, 824–25; <hi rend="italic">ODNB</hi>; and Vickers, <hi rend="italic">Dictionary</hi>,
+                  253.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

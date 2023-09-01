@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Okeley, Francis (1719–1794)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1528</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Son of the mayor of <placeName>Bedford</placeName>, <persName>Okeley (or
+                     Okely</persName>) was educated at Charterhouse. He was converted in <date when="1736">1736</date> and met the Wesley brothers as part the Fetter Lane
+                  society. When Fetter Lane split, <persName>Okeley</persName> sided with the <seg ana="moravians">Moravians</seg> and considered attending their seminary.
+                  Instead, he entered St. John's, Cambridge in <date when="1736">1736</date>,
+                  becoming part of the 'Cambridge Methodists'. On his return to
+                     <placeName>Bedford</placeName>, after receiving a <seg ana="degree">BA</seg> in
+                     <date when="1740">1740</date>, <persName>Okeley</persName> took the pastorate
+                  of a Baptist church, but soon returned to the <seg ana="moravians">Moravians</seg>. But here too he proved restless. See <hi rend="italic">Alumni
+                     Catabrigienses</hi>; <hi rend="italic">DEB</hi>, 842; <hi rend="italic">ODNB</hi>; and <hi rend="italic">Works</hi>, 21:136, n. 45.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

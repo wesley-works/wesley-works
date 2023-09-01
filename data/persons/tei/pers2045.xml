@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tompson, Richard (fl. 1740–1760)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2045</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>A founding member of the Fetter Lane Society in <placeName>London</placeName>,
+                     <persName>Tompson</persName> was self-taught, intelligent, and thoughtful, with
+                  a strong strain of scepticism. While <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> convinced <persName>Tompson</persName> to stay in the Church of
+                     <placeName>England</placeName> in <date when="1739">1739</date>, and to align
+                  with the Methodist society, <persName>Tompson</persName>'s relationship was
+                  marginal. When <persName>Tompson</persName> learned that <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> was preparing <hi rend="italic">Explanatory Notes upon the New Testament</hi> for publication, he
+                  wrote <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> raising
+                  questions about the scriptural warrant for the doctrine of original sin. This
+                  enquiry sparked an extended correspondence between the two. We know little of
+                     <persName>Tompson</persName> apart from the correspondence, except that he
+                  lived in <placeName>Prince's Square, Ratcliff Highway,
+                  London</placeName>.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

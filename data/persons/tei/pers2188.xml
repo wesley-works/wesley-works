@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wesley, Rev. Samuel Sr. (1662–1735)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-11</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2188</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2193">
+                  <persName>Susanna Annesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person>
+                  <persName>John Westley</persName>
+               </person>
+               <person>
+                  <persName>John Dunton</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Samuel Wesley was baptized on <date when="1662-12-17">Dec. 17, 1662</date> in
+                     <placeName>Winterbourne Whitechurch, Dorsetshire</placeName>, by his father,
+                  Rev. <persName>John Westley</persName>. This was also the year of the Restoration
+                  of the Act of Uniformity in the Church of <placeName>England</placeName>, and
+                  Samuel's father (a staunch Puritan) was soon forced out of his parish and the
+                  Church. Rev. <persName>Westley</persName> continued to preach undercover, as a
+                  Dissenter, and endured the resulting imprisonments, which contributed to his death
+                  in <date when="1671">1671</date>. After losing his father, Samuel was educated in
+                  dissenting academies (through support of family friends) in preparation for the
+                  possibility of ministry himself. But Samuel proved of independent mind, deciding
+                  to align with the Church of <placeName>England</placeName>, and entering Exeter
+                  College in <placeName>Oxford</placeName> in <date when="1684">1684</date> (at
+                  which time he dropped the 't' from the spelling of his name). In <date when="1688">1688</date> Samuel received his <seg ana="degree">BA</seg> in <date when="1688-05">May</date>, was ordained deacon in <date when="1688-08">Aug</date>., and married <persName>
+                            <ref target="/persons/pers2193.xml"/>Susanna Annesley</persName> on <date when="1688-11-12">Nov. 12</date>. He was
+                  ordained priest the following year. Samuel initially tried to support the family
+                  through literary ventures with his brother-in-law <persName>John
+                  Dunton</persName>, and a stint as a chaplain in the Navy. In <date when="1691-06">June 1691</date> he opted to become rector of a small parish in
+                     <placeName>South Ormsby, Lincolnshire</placeName>, to which another small
+                  charge was added the following year in nearby <placeName>South
+                     Thoresby</placeName>. In <date when="1695-04">April 1695</date> he moved to
+                  become rector of <placeName>Epworth</placeName>, where he would remain until his
+                  death (adding <placeName>Wroot</placeName> to his care in <date when="1722">1722</date>). By all accounts, Samuel was a faithful pastor, though his strict
+                  discipline and strong political views made him unpopular with many of his
+                  parishioners. Likewise, while Samuel achieved a measure of recognition through his
+                  writings and involvement in Church convocations, his place in history is secured
+                  through his children—particularly <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> and <persName>
+                            <ref target="/persons/pers2176.xml"/>CW</persName>. See <hi rend="italic">Alumni Oxonienses</hi>; CCEd; Clarke,
+                     <hi rend="italic">Memoirs</hi> (<date when="1823">1823</date>, 60–233; 1836,
+                  89–361); and <hi rend="italic">ODNB</hi>.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

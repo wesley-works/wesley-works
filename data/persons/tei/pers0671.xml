@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Erasmus Aulonita (fl. 1750–1770)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0671</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1179">
+                  <persName>John Jones</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Erasmus Aulonita (Gerasimos Avlonites) traveled <placeName>Europe</placeName> and
+                     <placeName>England</placeName> from <date when="1752">1752</date> through at
+                  least <date when="1773">1773</date>, claiming to be a displaced (Greek) Orthodox
+                  Bishop of <placeName>Arcadia in Crete</placeName>. <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> turned to Erasmus for the
+                  ordination of his (educationally qualified) lay preacher <persName>
+                            <ref target="/persons/pers1179.xml"/>John Jones</persName> in the summer of <date when="1763">1763</date>. Some other Methodist lay preachers (without the
+                  educational qualifications) then paid Erasmus to ordain them in late <date when="1765">1765</date>, and received <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s censure for this
+                  action. See A. B. Sackett, 'John Wesley and the Greek Orthodox Bishop',
+                     <hi rend="italic">WHS</hi> 38 (<date from="1971" to="1972">1971–72</date>):
+                  81–88, 97–102.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

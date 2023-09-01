@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Atmore, Charles (1759–1826)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-06-12</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0074</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>A native of <placeName>Heacham, Norfolk</placeName>, Atmore entered the itinerant
+                  ministry in <date when="1781">1781</date> (see <hi rend="italic">Works</hi>,
+                  10:507). He soon became one of <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s 'inner cabinet' and in <date when="1786">1786</date>
+                  <persName>
+                            <ref target="/persons/pers2180.xml"/>Wesley</persName> ordained him for
+                  ministry in <placeName>Scotland</placeName>. He played an active role in Methodist
+                  matters after <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s
+                  death, including a time as President of Conference. See <hi rend="italic">DEB</hi>, 36–37; <hi rend="italic">Minutes</hi> (post-Wesley, <date when="1826">1826</date>), 6:111; and Vickers, <hi rend="italic">Dictionary</hi>, 14.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

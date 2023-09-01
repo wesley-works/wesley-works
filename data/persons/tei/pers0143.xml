@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+        <idno type="URI">http://wesleyworks.smu.edu/persons/pers0143</idno>        
+            <titleStmt>
+                <title>Bennet, John (c. 1715–1759)</title>
+                <author>Maddox, Randy L.</author>
+                <editor>Gatley, Jenna</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2022-02-26</date>
+        <!--<idno type="URI">http://wesleyworks.smu.edu/persons/pers0143</idno>  -->
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+		<person xml:id="pers0143">
+			<persName>John Bennet</persName>
+			</person>
+                    <person xml:id="pers1998">
+                        <persName>David Taylor</persName>
+                    </person>
+                    <person xml:id="pers1121">
+                        <persName>Benjamin Ingham</persName>
+                    </person>
+                    <person xml:id="pers0964">
+                        <persName>Lady Huntingdon</persName>
+                    </person>
+                    <person xml:id="pers2180">
+                        <persName>John Wesley</persName>
+                    </person>
+                    <person xml:id="pers2176">
+                        <persName>Charles Wesley</persName>
+                    </person>
+                    <person xml:id="pers0141">
+                        <persName>Grace (Norman / Murray) Bennet</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-01-01">note about revisions made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+                    <p>
+                <persName>Bennet</persName>, of <placeName>Chinley, Derbyshire</placeName>,
+                        was a legal clerk and then a pack-man. Following a dramatic conversion in
+                            <date when="1742">1742</date> he became associated with <persName>David
+                            Taylor</persName> and <persName>Benjamin Ingham</persName>.
+                            <persName>Lady Huntingdon</persName> introduced him to
+                            <persName>JW</persName> in <date when="1743">1743</date> and he quickly
+                        became a <seg ana="itinerancy">lay preacher</seg>, creating his own
+                        'round' of Methodist societies in
+                            <placeName>Derbyshire</placeName>, <placeName>Cheshire</placeName>, and
+                            <placeName>Lancashire</placeName>. His relationship with
+                            <persName>JW</persName> was strained in <date when="1749-10">Oct.
+                            1749</date> when, through the instigation of <persName>CW</persName>,
+                            <persName>Bennet</persName> married <persName>Grace Murray</persName>, a
+                        widow whom <persName>JW</persName> believed was betrothed to himself.
+                            <persName>Bennet</persName> went on to adopt more Calvinist views and
+                        left <persName>JW</persName>'s connexion in <date when="1752">1752</date>. He received congregational ordination in <date when="1754">1754</date> and took charge of an Independent chapel at
+                            <placeName>Warburton, Cheshire</placeName>, where he served until his
+                        death. See Atmore, <hi rend="italic">Memorial</hi>, 49–51; <hi rend="italic">DEB</hi>, 83–84; <hi rend="italic">ODNB</hi>; Pawson, <hi rend="italic">Letters</hi>, 3:143; and Vickers, <hi rend="italic">Dictionary</hi>,
+                        27.</p>
+        </body>
+    </text>
+</TEI>

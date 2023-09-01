@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Furly, Rev. Samuel (c. 1732–1795)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-02</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0763</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2093">
+                  <persName>Henry Venn</persName>
+               </person>
+               <person xml:id="pers0761">
+                  <persName>Ann Bloodworth</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>John Thornton</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>
+                        <persName>Furly (or Furley</persName>) was admitted a pensioner at Queens'
+                  College, <placeName>Cambridge</placeName> on <date when="1753-11-02">Nov. 2,
+                     1753</date>, and became friendly with <persName>
+                            <ptr target="/persons/pers2093.xml"/>Henry Venn</persName>, who was a fellow
+                  there. He was ordained as deacon in <date when="1758-05">May 1758</date>, and
+                  married <persName>
+                            <ptr target="/persons/pers0761.xml"/>Ann Bloodworth</persName>
+                  the <date when="1758-06">following month</date>. After brief curacies in
+                     <placeName>London</placeName>, <placeName>Lakenheath (Suffolk</placeName>), and
+                     <placeName>Kippax (Yorkshire</placeName>), he served as curate of
+                     <placeName>Slaithwaite (Yorkshire</placeName>) from <date from="1761" to="1766">1761–66</date>. Then <persName>John Thornton</persName> presented him to the
+                  living of <placeName>Roche, Cornwall</placeName>, where he remained rector until
+                  his death. <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>
+                  corresponded with him for several years, hoping to bring him into the Methodist
+                  network. See <hi rend="italic">Alumni Catabrigienses</hi>; CCEd; and <hi rend="italic">DEB</hi>, 416.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Jones, Joseph (b. 1722)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-26</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1180</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person/>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Joseph Jones appears in the Minutes as a <seg ana="itinerancy">traveling
+                     preacher</seg> in <date when="1753">1753</date> (<hi rend="italic">Works</hi>,
+                  10:260). By <date when="1760">1760</date> he had settled in
+                     <placeName>Somerset</placeName>. See <hi rend="italic">AM</hi> 12 (<date when="1789">1789</date>): 234–37, 289–91; Atmore, <hi rend="italic">Memorial</hi>, 225–26; and Pawson, <hi rend="italic">Letters</hi>, 3:140.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

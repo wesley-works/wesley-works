@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <idno type="URI">http://wesleyworks.smu.edu/persons/pers0072</idno>        
+         <titleStmt>
+            <title>Atkinson, William (fl. 1750–1765)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-26</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu/persons/pers0072</idno>            -->
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+	       <person xml:id="pers0072">
+		       <persName>William Atkinson</persName>
+                    </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0070">
+                  <persName>Ann (Hide) Atkinson</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+               <p>
+                <persName>Atkinson</persName> was a native of <placeName>Plymouth Dock,
+                  Devon</placeName>, who had worked as one of <persName>JW</persName>'s
+                  assistants in <placeName>the Foundery</placeName> book room in <placeName>London</placeName> in the
+                  1750s. He and his wife <persName>Ann (Hide) Atkinson</persName> returned to
+                  <placeName>Devon</placeName> in the early 1760s and gave leadership in
+                  Methodist building activity there.</p>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+        <idno type="URI">http://wesleyworks.smu.edu/persons/pers0598</idno>           
+         <titleStmt>
+            <title>Dodd, Rev. Dr. William (1729–1777)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Taylor, Michelle M.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-06-12</date>
+            <!--<idno type="URI">http://syriaca.org/persons/pers0598</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0598">
+                  <persName>Rev. Dr. William Dodd</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>A graduate of <placeName type="education">Clare College, Cambridge</placeName>, Dodd
+            first sought a literary career. When it became clear he could not support himself solely
+            in this way, he was ordained in <date when="1752-01-01">1752</date>. He became a popular
+            preacher in <placeName>London</placeName>, especially from the pulpit of
+               <placeName>Magdalen House</placeName>, and in <date when="1763-01-01">1763</date> was
+            appointed chaplain to the king. He received his <seg ana="degree">DD</seg> in 1766. He
+            was known as the 'macaroni parson' because of his worldly style of living,
+            became deeply involved in debt, was arrested for forging a bond, was convicted and
+            sentenced to death. The execution was carried out on <date when="1777-06-27">June 27,
+               1777</date>. He attacked JW's Arminian views in the <hi rend="italic">Christian
+               Magazine</hi> (<date when="1760-01-01">1760</date>–<date when="1767-01-01">67</date>), drawing JW's defense. At Dodd's request, JW visited him in prison
+            prior to his execution. See <hi rend="italic">Alumni Catabrigienses</hi>; and <hi rend="italic">ODNB</hi>.</p>
+      </body>
+   </text>
+</TEI>

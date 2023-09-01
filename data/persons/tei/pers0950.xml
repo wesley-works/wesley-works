@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Harris, Howell (1714–1773)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0950</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers1782">
+                  <persName>Daniel Rowland</persName>
+               </person>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person>
+                  <persName>Anne Williams</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Harris, a Welsh schoolmaster, began to preach and found societies in
+                     <placeName>Wales</placeName> within a few months of his conversion in <date when="1735">1735</date>. With <persName>
+                            <ref target="/persons/pers1782.xml"/>Daniel Rowland</persName>, he was the founder of Welsh Calvinistic Methodism.
+                  Although on doctrinal grounds he was more attracted to <persName>
+                            <ref target="/persons/pers2221.xml"/>Whitefield</persName>, Harris sought to
+                  avoid theological rivalries, and had generally friendly relations with the Wesley
+                  brothers. In <date when="1744">1744</date> he married <persName>Anne
+                     Williams</persName> (<date from="1718" to="1770">1718–70</date>). The brothers
+                  often spelled his first name 'Howel'. See <hi rend="italic">DEB</hi>,
+                  521–23; <hi rend="italic">ODNB</hi>; Vickers, <hi rend="italic">Dictionary</hi>,
+                  149–50.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

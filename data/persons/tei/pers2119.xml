@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Walker, Rev. Samuel (1714–1761)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-12</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2119</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0456">
+                  <persName>George Conon</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Walker was educated at Exeter Grammar School and Exeter College,
+                     <placeName>Oxford</placeName> (matriculating in <date when="1732">1732</date>).
+                  He received his <seg ana="degree">BA</seg> in <date when="1736">1736</date>, was
+                  ordained in <date when="1737">1737</date>. In <date when="1746">1746</date> Walker
+                  became curate of <placeName>Truro, Cornwall</placeName>. During his first year
+                  there he was converted to evangelical views by <persName>
+                            <ref target="/persons/pers0456.xml"/>George Conon</persName>, master of Truro
+                  Grammar School, and became a model evangelical clergyman. While Walker was a
+                  moderate Calvinist, he was friendly toward the Wesley brothers, and became an
+                  important conversation partner for both brothers in the mid <date>1750s</date>,
+                  during a time of potential rift between the Methodist societies and the Church of
+                     <placeName>England</placeName>. See <hi rend="italic">Alumni Oxonienses</hi>;
+                     <hi rend="italic">DEB</hi>, 1152–53; <hi rend="italic">ODNB</hi>; and Vickers,
+                     <hi rend="italic">Dictionary</hi>, 367.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

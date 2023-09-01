@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>(Furly) Downes, Dorothy (c. 1731–1807)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-02</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0762</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0763">
+                  <persName>Samuel Furly</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0610">
+                  <persName>John Downes</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>
+                        <persName>Dorothy ('Dolly'</persName>) was the sister of <persName>
+                            <ptr target="/persons/pers0763.xml"/>Samuel Furly (or Furley</persName>), and
+                  joined him as a correspondent of <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>. On <date when="1764-06-26">June 26, 1764</date> she married
+                        <persName>
+                            <ptr target="/persons/pers0610.xml"/>John Downes</persName> in
+                     <placeName>Bristol</placeName>. <persName>Dorothy</persName> survived her
+                  husband by three decades, being buried in <placeName>Leeds</placeName> on <date when="1807-08-01">Aug. 1, 1807</date>.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

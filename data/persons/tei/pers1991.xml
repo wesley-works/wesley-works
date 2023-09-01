@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Taylor, Rev. John (1694–1761)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-24</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1991</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Long-time pastor of a Presbyterian congregation in <placeName>Norwich</placeName>,
+                        <persName>
+                            <ref target="/persons/pers1991.xml"/>Taylor</persName> assumed the
+                  role of tutor at <placeName>Warrington Academy</placeName> in late <date when="1757">1757</date>. He was a prominent voice among the 'rational
+                  dissenters', and <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s most extended apologetic treatise was a response to
+                        <persName>
+                            <ref target="/persons/pers1991.xml"/>Taylor</persName>'s <hi rend="italic">Scripture-Doctrine of Original Sin</hi> (<date when="1740">1740</date>). For more details on <persName>
+                            <ref target="/persons/pers1991.xml"/>Taylor</persName> and this work, see the
+                  editorial introduction to <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s <hi rend="italic">Doctrine of Original Sin</hi>, <hi rend="italic">Works</hi>, 12:117–54. See <hi rend="italic">ODNB</hi>.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

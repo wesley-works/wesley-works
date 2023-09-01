@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Downes, John (c.1723–1774)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-08-10</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers0610</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers0762">
+                  <persName>Dorothy Furly</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Downes was one of <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s earliest and most trusted lay preachers. He was
+                  artistically gifted and engraved a portrait of <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName> for <hi rend="italic">Explanatory Notes upon the New Testament</hi>. On <date when="1764-06-26">June
+                     26, 1764</date> he married <persName>
+                            <ref target="/persons/pers0762.xml"/>Dorothy Furly</persName>, one of <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s frequent
+                  correspondents. When he ceased traveling, due to ill health, Downes became
+                        <persName>
+                            <ref target="/persons/pers2180.xml"/>JW</persName>'s printer.
+                  See Atmore, <hi rend="italic">Memorial</hi>, 109–10; <hi rend="italic">DEB</hi>,
+                  321; and Vickers, <hi rend="italic">Dictionary</hi>, 99.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

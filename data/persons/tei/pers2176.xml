@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wesley, Rev. Charles (1707–1788)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2176</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2188">
+                  <persName>Samuel Sr. Wesley</persName>
+               </person>
+               <person xml:id="pers2193">
+                  <persName>Susanna Wesley</persName>
+               </person>
+               <person xml:id="pers2189">
+                  <persName>Samuel Jr. Wesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2191">
+                  <persName>Sarah Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Born <date when="1707-12-18">Dec. 18, 1707</date> in
+                     <placeName>Epworth</placeName>, the next to last child of <persName>
+                            <ptr target="/persons/pers2188.xml"/>Samuel Wesley</persName> and <persName>
+                            <ptr target="/persons/pers2193.xml"/>Susanna (Annesley) Wesley</persName>,
+                     <persName>CW</persName> was sent at the age of 8 to live in
+                     <placeName>Westminster</placeName> with his oldest brother <persName>
+                            <ptr target="/persons/pers2189.xml"/>Samuel Jr</persName>. who had recently
+                  become an usher in Westminster School. In <date when="1721">1721</date>
+                  <persName>CW</persName> was admitted as a King's Scholar at
+                     <placeName>Westminster</placeName>. In <date when="1726-06">June 1726</date> he
+                  was elected to Christ Church, <placeName>Oxford</placeName>, though it was a year
+                  before he secured the additional necessary funding to matriculate. In his first
+                  year at <placeName>Oxford</placeName>, away from all family influence
+                        (<persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> was assisting
+                  his father in <placeName>Wroot</placeName>), <persName>CW</persName> explored the
+                  'world' a bit, but by <date when="1729-03">Mar 1729</date> was gathering
+                  with a couple of friends to support one another in piety and Christian charity—the
+                  beginnings of the 'Oxford Methodists'. <persName>CW</persName> also
+                  became part of the Cotswalds circle during this time, where his literary nickname
+                  was '<persName>Araspes</persName>'. <persName>CW</persName> received his
+                     <seg ana="degree">BA</seg> in <date when="1730">1730</date> and <seg ana="degree">MA</seg> in <date when="1733">1733</date>. In <date when="1735">1735</date>, after the death of his father and in preparation for joining
+                        <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> on the trip to
+                     <placeName>Georgia</placeName>, <persName>CW</persName> was ordained both
+                  deacon (<date when="1735-09-21">Sept. 21</date>) and priest (<date when="1735-09-29">Sept. 29</date>) in the Church of
+                     <placeName>England</placeName>. <persName>CW</persName> went to
+                     <placeName>Georgia</placeName> as <persName>Oglethorpe</persName>'s
+                  secretary; he lasted less than a year, before returning to
+                     <placeName>England</placeName> (landing <date when="1736-12-03">Dec. 3,
+                     1736</date>). <persName>CW</persName>'s 'evangelical conversion'
+                  in <date when="1738">1738</date> took place on <placeName>Pentecost</placeName>
+                     (<date when="1738-05-21">May 21</date>), preceding his brother <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> by three days. The brothers
+                  were soon engaged in the revival, with <persName>CW</persName> initially <seg ana="itinerancy">traveling and preaching</seg> nearly as much as <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>. In <date when="1747-08">Aug
+                     1747</date>, while preaching in <placeName>Wales</placeName>,
+                     <persName>CW</persName> met <persName>
+                            <ptr target="/persons/pers2191.xml"/>Sarah Gwynne Jr.</persName> The attraction between the two grew quickly, and
+                  they were married on <date when="1749-04-08">April 8, 1749</date>. One result was
+                  that <persName>CW</persName> soon ended regular <seg ana="itinerancy">itinerancy</seg>, focusing his pastoral support of Methodism in
+                     <placeName>Bristol</placeName> and <placeName>London</placeName>, and producing
+                  a major body of hymns and other religious verse. <persName>Charles</persName> and
+                        <persName>
+                            <ptr target="/persons/pers2191.xml"/>Sarah</persName> also
+                  produced eight children, though only three lived past infancy. Through his later
+                  years <persName>CW</persName> frequently criticized the desire of many Methodists
+                  to separate from the Church of <placeName>England</placeName>—and chided his
+                  brother for treating this threat too mildly. He died on <date when="1788-03-29">
+                     March 29, 1788</date>, very much a member of the Church, and was buried on
+                  consecrated ground at St. Marylebone church. See <hi rend="italic">Alumni
+                     Oxonienses</hi>; <hi rend="italic">DEB</hi>, 1169–71; <hi rend="italic">ODNB</hi>; and Vickers, <hi rend="italic">Dictionary</hi>, 379.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

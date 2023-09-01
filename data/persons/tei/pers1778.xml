@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rouquet, James (1730–1776)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers1778</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Sarah Fenwicke</persName>
+               </person>
+               <person>
+                  <persName>Henry Scott</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>
+                        <persName>James ('Jemmy') Rouquet</persName> was a descendant of
+                  Huguenot refugees to <placeName>England</placeName>. He was converted to Methodism
+                  through <persName>
+                            <ptr target="/persons/pers2221.xml"/>Whitefield</persName>'s influence and matriculated at St. John's
+                  College, <placeName>Oxford</placeName>, in <date when="1748">1748</date>. He was
+                  appointed by <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> as
+                  Master of Kingswood School between <date from="1751" to="1754">1751 and
+                     1754</date>. He was ordained deacon in <date when="1754">1754</date>, and
+                  served as curate of <placeName>Sandhurst</placeName> briefly. He then took a short
+                  stint as a Methodist <seg ana="itinerancy">traveling preacher</seg> (appearing
+                  only in the 1755 Minutes; see <hi rend="italic">Works</hi>, 10:273). In <date when="1756-09">Sept. 1756</date> he married <persName>Sarah ('Sally')
+                     Fenwicke</persName> in <placeName>London</placeName>, and from <date from="1757" to="1760">1757–60</date> was chaplain to <persName>Henry
+                     Scott</persName>, 4th Earl of Deloraine. <persName>Rouquet</persName> was
+                  finally ordained priest in <date when="1765">1765</date>, and served parishes in
+                  and around <placeName>Bristol</placeName> the remainder of his life. His
+                     <persName>wife</persName> died in <date when="1768-05">May 1768</date>. See <hi rend="italic">Alumni Oxonienses</hi>; CCEd; <hi rend="italic">DEB</hi>, 56–57;
+                  Ives, <hi rend="italic">Kingswood</hi>, 45–47; A. Barrett Sackett, <hi rend="italic">James Rouquet and His Part in Early Methodism</hi> (Bankhead
+                  Press, <date when="1972">1972</date>); and Vickers, <hi rend="italic">Dictionary</hi>, 301.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Wesley, Samuel (1766–1837)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2190</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers2191">
+                  <persName>Sarah Wesley</persName>
+               </person>
+               <person xml:id="pers2177">
+                  <persName>Charles Jr. Wesley</persName>
+               </person>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Born in <placeName>Bristol</placeName> on <date when="1766-02-24">Feb. 24,
+                  1766</date>, as the seventh child of <persName>
+                            <ptr target="/persons/pers2176.xml"/>Charles Wesley</persName> and <persName>
+                            <ptr target="/persons/pers2191.xml"/>Sarah (Gwynne) Wesley</persName>,
+                  <persName>Samuel ('Sammy'</persName>) was the third that survived
+                  infancy. He was even more talented as a composer and performer on the organ than
+                  his brother <persName>
+                            <ptr target="/persons/pers2177.xml"/>Charles</persName>. But
+                  the greater difference between the two boys (and the cause of much concern for the
+                  rest of the family) was <persName>Samuel</persName>'s personal life. Not only
+                  did he convert for a period to Roman Catholicism, but he first lived with—and
+                  eventually married—one woman, then deserted her for another, siring families with
+                  both. Much of the correspondence between <persName>
+                            <ptr target="/persons/pers2176.xml"/>CW</persName>'s family, and between
+                  <persName>Samuel</persName> and his uncle <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>, deal with one or the other of
+                  these concerns. <persName>Samuel</persName> died on <date when="1837-10-11">Oct.
+                     11, 1837</date>, and was buried in St. Marylebone churchyard with his parents.
+                  See <hi rend="italic">ODNB</hi>; and Philip Olleson, <hi rend="italic">Samuel
+                     Wesley: The Man and his Music</hi> (Woodbridge: Boydell, <date when="2003">2003</date>).</p>
+            
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Walsh, Thomas (1730–1759)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2127</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+            
+               <p>Son of an Irish carpenter, and raised Roman Catholic, <persName>Thomas
+                     Walsh</persName> was gifted in language study and for a while operated a
+                  school. Initially contemplating the priesthood, <persName>Walsh</persName> came to
+                  doubt some teachings of the Catholic church. In this time of questioning he found
+                  spiritual assurance among the Methodists. In <date when="1750">1750</date> he met
+                        <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName>, who convinced
+                  him to become a <seg ana="itinerancy">traveling preacher</seg>. Over the next nine
+                  years he would serve mainly in <placeName>Ireland</placeName>, but with stints in
+                     <placeName>England</placeName> and <placeName>Wales</placeName> as well.
+                        <persName>
+                            <ptr target="/persons/pers2180.xml"/>JW</persName> held a deep
+                  affection for him, and maintained that there was no word in the Hebrew or Greek of
+                  the Bible whose occurrence and meaning <persName>Walsh</persName> could not cite.
+                  See Atmore, <hi rend="italic">Memorial</hi>, 438–43; <hi rend="italic">DEB</hi>,
+                  1154; <hi rend="italic">EMP</hi> 3:11–292; and Vickers, <hi rend="italic">Dictionary</hi>, 368.</p>
+            
+         
+      </body>
+   </text>
+</TEI>

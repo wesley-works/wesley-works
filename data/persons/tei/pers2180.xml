@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+            <idno type="URI">http://wesleyworks.smu.edu/persons/pers2180</idno>
+         <titleStmt>
+            <title>Wesley, Rev. John (1703–1791)</title>
+            <author>Maddox, Randy L.</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-03</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu/persons/pers2180</idno>   -->
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="pers2188">
+                  <persName>Samuel Wesley</persName>
+               </person>
+               <person xml:id="pers2193">
+                  <persName>Susanna (Annesley) Wesley</persName>
+               </person>
+               <person xml:id="pers0877">
+                  <persName>John ('Robin') Griffiths</persName>
+               </person>
+               <person xml:id="pers2221">
+                  <persName>George Whitefield</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary (Goldhawk) Vazeille</persName>
+               </person>
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+               <person xml:id="pers2089">
+                  <persName>Jeanne ('Jenny') Vazeille</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+                <persName>JW</persName> was born to <persName>
+                    <ptr target="/persons/pers2188.xml"/>
+               Samuel Wesley</persName> and <persName>
+                    <ptr target="/persons/pers2193.xml"/>Susanna
+               (Annesley) Wesley</persName> in <placeName>Epworth</placeName> on <date when="1703-06-17">June 17, 1703</date>. He was at least the thirteenth child born to
+            the couple, and the second son to survive to adulthood. In <date when="1714">1714</date>
+            <persName>JW</persName> was sent to Charter House school in
+               <placeName>London</placeName>, for preparatory schooling. He entered Christ Church,
+               <placeName>Oxford</placeName> in <date when="1720-07">July 1720</date>, receiving his
+               <seg ana="degree">BA</seg> in <date when="1724">1724</date> and <seg ana="degree">MA</seg> in <date when="1727">1727</date>. Correspondingly, he was ordained deacon
+            in <date when="1725">1725</date>, and priest in <date when="1728">1728</date>. In <date when="1726-03">March 1726</date>
+            <persName>JW</persName> was made a fellow at Lincoln College,
+               <placeName>Oxford</placeName>. About this same time friendship with <persName>
+                    <ptr target="/persons/pers0877.xml"/>John ('Robin') Griffiths</persName>
+            brought <persName>JW</persName> into a circle of friends in the Cotswalds, where he was
+            given the literary nickname '<persName>Cyrus</persName>'. From <date from="1727-08" to="1729-11">Aug. 1727 to Nov. 1729</date>
+            <persName>JW</persName> was back in
+               <placeName>Epworth</placeName>/<placeName>Wroot</placeName> assisting his father. On
+            return to Lincoln College in late <date when="1729">1729</date> he assumed leadership of
+            a group of spiritual friends gathered around <persName>
+                    <ptr target="/persons/pers2176.xml"/>CW</persName> at <placeName>Oxford</placeName>,
+            who were soon dubbed 'Methodists' (among other names). <persName>JW</persName>
+            went to <placeName>Georgia</placeName> in <date when="1735">1735</date> as a missionary
+            priest. He returned in <date when="1737">1737</date>, primed for a spiritual renewal
+            that found full expression on <placeName>Aldersgate Street</placeName> in
+               <placeName>London</placeName> on <date when="1738-05-24">May 24, 1738</date>. This
+            rapidly drew <persName>JW</persName> into the emerging revival, alongside <persName>
+                    <ptr target="/persons/pers2221.xml"/>Whitefield</persName> and others. Over the next
+            few years he recruited and organized a connexion of sympathetic clergy, <seg ana="itinerancy">lay preachers</seg>, and other supporters of his distinctive form of
+            'Methodism'. He devoted the rest of his life, and most of his voluminous
+            correspondence, to this connexion. <persName>JW</persName> married <persName>
+                    <ptr target="/persons/pers2091.xml"/>Mary (Goldhawk) Vazeille</persName> on <date when="1751-02-18">Feb. 18, 1751</date>. No children were born to this rather
+            tumultuous marriage, though <persName>JW</persName> treated
+            <persName>Mary</persName>'s prior children (especially <persName>
+                    <ptr target="/persons/pers2089.xml"/>Jane</persName>) as his own.
+               <persName>JW</persName> died on <date when="1791-03-02">March 2, 1791</date> and was
+            buried in the yard of City Road Chapel. See <hi rend="italic">Alumni Oxonienses</hi>;
+               <hi rend="italic">DEB</hi>, 1171–73; <hi rend="italic">ODNB</hi>; and Vickers, <hi rend="italic">Dictionary</hi>, 379–82.</p>
+      </body>
+   </text>
+</TEI>
