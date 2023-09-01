@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+            <idno type="URI">http://wesleyworks.smu.edu/themes/prevenient-grace</idno>      
+         <titleStmt>
+            <title>Prevenient Grace</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-03-10</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu/themes/prevenient-grace</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-03-10">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Also termed "preventing grace," prevenient grace is God's universal,
+            unmerited grace that "goes before" any human action toward God and draws us
+            into fellowship with God. This doctrine allowed <persName><ref target="../persons/pers2180">Wesley</ref></persName> to steer a "middle way" (via
+            media) between Augustinian/Calvinistic predestination and Pharisaic/Pelagian works
+            righteousness. While sin (both original and actual) deprives humans of any
+            "natural" or "innate" relationship with God, prevenient grace initiates our restoration by enabling
+            our capacity for and responsibility to God. Although not necessarily salvific in its own
+            right, prevenient grace draws us, enlightens us, and convicts us, which may lead to
+            repentance, faith, and salvation. [Although <persName><ref target="../persons/pers2180">Wesley</ref></persName> occasionally ties the idea of a
+            "natural conscience" (see <ref target="../sermons/85">Sermon 85, "On
+		 Working Out Our Own Salvation," III.4; cf. II.1)</ref> to prevenient grace, he carefully
+            notes that such gracious overtures are not "natural," per se, but are instead
+            the effects of God's prevenient grace.]</p>
+      </body>
+   </text>
+</TEI>
