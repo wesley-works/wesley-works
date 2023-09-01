@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quietism</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer3/quietism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>"Quietism" is the collective term given to a set of contemplative Christian practices
+            that were seen as overly-minimizing human effort and spiritual responsibility.
+            Proponents of quietism (including de Molinos, Madame Guyon, and Archbishop Fénelon) were
+            accused of elevating interior, intellectual "stillness" over outward pious action,
+            particularly in the form of the mystical "prayer of the quiet." The objective of such
+            prayer (and like contemplative practices) was perfection through total passivity and
+            dissolution of the human will, thereby disregarding both works of mercy and works of
+            piety. John Wesley took exception to this form of spirituality (especially in the
+            Moravians) on the basis that it neglected the means of grace.</p>
+      </body>
+   </text>
+</TEI>

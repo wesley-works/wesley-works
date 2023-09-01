@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Donatism</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer3/donatism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Donatism was a schismatic movement that divided early North African Christianity
+            throughout the fourth, fifth, sixth, and seventh centuries. The movement, named after
+            one of its most prominent leaders, Donatus the Great (c. 310-355), specifically denied
+            the validity of sacraments performed by "sinful" (i.e., apostate) clergy. Such a belief
+            was simultaneously moral and ecclesiological: the "true" Church—and, by extension, its
+            clergy and rites—was necessarily holy and therefore juxtaposed with the sinfulness of
+            apostasy. Although Donatism was formally censured at the Council of Arles (314), the
+            strongest theological rejection of the movement came from Augustine nearly a century
+            later. Rather than root the holiness of the Church and the efficacy of its sacraments in
+            the moral purity of its clergy, Augustine contended that sacramental sanctity was
+            fundamentally rooted in Christ's righteousness, in which the Church participates by
+            faith. Practically speaking, Augustine's teaching—that the sacraments are valid ex opere
+            operato ("from the work performed"), not ex opere operantis ("from the work of the
+            performer")—repudiated the Donatist argument that sacraments performed by a "sinful"
+            celebrant needed to be repeated under "pure" clergy.</p>
+      </body>
+   </text>
+</TEI>

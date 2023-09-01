@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Means of Grace</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer3/means-of-grace</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>For John Wesley, means of grace are "outward signs, words, or actions ordained of God,
+            and appointed for this end—to be the ordinary channels whereby he might convey to men
+            preventing, justifying, or sanctifying grace" (Sermon 16, "The Means of Grace," II.1).
+            "General" means of grace include common Christian practices such as obeying God's
+            commandments, refraining from sin, self-denial, etc. "Particular" means of grace may be
+            "instituted" or "prudential." Instituted means of grace are spiritual practices
+            prescribed by Christ, including prayer, searching the Scriptures, fasting, Eucharist,
+            and Christian conference. These instituted means of grace also constitute what Wesley
+            terms works of piety, which focus on inward holiness and emerge from holy tempers.
+            Prudential means of grace are not specified in scripture or tradition, but are instead
+            contextually-influenced by personal and collective reason and experience. Prudential
+            means of grace include works of mercy—outward works to other's bodies and souls that
+            convey God's mercy. Wesley's continual injunction to use the means of grace is deeply
+            connected to his theological synergy and soteriological synergism: because of God's
+            initiative (prevenient grace), we may come to respond to God with faith, which opens us
+            to the experience of salvation; and because of God's ongoing grace, God faithfully meets
+            us with additional grace as we participate in the means of grace, which enables us to
+            "grow in grace."</p>
+      </body>
+   </text>
+</TEI>
