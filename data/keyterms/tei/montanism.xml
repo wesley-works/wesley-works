@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Montanism</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer1/montanism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Montanism was a charismatic movement that arose in the second century around the
+            prophetic figures of Montanus, Priscilla, and Maximilla. Central to the movement were
+            extraordinary manifestations of the Holy Spirit (e.g., enthusiasm, prophecy, speaking in
+            tongues), which were understood as revelatory of the imminent return of Christ and the
+            end of the world. In expectation of this impending apocalypse, and in response to a
+            perceived moral decline in the greater Church, Montanism emphasized a rigorous ethic of
+            personal asceticism. As with the charges of enthusiasm and regimented discipline, the
+            moniker of "Montanism" occasionally adhered to the early Methodist movement.</p>
+      </body>
+   </text>
+</TEI>

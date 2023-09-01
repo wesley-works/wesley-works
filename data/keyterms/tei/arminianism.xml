@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Arminianism</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer1/arminianism</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Arminianism is a theological position named after Jacob Arminius (1560-1609), a Dutch
+            theologian and pastor. Arminius's system may be viewed as a response to Reformed
+            (especially Calvinist) theologies of predestination in terms of the relationship of
+            grace and election. Rather than base the human reception of grace on God's prior
+            election, Arminius conditioned election on the prior reception of grace. Such prevenient
+            grace is freely available to all because of the universal scope of Christ's atonement.
+            However, since Arminius maintained that grace is resistible, his position rejected both
+            universalism and the impossibility of backsliding. John Wesley staunchly self-identified
+            as "Arminian," especially regarding the doctrines of prevenient grace, free will,
+            universal redemption (atonement), and salvation. Appropriately, these themes featured
+            prominently in The Arminian Magazine, a periodical that Wesley began in 1778. </p>
+      </body>
+   </text>
+</TEI>

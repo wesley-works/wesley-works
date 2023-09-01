@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Predestination</title>
+            <author>Van Buskirk, Gregory P.</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2023-04-23</date>
+            <idno type="URI">http://wesleyworks.smu.edu/reviewer1/predestination</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2023-04-23">File created</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>In a broad sense, predestination refers to God's knowledge and determination of all
+            things before they come to pass. Especially within Augustinian and Calvinist theologies,
+            predestination more specifically involves the doctrine of election: without basis in
+            anything other than God's will, God has eternally decreed some people to be "saved"
+            (i.e., "the elect") and some to be "damned." This additional damnatory aspect, sometimes
+            termed "double predestination," does not appear in all accounts of predestination; it
+            is, however, a logical consequence of emphasizing God's absolute omnipotence and
+            unilateral action within salvation, such that no human can possibly alter their eternal
+            outcome. Based on his unshakeable conviction of the universality of God's prevenient
+            grace, as well as the genuine free will this affords humanity, John Wesley starkly
+            opposed the doctrine of predestination, especially in its Calvinist form.</p>
+      </body>
+   </text>
+</TEI>
