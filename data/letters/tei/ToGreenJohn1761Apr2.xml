@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+        <idno type="URI">http://wesleyworks.smu.edu/letters/ToGreenJohn1761Apr2</idno>        
+         <titleStmt>
+            <title>To the Rev. John Green (April 2, 1761)</title>
+            <author>Wesley, John</author>
+            <editor>Taylor, Michelle M.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2020-07-28</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/ToGreenJohn1761Apr2</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <bibl n="1">
+                  <title>The Works of John Wesley Volume 27: Letters III, 1756-1765</title>
+                  <editor role="volume">Campbell, Ted A.</editor>
+                  <editor role="general">Maddox, Randy L.</editor>
+                  <publisher>Abingdon Press</publisher>
+                  <pubPlace>Nashville, TN</pubPlace>
+                  <date>2015-11-03</date>
+               </bibl>
+               <!--Encode page numbers from original printed volume; possibly as additional
+                  <bibl>-->
+               <bibl n="2">Published transcription; <hi rend="italic">Arminian Magazine</hi> 3
+                  (1780), 670-71.</bibl>
+               <!--This is rendered as the last line of the text in the print editions; we need to
+                  generate a field that populates this second bibl every time.-->
+               <!--This isn't the best way to render dual sources, but they aren't really both
+                  witnesses in the sense TEI intends; revisit encoding practices for sourceDescs.-->
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To the <persName xml:id="pers0860">
+                    <ptr target="/persons/pers0860.xml"/>Rev. John
+               Green</persName>
+                <note place="foot" n="1">
+                    <persName>John Green</persName> was Dean of
+                  <placeName>Lincoln</placeName>, and became Bishop of
+                  <placeName>Lincoln</placeName> in <date when="1761-12-01">Dec. 1761</date>. He
+               published pseudonymously <bibl>
+                        <hi rend="italic">The Principles and Practices of of
+                     the Methodists Considered</hi>
+                    </bibl> (London, 1760), to which JW responded
+               briefly in his letter to <bibl>
+                        <hi rend="italic">Lloyd's Evening
+                  Post</hi>
+                    </bibl> dated <date when="1760-11-22">Nov. 22, 1760</date>. See <hi rend="italic">ODNB</hi>.</note>
+            </head>
+         <opener>
+                <placeName>[Chester]</placeName>
+                <lb/>
+                <date when="1761-04-02">April 2, 1761</date>
+                <lb/>
+                <lb/>
+            <salute>Rev. Sir,</salute>
+         </opener>
+         <p>I have no desire to dispute, least of all with one whom I believe <index indexName="biblical">
+               <term cRef="Acts10:35">to fear God and work righteousness</term>
+            </index>. And I have no time to spare. Yet I think it my duty to write a few lines with
+            regard to those you sent to <persName xml:id="pers0140">Mr. Bennet</persName>.<note place="foot" n="2">The identity of <persName>'Mr. Bennet'</persName> is
+               unclear (his former colleague, <persName xml:id="pers0143">
+                        <ptr target="/persons/pers0860.xml"/>John Bennet</persName>, having died in <date when="1759-01-01">1759</date>).</note>
+            </p>
+         <p>
+                <seg ana="termMethodism">You therein say: 'If you sent me the books to inform me of
+               an error which I had publicly advanced, pardon me if I say I know numbers who call
+               themselves Methodists assert their assurance of salvation at the very time they
+               wallow in sins of the deepest dye.' Permit me, sir, to speak freely. I do not
+               doubt the fact. But 1) those who are connected with <hi rend="italic">me</hi> do not
+                  <hi rend="italic">call themselves</hi> Methodists. Others call them by that
+               nickname, and they cannot help it, but I continually warn them not to pin it upon
+               themselves. 2) We rarely use that ambiguous expression of 'Christ's
+               righteousness imputed to us'.</seg> 3) We believe a man may be a real Christian
+            without being 'assured of his salvation.' 4) We know no man can be assured of
+            salvation while he lives in any sin whatever. 5) The wretches who talk in that manner
+            are neither Methodist nor <seg ana="Moravians">Moravians</seg>, but followers of
+               <persName xml:id="pers0512">
+                    <ptr target="/persons/pers0512.xml"/>William
+               Cudsworth</persName>, <persName xml:id="pers1700">
+                    <ptr target="/persons/pers1700.xml"/>James Relly</persName>, and their associates, who abhor us as much as they do the
+            pope, and ten times more than they do the <seg ana="devil">devil</seg>. If <hi rend="italic">you</hi> oppose those, then so do <hi rend="italic">I</hi>, and have
+            done privately and publicly for these twenty years.</p>
+         <p>But you say: 'Such as do not profess this doctrine will not be affected by my
+            sermon.' Indeed they will, for the world (as you yourself did) lump all that are
+            called Methodists together. Consequently whatever you then said of Methodists in general
+            falls on <hi rend="italic">us</hi> as well as them, and so <hi rend="italic">we</hi> are
+            condemned for those very principles which we totally detest and abhor. A small part of
+            the <hi rend="italic">
+                    <bibl>Preservative</bibl>
+                </hi>
+                <note place="foot" n="3">
+                    <hi rend="italic">
+                        <bibl>Preservative against Unsettled Nations in
+               Religion</bibl>
+                    </hi>
+                </note> (had you taken the pains to read it) would have convinced
+            you of this. 'Did you send them to convince me of some important truth? I have the
+            New Testament.' So have I, and I have read it for above these fifty years, and for
+            near forty with some attention. Yet I will not say that <persName>
+                    <ptr target="/persons/pers0860.xml"/>Mr. Green</persName> may not convince me of some
+            truth which I never yet learned from it. I want every help, especially from those who
+            strive both to preach and to live the Gospel. Yet certainly I must dissent from you or
+            you from me wherever either conceives the other to vary from it. Some of my writings you
+            'have read'. But allow me to ask, Did not you read them with much prejudice or
+            little attention? Otherwise surely you would not have termed them
+            'perplexing'. Very few lay obscurity or intricacy to my charge. Those who do
+            not allow them to be <hi rend="italic">true</hi> do not deny them to be <hi rend="italic">plain</hi>. And if they believe me to have done any good at all by
+            writing, they suppose it is by this very thing, by speaking on practical and
+            experimental religion more plainly than others have done.</p>
+         <p>I quite agree we 'neither can be better men nor better Christians than by
+            continuing members of the <seg ana="ChurchOfEngland">Church of England</seg>'. And
+            not only her doctrines but many parts of her discipline I have adhered to at the hazard
+            of my life. If in any point I have since varied therefrom, it was not by choice but by
+            necessity. Judge, therefore, if they do well who throw me into the ditch, and then beat
+            me because my clothes are dirty!</p>
+         <closer>Wishing you much of the love of God in your heart and much of his presence in your
+            labours, I remain, reverend sir,<lb/>
+            <signed>Your affectionate brother, <lb/>
+                    <persName>John
+            Wesley</persName>
+                </signed>
+            </closer>
+      </body>
+   </text>
+</TEI>

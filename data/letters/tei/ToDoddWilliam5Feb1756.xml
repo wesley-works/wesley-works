@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+        <idno type="URI">http://wesleyworks.smu.edu/letters/ToDoddWilliam5Feb1756</idno>          
+            <titleStmt>
+                <title>To the Rev. William Dodd</title>
+                <author>Wesley, John</author>
+                <editor>Cantrell, Moss A.</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2021-02-19</date>
+		<!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/ToDoddWilliam5Feb1756</idno>-->
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl n="1">
+                        <title>The Works of John Wesley Volume 27: Letters III, 1756-1765</title>
+                        <editor role="volume">Campbell, Ted A.</editor>
+                        <editor role="general">Maddox, Randy L.</editor>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date>2015-11-03</date>
+                    </bibl>
+                    <bibl n="2"> Published transcription; <hi rend="italic">Arminian Magazine</hi> 2
+                        (1779): 434–35. The letter is entitled 'On <seg ana="ChristianPerfection">Christian Perfection</seg> '; at the end
+                            <persName>Wesley</persName> adds the note: 'N.B. I had at this time
+                        no aquaintance with <persName>Dr. Dodd</persName> ; nor did I ever see him
+                        till I saw him in prison.' </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>
+                <date when="1756-02-05">
+                    <hi rend="italic">February 5, 1756</hi>
+                </date> To the <persName xml:id="pers-0000598">
+                    <ptr target="../persons/pers0000598">
+Rev. William Dodd</ptr>
+                </persName>
+                <note place="foot" n="1">
+                    <persName>William Dodd</persName> ( <date when="1729-01-01">1729</date> - <date when="1777-01-01">77</date> ), ordained deacon in <date when="1751-01-01">1751</date>, became a popular preacher in <placeName>London</placeName>,
+                    especially from the pulpet of <placeName>Magdalen House</placeName>, and in
+                        <date when="1763-01-01">1763</date> was appointed chaplain to the king. He
+                    graduated <seg ana="degree DD">D.D.</seg> in <date when="1766">1766</date> . He
+                    was known as the 'macaroni parson' because of his <seg ana="worldliness">worldly</seg> style of living, became deeply involved in
+                        <seg ana="money debt">debt</seg>, was arrested for forging a bond, was
+                    convicted and sentenced to death. The execution was carried out on <date when="1777-06-27">June 27, 1777</date> . He attacked <persName>JW</persName>
+                    's views in the <bibl>
+                        <hi rend="italic">Christian Magazine</hi>
+                    </bibl> (1760-67) and <persName>Wesley</persName> defended himself. At
+                        <persName>Dodd</persName> 's request <persName>JW</persName> visited
+                    him in prison. See <hi rend="italic">ODNB</hi> . </note>
+            </head>
+            <opener>
+                <placeName>[London]</placeName>
+                <lb/>
+                <date when="1756-02-05">February 5, 1756</date>
+                <lb/>
+                <lb/>
+                <salute>Rev. Sir,</salute>
+            </opener>
+            <p> I am favoured with yours of <date when="1756-01-26">January 26</date>
+                <note place="foot" n="2">This letter does not appear to have survived.</note>, for
+                which I return to you my sincere thanks. Your frank and open manner of writing is
+                far from needing any apology, and I hope I will never occasion your receiving such
+                treatment from me as I did from Mr. <persName>[William] Law</persName>, who, after
+                some very keen expressions in answer to the second private letter I sent him,
+                plainly told me he desired to 'hear no more on that head' <note place="foot" n="3"> This phrase does not occur in <persName>Law</persName>
+                    's letter of <date when="1738-05-19">May 19</date> or that of <date when="1738-05-22">[May 22?], 1738</date>, but seems to be
+                        <persName>Wesley</persName> 's summary of the correspondence, as
+                    expressed in the closing sentence of the second letter: 'Pray sir, be at
+                    peace with me.' See 25:543–46, 548–50 in this edn. </note> . I do desire to
+                hear, and am very willing to consider, whatever you have to advance on the head of
+                    <seg ana="ChristianPerfection">'Christian perfection'</seg> . </p>
+            <p> When I began to make the Scriptures my chief study (about the seven and twenty years
+                ago) <note place="foot" n="4">
+                    <persName>Wesley</persName> consistently dated the origins of the <seg ana="Methodism">Methodist</seg> movement to the year <date when="1729-01-01">1729</date> . In response to the question 'What was the rise of <seg ana="Methodism">Methodism</seg>, so called?' in the <bibl>Large
+                        Minutes</bibl>, <persName>Wesley</persName> wrote, 'In <date when="1729-01-01">1729</date>, two young men, reading the Bible, saw they
+                    could not be saved without <seg ana="holiness">holiness</seg>, followed after
+                    it and incited others so to do' (10:875 in this edn.). </note> I began to
+                see that Christians are called to <index indexName="biblical">
+                    <term cRef="Cf. Deut. 6:5 Luke 10:27">'love god with all'</term>
+                </index> their <index indexName="biblical">
+                    <term cRef="Cf. Deut. 6:5 Luke 10:27">'heart'</term>
+                </index>, and to <index indexName="biblical">
+                    <term cRef="Cf. Deut. 6:5 Luke 10:27">'serve him with all'</term>
+                </index> their <index indexName="biblical">
+                    <term cRef="Cf. Deut. 6:5 Luke 10:27">'strength'</term>
+                </index>, which is precisely what I apprehend to be meant by the scriptual term
+                    <index indexName="biblical">
+                    <term cRef="Cf. Deut. 6:5 Luke 10:27">' <seg ana="ChristianPerfection">perfection</seg> ' </term>
+                </index> . After weighing this for some years, I openly declared my sentiments
+                before the university, in the sermon on <bibl>'The Circumcision of the
+                    Heart'</bibl>, now printed in the second volume. <note place="foot" n="5">
+                    I.e., of <persName>JW</persName> 's <bibl>
+                        <hi rend="italic">Sermons on Several Occasions</hi>
+                    </bibl>, published in <date when="1748-01-01">1748</date> (1:398–414 in this
+                    edn.). </note> About six years after, in consequence of an advice I received
+                from <persName>Bishop Gibson</persName>, <note place="foot" n="6">
+                    <persName>Edmund Gibson</persName> ( <date when="1669-01-01">1669</date> - <date when="1748-09-06">1748</date> ), Bishop of <placeName>London</placeName> .
+                </note> 'Tell all the world what you mean by <seg ana="ChristianPerfection">perfection</seg> ', I published my coolest and latest thoughts in the
+                sermon on that subject. <note place="foot" n="7">
+                    <persName>JW</persName>, <bibl>
+                        <hi rend="italic">
+                            <seg ana="ChristianPerfection">Christian Perfection</seg>
+                        </hi>
+                    </bibl>, published in <date when="1741-01-01">1741</date> (2:97–124 in this
+                    edn.). </note> You easily observe, I therein build on no authority, ancient or
+                modern, but the Scripture. If this supports any doctrine, it will stand; if not, the
+                sooner it falls the better. Neither the doctrine in question, nor any other, is
+                anything to me, unless it be the doctrine of Christ and his <seg ana="apostles">apostles</seg> . If, therefore, you will please to point out to me any passages
+                in that sermon which are either contrary to Scripture, or not supported by it, and
+                to show that they are not, I shall be full as willing to oppose as ever I was to
+                defend them. I search for <seg ana="truth">truth: plain, Bible truth</seg>, without
+                any regard to the praise or dispraise of men. </p>
+            <closer> If you will assist me in this search, more especially by showing me where I
+                have mistaken my way, it will be gratefully acknowledged by, rev. sir, <lb/>
+                <signed> Your affectionate brother and servant, <lb/>
+                    <persName>John Wesley</persName>
+                </signed>
+            </closer>
+        </body>
+    </text>
+</TEI>

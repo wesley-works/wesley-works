@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+      <idno type="URI">http://wesleyworks.smu.edu/letters/1756-02-07-ToMrsBurgoyne</idno>           
+         <titleStmt>
+            <title>To Mrs. Burgoyne (February 5, 1756)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/1756-02-07-ToMrsBurgoyne</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+           <listBibl>
+              <biblStruct>
+                 <analytic>
+                    <title level="a">To the Rev. William Dodd (February 5, 1756)</title>
+                    <date when="1756-02-05"/>
+                 </analytic>
+                 <monogr>
+                    <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                       1756-1765</title>
+                    <editor role="volume">Campbell, Ted A.</editor>
+                    <imprint>
+                       <publisher>Abingdon Press</publisher>
+                       <pubPlace>Nashville, TN</pubPlace>
+                       <date when="2015-11-03">2015-11-03</date>
+                       <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="11"/>
+                    </imprint>
+                 </monogr>
+                 <series>
+                    <title level="s">The Works of John Wesley</title>
+                    <editor role="general">Maddox, Randy L.</editor>
+                 </series>
+              </biblStruct>
+              <bibl n="2">
+                        <hi rend="italic">Source</hi>: secondary transcription of holograph; <placeName>
+                            <institution>MARC</institution>institution&gt;</placeName>, MA/1977/609 (another transcription in the National Register of Archives, No. 0279, which states that the ms. is endorsed '<persName>
+                            <ptr target="../persons/pers0001">Methodist Westley</ptr>
+                        </persName>'s letter to <persName>
+                            <ptr target="../persons/pers0311">the widow Burgoine</ptr>
+                        </persName>').
+              </bibl>
+         </listBibl>
+         </sourceDesc>
+       </fileDesc>
+       <profileDesc>
+          <listPerson type="correspondents">
+             <person xml:id="pers0001">John Wesley</person>
+             <person xml:id="pers0311">Mrs. Burgoyne</person>
+          </listPerson>
+          <listPerson type="mentions">
+          </listPerson>
+          <listPerson type="notes">
+          </listPerson>
+       </profileDesc>
+       <revisionDesc>
+          <listChange>
+             <change when="2021-09-29">Jason Edsall updated header to add listperson names, correct
+                persName attribute syntax and added ptr targets on 2021-09-29.</change>
+          </listChange>
+       </revisionDesc>
+   </teiHeader>
+   <text>
+      <pb n="11"/>
+      <body>
+         <head>To <persName>
+                    <ptr target="../persons/pers0311">Mrs. Burgoyne</ptr>
+                </persName>
+                <note place="foot" n="1">No details about <persName>
+                        <ptr target="../persons/pers0311">Mrs. Burgoyne</ptr>
+                    </persName> have been discovered.</note>
+            </head>
+         <opener>
+            <placeName>
+                    <region>London</region>
+                </placeName>
+            <lb/>
+            <date when="1756-0207">February 7, 1756</date>
+            <lb/>
+            <lb/>
+         </opener>
+         <p>If the estate is in the hands of an attorney it is not likely that you should recover anything of it. You have then only to say, 'The Lord gave, and the Lord hath taken away.'<note place="foot" n="2">
+                    <index indexName="biblical">
+                        <term cRef="Job1:21">Job 1:21</term>
+                    </index>.</note> It seems God is now teaching you <seg ana="self-resignation">the great lesson of giving yourself up, soul and body, into his hands</seg>. And he has never failed and never will fail them that put their trust in him.<note place="foot" n="3">
+                    <index indexName="biblical">
+                        <term cRef="Ps18:30(BCP)">See Ps. 18:30 (BCP)</term>
+                    </index>, etc.</note>
+            </p>
+         <p>Acquaint yourself with him, and you will be at <seg ana="peace">peace</seg>,<note place="foot" n="4">See Job 22:21.</note> even when the waves and storms go over you.<note place="foot" n="5">
+                    <index indexName="biblical">
+                        <term cRef="Ps42:9(BCP)">See Ps. 42:9 (BCP).</term>
+                    </index>
+                </note> <seg ana="suffering">Suffer all things for his sake who suffered more for you.</seg> And whenever you want help, ask and it shall be given you.<note place="foot" n="6">
+                    <index indexName="biblical">
+                        <term cRef="Matt7:7">Matt. 7:7</term>
+                    </index>.</note>
+            </p>
+         <closer>I am,
+            <signed>Your affectionate brother,<lb/>
+               <persName>
+                        <ptr target="../persons/pers0001">John Wesley</ptr>
+                    </persName>
+            </signed>
+         </closer>
+      </body>
+      <p>
+            <hi rend="italic">Source</hi>: secondary transcription of holograph; <placeName>
+                <institution>MARC</institution>
+            </placeName>, MA/1977/609 (another transcription in the National Register of Archives, No. 0279, which states that the ms. is endorsed '<persName>
+                <ptr target="../persons/pers0001">Methodist Westley</ptr>
+            </persName>'s letter to <persName>
+                <ptr target="../persons/pers0311">the widow Burgoine</ptr>
+            </persName>').</p>
+   </text>
+</TEI>

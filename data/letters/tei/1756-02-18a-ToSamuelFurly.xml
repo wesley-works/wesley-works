@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+      <idno type="URI">http://wesleyworks.smu.edu/letters/1756-02-18a-ToSamuelFurly</idno>                 
+         <titleStmt>
+            <title>To Samuel Furly (February 18, 1756)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/1756-02-18a-ToSamuelFurly</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Samuel Furly (February 18, 1756)</title>
+                     <date when="1756-02-05"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="11" to="12"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">
+                        <hi rend="italic">Address</hi>: 'To / <persName>
+                            <ptr target="../persons/pers0763">Mr Sam. Furley</ptr>
+                        </persName> / In <placeName QueensCollegeCambridg.="Queen’sCollege,Cambridge">
+                            <institution>Queen's
+                        College / Cambridg.</institution>
+                        </placeName>'.</bibl>
+               <bibl n="3">
+                        <hi rend="italic">Postmark</hi>: '19/FE'. <hi rend="italic">Charge</hi>: '3'.</bibl>
+               <bibl n="4">
+                        <hi rend="italic">Source</hi>: holograph;
+                        <placeName>
+                            <institution>MARC</institution>
+                        </placeName>, MAM JW 3/15.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <listPerson type="correspondents">
+            <person xml:id="pers0001">John Wesley</person>
+            <person xml:id="pers0763">Samuel Furly</person>
+         </listPerson>
+         <listPerson type="mentions">
+            <person xml:id="pers2310">Count Zinzendorf</person>
+            <person xml:id="pers0292">Bishop Peter Browne</person>
+            <person xml:id="pers2190">Samuel Wesley</person>
+         </listPerson>
+         <listPerson type="notes">
+            <person>Marcus Tullius Cicero</person>
+            <person>Francis Hutcheson</person>
+            <person>Nicholas Malebranche</person>
+            <person>Jean Le Clerc</person>
+            <person>Joseph Randall</person>
+            <person>John Locke</person>
+            <person xml:id="pers0844">Mary Pendarves</person>
+            <person xml:id="pers1261">William Law</person>
+         </listPerson>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2021-09-29">Jason Edsall updated header to add listperson names, correct
+               persName attribute syntax and added ptr targets on 2021-10-10.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>
+                    <ptr target="../persons/pers0763">Samuel Furly</ptr>
+                </persName>
+            </head>
+         <opener>
+            <placeName>
+               <region>London</region>
+            </placeName>
+            <lb/>
+            <date when="1756-02-18">February 18, 1756</date>
+            <lb/>
+            <lb/>
+            <salute>Dear <persName>
+                        <ptr target="../persons/pers0763">Sammy</ptr>
+                    </persName>,</salute>
+         </opener>
+         <p>You are a very complaisant person. I know, in my little circle of acquaintance, more
+            than twenty who have all <seg ana="ministerialQualifications ">the natural
+               qualifications</seg> mentioned in the <index indexName="works">
+                    <hi rend="italic">Address to the Clergy</hi>
+                </index>,<note place="foot" n="1">
+                    <persName>
+                        <ptr target="../persons/pers0001">JW</ptr>
+                    </persName>, <index indexName="works">
+                        <hi rend="italic">An Address to the Clergy</hi> (1756); see <term cRef="33-34 14">
+                            <hi rend="italic">Bibliography</hi>, No. 216, and vol. 14 of this
+                     edn.</term>
+                    </index>
+                </note> and several others who have all the acquired ones,
+            either by <seg ana="education">education</seg> or by <seg ana="grace">grace</seg>.<!--There's a parallel here to Wesley's moral psychology of habituated virtue: natural, acquired, infused, etc.-->
+            And I would engage to take <age value="14">any person of fourteen years of age</age>,
+               <pb n="12"/>who has good natural abilities, and <seg ana="education">to teach him in
+               seven years <seg ana="ministerialQualifications">everything which is there
+                  required</seg>, to a good degree of perfection</seg>.</p>
+         <p>
+                <foreign lang="Latin">
+                    <hi rend="italic">Ex pede <seg ana="GreekMythology">Herculem</seg>
+                    </hi>
+                </foreign>.<note place="foot" n="2">A Latin proverb:
+                  <gloss>'[You can tell it is] <seg ana="GreekMythology">
+                            <persName>Hercules</persName>
+                        </seg> from his foot'.</gloss>
+                </note> You
+            may easily see what <seg ana="Latin">Latin</seg> I write by one of the <bibl>
+                    <foreign lang="Latin">
+                        <hi rend="italic">Dissertationes in <index Jobum="Job" indexName="biblical">
+                                <term cRef="Job">Jobum</term>
+                            </index>
+                        </hi>
+                    </foreign>
+                </bibl>;<note place="foot" n="3">
+                    <persName>
+                        <ptr target="../persons/pers2190">Samuel Wesley
+                  <genName>Sr.</genName>
+                        </ptr>
+                    </persName>'s <foreign lang="Latin">
+                        <hi rend="italic">magnum opus</hi>
+                    </foreign> on <index indexName="biblical">
+                        <term cRef="Job">Job</term>
+                    </index>, to which <persName>
+                        <ptr target="../persons/pers0001">JW</ptr>
+                    </persName> contributed much both in
+               research and by <seg ana="Latin">translations into Latin</seg>; <index indexName="works">
+                        <term cRef="33-34">see <hi rend="italic">Bibliography</hi>, No.
+                     7.</term>
+                    </index>
+                </note> or even by <index indexName="works">the short
+               conversation with <persName>
+                        <ptr target="../persons/pers2310">Count
+                  Zinzendorf</ptr>
+                    </persName> which is printed in the <hi rend="italic">Journal</hi>.<note place="foot" n="4">
+                        <persName>
+                            <ptr target="../persons/pers0001">JW</ptr>
+                        </persName>, <hi rend="italic">Journal</hi>, <date when="1741-09-03">Sept. 3, 1741</date>, <term cRef="19:211-215">19:211–15 in
+                     this edn.</term>
+                    </note>
+                </index> I do not know that I have any theme or
+            declamation left.<note place="foot" n="5">I.e., <seg ana="Latin">exercises in
+                  Latin</seg> that <persName>
+                        <ptr target="../persons/pers0001">JW&gt;</ptr>
+                    </persName>
+               would have prepared while a student at
+                  <placeName>
+                        <institution>Oxford</institution>
+                    </placeName>.</note> But why do you
+            not talk <seg ana="Latin">Latin</seg> when you are with me? Do this, and you will see
+            the excellence of <persName>Terence</persName>'s language; whereas <persName>
+                    <ptr target="http://viaf.org/viaf/61387892">Tully</ptr>
+                </persName> [i.e.,
+                  <persName>
+                    <ptr target="http://viaf.org/viaf/61387892">Cicero</ptr>
+                </persName>]
+            would make you talk like a mere stiff pedant.</p>
+         <p>
+                <bibl>
+                    <persName>
+                        <ptr target="http://viaf.org/viaf/61387892">Randal</ptr>
+                    </persName>'s Geographical Grammar</bibl>
+                <note place="foot" n="6">
+                    <persName>
+                        <ptr target="../persons/pers0001">Wesley</ptr>
+                    </persName> is likely
+               referring to <bibl>
+                        <persName>
+                            <ptr target="http://viaf.org/viaf/61387892">Joseph
+                        Randall</ptr>
+                        </persName>'s <hi rend="italic">A System of Geography</hi>
+                  (1744)</bibl>, which he placed on the reading list for
+                     <placeName>
+                        <institution>Kingswood School</institution>
+                    </placeName> (the fifth
+               class) in <date when="1748">1748</date>; <index term="Minutes" indexName="works"><!--Another ugly tag, but it works!-->see Minutes, <date when="1748-06-04">June
+                     4, 1748</date>, Q. 11, <term cRef="10:217">10:217 in this
+               edn.</term>
+                    </index>
+                </note> is the best compendium of <seg ana="geography">geography</seg> which I have seen; and you need nothing more on <seg ana="geography">that subject</seg>, adding only the <hi rend="italic">terrestrial globe</hi>.</p>
+         <p>If you are master of <seg ana="metaphysics ontology pneumatology">
+                    <bibl>
+                        <persName>
+                            <ptr target="http://viaf.org/viaf/51735420">Hutcheson</ptr>
+                        </persName>'s
+                  Metaphysics</bibl>
+                    <note place="foot" n="7">
+                        <bibl>[<persName>
+                                <ptr target="http://viaf.org/viaf/51735420">Francis
+                     Hutcheson</ptr>
+                            </persName>,] <hi rend="italic">
+                                <foreign lang="Latin">Synopsis
+                           Metaphysicae Ontologiam et Pneumatologiam complectans</foreign>
+                            </hi>
+                     (1742)</bibl>; see also <index indexName="works">
+                            <term cRef="27:25-26">
+                                <persName>
+                                    <ptr target="../persons/pers0001">JW</ptr>
+                                </persName>'s letter to <persName>
+                                    <ptr target="../persons/pers0763">Furly</ptr>
+                                </persName> of <date when="1756-03-14">Mar. 14, 1756</date>
+                            </term>
+                        </index>.</note>
+                </seg> and
+                  <bibl>
+                    <seg ana="ontology">
+                        <persName>
+                            <ptr target="http://viaf.org/viaf/49234977">Clerc</ptr>
+                        </persName>'s <foreign lang="Latin">
+                            <hi rend="italic">Ontologia</hi>
+                        </foreign>
+                    </seg>
+                </bibl>,<note place="foot" n="8">One of the
+               early works of the prolific <nationality>Dutch</nationality> scholar, <persName>
+                        <ptr target="http://viaf.org/viaf/49234977">Jean Le Clerc</ptr>
+                    </persName> (<date from="1657-03-19" to="1736-01-08">1657–1736</date>). It formed the second of three
+               parts of <seg ana="logic ontology pneumatology">a Latin work on logic, ontology, and
+                  pneumatology</seg>, first published in <date when="1692">1692</date> and dedicated
+               to <persName>
+                        <ptr target="http://viaf.org/viaf/34459614">John
+               Locke</ptr>
+                    </persName>.</note> I advise you to look no farther that way; unless you
+            would add <bibl>
+                    <persName>
+                        <ptr target="http://viaf.org/viaf/66545180">Malebranche</ptr>
+                    </persName>'s <hi rend="italic">Search after
+               Truth</hi>
+                </bibl>,<note place="foot" n="9">
+                    <persName>
+                        <ptr target="../persons/pers0001">Wesley</ptr>
+                    </persName> read <bibl>
+                        <persName>
+                            <ptr target="http://viaf.org/viaf/66545180">Nicholas
+                  Malebranche</ptr>
+                        </persName>'s <foreign lang="French">
+                            <hi rend="italic">De la
+                        Recherche de la Verité</hi>
+                        </foreign> (<date when="1674">1674</date>)</bibl>
+               in French in <date when="1733">1733</date>; he frequently recommended the translated
+               form, <bibl>
+                        <hi rend="italic">Father <persName>
+                                <ptr target="http://viaf.org/viaf/66545180">Malebranche</ptr>
+                            </persName>'s Treatise concerning the Search After
+                     Truth</hi>, translated by <persName>Thomas Taylor</persName> (<date when="1694">1694</date>)</bibl>.</note> or <persName>
+                    <ptr target="../persons/pers0292">the
+                  Bishop of Cork</ptr>
+                </persName>'s two books<note place="foot" n="10">For
+                     <persName>
+                        <ptr target="../persons/pers0292">Peter Browne, <occupation>Bishop of
+                              <placeName>
+                                    <region>Cork</region>
+                                </placeName>
+                            </occupation>
+                        </ptr>
+                    </persName>,
+                  <term cRef="25:251">see 25:251 in this edn.</term>, where <persName>
+                        <ptr target="../persons/pers0001">Wesley</ptr>
+                    </persName> recommended
+                        <bibl>
+                        <persName>
+                            <ptr target="../persons/pers0292">Browne</ptr>
+                        </persName>'s <hi rend="italic">Procedure, Extent, and Limits of
+                     Human Understanding</hi> (<date when="1728">1728</date>)</bibl> to
+                     <persName>
+                        <ptr target="../persons/pers0844">Mary Pendarves</ptr>
+                    </persName>.
+               The second book would be <bibl>
+                        <persName>
+                            <ptr target="../persons/pers0292">Browne</ptr>
+                        </persName>'s <hi rend="italic">Things Supernatural and
+                     Divine conceived by Analogy with Things Natural and Human</hi> (<date when="1733">1733</date>)</bibl>; <index indexName="works">see <persName>
+                            <ptr target="../persons/pers0001">JW</ptr>
+                        </persName>, <hi rend="italic">A Letter
+                     to <persName>
+                                <ptr target="../persons/pers1261">the Reverend Mr.
+                        Law</ptr>
+                            </persName>
+                        </hi> (<date when="1756-01-06">1756</date>), §II.7,
+                     <term cRef="14">vol. 14 in this edn.</term>
+                    </index>
+                </note> again.</p>
+         <p>The main point is, with all and above all, study <seg ana="scripture">the <seg ana="GreekNewTestament">Greek</seg> and <seg ana="HebrewBible">Hebrew
+               Bible</seg>
+                </seg>, and <seg ana="GodsLove">the love of</seg>
+            <seg ana="Christ">Christ</seg>.</p>
+         <closer>I am, <signed>Yours affectionately,<lb/>
+               <persName>
+                        <ptr target="../persons/pers0001">J. Wesley</ptr>
+                    </persName>
+            </signed>
+         </closer>
+      </body>
+      <p>
+            <hi rend="italic">Address</hi>: 'To / <persName>
+                <ptr target="../persons/pers0763">Mr
+               Sam. Furley</ptr>
+            </persName> / In <placeName QueensCollegeCambridg.="QueensCollege,Cambridge">
+                <institution>Queen's College /
+               Cambridg.</institution>
+            </placeName>'.</p>
+      <p>
+            <hi rend="italic">Postmark</hi>: '19/FE'. <hi rend="italic">Charge</hi>:
+         '3'.</p>
+      <p>
+            <hi rend="italic">Source</hi>: holograph;
+            <placeName>
+                <institution>MARC</institution>
+            </placeName>, MAM JW 3/15.</p>
+   </text>
+</TEI>

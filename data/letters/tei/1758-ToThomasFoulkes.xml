@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+        <idno type="URI">http://wesleyworks.smu.edu/letters/1758-ToThomasFoulkes</idno>             
+         <titleStmt>
+            <title>To Thomas Foulkes (1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-01-27</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/1758-ToThomasFoulkes</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Thomas Foulkes (1758)</title>
+                     <date when="1758-01-01"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="110"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; an English translation by
+                     <persName>Griffith T. Roberts</persName> (WHS 31 [<date when="1957">1957</date>]: 197) of a Welsh translation (in Yr Eurgrawn Wesleyaidd [<date when="1829">1829</date>]: 366) of an originally English letter that has not
+                  survived.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0742">
+                  <persName>Thomas Foulkes</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1261">
+                  <persName>William Law</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>
+                    <ptr target="/persons/pers0742.xml"/>Thomas Foulkes</persName>
+                <note place="foot" n="1">
+                    <persName>
+                        <ptr target="/persons/pers0742.xml"/>Thomas
+                  Foulkes</persName> (<date from="1731" to="1802">1731–1802</date>), a native of
+                  <placeName>Llandrillo, Merionethshire
+                  </placeName>(<placeName>Meirionnydd</placeName><!--Llandrillo, Merionethshire is the original county name from foulkes time but was abolished and later renamed meirionnydd in 1974. I was unsure on whether to use two place names or one as they refer to the county/district at different times  -->),
+               had a conversion experience and became a member of a Wesleyan society at
+                  <placeName>Neston</placeName> in <placeName>Cheshire</placeName>, c. <date when="1756">1756</date>. On his return to <placeName>Wales</placeName> in <date when="1757">1757</date> or <date when="1758">1758</date> he joined a Calvinistic
+               Methodist society at <placeName>Bala</placeName>, but remained a member of the
+               Wesleyan society at <placeName>Chester</placeName>. See <persName>Robert Thomas
+                  Jenkins</persName>, "<persName>
+                        <ptr target="/persons/pers0742.xml"/>Foulk(e)s, Thomas</persName>," in Welsh Biography
+               Online.<!-- I want to add a link to this site but could not get the form to work. I tried the following, <link target="https://biography.wales/">Welsh Biography Online</link>  -->
+                </note>
+            </head>
+         <opener>
+                <lb/>
+                <date when="1758-01-01">1758</date>
+                <note place="foot" n="2">
+                    <persName>Griffith
+                  T. Roberts</persName> suggested that <persName>
+                        <ptr target="/persons/pers2180.xml"/>JW</persName>'s letter to <persName>
+                        <ptr target="/persons/pers0742.xml"/>Foulkes</persName> was written soon after Foulkes's return to
+                  <placeName>Wales</placeName>, hence its placement at the beginning of <date when="1758">1758</date> in this edn.</note>
+                <lb/>
+                <lb/>
+            <salute>My Dear Brother,</salute>
+         </opener>
+         <p>The glory of the Wesleyan Methodists is not to dispute with anybody concerning their
+            opinion. We know that the kingdom of heaven is not meat and drink, nor opinions of any
+            sort. What we need is that mind which was in Christ, to teach us to walk as Christ
+            walked. But one cannot lay hold on this except by a life of constant and complete
+            self-denial. There is a great danger of your being inconstant in this, unless you have
+            vigilant Christians about you. In <placeName>Chester</placeName> you would certainly
+            enjoy such; how it is at <placeName>Bala</placeName> I know not.</p>
+         <p>The best books I know for one in your situation are <hi rend="italic">Serious Call</hi>
+            and <hi rend="italic">Christian Perfection</hi> by <persName>
+                    <ptr target="/persons/pers1261.xml"/>Mr. Law</persName>; I mean the abbreviated edition
+            of them which I published years ago. I am grateful to you for the note you sent in your
+            letter. David <!-- Which david is this --> is poor enough, but he is increasing in
+            grace. Let us safeguard that matter, and all will be well. I am,</p>
+         <closer>
+                <signed>Your affectionate friend,<lb/>
+                    <persName>J.
+            Wesley</persName>
+                </signed>
+            </closer>
+      </body>
+   </text>
+</TEI>

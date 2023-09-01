@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+        <idno type="URI">http://wesleyworks.smu.edu/letters/1758-01-16-ToGeorgeMerryweather</idno>        
+         <titleStmt>
+            <title>To George Merryweather (January 16, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-02</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/1758-01-16-ToGeorgeMerryweather</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To George Merryweather (January 16, 1758)</title>
+                     <date when="1758-01-16"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="111"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2"> Address: 'To /<persName>
+                            <ptr target="/persons/pers1420.xml"/> Mr
+                     George Merryweather </persName> / In <placeName>Yarm /
+                  Yorkshire</placeName>'. Postmark: '17/IA'. Charge: '4'.
+                  Endorsement: '<date when="1758-01">Jany 1758</date>'. Source: holograph;
+                     <placeName>Wesley's Chapel (<placeName>London</placeName>
+                        </placeName>),
+                  LDWMM 1992/410/1.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1420">
+                  <persName>George Merryweather</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-02-05">Michelle Taylor added a thematic tag to identify itinerancy.</change>
+            <change when="2022-02-05">Michelle Taylor changed the format of the Biblical tag so that
+            there were no spaces or periods in the attribute value.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>
+                    <ptr target="/persons/pers1420.xml"/>George Merryweather</persName>
+                <note place="foot" n="1">This letter initiates <persName>
+                        <ptr target="/persons/pers2180.xml"/>John Wesley</persName>'s correspondence
+               with <persName>
+                        <ptr target="/persons/pers1420.xml"/>George Merryweather</persName>, a
+               merchant of <placeName>Yarm</placeName> whom <persName>
+                        <ptr target="/persons/pers2180.xml"/>Wesley</persName> had known since at least
+                  <date when="1748">1748</date> when <persName>
+                        <ptr target="/persons/pers1420.xml"/>Merryweather</persName> invited <persName>
+                        <ptr target="/persons/pers2180.xml"/>Wesley</persName> to preach there; see Vickers, Dictionary,
+            229–30.</note>
+            </head>
+         <opener>
+                <placeName>London</placeName>
+                <lb/>
+                <date when="1758-01-16">January 16, 1758</date>
+                <lb/>
+                <lb/>
+            <salute>My Dear Brother,</salute>
+         </opener>
+         <p>If the work of God does so increase at <placeName>Yarm</placeName>, we must not let the
+            opportunity slip. Therefore let the <seg ana="itinerancy">travelling preacher</seg> be there either every Sunday
+            evening, or at least every other Sunday. </p>
+         <p>No person must be allowed to preach or exhort among our people whose life is not holy
+            and unblameable, nor any who asserts anything contrary to the gospel which we have
+               received<note place="foot" n="2">See <index indexName="biblical">
+                  <term cRef="Gal1:8–9">Gal. 1:8–9</term>
+               </index>.</note>. And if he does not own his fault and amend it, he cannot be a
+            leader any longer. </p>
+         <closer>Peace be with you all. I am,<lb/>
+            <signed>Your affectionate brother,<lb/>
+                    <persName>J. Wesley</persName>
+                </signed>
+            </closer>
+      </body>
+   </text>
+</TEI>

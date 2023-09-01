@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+      <idno type="URI">http://wesleyworks.smu.edu/letters/1756-01-10-ToJosephCownley</idno>      
+         <titleStmt>
+            <title>To Joseph Cownley (January 10, 1756)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/1756-01-10-ToJosephCownley</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Joseph Cownley (January 10, 1756)</title>
+                     <date when="1756-01-10"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="2"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">
+                        <hi rend="italic">Source</hi>: published transcription; <bibl>
+                            <hi rend="italic">Arminian Magazine</hi> 17 (<date when="1794">1794</date>):
+                     527–28</bibl>.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <listPerson type="correspondents">
+            <person xml:id="pers0001">John Wesley</person>
+            <person xml:id="pers0492">Joseph Cownley</person>
+         </listPerson>
+         <listPerson type="mentions">
+            <person>Bishop Pearson</person>
+         </listPerson>
+         <listPerson type="notes">
+            <person>John Gaulter</person>
+         </listPerson>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2021-09-19">Jason Edsall changed renderings of persNames, added @xml:ids
+               to a profileDesc in the Header for all persons in the text, and filled out the header
+               with additional machine-readable data (biblStruct).</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <pb n="2"/>
+      <body>
+         <head>
+            <p>To <persName>
+                        <ptr target="../persons/pers0492">Joseph Cownley</ptr>
+                    </persName>
+                    <note place="foot" n="1">
+                        <persName>
+                            <ptr target="../persons/pers0492">Joseph
+                        Cownley</ptr>
+                        </persName> (<date from="1723-06-23" to="1792-10-08">1723-92</date>) was one of the early <seg ana="MethodistPreachers itinerancy">itinerant preachers</seg>; see <bibl>
+                            <hi rend="italic">EMP</hi>, 2:1–47</bibl>.<!--T. Jackson's "Lives of Early Methodist Preachers"-->
+                  <persName>John Gaulter</persName>, <persName>Cownley</persName>'s biographer,
+                  prefaces this letter thus: 'The fever which <persName>
+                            <ptr target="../persons/pers0492">Mr. Cownley</ptr>
+                        </persName> had in <date when="1755">1755</date> so relaxed his nerves that his labours were
+                  considerably interrupted. A pain settled in his head, which no <seg ana="medicine">medicine</seg> could ever remove. After consulting the most able physicians in
+                        <country>
+                            <placeName>Ireland</placeName>
+                        </country>, he stated his case to
+                        <persName>
+                            <ptr target="../persons/pers0001">Mr. Wesley</ptr>
+                        </persName>, and
+                  received the following answer' (<bibl>
+                            <hi rend="italic">AM</hi> 17 [1794]:
+                     527; <hi rend="italic">EMP</hi>, 2:18</bibl>).</note>
+                </p>
+         </head>
+         <opener>
+            <placeName>
+               <region>London</region>
+            </placeName>
+            <lb/>
+            <date when="1756-01-10">January 10, 1756</date>
+            <lb/>
+            <lb/>
+            <salute>My Dear Brother,</salute>
+         </opener>
+         <p>I have no objection to anything but the <seg ana="medicine">
+                    <term>blister</term>
+                </seg>.<!--"Blister," as the footnote indicates, seems to indicate what is APPLIED to the blistered skin, so it seems like a technical term.-->
+                <note place="foot" n="2">An irritating substance or plaster used to raise blisters on the
+               skin—a favourite remedy of eighteenth-century physicians. Although <persName>
+                        <ptr target="../persons/pers0001">Wesley</ptr>
+                    </persName> included one
+               recommendation of a blister in his <index indexName="works">
+                        <term cRef="32">
+                            <hi rend="italic">Primitive Physick</hi>
+                        </term>
+                    </index> from <date notBefore="1781-01-01">1781 onwards</date> (for involuntary urine), his general
+               rule was, 'No bleeding, no blistering.' See <index indexName="works">
+                        <term cRef="27:309-310">letter of <date when="1762-11-05">Nov. 5,
+                  1762</date>
+                        </term>
+                    </index>, and <index indexName="works">
+                        <persName>
+                            <ptr target="../persons/pers0001">JW</ptr>
+                        </persName>, <hi rend="italic">Journal</hi> for <date when="1742-06-17">June 17, 1742</date>
+                  <term cRef="19:279">(19:279 in this edn.)</term>
+                    </index>.</note> If it does good,
+            well. But if I had been at <placeName>
+                    <region>Cork</region>
+                </placeName>,<note place="foot" n="3">Spelled here, as often by <persName>
+                        <ptr target="../persons/pers0001">Wesley</ptr>
+                    </persName>, '<placeName Corke="Cork">Corke</placeName>'.</note> all the physicians in
+                  <placeName>
+                    <country>Ireland</country>
+                </placeName> should not have put it upon your
+            head. Remember poor <persName>
+                    <occupation>Bishop</occupation> Pearson</persName>. An
+            apothecary, to cure a pain in his head, covered it with a large blister. In an hour he
+            cried out, 'Oh! my head, my head!' and was a fool ever after, to the day of
+            his death.<note place="foot" n="4">
+                    <persName>John Pearson,
+                        <occupation>
+                            <roleName>Bishop</roleName> of
+                           <placeName>
+                                <district>Chester</district>
+                            </placeName>
+                        </occupation>
+                    </persName><!--Would/should this use the <roleName> tag instead of <occupation>?-->
+                  (<date from="1613" to="1686-07-16">1613–86</date>). The anecdote seems to be
+               apocryphal.</note> I believe <seg ana="medicalAdvice">cooling things (if anything
+               under heaven) would remove that violent irritation of your nerves, which probably
+               occasions the pain. Moderate <seg ana="horsebackRiding">riding</seg> may be of
+               use</seg>; I believe of more [use] than the <seg ana="medicine">blister</seg>. Only
+            do not take more labour upon you than you can bear. Do as much as you can, and no more.
+               <interp allusion="Eph5:16">
+                    <index indexName="biblical">
+                        <term cRef="Eph5:16">Let us
+                     make use of the present time</term>
+                    </index>
+                </interp>.<!--This seems like an allusion to Ephesians 5:16, which JW preaches on in "On Redeeming the Time." How might we indicate the (possible) reference as an allusion?-->
+            <seg ana="SevenYearsWar">Every day is of importance. We know not how few days of peace
+               remain.</seg><!--This could also be an ALLUSION to the Seven Years' War.--> We join
+            in love to you and yours.</p>
+         <closer>I am, dear <persName>
+                    <ptr target="../persons/pers0492">Joseph</ptr>
+                </persName>,
+               <signed>Your affectionate friend and brother,<lb/>
+               <persName>
+                        <ptr target="../persons/pers0001">John Wesley</ptr>
+                    </persName>
+            </signed>
+         </closer>
+      </body>
+      <p>
+            <hi rend="italic">Source</hi>: published transcription; <bibl>
+                <hi rend="italic">Arminian
+               Magazine</hi> 17 (1794): 527–28</bibl>.</p>
+   </text>
+</TEI>

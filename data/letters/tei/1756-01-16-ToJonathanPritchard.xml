@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+      <idno type="URI">http://wesleyworks.smu.edu/letters/1756-01-16-ToJonathanPritchard</idno>            
+         <titleStmt>
+            <title>To [Jonathan Pritchard] (January 16, 1756)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2020-04-07</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/1756-01-16-ToJonathanPritchard</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To [Jonathan Pritchard] (January 16, 1756)</title>
+                     <date when="1756-01-16"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="3"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">
+                        <hi rend="italic">Source</hi>: holograph;
+                        <placeName>
+                            <institution>MARC</institution>
+                        </placeName>, MAM JW 4/42 (address
+                  portion missing).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <listPerson type="correspondents">
+            <person xml:id="pers0001">John Wesley</person>
+            <person xml:id="pers1660">Jonathan Pritchard</person>
+         </listPerson>
+         <listPerson type="mentions">
+            <person xml:id="pers1117">Bryan I'Anson</person>
+         </listPerson>
+         <listPerson type="notes">
+            <person xml:id="pers1475">Richard Moss</person>
+         </listPerson>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2021-09-19">Jason Edsall updated header to add listperson names, correct
+               persName attribute syntax and added ptr targets on 2021-09-19.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <pb n="3"/>
+      <body>
+         <head>To [<persName>
+                    <ptr target="../persons/pers1660">Jonathan
+               Pritchard</ptr>
+                </persName>]<note place="foot" n="1">For <persName>
+                        <ptr target="../persons/pers1660">Jonathan Pritchard</ptr>
+                    </persName>, the steward
+               of the <orgName>
+                        <placeName>
+                            <district>Chester</district>
+                        </placeName>
+               society</orgName>, see <index indexName="works">
+                        <persName>
+                            <ptr target="../persons/0001">JW</ptr>
+                        </persName>'s letter to him of <date when="1753-01-16">Jan. 16, 1753</date> (<term cRef="26:499–500">26:499–500 in
+                     this edn.</term>)</index>. In <date when="1757-07">July 1752</date> a <seg ana="mobs">mob</seg> had pulled down the <seg ana="MethodistPreaching-house">Methodist preaching-house</seg> in <placeName>Chester</placeName>, and the
+               magistrates had been of no help. Similar <seg ana="mobs">outbreaks</seg> continued to
+               occur sporadically (cf. <index indexName="works">
+                        <persName>
+                            <ptr target="../persons/0001">Wesley</ptr>
+                        </persName>'s letter of <date when="1753-10-11">Oct. 11, 1753</date>; <term cRef="26:525">26:525 in this
+                     edn.</term>)</index>, and from this letter it appears that once more the
+                  <personGrp>Chester
+               <personGrp>Methodists</personGrp>
+                    </personGrp><!--I know we will want a "Methodists" tag (which seems most like <personGrp> to me). I wasn't sure if "Chester Methodists" merited its own <personGrp> tag, a <district> tag, or something else.-->
+               were <seg ana="litigation">being denied justice by a local
+            magistrate</seg>.</note>
+            </head>
+         <opener>
+            <placeName>
+               <region>London</region>
+            </placeName>
+            <lb/>
+            <date when="1756-01-16">January 16, 1756</date>
+            <lb/>
+            <lb/>
+            <salute>My Dear Brother,</salute>
+         </opener>
+         <p>If <personGrp ourBrethrenAtChester="ChesterMethodists">
+                    <personGrp ourBrethren="Methodists">our brethren</personGrp> at
+                     <placeName>
+                        <district>Chester</district>
+                    </placeName>
+                </personGrp> purpose ever to
+               <seg ana="litigation">prosecute</seg>, they cannot have a fairer opportunity,
+            provided they have a sufficient number of witnesses whose depositions will come home to
+            the point, particularly with regard to those words, <q>'You shall have no justice
+               from me'</q><!--An apparent allusion to Luke 18:1-8.-->. Those depositions might
+            be drawn up in the country, and sent up to <persName>
+                    <ptr target="../persons/pers1117">Mr. I'Anson</ptr>
+                </persName>,<note place="foot" n="2">For <persName>
+                        <ptr target="../persons/pers1117">Bryan I’Anson</ptr> (d. <date when="1775">1775</date>), <occupation>a solicitor at <placeName>
+                                <district>New Palace
+                           Yard</district>,
+                     <settlement>Westminster</settlement>
+                            </placeName>
+                        </occupation>
+                    </persName><!--I'm not sure the <persName> tag is applied correctly, i.e., that it is bounded properly to indicate that Bryan I&apos;Anson (only) is the individual while the rest of what is contained is his <occupation>, etc.-->,
+               whom <persName>
+                        <ptr target="../persons/pers0001">JW</ptr>
+                    </persName> had consulted
+               for <seg ana="litigation">legal advice</seg>
+               <date notBefore="1760">since at least 1760</date>, see <bibl>
+                        <hi rend="italic">WHS</hi> 5 (1906): 230–37.</bibl>
+                </note> in <placeName>
+                    <district>New Palace
+                  Yard</district>, <settlement>Westminster</settlement>
+                </placeName>. The sooner the
+            better, for term will begin shortly.<note place="foot" n="3">Hilary Term for <seg ana="litigation">hearing cases</seg>
+               <date from="--01-23" to="--02-13">began on Jan. 23 or 24, and ended Feb. 12 or
+                  13</date>.</note> Delay does much hurt in cases of this kind. Do you hear how the
+               <seg ana="mobs">
+                    <placeName>
+                        <region>Manchester</region>
+                    </placeName> mob</seg> is
+            now?</p>
+         <closer>I am, <signed>Your affectionate brother,<lb/>
+               <persName>
+                        <ptr target="../persons/pers0001">J. Wesley</ptr>
+                    </persName>
+            </signed>
+         </closer>
+         <postscript>Is <persName>
+                    <ptr target="../persons/pers1475">brother Moss</ptr>
+                </persName>
+            gone yet into the <placeName>
+                    <settlement>Birstall</settlement>
+                </placeName> circuit<note place="foot" n="4">The reference may be to <persName>
+                        <ptr target="../persons/pers1475">Richard Moss</ptr>
+                    </persName>, an <seg ana="MethodistPreachers itinerancy">itinerant</seg> listed in the <index indexName="works">Minutes <date notBefore="1745">from at least 1745</date>
+                  <term cRef="10:147">(see 10:147 in this edn.)</term>
+                    </index>.</note>
+            </postscript>
+      </body>
+      <p>
+            <hi rend="italic">Source</hi>: holograph;
+            <institution>
+                <placeName>MARC</placeName>
+            </institution>, MAM JW 4/42 (address portion
+         missing).</p>
+   </text>
+</TEI>

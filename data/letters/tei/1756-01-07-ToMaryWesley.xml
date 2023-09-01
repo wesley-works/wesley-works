@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+      <idno type="URI">http://wesleyworks.smu.edu/letters/1756-01-07-ToMaryWesley</idno>
+         <titleStmt>
+            <title>To Mary (Goldhawk/Vazeille) Wesley (January 7, 1756)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Mary (Goldhawk/Vazeille) Wesley (January 7, 1756)</title>
+                     <date when="1756-01-07"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="1"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">
+                        <hi rend="italic">Address</hi>: 'To / <persName>Mrs
+                     Wesley</persName>'.</bibl>
+               <bibl n="3">No <hi rend="italic">postmark</hi> or indications of postal <hi rend="italic">charge</hi>; apparently delivered by hand.</bibl>
+               <bibl n="4">
+                        <hi rend="italic">Endorsement</hi>: (on attached page, 'Rec'd <date when="1756-01-09">Jan. 9. [1]756</date> of <persName>Mrs Wesley</persName>
+                  <seg ana="money">Twenty pounds</seg> on Acc. of Paying for the <seg ana="publishing">press</seg>. Materials etc., by <persName>Will
+                     Atkinson</persName>.' There follows in a different hand a list of
+                  accounted items.</bibl>
+               <bibl n="5">
+                        <hi rend="italic">Source</hi>: holograph;
+                        <placeName>
+                            <institution>Bridwell Library
+                  (SMU)</institution>
+                        </placeName>.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <listPerson type="correspondents">
+            <person xml:id="pers0001">John Wesley</person>
+            <person xml:id="pers2091">Mary Wesley</person>
+         </listPerson>
+         <listPerson type="mentions">
+            <person xml:id="pers1916">John Spencer</person>
+            <person xml:id="pers0072">William Atkinson</person>
+            <person xml:id="pers0531">B. Davenport</person>
+         </listPerson>
+         <listPerson type="notes">
+            <person xml:id="pers0179">Ebenezer Blackwell</person>
+            <person xml:id="pers0180">Elizabeth Blackwell</person>
+            <person xml:id="pers0532">Richard Davenport</person>
+         </listPerson>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2021-09-18">Michelle Taylor changed renderings of persNames, added @xml:ids
+               to a profileDesc in the Header for all persons in the text, and filled out the header
+            with additional machine-readable data (biblStruct).</change>
+            <change when="2021-09-19">Michelle Taylor made additional tweaks to machine-readable
+               data in the header (biblStruct).</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <pb n="1"/>
+      <body>
+         <head>To <persName>
+                    <ptr target="../persons/pers2091">Mary
+                     <addName>(Goldhawk/Vazeille)</addName> Wesley</ptr>
+                </persName>
+            </head>
+         <opener> [<placeName>
+                    <district>Lewisham</district>
+                </placeName>] <lb/> Wednesday
+               <time>afternoon</time> [<date when="1756-01-07">January 7, 1756</date>] <lb/>
+            <lb/>
+         </opener>
+         <p>When I saw you, my dear, I did not expect to have so large a demand made so suddenly
+            upon me. I shall be puzzled to answer it, without coming to town on purpose, which I am
+            unwilling to do, before I have finished the <index indexName="works" address="anAddressToTheClergy">
+                    <hi rend="italic">Address</hi>
+                </index>.<!--I was trying to figure out how to indicate that "Address" is "An Address to the Clergy," so I attempted to indicate it in the value.-->
+                <note place="foot" n="1">
+                    <persName>
+                        <ptr target="../persons/pers0001">JW</ptr>
+                    </persName>
+               was apparently staying at <residence>the home of <persName>
+                            <ptr target="../persons/pers0179">Ebenezer</ptr>
+                        </persName> and <persName>
+                            <ptr target="../persons/pers0180">Elizabeth
+                  Blackwell</ptr>
+                        </persName>
+                    </residence>, in
+                     <placeName>
+                        <district>Lewisham</district>
+                    </placeName>, to have concentrated time
+               to write <index indexName="works">
+                        <hi rend="italic">An Address to the Clergy</hi>
+                     (<date when="1756-02-06">1756</date>)</index>; see <index indexName="works">
+                        <term cRef="33-34">
+                            <hi rend="italic">Bibliography</hi>, No.
+               216</term>
+                    </index>, and <index indexName="works">
+                        <term cRef="14">vol. 14 of this
+                     edn</term>
+                    </index>.<!--How do we tag references to the Bibliograph volumes (33-34)?-->
+                </note>
+            I desire you would give <persName>
+                    <ptr target="../persons/pers1916">John
+               Spenser</ptr>
+                </persName>
+                <note place="foot" n="2">
+                    <persName>
+                        <ptr target="../persons/pers1916">John Spenser</ptr>
+                    </persName>
+               <addName>(or Spencer)</addName> was one of <persName>
+                        <ptr target="../persons/pers0001">JW</ptr>
+                    </persName>'s <occupation>
+                        <seg ana="publishing">publishing</seg> assistants at the
+                     <placeName>Foundery</placeName>
+                    </occupation>; see <index indexName="works">letters to <persName>
+                            <ptr target="../persons/pers2091">Mary
+                     Wesley</ptr>
+                        </persName>, <term cRef="27:31-32">
+                            <date when="1756-05-07">May
+                        7</date>
+                        </term> and <term cRef="27:34-36">
+                            <date when="1756-06-18">June 18,
+                        1756</date>
+                        </term>
+                    </index>.</note> (taking his receipt) or <persName>
+                    <ptr target="../persons/pers0072">brother Atkinson</ptr>
+                </persName>
+                <note place="foot" n="3">
+                    <persName>
+                        <ptr target="../persons/pers0072">William Atkinson</ptr>
+                    </persName>
+               of <placeName>
+                        <district>Plymouth Dock (Devonport)</district>
+                    </placeName>
+               <occupation>was another of <persName>
+                            <ptr target="../persons/pers0001">JW</ptr>
+                        </persName>'s assistants at <placeName>the
+                  Foundery</placeName>
+                    </occupation> (see <persName>
+                        <ptr target="../persons/pers0072">his</ptr>
+                    </persName> letter <index indexName="works">to <persName>
+                            <ptr target="../persons/pers0001">JW</ptr>
+                        </persName>, <date when="1753-11-20">Nov. 20, 1753</date>, <term cRef="26:531–532">26:531–32 in this
+                  edn</term>.</index>).</note> (unless you choose to pay Mr. Davenport<note place="foot" n="4">This does not appear to be <persName>
+                        <ptr target="../persons/pers0001">JW</ptr>
+                    </persName>'s correspondent
+                     <persName>
+                        <ptr target="../persons/pers0532">Richard Davenport</ptr>
+                    </persName>
+               <index indexName="works">
+                        <term cRef="see 26:390">(see 26:390)</term>
+                    </index>. More
+               likely is <persName>
+                        <ptr target="../persons/pers0531">B. Davenport</ptr>
+                    </persName>,
+                  <occupation>a partner of <persName>Joseph Johnson</persName> in
+                        <placeName>
+                            <region>London</region>
+                        </placeName> in <seg ana="publishing">book-selling</seg>
+                    </occupation>, who are listed in <date when="1756">1756</date> among the publishers of <bibl>
+                        <persName>
+                            <ptr target="http://viaf.org/viaf/61551003">Alexander
+                  Pope</ptr>
+                        </persName>'s <hi rend="italic">Works</hi>
+                    </bibl><!--What additional information should be added to this tag to indicate the particular publication?-->.</note>
+            yourself) what <seg ana="money">note-money</seg> remains in your hands. Unless you can
+            help me out for a month or two, I must borrow some more in town. If you can, you will do
+            it with pleasure.</p>
+         <closer>My dear, <signed>Adieu.</signed>
+         </closer>
+      </body>
+      <p>
+            <hi rend="italic">Address</hi>: 'To / <persName>
+                <ptr target="../persons/pers2091">Mrs
+               Wesley</ptr>
+            </persName>'.</p>
+      <p>No <hi rend="italic">postmark</hi> or indications of postal <hi rend="italic">charge</hi>;
+         apparently delivered by hand.</p>
+      <p>
+            <hi rend="italic">Source</hi>: holograph; <placeName>
+                <institution>Bridwell Library
+               (SMU)</institution>
+            </placeName>.</p>
+      <p>
+            <hi rend="italic">Endorsement</hi>: (on attached page, 'Rec'd <date when="1756-01-09">Jan. 9. [1]756</date> of <persName>
+                <ptr target="../persons/pers2091">Mrs Wesley</ptr>
+            </persName>
+         <seg ana="money">Twenty pounds</seg> on Acc. of Paying for the <seg ana="publishing">press</seg>. Materials etc., by <persName>
+                <ptr target="../persons/pers0072">Will
+               Atkinson</ptr>
+            </persName>.' There follows in a different hand a list of
+         accounted items.</p>
+   </text>
+</TEI>

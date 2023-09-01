@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+      <idno type="URI">http://wesleyworks.smu.edu/letters/1756-02-03-ToSamuelFurly</idno>                  
+         <titleStmt>
+            <title>To Samuel Furly (February 3, 1756)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/1756-02-03-ToSamuelFurly</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Samuel Furly (February 3, 1756)</title>
+                     <date when="1756-02-03"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="4"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">
+                        <hi rend="italic">Address</hi>: 'To / <persName MrSamuelFurly="SamuelFurly">Mr Samuel Furly</persName> / In
+                        <placeName>
+                            <institution>Queen's College /
+                     Cambridge</institution>
+                        </placeName>'.</bibl>
+               <bibl n="3">
+                        <hi rend="italic">Postmark</hi>: missing. <hi rend="italic">Charge</hi>:
+                  '3'.</bibl>
+               <bibl n="4">
+                        <hi rend="italic">Source</hi>: holograph; privately held (current owner
+                  unknown, Wesley Works Editorial Project
+                  Archive<!--A group, organization, location, or what?--> includes a copy).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <listPerson type="correspondents">
+            <person xml:id="pers0001">John Wesley</person>
+            <person xml:id="pers0763">Samuel Furly</person>
+         </listPerson>
+         <listPerson type="mentions">
+            <person xml:id="pers0598">Dr. William Dodd</person>
+            <person xml:id="pers2045">Richard Tompson</person>
+         </listPerson>
+         <listPerson type="notes"> </listPerson>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2021-09-19">Jason Edsall updated header to add listperson names, correct
+               persName attribute syntax and added ptr targets on 2021-09-19.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <pb n="4"/>
+      <body>
+         <head>To <persName>
+                    <ptr target="../persons/pers0763">Samuel Furly</ptr>
+                </persName>
+            </head>
+         <opener>
+            <placeName>
+               <region>London</region>
+            </placeName>
+            <lb/>
+            <date when="1756-02-03">February 3, 1756</date>
+            <lb/>
+            <lb/>
+            <salute>Dear <persName>
+                        <ptr target="../persons/pers0763">Sammy</ptr>
+                    </persName>,</salute>
+         </opener>
+         <p>The <index indexName="works">
+                    <hi rend="italic" SeriousThoughts="SeriousThoughtsOccasionedByTheLateEarthquakeAtLisbon">Serious
+                  Thoughts</hi>
+                </index>
+                <note place="foot" n="1">
+                    <persName>
+                        <ptr target="../persons/pers0001">JW</ptr>
+                    </persName>, <index indexName="works">
+                        <hi rend="italic">Serious Thoughts occasioned by <event theLateEarthquakeAtLisbon="LisbonEarthquake">
+                                <date when="1755-11-01">the
+                           late <seg ana="earthquake naturalDisaster">Earthquake</seg> at
+                                 <placeName>
+                                        <region>Lisbon</region>
+                                    </placeName>
+                                </date>
+                            </event>
+                        </hi>
+                    </index>,
+               of which four edns. were published in <date when="1755-12">Dec. 1755</date>; see
+                  <index indexName="works">
+                        <hi rend="italic">Bibliography</hi>, No. 213, and <term cRef="15">vol. 15 of this edn.</term>
+                    </index>
+                </note> will be sent as soon as
+            they are reprinted. I shall make an addition of eight or ten pages, consisting chiefly
+            of a correct and regular account of <event theEarthquakesAtLisbon="LisbonEarthquake">the
+                  <seg ana="earthquake naturalDisaster">earthquakes</seg> at
+                     <placeName>
+                        <region>Lisbon</region>
+                    </placeName>
+                </event> and other places.</p>
+         <p>Now is the time to arise and shake yourself from the dust. Now assert your
+            liberty.<!--This is *moral-psychological* "liberty," not *political* "liberty." How might we indicate this (distinction)?-->
+            When you are on the field, you can't make head against the enemy. But now you may
+            secure armour of proof. You may be stronger every day than the other. Only be instant in
+               <seg ana="prayer">prayer</seg>.</p>
+         <!--First, would this be considered a "battle metaphor"? Second, if so, how would it be tagged?-->
+         <!--This seems like an example of "pastoral encouragement." Is that theme too broad?-->
+         <p>I have an extremely pretty letter from <persName>
+                    <ptr target="../persons/pers0598">Mr.
+                  Dodd</ptr>
+                </persName>.<note place="foot" n="2">On <persName>
+                        <ptr target="../persons/pers0598">Dodd</ptr>
+                    </persName>, see <index indexName="works">
+                        <term cRef="27:5-6">
+                            <persName>
+                                <ptr target="../persons/pers0001">JW</ptr>
+                            </persName>'s letter of <date when="1756-02-05">Feb. 5,
+                        1756</date>
+                        </term>
+                    </index>. <persName>
+                        <ptr target="../persons/pers0598">Dodd</ptr>
+                    </persName> had written to <persName>
+                        <ptr target="../persons/pers0001">JW</ptr>
+                    </persName> on <date when="1756-01-26">Jan. 26</date>.</note> It is wonderfully civil and peremptory. I purpose to
+            answer him <date notBefore="1756-02-03" notAfter="1756-02-10">this week</date>, and
+            perhaps <persName>
+                    <addName>
+                        <ptr target="../persons/pers2045">P.
+               V.</ptr>
+                    </addName>
+                </persName>
+                <note place="foot" n="3">I.e., <persName>
+                        <ptr target="../persons/pers2045">Richard Tompson</ptr>
+                    </persName>; see the <index indexName="works">
+                        <term cRef="27:13">letters of <date when="1756-02-12">Feb.
+                        12</date> &amp; <date when="1756-02-18">18,
+               1756</date>
+                        </term>
+                    </index>.</note> too.</p>
+         <closer>I am, <signed>Your affectionate brother,<lb/>
+               <persName>
+                        <ptr target="../persons/pers0001">J. Wesley</ptr>
+                    </persName>
+            </signed>
+         </closer>
+      </body>
+      <p>
+            <hi rend="italic">Address</hi>: 'To / <persName>
+                <ptr target="../persons/pers0763">Mr
+               Samuel Furly</ptr>
+            </persName> / In <placeName>
+                <institution>Queen's College /
+               Cambridge</institution>
+            </placeName>'.</p>
+      <p>
+            <hi rend="italic">Postmark</hi>: missing. <hi rend="italic">Charge</hi>: '3'.</p>
+      <p>
+            <hi rend="italic">Source</hi>: holograph; privately held (current owner unknown, Wesley
+         Works Editorial Project Archive<!--A group, organization, location, or what?--> includes a
+         copy).</p>
+   </text>
+</TEI>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+        <idno type="URI">http://wesleyworks.smu.edu/letters/1756-03-01b-ToJamesWest</idno>  
+         <titleStmt>
+            <title>To James West (March 1, 1756)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/1756-03-01b-ToJamesWest</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To James West (March 1, 1756)</title>
+                     <date when="1756-03-01"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="15" to="16"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">
+                        <hi rend="italic">Address</hi>: none; because hand delivered to
+                        <persName>
+                            <ptr target="../persons/pers2198">West</ptr>
+                        </persName> by
+                        <persName>
+                            <ptr target="../persons/pers0179">Ebenezer
+                     Blackwell</ptr>
+                        </persName> (whose transcription noted previously included the
+                  address, 'To The Honourable<!--Add <roleName>?-->
+                  <persName>
+                            <ptr target="../persons/pers2198">James West</ptr>
+                        </persName>,
+                  Esq.').</bibl>
+               <bibl n="3">
+                        <hi rend="italic">Source</hi>: holograph; <placeName>
+                            <institution>British
+                        Library</institution>
+                        </placeName>, Department of Manuscripts, Add. MS.
+                  32685, f. 64.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <listPerson type="correspondents">
+            <person xml:id="pers0001">John Wesley</person>
+            <person xml:id="pers2198">James West</person>
+         </listPerson>
+         <listPerson type="mentions">
+            <person xml:id="pers2221">George Whitefield</person>
+            <person xml:id="pers0788">King of England, George II</person>
+         </listPerson>
+         <listPerson type="notes">
+            <person xml:id="pers0179">Ebenezer Blackwell</person>
+            <person xml:id="pers2177">Charles Wesley</person>
+            <person xml:id="pers2191">Sarah Wesley</person>
+            <person>Lt. Gen. Henry Hawley</person>
+            <person>Thomas Illingworth</person>
+         </listPerson>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2021-11-14">Jason Edsall changed renderings of persNames, added @xml:ids
+               to a profileDesc in the Header for all persons in the text, and filled out the header
+               with additional machine-readable data (biblStruct).</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>
+            <p>To <persName>
+                        <ptr target="../persons/pers2198">James West</ptr>
+                    </persName>
+                    <note place="foot" n="1">
+                        <p>Although the <nationality>English</nationality> part of the
+                           <event>
+                                <seg ana="SevenYearsWar FrenchInvasion">Seven Years' <seg ana="war">War</seg>
+                                </seg> (<date from="1756" to="1763">1756–63</date>)</event> began only with its declaration of <seg ana="war">war</seg> on <date when="1756-05-15">May 15, 1756</date>, tensions with
+                           <placeName>
+                                <country>France</country>
+                            </placeName> had been brewing
+                     throughout <date when="1755">1755</date>. Rumors of an <seg ana="FrenchInvasion">invasion</seg> were rife. By the beginning of <date notBefore="1755-12-01" notAfter="1755-12-07">December</date> (perhaps <date notAfter="1755-12-01">earlier</date>), <persName>
+                                <ptr target="../persons/pers0001">JW</ptr>
+                            </persName> had begun to
+                     'discipline' some
+                           <personGrp>
+                                <placeName>
+                                    <region>London</region>
+                                </placeName>
+                        <personGrp>Methodists</personGrp>
+                            </personGrp><!--Again, I&apos;m trying to tag *both* "London Methodists" and "Methodists" as groups. Perhaps there is a way to sub-set "London" within "Methodists"?-->
+                     'for <seg ana="military">soldiers</seg>, and they'd begun exercising
+                     at the <placeName>Foundery</placeName>' (<bibl>
+                                <persName>Thomas
+                           Illingworth</persName> diary, <date when="1755-12-14">Dec. 14,
+                           1755</date>, at <placeName>
+                                    <institution>Duke
+                           University</institution>
+                                </placeName>
+                            </bibl>). <persName>
+                                <ptr target="../persons/pers2177">Charles Wesley</ptr>
+                            </persName> wrote to
+                           <persName>
+                                <ptr target="../persons/pers2191">his wife</ptr>
+                            </persName> on
+                        <date when="1755-12-07">Dec. 7, 1755</date>: '<persName>
+                                <ptr target="../persons/pers0001">My brother</ptr>
+                            </persName> tells me the
+                        <name nationality="French">French</name><!--How do we identify PEOPLE based on their PLACES?--> are
+                     expected every hour by <persName>
+                                <ptr target="http://viaf.org/viaf/30157581760333782588">General
+                        Hawley</ptr>
+                            </persName><!--Lt. Gen. Henry Hawley.-->, in battle array, etc.;
+                     that the <orgName>
+                                <seg ana="government">Government</seg>
+                            </orgName><!--Would this be correct, or should it be <orgName government="BritishGovernment">?-->
+                     have not the least doubt of the <seg ana="war FrenchInvasion">invasion</seg>,
+                     but will do their best to repel force by force.' <persName>
+                                <ptr target="../persons/pers2177">He</ptr>
+                            </persName> continued, 'I
+                     question whether <persName>
+                                <ptr target="../persons/pers0001">my
+                        brother</ptr>
+                            </persName>'s <seg ana="military">soldiers</seg>, with all
+                     his pains and haste to train them up, will not be too tardy to rescue us.'
+                     About <date when="1756-01-31">Jan. 31, 1756</date>
+                     <persName>
+                                <ptr target="../persons/pers2177">he</ptr>
+                            </persName><!--Charles Wesley--> wrote that he planned to return to
+                           <placeName>
+                                <settlement>Bristol</settlement>
+                            </placeName>
+                     <date when="1756-02-07">a week later</date>—‘unless <person nationality="French" role="soldier military">Jack
+                     Frenchman</person><!--This doesn&apos;t seem to be a proper name; instead, I think it&apos;s "an unspecific French soldier." But how might we explain that?!-->
+                     snaps me up'. On <date when="1755-12-20">Dec. 20</date> the <orgName>
+                                <seg ana="government">Privy
+                     Counsel</seg>
+                            </orgName><!--Most likely this is a group (legal) of advisors (to the king). I wasn&apos;t sure if it constituted an <orgName> or <personGrp> tag. At any rate, it is clearly "government-related"!-->
+                     issued a royal proclamation<!--Can we link to the proclamation itself?-->
+                     appointing <date when="1756-02-06">Friday, Feb. 6</date>, as a national Fast
+                     Day when prayers should be offered for <persName>God</persName>'s help in
+                     'the present situation of public affairs'.</p>
+                  <p>This letter contains <persName>
+                                <ptr target="../persons/pers0001">JW</ptr>
+                            </persName>'s official offer of
+                        <personGrp>Methodist</personGrp>
+                     <seg ana="military">military support to the government</seg>, via
+                           <persName>
+                                <ptr target="../persons/pers2198">James West</ptr>
+                            </persName>
+                     (c. <date from="1704" to="1772-01-01">1704-72</date>), a Member of <seg ana="government">
+                                <orgName>Parliament</orgName>
+                            </seg> for
+                           <placeName>
+                                <settlement>St. Albans</settlement>
+                            </placeName> who had been
+                     at <placeName>
+                                <institution>Balliol College, Oxford</institution>
+                            </placeName> at
+                     roughly the same time as <persName>
+                                <ptr target="../persons/pers0001">JW</ptr>
+                            </persName> was at <placeName>
+                                <institution>Christ
+                           Church</institution>
+                            </placeName> and then
+                           <placeName>
+                                <institution>Lincoln</institution>
+                            </placeName><!--All three of these are colleges within Oxford University.-->,
+                     and who at <date when="1756-03">the time of this letter</date> was serving as
+                        <occupation>Joint Secretary to <seg ana="government">the
+                        Treasury</seg>
+                            </occupation><!--This was James West&apos;s <occupation>, but does West himself need to be specified here? Also, this is another "government" tag——specifically, a government title.-->.
+                     See <bibl>
+                                <hi rend="italic">ODNB</hi>
+                            </bibl>.</p>
+                    </note>
+                </p>
+         </head>
+         <opener>
+            <placeName>
+               <district>Marlborough</district>
+            </placeName>
+            <lb/>
+            <date when="1756-03-01">March 1, 1756</date>
+            <lb/>
+            <lb/>
+            <salute>Sir,</salute>
+         </opener>
+         <p>A few days since <persName>
+                    <ptr target="../persons/pers2221">Mr. [George]
+                  Whitefield</ptr>
+                </persName><!--I can't insert the bracket symbol for the identifier. Is it needed?-->
+            and I desired <persName>
+                    <ptr target="../persons/pers0179">a friend</ptr>
+                </persName> to
+            ask your advice to whom it would be proper to make an offer of raising <seg ana="military">a company of volunteers</seg> for <seg ana="monarchy">
+                    <persName>
+                        <ptr target="../persons/pers0788"> his Majesty</ptr>
+                    </persName>
+                </seg>'s
+            service. We apprehended the number would be about five hundred. Finding <persName>
+                    <ptr target="../persons/pers2221">Mr. Whitefield</ptr>
+                </persName> has since been
+            persuaded that such an offer is premature, I am constrained to make the following
+            independently on him.<note place="foot" n="2">It is possible that <persName>
+                        <ptr target="../persons/pers2177">Charles Wesley</ptr>
+                    </persName>'s scepticism
+               infected <persName>George Whitefield</persName>, with whom <persName>
+                        <ptr target="../persons/pers2177">CW</ptr>
+                    </persName> informed <persName>
+                        <ptr target="../persons/pers2191">his wife</ptr>
+                    </persName> on <date when="1755-12-22">Dec. 22, 1755</date> that he had 'talked
+               largely'.</note>
+            </p>
+         <p>To raise, for <seg ana="monarchy">
+                    <persName>
+                        <ptr target="../persons/pers0788">his
+                     Majesty</ptr>
+                    </persName>
+                </seg>'s service, at least two hundred volunteers
+            to be supported by contributions among themselves, and to be ready in case of an <seg ana="FrenchInvasion">invasion</seg> to act <date from="1756-03" to="1757-03">for a
+               year</date> (if needed so long) at <seg ana="monarchy">
+                    <persName>
+                        <ptr target="../persons/pers0788">his Majesty</ptr>
+                    </persName>
+                </seg>'s
+            pleasure, only within ___<note place="foot" n="3">A blank was left in the ms., obviously
+               subject to discussion.</note> miles of
+            <placeName>
+                    <region>London</region>
+                </placeName>.</p>
+         <pb n="16"/>
+         <p>If this be acceptable to <seg ana="monarchy">
+                    <persName>
+                        <ptr target="../persons/pers0788">his Majesty</ptr>
+                    </persName>
+                </seg>, they beg to have <seg ana="military">arms</seg><!--Should this ALSO have a "weapons" tag?--> out of <placeName theTower="theTowerOfLondon">the Tower</placeName>, giving the usual <seg ana="money">security</seg><!--Would "security" mean "monetary deposit"?--> for their return, and
+            some of <seg ana="monarchy">
+                    <persName>
+                        <ptr target="../persons/pers0788">his
+                     Majesty</ptr>
+                    </persName>
+                </seg>'s <seg ana="military">sergeants</seg> to
+            instruct them in the <seg ana="military">military exercise</seg>.</p>
+         <closer>I am now hastening to <placeName>
+                    <settlement>Bristol</settlement>
+                </placeName> on
+            account of the election,<note place="foot" n="4">
+                    <index indexName="works">See
+                        <persName>
+                            <ptr target="../persons/pers0001">JW</ptr>
+                        </persName>'s <term cRef="27:16-17">letter to <persName>
+                                <ptr target="../persons/pers0179">Blackwell</ptr>
+                            </persName> of <date when="1756-03-04">Mar. 4,
+                        1756</date>
+                        </term>.</index>
+                </note> concerning which I wrote to
+                  <persName>
+                    <ptr target="../persons/pers2177">my brother</ptr>
+                </persName><!--I'm *FAIRLY* certain this would be CW, but I don't *ACTUALLY* know. There is no extant letter to CW from that time. Also, JW frequently uses the term "[my] brother" for people who are NOT his sibling(s).-->
+            <date when="1756-02-21">last week</date>. But if my return to
+                  <placeName>
+                    <region>London</region>
+                </placeName> would be of any service, you may
+            command, sir, <signed>Your obedient servant,<lb/>
+               <persName>John Wesley</persName>
+            </signed>
+         </closer>
+      </body>
+      <p>
+            <hi rend="italic">Address</hi>: none; because hand delivered to <persName>
+                <ptr target="../persons/pers2198">West</ptr>
+            </persName> by <persName>
+                <ptr target="../persons/pers0179">Ebenezer Blackwell</ptr>
+            </persName> (whose transcription
+         noted previously included the address, 'To The Honourable<!--Add <roleName>?-->
+         <persName>
+                <ptr target="../persons/pers2198">James West</ptr>
+            </persName>, Esq.').</p>
+      <p>
+            <hi rend="italic">Source</hi>: holograph; <placeName>
+                <institution>British
+               Library</institution>
+            </placeName>, Department of Manuscripts, Add. MS. 32685, f.
+         64.</p>
+   </text>
+</TEI>

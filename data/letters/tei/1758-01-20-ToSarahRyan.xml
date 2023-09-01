@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+        <idno type="URI">http://wesleyworks.smu.edu/letters/1758-01-20-ToSarahRyan</idno>       
+         <titleStmt>
+            <title>To Sarah Ryan (January 20, 1758)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-02-02</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/1758-01-20-ToSarahRyan</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Sarah Ryan (January 20, 1758)</title>
+                     <date when="1758-01-20"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="111" to="112"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Arminian Magazine 5 (<date when="1782">1782</date>): 214–15.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-05">Michelle Taylor corrected a missing opening tag around the ptr
+            element in what was, at the time, l. 75.</change>
+            <change when="2022-02-05">Michelle Taylor changed spacing surrounding the em-dash in what was, at the
+               time, l. 93-94.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>
+                    <ptr target="/persons/pers1793.xml"/>Sarah Ryan</persName>
+                <note place="foot" n="1">This is not a direct response to <persName>
+                        <ptr target="/persons/pers1793.xml"/>Ryan</persName>'s letter of <date when="1757-12-20">Dec. 20, 1757</date>, because <persName>
+                        <ptr target="/persons/pers2180.xml"/>JW</persName> was in
+                  <placeName>Bristol</placeName> from <date when="1757-12-25">Dec. 25, 1757</date>
+               through <date when="1758-01-12">Jan. 12, 1758</date>. Their correspondence resumes
+               now that he has departed.</note>
+            </head>
+         <opener>
+                <placeName>London</placeName>
+                <lb/>
+                <date when="1758-01-20">January 20, 1758</date>
+                <lb/>
+                <lb/>
+            <salute>My Dear Sister</salute>
+         </opener>
+         <p>How did you feel yourself under your late trial? Did you find no stirring of resentment,
+            no remains of your own will, no desire or wish that things should be otherwise? In one
+            sense you <hi rend="italic">do</hi> desire it, because you desire that God should be
+            glorified in all things. But did not the falling short of that desire lessen your
+            happiness? Had you still the same degree of communion with God, the same joy in the Holy
+            Ghost? I never saw you so much moved as you appeared to be that evening. Your soul was
+            then greatly troubled, and a variety of conflicting passions — love, sorrow, desire, with
+            a kind of despair — were easy to be read in your countenance. And was not your heart
+            unhinged at all? Was it not ruffled or discomposed? Was your soul all the time calmly
+            stayed on God, waiting upon him without distraction? Perhaps one end of this close trial
+            was to give you a deeper knowledge of yourself and of God, of his power to save, and of
+            the salvation he hath wrought in you.</p>
+         <p>Most of the trials you have lately met with have been of another kind, but it is
+            expedient for you to go through both evil and good report. The conversing with you,
+            either by speaking or writing, is an unspeakable blessing to me. I cannot think of you
+            without thinking of God. Others often lead me to him, but it is, as it were, going round
+            about; you bring me straight into his presence.<note place="foot" n="2">The depth of
+               spiritual intimacy expressed in this letter stands in contrast with the business-like
+               tone <persName>
+                        <ptr target="/persons/pers2180.xml"/>JW</persName> struck in letters
+               to his wife <persName>
+                        <ptr target="/persons/pers2091.xml"/>Mary</persName> in this
+               period. <persName>
+                        <ptr target="/persons/pers2091.xml"/>Mary Wesley</persName>
+               intercepted this very letter, and her reading it was a key event leading to the
+               separation between <persName>
+                        <ptr target="/persons/pers2091.xml"/>Mary</persName> and
+                     <persName>
+                        <ptr target="/persons/pers2180.xml"/>JW</persName> (see
+                     <persName>
+                        <ptr target="/persons/pers2180.xml"/>JW</persName> to <persName>
+                        <ptr target="/persons/pers1793.xml"/>Ryan</persName>, <date when="--01-27">Jan.
+                  27</date>).</note> Therefore, whoever warns me against trusting you, I cannot
+            refrain, as I am clearly convinced he calls me to it.</p>
+         <closer>I am,<lb/>
+            <signed>Your affectionate brother,<lb/>
+                    <persName>J.W.</persName>
+                </signed>
+            </closer>
+      </body>
+   </text>
+</TEI>

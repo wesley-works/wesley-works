@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+      <idno type="URI">http://wesleyworks.smu.edu/letters/1756-03-01a-ToEbenezerBlackwell</idno>                
+         <titleStmt>
+            <title>To Ebenezer Blackwell (March 1, 1756)</title>
+            <author>Wesley, John</author>
+            <editor>Van Buskirk, Gregory P.</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2021-04-07</date>
+            <!--<idno type="URI">http://wesleyworks.smu.edu:8080/letters/1756-03-01a-ToEbenezerBlackwell</idno>-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Ebenezer Blackwell (March 1, 1756)</title>
+                     <date when="1756-03-01"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="14" to="15"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">
+                        <hi rend="italic">Address</hi>: 'To / <persName>
+                            <ptr target="../persons/pers0179">Mr Blackwell,
+                        <occupation>Banker</occupation>
+                            </ptr>
+                        </persName> / in /
+                        <placeName>
+                            <region>London</region>
+                        </placeName>'.</bibl>
+               <bibl n="3">
+                        <hi rend="italic">Postmarks</hi>: '<placeName MARLBOROUGH="Marlborough"><!--I can't manage to get the SLASH into the entity name.-->
+                            <district>MARLBO/ROUGH</district>
+                        </placeName>’,
+                  '3 MR'. <hi rend="italic">Charge</hi>: '6'.</bibl>
+               <bibl n="4">
+                        <hi rend="italic">Endorsement</hi>: '<persName>
+                            <ptr target="../persons/pers0001">Revd Mr John Wesley</ptr>
+                        </persName>,
+                        <placeName>
+                            <district>Marlborough</district>
+                        </placeName>, <date when="1756-03-01">1 March 1756</date>.' <persName>
+                            <ptr target="../persons/pers0179">Blackwell</ptr>
+                        </persName> also transcribed
+                  (before passing it on) <index indexName="works">
+                            <term cRef="27:15-16">
+                                <persName>
+                                    <ptr target="../persons/pers0001">Wesley</ptr>
+                                </persName>'s enclosed letter to <persName>
+                                    <ptr target="../persons/pers2198">West</ptr>
+                                </persName>
+                            </term>
+                        </index>.</bibl>
+               <bibl n="5">
+                        <hi rend="italic">Source</hi>: holograph; <placeName>
+                            <institution>Drew,
+                        Methodist Archives</institution>
+                        </placeName>.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <listPerson type="correspondents">
+            <person xml:id="pers0001">John Wesley</person>
+            <person xml:id="pers0179">Ebenezer Blackwell</person>
+         </listPerson>
+         <listPerson type="mentions">
+            <person xml:id="pers0180">Elizabeth Blackwell</person>
+         </listPerson>
+         <listPerson type="notes">
+            <person xml:id="pers2198">James West</person>
+         </listPerson>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2021-11-14">Jason Edsall changed renderings of persNames, added @xml:ids
+               to a profileDesc in the Header for all persons in the text, and filled out the header
+               with additional machine-readable data (biblStruct).</change>
+         </listChange>
+      </revisionDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>
+                    <ptr target="../persons/pers0179">Ebenezer
+               Blackwell</ptr>
+                </persName>
+                <note place="foot" n="1">
+                    <persName>
+                        <ptr target="../persons/pers0179">Blackwell</ptr>
+                    </persName> was apparently the
+               friend with whom <persName>
+                        <ptr target="../persons/pers0001">Wesley</ptr>
+                    </persName>
+               had discussed his idea of <seg ana="military">a company of volunteers</seg> in <seg ana="war SevenYearsWar FrenchInvasion">the event of a French invasion</seg>, and
+               who had agreed to handle <index indexName="works">
+                        <term cRef="27:15-16">the
+                     proposal</term>
+                    </index> for him.</note>
+            </head>
+         <opener>
+            <placeName>
+               <district>Marlborough</district>
+            </placeName>
+            <lb/>
+            <date when="1756-03-01">March 1, 1756</date>
+            <lb/>
+            <lb/>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p>I hope <index indexName="works">
+                    <term cRef="27:15-16">the enclosed</term>
+                </index> will
+               do,<note place="foot" n="2">
+                    <persName>
+                        <ptr target="../persons/pers0001">Wesley</ptr>
+                    </persName> enclosed a fair copy of <index indexName="works">
+                        <term cRef="27:15-16">his letter to <persName>
+                                <ptr target="../persons/pers2198">James
+                           West</ptr>
+                            </persName> (see the following)</term>
+                    </index>, which is why
+               the charge to be paid by <persName>
+                        <ptr target="../persons/pers0179">Blackwell</ptr>
+                    </persName> was sixpence instead of the threepence which would
+               have been normal for a letter from
+                  <placeName>
+                        <district>Marlborough</district>
+                    </placeName> to
+                     <placeName>
+                        <region>London</region>
+                    </placeName>, under eighty
+               miles.<!--Should this distance be tagged?-->
+                </note> for I have not leisure to alter
+            it any more.</p>
+         <p>To make professions does not belong to me. It is quite foreign to my character. Let
+            those who mean nothing <hi rend="italic">talk</hi>, like
+               <!--Are these two character roles wrapped correctly? They are not *actual* people, so <persName> didn't seem correct.-->
+                <role>Goneril</role>
+                <note place="foot" n="3">Orig.,'Gonorill'.</note> and <role>Regan</role> in
+                  <bibl>
+                    <hi rend="italic">King Lear</hi>
+                </bibl>.<note place="foot" n="4">See
+                        <bibl>
+                        <persName>
+                            <ptr target="http://viaf.org/viaf/96994048">Shakespeare</ptr>
+                        </persName>, <hi rend="italic">King Lear</hi>,
+                  I.i.57–73.</bibl>
+                </note> By <persName>God</persName>’s help, <seg ana="civilDuty">I will <hi rend="italic">do</hi> what a good subject ought</seg>.</p>
+         <closer>Wishing <persName>
+                    <ptr target="../persons/pers0180">Mrs. [Elizabeth]
+                  Blackwell</ptr>
+                </persName> and <persName>
+                    <ptr target="../persons/pers0179">you</ptr>
+                </persName>
+            <seg ana="health">all health of soul and body</seg>, I am, dear sir, <signed>Your
+               affectionate servant,<lb/>
+               <persName>
+                        <ptr target="../persons/pers0001">John Wesley</ptr>
+                    </persName>
+            </signed>
+         </closer>
+      </body>
+      <p>
+            <hi rend="italic">Address</hi>: 'To / <persName>
+                <ptr target="../persons/pers0179">Mr
+               Blackwell, <occupation>Banker</occupation>
+                </ptr>
+            </persName> / in /
+               <placeName>
+                <region>London</region>
+            </placeName>'.</p>
+      <p>
+            <hi rend="italic">Postmarks</hi>: '<placeName MARLBOROUGH="Marlborough"><!--I can't manage to get the SLASH into the entity name.-->
+                <district>MARLBO/ROUGH</district>
+            </placeName>',
+         '3 MR'. <hi rend="italic">Charge</hi>: '6'.</p>
+      <pb n="15"/>
+      <p>
+            <hi rend="italic">Endorsement</hi>: '<persName>
+                <ptr target="../persons/pers0001">Revd
+               Mr John Wesley</ptr>
+            </persName>,
+            <placeName>
+                <district>Marlborough</district>
+            </placeName>, <date when="1756-03-01">1 March
+            1756</date>.' <persName>
+                <ptr target="../persons/pers0179">Blackwell</ptr>
+            </persName> also transcribed (before passing it on) <index indexName="works">
+                <term cRef="27:15-16">
+                    <persName>
+                        <ptr target="../persons/pers0001">Wesley</ptr>
+                    </persName>'s enclosed letter to <persName>
+                        <ptr target="../persons/pers2198">West</ptr>
+                    </persName>
+                </term>
+            </index>.</p>
+      <p>
+            <hi rend="italic">Source</hi>: holograph; <placeName>
+                <institution>Drew, Methodist
+               Archives</institution>
+            </placeName>.</p>
+   </text>
+</TEI>
